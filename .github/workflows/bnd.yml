@@ -11,6 +11,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 # timeout-minutes: 10
 
 permissions:
