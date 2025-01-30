@@ -36,11 +36,6 @@ jobs:
         with:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
-      - name: Check NPM Authentication
-        run: npm whoami
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: action | changesets/NPM
         uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
         with:
