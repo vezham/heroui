@@ -56,7 +56,9 @@ jobs:
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install-npm@timeline
+        with:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: action | changesets/NPM
         uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
