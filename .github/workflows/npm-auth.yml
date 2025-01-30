@@ -1,0 +1,42 @@
+# wjdlz/NOTE: ci@1.0.5
+name: NPM Authentication Check
+
+on:
+  push:
+    branches: [timeline]
+    paths:
+      - ".github/workflows/npm-auth.yml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+# timeout-minutes: 10
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
+  BRANCH: ${{ github.ref_name || 'timeline' }} # inputs.GIT_BRANCH
+
+jobs:
+  npm-auth:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install-npm@timeline
+        with:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: Check NPM Authentication
+        run: npm whoami
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
