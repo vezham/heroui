@@ -1,4 +1,4 @@
-# wjdlz/NOTE: ci@1.0.5-00
+# wjdlz/NOTE: ci@1.0.5-000
 name: NPM Authentication Check
 
 on:
@@ -7,9 +7,9 @@ on:
     paths:
       - ".github/workflows/npm-auth.yml"
 
-# concurrency:
-#   group: ${{ github.workflow }}-${{ github.ref }}
-#   cancel-in-progress: true
+concurrency:
+  group: npm-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 # timeout-minutes: 10
 
 permissions:
