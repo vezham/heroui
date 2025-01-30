@@ -1,5 +1,13 @@
 # @vezham/use-ssr
 
+## 0.0.1
+
+### Patch Changes
+
+- [`d364895`](https://github.com/vezham/heroui/commit/d3648953a279570b5b9f2c3e1acfc854088b3f19) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ci: multi trigger
+
+- [`06bb7ae`](https://github.com/vezham/heroui/commit/06bb7ae49a6549f535963f84feade5f72eefd4ce) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ci test
+
 ## 2.1.2
 
 ### Patch Changes
