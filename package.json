@@ -53,7 +53,8 @@
     "version:canary": "changeset version --snapshot canary",
     "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vezham/theme build",
-    "v:changeset:release": "pnpm build && changeset publish"
+    "v:changeset": "changeset",
+    "v:changeset:release": "npm whoami && pnpm build:fast && changeset publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
