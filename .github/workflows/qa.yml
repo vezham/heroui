@@ -2,20 +2,16 @@
 name: QA
 
 on:
-  push:
+  pull_request:
     branches: [timeline]
-    paths:
-      - ".github/workflows/qa.yml"
-      - ".changeset/**"
-      - "packages/**"
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+# concurrency:
+#   group: ${{ github.workflow }}-${{ github.ref }}
 # timeout-minutes: 10
-
-permissions:
-  contents: write
-  pull-requests: write
+# 
+# permissions:
+#   contents: write
+#   pull-requests: write
 
 env:
   REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
