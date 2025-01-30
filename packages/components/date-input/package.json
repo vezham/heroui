@@ -34,8 +34,8 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@vezham/system": ">=0.0.0",
-    "@vezham/theme": ">=0.0.0",
+    "@vezham/system": ">=2.4.8",
+    "@vezham/theme": ">=2.4.7",
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },
@@ -43,13 +43,13 @@
     "@vezham/form": "workspace:*",
     "@vezham/react-utils": "workspace:*",
     "@vezham/shared-utils": "workspace:*",
-    "@internationalized/date": "3.6.0",
-    "@react-aria/datepicker": "3.12.0",
-    "@react-aria/i18n": "3.12.4",
-    "@react-stately/datepicker": "3.11.0",
-    "@react-types/datepicker": "3.9.0",
-    "@react-types/shared": "3.26.0",
-    "@react-aria/utils": "3.26.0"
+    "@internationalized/date": "3.7.0",
+    "@react-aria/datepicker": "3.13.0",
+    "@react-aria/i18n": "3.12.5",
+    "@react-stately/datepicker": "3.12.0",
+    "@react-types/datepicker": "3.10.0",
+    "@react-types/shared": "3.27.0",
+    "@react-aria/utils": "3.27.0"
   },
   "devDependencies": {
     "@vezham/system": "workspace:*",
@@ -57,8 +57,8 @@
     "@vezham/shared-icons": "workspace:*",
     "@vezham/test-utils": "workspace:*",
     "clean-package": "2.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "18.3.0",
+    "react-dom": "18.3.0"
   },
   "clean-package": "../../../clean-package.config.json"
 }

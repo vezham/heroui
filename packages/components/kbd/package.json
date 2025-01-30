@@ -42,13 +42,14 @@
     "@vezham/system-rsc": "workspace:*",
     "@vezham/shared-utils": "workspace:*",
     "@vezham/react-utils": "workspace:*",
-    "@react-aria/utils": "3.26.0"
+    "@react-aria/utils": "3.27.0"
   },
   "devDependencies": {
     "@vezham/theme": "workspace:*",
+    "@vezham/test-utils": "workspace:*",
     "clean-package": "2.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "18.3.0",
+    "react-dom": "18.3.0"
   },
   "clean-package": "../../../clean-package.config.json"
 }

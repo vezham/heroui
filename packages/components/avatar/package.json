@@ -43,9 +43,9 @@
     "@vezham/shared-utils": "workspace:*",
     "@vezham/react-utils": "workspace:*",
     "@vezham/use-image": "workspace:*",
-    "@react-aria/interactions": "3.22.5",
-    "@react-aria/focus": "3.19.0",
-    "@react-aria/utils": "3.26.0"
+    "@react-aria/interactions": "3.23.0",
+    "@react-aria/focus": "3.19.1",
+    "@react-aria/utils": "3.27.0"
   },
   "devDependencies": {
     "@vezham/theme": "workspace:*",
@@ -53,8 +53,8 @@
     "@vezham/shared-icons": "workspace:*",
     "@vezham/test-utils": "workspace:*",
     "clean-package": "2.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "18.3.0",
+    "react-dom": "18.3.0"
   },
   "clean-package": "../../../clean-package.config.json"
 }

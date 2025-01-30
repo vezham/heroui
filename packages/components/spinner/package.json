@@ -38,18 +38,19 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vezham/theme": ">=0.0.0"
+    "@vezham/theme": ">=2.4.7"
   },
   "dependencies": {
     "@vezham/system-rsc": "workspace:*",
     "@vezham/shared-utils": "workspace:*",
-    "@vezham/react-utils": "workspace:*"
+    "@vezham/react-utils": "workspace:*",
+    "@vezham/system": "workspace:*"
   },
   "devDependencies": {
     "@vezham/theme": "workspace:*",
     "clean-package": "2.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "18.3.0",
+    "react-dom": "18.3.0"
   },
   "clean-package": "../../../clean-package.config.json"
 }

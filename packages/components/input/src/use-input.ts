@@ -1,7 +1,13 @@
 import type {InputVariantProps, SlotsToClasses, InputSlots} from "@vezham/theme";
 import type {AriaTextFieldOptions} from "@react-aria/textfield";
 
-import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@vezham/system";
+import {
+  HTMLHeroUIProps,
+  mapPropsVariants,
+  PropGetter,
+  useLabelPlacement,
+  useProviderContext,
+} from "@vezham/system";
 import {useSafeLayoutEffect} from "@vezham/use-safe-layout-effect";
 import {AriaTextFieldProps} from "@react-types/textfield";
 import {useFocusRing} from "@react-aria/focus";
@@ -222,13 +228,10 @@ export function useInput<T extends HTMLInputElement | HTMLTextAreaElement = HTML
 
   const isInvalid = validationState === "invalid" || isAriaInvalid;
 
-  const labelPlacement = useMemo<InputVariantProps["labelPlacement"]>(() => {
-    if ((!originalProps.labelPlacement || originalProps.labelPlacement === "inside") && !label) {
-      return "outside";
-    }
-
-    return originalProps.labelPlacement ?? "inside";
-  }, [originalProps.labelPlacement, label]);
+  const labelPlacement = useLabelPlacement({
+    labelPlacement: originalProps.labelPlacement,
+    label,
+  });
 
   const errorMessage =
     typeof props.errorMessage === "function"
