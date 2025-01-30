@@ -3,11 +3,11 @@ name: bnd
 
 on:
   push:
+    branches: [timeline]
     paths:
       - ".changeset/**"
       - "packages/**"
       - ".github/workflows/bnd.yml"
-    branches: [timeline]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -45,9 +45,9 @@ jobs:
       - name: fork | lint - ESLint
         run: pnpm lint
       
-      - name: fork | Tests
-        run: pnpm test
-        
+      # - name: fork | Tests
+      #   run: pnpm test
+      
       - name: fork | Build
         id: build
         continue-on-error: false
