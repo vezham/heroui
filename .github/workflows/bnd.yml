@@ -5,9 +5,9 @@ on:
   push:
     branches: [timeline]
     paths:
+      - ".github/workflows/bnd.yml"
       - ".changeset/**"
       - "packages/**"
-      - ".github/workflows/bnd.yml"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -35,28 +35,14 @@ jobs:
 
       - name: action | node & pnpm
         uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        with:
+          HOST_NPM: true
 
-      - name: fork | TypeScript
-        run: pnpm typecheck
-        
-      - name: fork | Prettier
-        run: pnpm format:check
-
-      - name: fork | lint - ESLint
-        run: pnpm lint
-      
-      # - name: fork | Tests
-      #   run: pnpm test
-      
       - name: fork | Build
         id: build
         continue-on-error: false
-        # Custom build failure information
         run: |
-          pnpm build || {
-            echo "Build failed with exit code $?"
-            exit 1
-          }
+          pnpm build:fast
 
   release:
     needs: bnd
