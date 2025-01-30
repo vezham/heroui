@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import * as React from "react";
 import {within, render, renderHook, act} from "@testing-library/react";
 import userEvent, {UserEvent} from "@testing-library/user-event";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vezham/test-utils";
 import {useForm} from "react-hook-form";
 import {Form} from "@vezham/form";
 

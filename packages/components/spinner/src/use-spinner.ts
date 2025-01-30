@@ -5,7 +5,7 @@ import {mapPropsVariants} from "@vezham/system-rsc";
 import {spinner} from "@vezham/theme";
 import {clsx, objectToDeps} from "@vezham/shared-utils";
 import {useMemo, useCallback, Ref} from "react";
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@vezham/system";
 
 interface Props extends HTMLHeroUIProps<"div"> {
   /**

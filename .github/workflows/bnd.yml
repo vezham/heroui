@@ -1,0 +1,79 @@
+# wjdlz/NOTE: ci@1.0.5
+name: bnd
+
+on:
+  push:
+    paths:
+      - ".changeset/**"
+      - "packages/**"
+      - ".github/workflows/bnd.yml"
+    branches: [timeline]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+# timeout-minutes: 10
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
+  BRANCH: ${{ github.ref_name || 'timeline' }} # inputs.GIT_BRANCH
+
+jobs:
+  bnd:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+
+      - name: fork | TypeScript
+        run: pnpm typecheck
+        
+      - name: fork | Prettier
+        run: pnpm format:check
+
+      - name: fork | lint - ESLint
+        run: pnpm lint
+      
+      - name: fork | Tests
+        run: pnpm test
+        
+      - name: fork | Build
+        id: build
+        continue-on-error: false
+        # Custom build failure information
+        run: |
+          pnpm build || {
+            echo "Build failed with exit code $?"
+            exit 1
+          }
+
+  release:
+    needs: bnd
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+
+      - name: action | changesets/NPM
+        uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

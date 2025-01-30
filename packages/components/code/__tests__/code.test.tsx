@@ -1,6 +1,6 @@
 import * as React from "react";
 import {render} from "@testing-library/react";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vezham/test-utils";
 
 import {Code} from "../src";
 
