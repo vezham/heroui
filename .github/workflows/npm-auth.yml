@@ -40,3 +40,9 @@ jobs:
         run: npm whoami
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: action | changesets/NPM
+        uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
