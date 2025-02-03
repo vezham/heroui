@@ -1,5 +1,11 @@
 # @vezham/use-theme
 
+## 0.0.3
+
+### Patch Changes
+
+- [`6bcb41b`](https://github.com/vezham/heroui/commit/6bcb41b6ea07df46b9fc70836bfc0f9cab3bfcc8) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - cli ver check
+
 ## 0.0.2
 
 ### Patch Changes
