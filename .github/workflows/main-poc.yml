@@ -1,12 +1,12 @@
 # wjdlz/NOTE: ci@1.0.5-final-check
-name: NPM Authentication Check
+name: POC
 
 on:
   push:
-    branches: [-feat/npm]
+    branches: [feat/npm]
 
 concurrency:
-  group: main-${{ github.workflow }}-${{ github.ref }}
+  group: main-poc-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 # timeout-minutes: 10
 
@@ -35,11 +35,20 @@ jobs:
         with:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
-      - name: fork | v:ci:publish-pre
-        run: pnpm v:ci:publish-pre
+      - name: action | log-setup
+        uses: vezham/v0xFE-deployer/.github/common-actions/log-setup@timeline
       
-      - name: action | changesets/NPM
-        uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: action | [POC]ca-setup-logs
+        uses: vezham/v0xFE-deployer/.github/actions/ca-setup-logs@timeline
+
+      - name: action | [POC]setup-logs
+        uses: vezham/v0xFE-deployer/.github/actions/common-actions/setup-logs@timeline
+
+      # - name: fork | v:ci:publish-pre
+      #   run: pnpm v:ci:publish-pre
+      
+      # - name: action | changesets/NPM
+      #   uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
