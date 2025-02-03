@@ -25,24 +25,21 @@ jobs:
     
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/actions/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/actions/common-actions/setup-install-npm@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install-npm@timeline
         with:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
-      - name: action | log-setup
-        uses: vezham/v0xFE-deployer/.github/actions/common-actions/log-setup@timeline
+      - name: action | changesets/NPM-release
+        uses: vezham/v0xFE-deployer/.github/actions/common/changesets-release@timeline
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
       # - name: fork | v:ci:publish-pre
       #   run: pnpm v:ci:publish-pre
-      
-      # - name: action | changesets/NPM
-      #   uses: vezham/v0xFE-deployer/.github/actions/common-actions/changesets-npm@timeline
-      #   with:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
