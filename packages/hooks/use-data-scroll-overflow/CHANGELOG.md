@@ -1,5 +1,14 @@
 # @vezham/use-data-scroll-overflow
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

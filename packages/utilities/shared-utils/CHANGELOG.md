@@ -1,5 +1,11 @@
 # @vezham/shared-utils
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
 ## 0.0.2
 
 ### Patch Changes

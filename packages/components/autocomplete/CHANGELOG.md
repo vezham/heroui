@@ -1,5 +1,26 @@
 # @vezham/autocomplete
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/button@0.0.3
+  - @vezham/form@0.0.3
+  - @vezham/input@0.0.3
+  - @vezham/listbox@0.0.3
+  - @vezham/popover@0.0.3
+  - @vezham/scroll-shadow@0.0.3
+  - @vezham/spinner@0.0.3
+  - @vezham/use-aria-button@0.0.3
+  - @vezham/use-safe-layout-effect@0.0.2
+  - @vezham/aria-utils@0.0.3
+  - @vezham/react-utils@0.0.3
+  - @vezham/shared-icons@0.0.2
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

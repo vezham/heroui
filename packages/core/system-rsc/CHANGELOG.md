@@ -1,5 +1,11 @@
 # @vezham/system-rsc
 
+## 0.0.2
+
+### Patch Changes
+
+- ci: ver bump all
+
 ## 0.0.1
 
 ### Patch Changes

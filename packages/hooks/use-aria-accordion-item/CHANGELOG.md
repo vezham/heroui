@@ -1,5 +1,11 @@
 # @vezham/use-aria-accordion-item
 
+## 0.0.2
+
+### Patch Changes
+
+- ci: ver bump all
+
 ## 0.0.1
 
 ### Patch Changes

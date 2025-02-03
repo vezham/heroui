@@ -1,5 +1,16 @@
 # @vezham/user
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/avatar@0.0.3
+  - @vezham/react-utils@0.0.3
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

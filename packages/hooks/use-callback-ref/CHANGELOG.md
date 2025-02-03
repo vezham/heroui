@@ -1,5 +1,14 @@
 # @vezham/use-callback-ref
 
+## 0.0.2
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/use-safe-layout-effect@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

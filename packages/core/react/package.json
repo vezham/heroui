@@ -1,6 +1,6 @@
 {
   "name": "@vezham/react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🚀 Beautiful and modern React UI library.",
   "author": "Junior Garcia <jrgarciadev@gmail.com>",
   "homepage": "https://heroui.com",
@@ -14,7 +14,7 @@
     "react components",
     "react ui"
   ],
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "sideEffects": false,
   "files": [
     "dist"
@@ -96,10 +96,15 @@
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1"
   },
-  "devDependencies": {
-    "react": "18.3.0",
-    "react-dom": "18.3.0",
-    "clean-package": "2.2.0"
-  },
-  "clean-package": "../../../clean-package.config.json"
+  "clean-package": "../../../clean-package.config.json",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  }
 }

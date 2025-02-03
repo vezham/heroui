@@ -1,5 +1,17 @@
 # @vezham/card
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/ripple@0.0.3
+  - @vezham/use-aria-button@0.0.3
+  - @vezham/react-utils@0.0.3
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

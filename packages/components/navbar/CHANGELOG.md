@@ -1,5 +1,18 @@
 # @vezham/navbar
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/use-scroll-position@0.0.2
+  - @vezham/dom-animation@0.0.2
+  - @vezham/framer-utils@0.0.3
+  - @vezham/react-utils@0.0.3
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

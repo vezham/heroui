@@ -1,5 +1,17 @@
 # @vezham/alert
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/button@0.0.3
+  - @vezham/react-utils@0.0.3
+  - @vezham/shared-icons@0.0.2
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

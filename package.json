@@ -53,10 +53,19 @@
     "version:canary": "changeset version --snapshot canary",
     "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vezham/theme build",
+    "v:ci": "changeset",
+    "v:ci:version": "changeset version",
+    "v:ci:publish": "bash v/bin/ci/npm/publish.sh",
+    "v:ci:publish-1": "bash v/bin/ci/npm/publish-packages.sh",
+    "v:ci:publish-ref": "bash v/bin/ci/npm/publish-packages-ref-nofun.sh",
+    "v:ci:publish-final": "bash v/bin/ci/npm/publish-final.sh",
     "v:changeset": "changeset",
-    "v:changeset:release": "npm whoami && pnpm build:fast && changeset publish"
+    "v:changeset:release-1": "npm whoami && pnpm build:fast && changeset publish",
+    "v:changeset:release": "npm whoami && pnpm v:ci:publish-final"
   },
   "devDependencies": {
+    "@changesets/read": "^0.6.0",
+    "@manypkg/get-packages": "^2.2.0",
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.16.7",
     "@babel/plugin-proposal-object-rest-spread": "^7.15.6",

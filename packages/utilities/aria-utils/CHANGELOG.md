@@ -1,5 +1,16 @@
 # @vezham/aria-utils
 
+## 0.0.3
+
+### Patch Changes
+
+- ci: ver bump all
+
+- Updated dependencies []:
+  - @vezham/system@0.0.3
+  - @vezham/react-rsc-utils@0.0.2
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
