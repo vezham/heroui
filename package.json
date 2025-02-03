@@ -54,6 +54,7 @@
     "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vezham/theme build",
     "v:ci": "changeset",
+    "v:ci:publish-pre": "bash v/bin/ci/npm/publish-pre.sh",
     "v:ci:version": "changeset version",
     "v:ci:publish": "bash v/bin/ci/npm/publish.sh",
     "v:ci:publish-1": "bash v/bin/ci/npm/publish-packages.sh",

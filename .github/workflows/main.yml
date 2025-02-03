@@ -35,6 +35,9 @@ jobs:
         with:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
+      - name: fork | v:ci:publish-pre
+        run: pnpm v:ci:publish-pre
+      
       - name: action | changesets/NPM
         uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
         with:
