@@ -4,10 +4,10 @@ name: bnd
 on:
   push:
     branches: [feat/npm, -timeline]
-    paths:
-      - ".github/workflows/bnd.yml"
-      - ".changeset/**"
-      - "packages/**"
+    # paths:
+    #   - ".github/workflows/bnd.yml"
+    #   - ".changeset/**"
+    #   - "packages/**"
 
 concurrency:
   group: main-poc-bnd-${{ github.workflow }}-${{ github.ref }}
