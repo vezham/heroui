@@ -1,5 +1,11 @@
 # @vezham/accordion
 
+## 0.0.5
+
+### Patch Changes
+
+- [#7](https://github.com/vezham/heroui/pull/7) [`9bb2065`](https://github.com/vezham/heroui/commit/9bb20653c13a350b0760a7e3814a280db838e0b4) Thanks [@github-actions](https://github.com/apps/github-actions)! - poc m
+
 ## 0.0.4
 
 ### Patch Changes
