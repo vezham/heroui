@@ -1,5 +1,12 @@
 # @vezham/react
 
+## 0.0.6
+
+### Patch Changes
+
+- Updated dependencies [[`9bb2065`](https://github.com/vezham/heroui/commit/9bb20653c13a350b0760a7e3814a280db838e0b4)]:
+  - @vezham/accordion@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes
