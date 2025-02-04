@@ -1,5 +1,13 @@
 # @vezham/react
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/pagination@0.0.4
+  - @vezham/table@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes
