@@ -1,5 +1,11 @@
 # @vezham/test-utils
 
+## 0.0.3
+
+### Patch Changes
+
+- [#8](https://github.com/vezham/heroui/pull/8) [`e7146ba`](https://github.com/vezham/heroui/commit/e7146ba9e34c8b1f76b13d107098d81b64618911) Thanks [@github-actions](https://github.com/apps/github-actions)! - ci(poc): test
+
 ## 0.0.2
 
 ### Patch Changes
