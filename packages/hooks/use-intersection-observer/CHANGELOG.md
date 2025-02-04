@@ -1,5 +1,11 @@
 # @vezham/use-intersection-observer
 
+## 0.0.3
+
+### Patch Changes
+
+- [#5](https://github.com/vezham/heroui/pull/5) [`f83e820`](https://github.com/vezham/heroui/commit/f83e820d8a95522141e45ca037c952bb1092c7d7) Thanks [@github-actions](https://github.com/apps/github-actions)! - n
+
 ## 0.0.2
 
 ### Patch Changes

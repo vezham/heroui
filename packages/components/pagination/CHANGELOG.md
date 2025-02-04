@@ -1,5 +1,12 @@
 # @vezham/pagination
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`f83e820`](https://github.com/vezham/heroui/commit/f83e820d8a95522141e45ca037c952bb1092c7d7)]:
+  - @vezham/use-intersection-observer@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes
