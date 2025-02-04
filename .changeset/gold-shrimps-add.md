@@ -1,0 +1,5 @@
+---
+"@vezham/accordion": patch
+---
+
+poc
