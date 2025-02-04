@@ -1,5 +1,11 @@
 # @vezham/shared-icons
 
+## 0.0.3
+
+### Patch Changes
+
+- [#6](https://github.com/vezham/heroui/pull/6) [`67ce660`](https://github.com/vezham/heroui/commit/67ce6609437e565a05fb3d6d569b70d0ee83c90b) Thanks [@github-actions](https://github.com/apps/github-actions)! - ci: bin folds
+
 ## 0.0.2
 
 ### Patch Changes

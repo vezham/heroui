@@ -1,5 +1,12 @@
 # @vezham/pagination
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`67ce660`](https://github.com/vezham/heroui/commit/67ce6609437e565a05fb3d6d569b70d0ee83c90b)]:
+  - @vezham/shared-icons@0.0.3
+
 ## 0.0.4
 
 ### Patch Changes
