@@ -1,5 +1,11 @@
 # @vezham/test-utils
 
+## 0.0.4
+
+### Patch Changes
+
+- [`ad0d0ba`](https://github.com/vezham/heroui/commit/ad0d0baef7889574d50c1bf9f9e5481de504cbcc) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ci(poc): test
+
 ## 0.0.3
 
 ### Patch Changes
