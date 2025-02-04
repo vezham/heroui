@@ -31,11 +31,13 @@ jobs:
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install-npm@timeline
+        with:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
       - name: action | changesets/NPM-release
         uses: vezham/v0xFE-deployer/.github/actions/changesets/release@timeline
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          
+      
