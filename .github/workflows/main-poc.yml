@@ -2,6 +2,8 @@
 name: bnd
 
 on:
+  pull_request:
+    types: [closed]
   push:
     branches: [feat/npm, -timeline]
     # paths:
