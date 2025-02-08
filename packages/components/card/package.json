@@ -51,6 +51,12 @@
     "@react-aria/button": "3.11.1",
     "@react-types/shared": "3.27.0"
   },
+  "devDependencies": {
+    "framer-motion": "11.9.0",
+    "clean-package": "2.2.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0"
+  },
   "clean-package": "../../../clean-package.config.json",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

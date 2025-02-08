@@ -11,9 +11,9 @@ on:
     #   - ".changeset/**"
     #   - "packages/**"
 
-concurrency:
-  group: main-poc-bnd-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+# concurrency:
+#   group: main-poc-bnd-${{ github.workflow }}-${{ github.ref }}
+#   cancel-in-progress: true
 # timeout-minutes: 10
 
 permissions:
