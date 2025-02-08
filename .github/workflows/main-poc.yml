@@ -58,3 +58,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
+      - name: ci-setup | LOG
+        uses: vezham/v0xFE-deployer/.github/actions/common/log-artifact@timeline
+        
