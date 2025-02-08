@@ -1,5 +1,16 @@
 # @vezham/date-picker
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/calendar@0.0.5
+  - @vezham/date-input@0.0.3
+  - @vezham/popover@0.0.4
+  - @vezham/button@0.0.4
+  - @vezham/form@0.0.3
+
 ## 0.0.4
 
 ### Patch Changes

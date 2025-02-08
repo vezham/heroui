@@ -1,5 +1,13 @@
 # @vezham/select
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/popover@0.0.4
+  - @vezham/form@0.0.3
+
 ## 0.0.4
 
 ### Patch Changes

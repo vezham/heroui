@@ -1,5 +1,13 @@
 # @vezham/dropdown
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/menu@0.0.3
+  - @vezham/popover@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
