@@ -1,5 +1,12 @@
 # @vezham/accordion
 
+## 0.0.6
+
+### Patch Changes
+
+- Updated dependencies [[`f107494`](https://github.com/vezham/heroui/commit/f1074948f782ec841837d2a38c4c1a4cb7e47ac7)]:
+  - @vezham/dom-animation@0.0.3
+
 ## 0.0.5
 
 ### Patch Changes

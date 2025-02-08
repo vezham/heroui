@@ -1,5 +1,43 @@
 # @vezham/react
 
+## 0.0.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/accordion@0.0.6
+  - @vezham/autocomplete@0.0.5
+  - @vezham/avatar@0.0.3
+  - @vezham/calendar@0.0.5
+  - @vezham/code@0.0.3
+  - @vezham/date-input@0.0.3
+  - @vezham/date-picker@0.0.5
+  - @vezham/drawer@0.0.5
+  - @vezham/dropdown@0.0.4
+  - @vezham/kbd@0.0.3
+  - @vezham/menu@0.0.3
+  - @vezham/modal@0.0.5
+  - @vezham/navbar@0.0.4
+  - @vezham/pagination@0.0.5
+  - @vezham/popover@0.0.4
+  - @vezham/radio@0.0.3
+  - @vezham/select@0.0.5
+  - @vezham/spacer@0.0.3
+  - @vezham/tabs@0.0.3
+  - @vezham/tooltip@0.0.4
+  - @vezham/ripple@0.0.4
+  - @vezham/button@0.0.4
+  - @vezham/card@0.0.4
+  - @vezham/breadcrumbs@0.0.4
+  - @vezham/slider@0.0.4
+  - @vezham/snippet@0.0.5
+  - @vezham/table@0.0.4
+  - @vezham/alert@0.0.5
+  - @vezham/form@0.0.3
+  - @vezham/input-otp@0.0.3
+  - @vezham/skeleton@0.0.3
+  - @vezham/progress@0.0.3
+
 ## 0.0.6
 
 ### Patch Changes
