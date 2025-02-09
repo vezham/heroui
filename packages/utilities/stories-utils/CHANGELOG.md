@@ -1,5 +1,11 @@
 # @vezham/stories-utils
 
+## 0.0.3
+
+### Patch Changes
+
+- [`2760fd0`](https://github.com/vezham/heroui/commit/2760fd0f84e50038bfbd7d10a1d86eae220cda1b) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump test
+
 ## 0.0.2
 
 ### Patch Changes
