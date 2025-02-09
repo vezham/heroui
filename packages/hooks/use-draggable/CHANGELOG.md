@@ -1,5 +1,11 @@
 # @vezham/use-draggable
 
+## 0.0.6
+
+### Patch Changes
+
+- [`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - dist chk
+
 ## 0.0.5
 
 ### Patch Changes

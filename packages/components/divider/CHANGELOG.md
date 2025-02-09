@@ -1,5 +1,16 @@
 # @vezham/divider
 
+## 0.0.7
+
+### Patch Changes
+
+- [`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - dist chk
+
+- Updated dependencies [[`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d)]:
+  - @vezham/system-rsc@0.0.6
+  - @vezham/react-rsc-utils@0.0.6
+  - @vezham/shared-utils@0.0.7
+
 ## 0.0.6
 
 ### Patch Changes
