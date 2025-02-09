@@ -2,6 +2,8 @@
 name: bnd
 
 on:
+  pull_request:
+    types: [closed]
   push:
     branches: [timeline]
     paths:
@@ -10,13 +12,14 @@ on:
       - "packages/**"
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: bnd-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 # timeout-minutes: 10
 
 permissions:
   contents: write
   pull-requests: write
+  # packages: write
 
 env:
   REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
@@ -29,40 +32,32 @@ jobs:
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install-npm@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install-npm@timeline
         with:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: fork | Build
-        id: build
-        continue-on-error: false
+      - name: fork | build
+        # id: build
+        # continue-on-error: false
+        shell: bash
         run: |
-          pnpm build:fast
-
-  release:
-    needs: bnd
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
-        with:
-          GIT_REPO: ${{ env.REPO }}
-          GIT_BRANCH: ${{ env.BRANCH }}
-
-      - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install-npm@timeline
-        with:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: action | changesets/NPM
-        uses: vezham/v0xFE-deployer/.github/common-actions/changesets-npm@timeline
+          pnpm build:fast || {
+            echo "build failed with exit code $?"
+            exit 1
+          }
+      
+      - name: action | changesets/NPM-release
+        uses: vezham/v0xFE-deployer/.github/actions/changesets/release@timeline
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      
+      - name: ci-setup | LOG
+        if: always()
+        uses: vezham/v0xFE-deployer/.github/actions/common/log-artifact@timeline

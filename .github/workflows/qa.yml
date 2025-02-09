@@ -5,14 +5,15 @@ on:
   pull_request:
     branches: [timeline, changeset-release/*]
 
-# concurrency:
-#   group: ${{ github.workflow }}-${{ github.ref }}
-#   cancel-in-progress: true
+concurrency:
+  group: qa-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 # timeout-minutes: 10
-# 
-# permissions:
-#   contents: write
-#   pull-requests: write
+
+permissions:
+  contents: write
+  pull-requests: write
+  # packages: write
 
 env:
   REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
@@ -24,29 +25,36 @@ jobs:
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
 
-      - name: fork | Build
-        run: pnpm build
+      - name: fork | build
+        # id: build
+        # continue-on-error: false
+        shell: bash
+        run: |
+          pnpm build || {
+            echo "build failed with exit code $?"
+            exit 1
+          }
 
   types:
     runs-on: ubuntu-latest
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
 
       - name: fork | TypeScript
         run: pnpm typecheck
@@ -56,13 +64,13 @@ jobs:
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
 
       - name: fork | lint - ESLint
         run: pnpm lint
@@ -72,13 +80,13 @@ jobs:
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
 
       - name: fork | Prettier
         run: pnpm format:check
@@ -88,13 +96,13 @@ jobs:
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-checkout@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
         with:
           GIT_REPO: ${{ env.REPO }}
           GIT_BRANCH: ${{ env.BRANCH }}
 
       - name: action | node & pnpm
-        uses: vezham/v0xFE-deployer/.github/common-actions/setup-install@timeline
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
 
       - name: fork | Tests
         run: pnpm test
