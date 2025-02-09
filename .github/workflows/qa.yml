@@ -3,7 +3,7 @@ name: QA
 
 on:
   pull_request:
-    branches: [timeline, changeset-release/*]
+    # branches: [timeline, changeset-release/*]
 
 concurrency:
   group: qa-${{ github.workflow }}-${{ github.ref }}
