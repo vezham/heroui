@@ -1,6 +1,6 @@
 {
   "name": "@vezham/shared-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A set of HeroUI utilities",
   "keywords": [
     "system"
@@ -48,6 +48,9 @@
       "esm"
     ],
     "splitting": false,
-    "entry": ["src/demi/react18", "src/demi/react19"]
+    "entry": [
+      "src/demi/react18",
+      "src/demi/react19"
+    ]
   }
 }
