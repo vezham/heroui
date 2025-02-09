@@ -1,5 +1,11 @@
 # @vezham/use-resize
 
+## 0.0.4
+
+### Patch Changes
+
+- [`b1b8a9d`](https://github.com/vezham/heroui/commit/b1b8a9d1ed81d3ecfe3fa359f478082c5cc8cb25) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump all
+
 ## 0.0.3
 
 ### Patch Changes
