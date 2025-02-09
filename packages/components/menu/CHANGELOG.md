@@ -1,5 +1,18 @@
 # @vezham/menu
 
+## 0.0.3
+
+### Patch Changes
+
+- [`c7b2308`](https://github.com/vezham/heroui/commit/c7b230893d0de81550e57bc55996f10967292150) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ci: ver bump via checklist-release
+
+- Updated dependencies [[`c7b2308`](https://github.com/vezham/heroui/commit/c7b230893d0de81550e57bc55996f10967292150)]:
+  - @vezham/divider@0.0.3
+  - @vezham/use-is-mobile@0.0.2
+  - @vezham/aria-utils@0.0.3
+  - @vezham/react-utils@0.0.3
+  - @vezham/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
