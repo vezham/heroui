@@ -1,5 +1,18 @@
 # @vezham/button
 
+## 0.0.8
+
+### Patch Changes
+
+- [`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - dist chk
+
+- Updated dependencies [[`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d)]:
+  - @vezham/ripple@0.0.7
+  - @vezham/spinner@0.0.7
+  - @vezham/use-aria-button@0.0.7
+  - @vezham/react-utils@0.0.7
+  - @vezham/shared-utils@0.0.7
+
 ## 0.0.7
 
 ### Patch Changes

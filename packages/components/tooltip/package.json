@@ -1,6 +1,6 @@
 {
   "name": "@vezham/tooltip",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A React Component for rendering dynamically positioned Tooltips",
   "keywords": [
     "tooltip"
