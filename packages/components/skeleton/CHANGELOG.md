@@ -1,5 +1,15 @@
 # @vezham/skeleton
 
+## 0.0.6
+
+### Patch Changes
+
+- [`e7c97e8`](https://github.com/vezham/heroui/commit/e7c97e88770945f91ceb31fa442ad9af43fd796f) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - sync fork
+
+- Updated dependencies [[`e7c97e8`](https://github.com/vezham/heroui/commit/e7c97e88770945f91ceb31fa442ad9af43fd796f)]:
+  - @vezham/react-utils@0.0.6
+  - @vezham/shared-utils@0.0.6
+
 ## 0.0.5
 
 ### Patch Changes

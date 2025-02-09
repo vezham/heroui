@@ -1,5 +1,11 @@
 # @vezham/system-rsc
 
+## 0.0.5
+
+### Patch Changes
+
+- [`e7c97e8`](https://github.com/vezham/heroui/commit/e7c97e88770945f91ceb31fa442ad9af43fd796f) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - sync fork
+
 ## 0.0.4
 
 ### Patch Changes
