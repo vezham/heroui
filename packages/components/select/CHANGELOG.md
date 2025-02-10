@@ -1,5 +1,27 @@
 # @vezham/select
 
+## 0.1.0
+
+### Minor Changes
+
+- [`98b3220`](https://github.com/vezham/heroui/commit/98b32201826f7a369b1697ee3696fe96283d6a15) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump all
+
+### Patch Changes
+
+- Updated dependencies [[`98b3220`](https://github.com/vezham/heroui/commit/98b32201826f7a369b1697ee3696fe96283d6a15)]:
+  - @vezham/form@0.1.0
+  - @vezham/listbox@0.1.0
+  - @vezham/popover@0.1.0
+  - @vezham/scroll-shadow@0.1.0
+  - @vezham/spinner@0.1.0
+  - @vezham/use-aria-button@0.1.0
+  - @vezham/use-aria-multiselect@0.1.0
+  - @vezham/use-safe-layout-effect@0.1.0
+  - @vezham/aria-utils@0.1.0
+  - @vezham/react-utils@0.1.0
+  - @vezham/shared-icons@0.1.0
+  - @vezham/shared-utils@0.1.0
+
 ## 0.0.7
 
 ### Patch Changes

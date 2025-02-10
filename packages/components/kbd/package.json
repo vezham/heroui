@@ -1,6 +1,6 @@
 {
   "name": "@vezham/kbd",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "The keyboard key components indicates which key or set of keys used to execute a specificv  action",
   "keywords": [
     "kbd"
