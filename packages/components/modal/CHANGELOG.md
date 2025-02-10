@@ -1,5 +1,12 @@
 # @vezham/modal
 
+## 0.0.8
+
+### Patch Changes
+
+- Updated dependencies [[`345a832`](https://github.com/vezham/heroui/commit/345a832eff370bbce9522751c5a955788dd9856b)]:
+  - @vezham/use-disclosure@0.0.7
+
 ## 0.0.7
 
 ### Patch Changes

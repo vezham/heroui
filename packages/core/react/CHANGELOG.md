@@ -1,5 +1,13 @@
 # @vezham/react
 
+## 0.0.8
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/drawer@0.0.8
+  - @vezham/modal@0.0.8
+
 ## 0.0.7
 
 ### Patch Changes

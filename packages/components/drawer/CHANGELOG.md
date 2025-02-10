@@ -1,5 +1,12 @@
 # @vezham/drawer
 
+## 0.0.8
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @vezham/modal@0.0.8
+
 ## 0.0.7
 
 ### Patch Changes

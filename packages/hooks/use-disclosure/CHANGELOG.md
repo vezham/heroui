@@ -1,5 +1,11 @@
 # @vezham/use-disclosure
 
+## 0.0.7
+
+### Patch Changes
+
+- [`345a832`](https://github.com/vezham/heroui/commit/345a832eff370bbce9522751c5a955788dd9856b) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - sync ver
+
 ## 0.0.6
 
 ### Patch Changes
