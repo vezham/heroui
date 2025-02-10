@@ -1,6 +1,6 @@
 {
   "name": "@vezham/framer-utils",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "A set of framer motion transitions for react",
   "keywords": [
     "framer-utils"
