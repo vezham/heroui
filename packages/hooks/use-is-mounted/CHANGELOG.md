@@ -1,5 +1,11 @@
 # @vezham/use-is-mounted
 
+## 0.1.3
+
+### Patch Changes
+
+- [`60350eb`](https://github.com/vezham/heroui/commit/60350ebc18231824b343ea0d3b73888f60c80f72) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - poc
+
 ## 0.1.2
 
 ### Patch Changes
