@@ -6,6 +6,7 @@ on:
     types: [opened, reopened, synchronize]
   pull_request_target:
     types: [opened, reopened, synchronize]
+  workflow_dispatch:
     # branches: [timeline, changeset-release/*]
 
 concurrency:
@@ -16,6 +17,7 @@ concurrency:
 permissions:
   contents: write
   pull-requests: write
+  checks: write
   # packages: write
 
 env:
