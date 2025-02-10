@@ -3,8 +3,8 @@ name: QA
 
 on:
   pull_request:
-    types: [opened, reopened]
-    branches: [timeline, changeset-release/*]
+    types: [opened, reopened, synchronize]
+    # branches: [timeline, changeset-release/*]
 
 concurrency:
   group: qa-${{ github.workflow }}-${{ github.ref }}
