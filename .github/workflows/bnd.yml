@@ -43,6 +43,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: fork | build
+        if: github.event_name == 'pull_request'
         # id: build
         continue-on-error: false
         shell: bash
