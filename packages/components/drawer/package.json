@@ -1,6 +1,6 @@
 {
   "name": "@vezham/drawer",
-  "version": "0.0.7",
+  "version": "0.0.6",
   "description": "Used to render a content that slides in from the side of the screen.",
   "keywords": [
     "drawer"
