@@ -1,5 +1,14 @@
 # @vezham/use-data-scroll-overflow
 
+## 0.0.8
+
+### Patch Changes
+
+- [`b78d5e9`](https://github.com/vezham/heroui/commit/b78d5e9bc3b06effa48e66d8ed515c53eaa43764) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - chk dist exists
+
+- Updated dependencies [[`b78d5e9`](https://github.com/vezham/heroui/commit/b78d5e9bc3b06effa48e66d8ed515c53eaa43764)]:
+  - @vezham/shared-utils@0.0.8
+
 ## 0.0.7
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@vezham/aria-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A package for managing @react-aria HeroUI utils.",
   "keywords": [
     "aria-utils"
