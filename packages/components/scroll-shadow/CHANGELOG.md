@@ -4,6 +4,17 @@
 
 ### Patch Changes
 
+- [`b78d5e9`](https://github.com/vezham/heroui/commit/b78d5e9bc3b06effa48e66d8ed515c53eaa43764) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - chk dist exists
+
+- Updated dependencies [[`b78d5e9`](https://github.com/vezham/heroui/commit/b78d5e9bc3b06effa48e66d8ed515c53eaa43764)]:
+  - @vezham/use-data-scroll-overflow@0.0.8
+  - @vezham/react-utils@0.0.7
+  - @vezham/shared-utils@0.0.8
+
+## 0.0.7
+
+### Patch Changes
+
 - [`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - dist chk
 
 - Updated dependencies [[`64a6884`](https://github.com/vezham/heroui/commit/64a68843b4460134106d9a14d26ac86dd824b28d)]:
