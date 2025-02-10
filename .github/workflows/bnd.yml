@@ -47,7 +47,7 @@ jobs:
         continue-on-error: false
         shell: bash
         run: |
-          pnpm build:fast || {
+          pnpm build || {
             echo "build failed with exit code $?"
             exit 1
           }
