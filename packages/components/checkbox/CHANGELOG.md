@@ -1,5 +1,20 @@
 # @vezham/checkbox
 
+## 0.1.4
+
+### Patch Changes
+
+- [`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump all
+
+- [#4811](https://github.com/heroui-inc/heroui/pull/4811) [`8af2c5d`](https://github.com/vezham/heroui/commit/8af2c5d8b1fc3745ddf7021e0964a0787a3676ec) Thanks [@wingkwong](https://github.com/wingkwong)! - inherit stroke in CheckboxIcon (#4802)
+
+- Updated dependencies [[`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237)]:
+  - @vezham/form@0.1.4
+  - @vezham/use-callback-ref@0.1.4
+  - @vezham/use-safe-layout-effect@0.1.4
+  - @vezham/react-utils@0.1.4
+  - @vezham/shared-utils@0.1.4
+
 ## 0.1.3
 
 ### Patch Changes

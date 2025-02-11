@@ -1,5 +1,61 @@
 # @vezham/react
 
+## 0.1.4
+
+### Patch Changes
+
+- [`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump all
+
+- Updated dependencies [[`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237), [`8af2c5d`](https://github.com/vezham/heroui/commit/8af2c5d8b1fc3745ddf7021e0964a0787a3676ec), [`fbc361c`](https://github.com/vezham/heroui/commit/fbc361c3b1e91b8b2bca8e31d0c707c0d841901d), [`8dc5aaa`](https://github.com/vezham/heroui/commit/8dc5aaa3ca98391bd736a47d9c3cf1c25827358d), [`28b8606`](https://github.com/vezham/heroui/commit/28b86064116fa1bc0e452db76cdb2880932ebbe1), [`b2e7e04`](https://github.com/vezham/heroui/commit/b2e7e04e891eec491878a93fa96dcd1e9dd79006), [`d64fcc8`](https://github.com/vezham/heroui/commit/d64fcc8389f3518ebb0044d5f9d77bfe2810f1e8)]:
+  - @vezham/accordion@0.1.4
+  - @vezham/alert@0.1.4
+  - @vezham/autocomplete@0.1.4
+  - @vezham/avatar@0.1.4
+  - @vezham/badge@0.1.4
+  - @vezham/breadcrumbs@0.1.4
+  - @vezham/button@0.1.4
+  - @vezham/calendar@0.1.4
+  - @vezham/card@0.1.4
+  - @vezham/checkbox@0.1.4
+  - @vezham/chip@0.1.4
+  - @vezham/code@0.1.4
+  - @vezham/date-input@0.1.4
+  - @vezham/date-picker@0.1.4
+  - @vezham/divider@0.1.4
+  - @vezham/drawer@0.1.4
+  - @vezham/dropdown@0.1.4
+  - @vezham/form@0.1.4
+  - @vezham/image@0.1.4
+  - @vezham/input@0.1.4
+  - @vezham/input-otp@0.1.4
+  - @vezham/kbd@0.1.4
+  - @vezham/link@0.1.4
+  - @vezham/listbox@0.1.4
+  - @vezham/menu@0.1.4
+  - @vezham/modal@0.1.4
+  - @vezham/navbar@0.1.4
+  - @vezham/pagination@0.1.4
+  - @vezham/popover@0.1.4
+  - @vezham/progress@0.1.4
+  - @vezham/radio@0.1.4
+  - @vezham/ripple@0.1.4
+  - @vezham/scroll-shadow@0.1.4
+  - @vezham/select@0.1.4
+  - @vezham/skeleton@0.1.4
+  - @vezham/slider@0.1.4
+  - @vezham/snippet@0.1.4
+  - @vezham/spacer@0.1.4
+  - @vezham/spinner@0.1.4
+  - @vezham/switch@0.1.4
+  - @vezham/table@0.1.4
+  - @vezham/tabs@0.1.4
+  - @vezham/toast@0.1.4
+  - @vezham/tooltip@0.1.4
+  - @vezham/user@0.1.4
+  - @vezham/system@0.1.4
+  - @vezham/theme@0.1.4
+  - @vezham/framer-utils@0.1.4
+
 ## 0.1.3
 
 ### Patch Changes

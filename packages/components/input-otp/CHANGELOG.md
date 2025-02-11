@@ -1,5 +1,16 @@
 # @vezham/input-otp
 
+## 0.1.4
+
+### Patch Changes
+
+- [`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump all
+
+- Updated dependencies [[`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237)]:
+  - @vezham/form@0.1.4
+  - @vezham/react-utils@0.1.4
+  - @vezham/shared-utils@0.1.4
+
 ## 0.1.3
 
 ### Patch Changes
