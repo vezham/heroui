@@ -2,7 +2,7 @@
   "name": "@vezham/react",
   "version": "0.1.3",
   "description": "🚀 Beautiful and modern React UI library.",
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Vezham <developers@vezham.com>",
   "homepage": "https://heroui.com",
   "license": "MIT",
   "keywords": [
@@ -89,6 +89,7 @@
     "@vezham/drawer": "workspace:*",
     "@vezham/form": "workspace:*",
     "@vezham/alert": "workspace:*",
+    "@vezham/toast": "workspace:*",
     "@react-aria/visually-hidden": "3.8.19"
   },
   "peerDependencies": {

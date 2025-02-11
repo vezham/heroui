@@ -47,6 +47,7 @@ export * from "@vezham/form";
 export * from "@vezham/alert";
 export * from "@vezham/drawer";
 export * from "@vezham/input-otp";
+export * from "@vezham/toast";
 
 /**
  * React Aria - Exports
