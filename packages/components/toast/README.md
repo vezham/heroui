@@ -13,10 +13,10 @@ npm i @vezham/toast
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/heroui-inc/heroui/blob/canary/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/vezham/heroui/blob/canary/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/heroui-inc/heroui/blob/canary/LICENSE).
+[MIT license](https://github.com/vezham/heroui/blob/canary/LICENSE).
