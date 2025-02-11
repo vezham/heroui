@@ -1,7 +1,7 @@
 ---
-"@heroui/shared-icons": patch
-"@heroui/toast": patch
-"@heroui/theme": patch
+"@vezham/shared-icons": patch
+"@vezham/toast": patch
+"@vezham/theme": patch
 ---
 
 Introducing the toast component(#2560)

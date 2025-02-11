@@ -5,12 +5,12 @@
   "keywords": [
     "alert"
   ],
-  "author": "HeroUI <support@heroui.com>",
+  "author": "Vezham <developers@vezham.com>",
   "contributors": [
     "Abhinav Agarwal <abhinavagrawl700@gmail.com>",
     "WK Wong <wingkwong.code@gmail.com>"
   ],
-  "homepage": "https://heroui.com",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,

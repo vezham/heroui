@@ -6,7 +6,7 @@
     "listbox"
   ],
   "author": "Vezham <developers@vezham.com>",
-  "homepage": "https://heroui.com",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,

@@ -1,5 +1,5 @@
 ---
-"@heroui/button": patch
+"@vezham/button": patch
 ---
 
 export PressEvent for onPress event typing (#4818)

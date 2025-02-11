@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "license": "MIT",
-  "author": "HeroUI <support@heroui.com>",
+  "author": "Vezham <developers@vezham.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/vezham/heroui"
@@ -51,7 +51,8 @@
     "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vezham/theme build",
     "v:changeset": "changeset",
-    "v:changeset:release": "npm whoami && pnpm build:fast && changeset publish"
+    "v:ci:checklist-release": "bash v/bin/checklist-release/bin/main.sh",
+    "v:sync:update-versions": "bash v/bin/update-versions/bin/main.sh"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",

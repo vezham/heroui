@@ -1,4 +1,4 @@
-import {addToast, Button, cn} from "@heroui/react";
+import {addToast, Button, cn} from "@vezham/react";
 
 const CustomToastComponent = () => {
   return (

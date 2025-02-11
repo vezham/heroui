@@ -1,4 +1,4 @@
-import {addToast, Button, ToastProvider} from "@heroui/react";
+import {addToast, Button, ToastProvider} from "@vezham/react";
 import React from "react";
 
 export default function App() {
