@@ -1,5 +1,28 @@
 # @vezham/autocomplete
 
+## 0.1.4
+
+### Patch Changes
+
+- [`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver bump all
+
+- [#4653](https://github.com/heroui-inc/heroui/pull/4653) [`28b8606`](https://github.com/vezham/heroui/commit/28b86064116fa1bc0e452db76cdb2880932ebbe1) Thanks [@ryo-manba](https://github.com/ryo-manba)! - Fix SelectItem, ListboxItem, and AutocompleteItem not to accept value props (#2283)
+
+- Updated dependencies [[`77b7244`](https://github.com/vezham/heroui/commit/77b7244370a666fa26863f35623f6fba79e13237), [`8dc5aaa`](https://github.com/vezham/heroui/commit/8dc5aaa3ca98391bd736a47d9c3cf1c25827358d), [`28b8606`](https://github.com/vezham/heroui/commit/28b86064116fa1bc0e452db76cdb2880932ebbe1), [`b2e7e04`](https://github.com/vezham/heroui/commit/b2e7e04e891eec491878a93fa96dcd1e9dd79006), [`d64fcc8`](https://github.com/vezham/heroui/commit/d64fcc8389f3518ebb0044d5f9d77bfe2810f1e8)]:
+  - @vezham/button@0.1.4
+  - @vezham/form@0.1.4
+  - @vezham/input@0.1.4
+  - @vezham/listbox@0.1.4
+  - @vezham/popover@0.1.4
+  - @vezham/scroll-shadow@0.1.4
+  - @vezham/spinner@0.1.4
+  - @vezham/use-aria-button@0.1.4
+  - @vezham/use-safe-layout-effect@0.1.4
+  - @vezham/aria-utils@0.1.4
+  - @vezham/react-utils@0.1.4
+  - @vezham/shared-icons@0.1.4
+  - @vezham/shared-utils@0.1.4
+
 ## 0.1.3
 
 ### Patch Changes
