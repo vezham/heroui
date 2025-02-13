@@ -2,12 +2,16 @@
 name: QA
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened, reopened, synchronize]
   pull_request_target:
     types: [opened, reopened, synchronize]
-  workflow_dispatch:
-    # branches: [timeline, changeset-release/*]
+  push:
+    branches: [timeline] # branches: [timeline, changeset-release/*]
+    paths:
+      - ".github/workflows/qa.yml"
+      - ".changeset/**"
 
 concurrency:
   group: qa-${{ github.workflow }}-${{ github.ref }}
