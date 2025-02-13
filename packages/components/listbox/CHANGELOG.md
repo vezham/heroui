@@ -1,5 +1,26 @@
 # @heroui/listbox
 
+## 2.3.11
+
+### Patch Changes
+
+- [#4653](https://github.com/heroui-inc/heroui/pull/4653) [`28b8606`](https://github.com/heroui-inc/heroui/commit/28b86064116fa1bc0e452db76cdb2880932ebbe1) Thanks [@ryo-manba](https://github.com/ryo-manba)! - Fix SelectItem, ListboxItem, and AutocompleteItem not to accept value props (#2283)
+
+- [#4812](https://github.com/heroui-inc/heroui/pull/4812) [`b2e7e04`](https://github.com/heroui-inc/heroui/commit/b2e7e04e891eec491878a93fa96dcd1e9dd79006) Thanks [@wingkwong](https://github.com/wingkwong)! - pass missing press events to usePress (#4798)
+
+- [#4784](https://github.com/heroui-inc/heroui/pull/4784) [`f7c2be0`](https://github.com/heroui-inc/heroui/commit/f7c2be0a53e2c7307ff1c411f51da502dbacbedc) Thanks [@wingkwong](https://github.com/wingkwong)! - fixed unexpected scrollShadow on virtualized listbox (#4553)
+
+- [#4386](https://github.com/heroui-inc/heroui/pull/4386) [`69aa476`](https://github.com/heroui-inc/heroui/commit/69aa4769c043bfe250113950aa0d6b12158e4b7f) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Tailwind variants upgraded to the latest version, classnames adjusted, tests fixed
+
+- [#4611](https://github.com/heroui-inc/heroui/pull/4611) [`3d9b600`](https://github.com/heroui-inc/heroui/commit/3d9b60096dd3d8c37a71ca4fda806c2e9b739c69) Thanks [@wingkwong](https://github.com/wingkwong)! - bump RA versions
+
+- Updated dependencies [[`66efa0a`](https://github.com/heroui-inc/heroui/commit/66efa0a08efa96c884829bb38325ec4c799c6e22), [`7402e00`](https://github.com/heroui-inc/heroui/commit/7402e00b62eb615fbd08be4cc37a9076bbfafc5b), [`69aa476`](https://github.com/heroui-inc/heroui/commit/69aa4769c043bfe250113950aa0d6b12158e4b7f), [`3d9b600`](https://github.com/heroui-inc/heroui/commit/3d9b60096dd3d8c37a71ca4fda806c2e9b739c69)]:
+  - @heroui/shared-utils@2.1.4
+  - @heroui/react-utils@2.1.5
+  - @heroui/aria-utils@2.2.9
+  - @heroui/use-is-mobile@2.2.4
+  - @heroui/divider@2.2.7
+
 ## 2.3.10
 
 ### Patch Changes

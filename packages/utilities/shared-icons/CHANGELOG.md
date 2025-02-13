@@ -1,5 +1,13 @@
 # @heroui/shared-icons
 
+## 2.1.3
+
+### Patch Changes
+
+- [#4437](https://github.com/heroui-inc/heroui/pull/4437) [`d64fcc8`](https://github.com/heroui-inc/heroui/commit/d64fcc8389f3518ebb0044d5f9d77bfe2810f1e8) Thanks [@macci001](https://github.com/macci001)! - Introducing the toast component(#2560)
+
+- [#4386](https://github.com/heroui-inc/heroui/pull/4386) [`69aa476`](https://github.com/heroui-inc/heroui/commit/69aa4769c043bfe250113950aa0d6b12158e4b7f) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Tailwind variants upgraded to the latest version, classnames adjusted, tests fixed
+
 ## 2.1.2
 
 ### Patch Changes
