@@ -1,6 +1,6 @@
 {
   "name": "@vezham/use-ref-state",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Hook for saving the state in a ref value",
   "keywords": [
     "use-ref-state"

@@ -1,6 +1,6 @@
 {
   "name": "@vezham/use-draggable",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This hook can provide drag and drop interaction",
   "keywords": [
     "use-draggable"
