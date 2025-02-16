@@ -1,6 +1,6 @@
 {
   "name": "@vezham/dom-animation",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Dom Animation from Framer Motion for dynamic import",
   "keywords": [
     "dom-animation"

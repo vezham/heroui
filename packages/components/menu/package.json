@@ -1,6 +1,6 @@
 {
   "name": "@vezham/menu",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A menu displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "menu"
