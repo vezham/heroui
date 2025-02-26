@@ -1,7 +1,8 @@
-# wjdlz/NOTE: ci@1.0.5-20250211
+# wjdlz/NOTE: ci@1.0.5
 name: bnd
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [closed]
   push:
@@ -20,7 +21,6 @@ permissions:
   id-token: write
   contents: write
   pull-requests: write
-  # packages: write
 
 env:
   REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
@@ -53,13 +53,13 @@ jobs:
             echo "build failed with exit code $?"
             exit 1
           }
-      
+
       - name: action | changesets/NPM-release
         uses: vezham/v0xFE-deployer/.github/actions/changesets/release@timeline
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      
+
       - name: ci-setup | LOG
         if: always()
         uses: vezham/v0xFE-deployer/.github/actions/common/log-artifact@timeline

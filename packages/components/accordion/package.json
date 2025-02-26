@@ -11,7 +11,7 @@
     "expand",
     "tree view"
   ],
-  "author": "Vezham <developers@vezham.com>",
+  "author": "v0xOSS <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
