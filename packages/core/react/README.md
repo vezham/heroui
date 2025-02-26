@@ -13,6 +13,6 @@
 
 ### Getting Started
 
-This repository mirrors the [heroui](https://github.com/heroui-inc/heroui) repo to suit our needs.
+This repository mirrors the [heroui](https://github.com/vezham/heroui) repo to suit our needs.
 
 Please report all issues and make contributions to the upstream repo.
