@@ -6,17 +6,11 @@ import {mergeProps} from "@react-aria/utils";
 import {toastRegion, ToastRegionVariantProps} from "@vezham/theme";
 
 import Toast from "./toast";
-import {ToastProps} from "./use-toast";
+import {ToastProps, ToastPlacement} from "./use-toast";
 
 interface ToastRegionProps<T> extends AriaToastRegionProps, ToastRegionVariantProps {
   toastQueue: ToastState<T>;
-  placement?:
-    | "right-bottom"
-    | "left-bottom"
-    | "center-bottom"
-    | "right-top"
-    | "left-top"
-    | "center-top";
+  placement?: ToastPlacement;
   maxVisibleToasts: number;
   toastOffset?: number;
   toastProps?: ToastProps;
@@ -80,7 +74,11 @@ export function ToastRegion<T extends ToastProps>({
           return null;
         }
 
-        if (total - index <= 4 || (isHovered && total - index <= maxVisibleToasts + 1)) {
+        if (
+          disableAnimation ||
+          total - index <= 4 ||
+          (isHovered && total - index <= maxVisibleToasts + 1)
+        ) {
           return (
             <Toast
               key={toast.key}
@@ -91,6 +89,7 @@ export function ToastRegion<T extends ToastProps>({
               heights={heights}
               index={index}
               isRegionExpanded={isHovered || isTouched}
+              maxVisibleToasts={maxVisibleToasts}
               placement={placement}
               setHeights={setHeights}
               toastOffset={toastOffset}

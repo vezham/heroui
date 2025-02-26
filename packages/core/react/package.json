@@ -89,6 +89,7 @@
     "@vezham/drawer": "workspace:*",
     "@vezham/form": "workspace:*",
     "@vezham/alert": "workspace:*",
+    "@vezham/number-input": "workspace:*",
     "@vezham/toast": "workspace:*",
     "@react-aria/visually-hidden": "3.8.19"
   },

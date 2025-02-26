@@ -12,6 +12,14 @@ import {MotionProps} from "framer-motion";
 import {useHover} from "@react-aria/interactions";
 import {useIsMobile} from "@vezham/use-is-mobile";
 
+export type ToastPlacement =
+  | "bottom-right"
+  | "bottom-left"
+  | "bottom-center"
+  | "top-right"
+  | "top-left"
+  | "top-center";
+
 export interface ToastProps extends ToastVariantProps {
   /**
    * Ref to the DOM node.
@@ -93,6 +101,11 @@ export interface ToastProps extends ToastVariantProps {
    * should apply styles to indicate timeout progress
    */
   shouldShowTimeoutProgess?: boolean;
+  /**
+   * The severity of the toast. This changes the icon without having to change the color.
+   * @default "default"
+   */
+  severity?: "default" | "primary" | "secondary" | "success" | "warning" | "danger";
 }
 
 interface Props<T> extends Omit<HTMLHeroUIProps<"div">, "title">, ToastProps {
@@ -104,14 +117,9 @@ interface Props<T> extends Omit<HTMLHeroUIProps<"div">, "title">, ToastProps {
   setHeights: (val: number[]) => void;
   disableAnimation?: boolean;
   isRegionExpanded: boolean;
-  placement?:
-    | "right-bottom"
-    | "left-bottom"
-    | "center-bottom"
-    | "right-top"
-    | "left-top"
-    | "center-top";
+  placement?: ToastPlacement;
   toastOffset?: number;
+  maxVisibleToasts: number;
 }
 
 export type UseToastProps<T = ToastProps> = Props<T> &
@@ -135,7 +143,7 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
     endContent,
     closeIcon,
     hideIcon = false,
-    placement: placementProp = "right-bottom",
+    placement: placementProp = "bottom-right",
     isRegionExpanded,
     hideCloseButton = false,
     state,
@@ -150,6 +158,8 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
     shouldShowTimeoutProgess = false,
     icon,
     onClose,
+    severity,
+    maxVisibleToasts,
     ...otherProps
   } = props;
 
@@ -166,9 +176,9 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
 
   if (isMobile) {
     if (placementProp.includes("top")) {
-      placement = "center-top";
+      placement = "top-center";
     } else {
-      placement = "center-bottom";
+      placement = "bottom-center";
     }
   }
 
@@ -185,9 +195,18 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
     }
   }, []);
 
+  const [isLoading, setIsLoading] = useState<boolean>(!!promiseProp);
+
+  useEffect(() => {
+    if (!promiseProp) return;
+    promiseProp.finally(() => {
+      setIsLoading(false);
+    });
+  }, [promiseProp]);
+
   useEffect(() => {
     const updateProgress = (timestamp: number) => {
-      if (!timeout) {
+      if (!timeout || isLoading) {
         return;
       }
 
@@ -230,16 +249,16 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
         cancelAnimationFrame(animationRef.current);
       }
     };
-  }, [timeout, shouldShowTimeoutProgess, state, isToastHovered, index, total, isRegionExpanded]);
-
-  const [isLoading, setIsLoading] = useState<boolean>(!!promiseProp);
-
-  useEffect(() => {
-    if (!promiseProp) return;
-    promiseProp.finally(() => {
-      setIsLoading(false);
-    });
-  }, [promiseProp]);
+  }, [
+    timeout,
+    shouldShowTimeoutProgess,
+    state,
+    isToastHovered,
+    index,
+    total,
+    isRegionExpanded,
+    isLoading,
+  ]);
 
   const Component = as || "div";
   const loadingIcon: ReactNode = icon;
@@ -317,8 +336,8 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
   const shouldCloseToast = (offsetX: number, offsetY: number) => {
     const isRight = placement.includes("right");
     const isLeft = placement.includes("left");
-    const isCenterTop = placement === "center-top";
-    const isCenterBottom = placement === "center-bottom";
+    const isCenterTop = placement === "top-center";
+    const isCenterBottom = placement === "bottom-center";
 
     if (
       (isRight && offsetX >= SWIPE_THRESHOLD_X) ||
@@ -333,12 +352,12 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
   const getDragElasticConstraints = (placement: string) => {
     const elasticConstraint = {top: 0, bottom: 0, right: 0, left: 0};
 
-    if (placement === "center-bottom") {
+    if (placement === "bottom-center") {
       elasticConstraint.bottom = 1;
 
       return elasticConstraint;
     }
-    if (placement === "center-top") {
+    if (placement === "top-center") {
       elasticConstraint.top = 1;
 
       return elasticConstraint;
@@ -362,7 +381,7 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
 
   let opacityValue: undefined | number = undefined;
 
-  if ((drag && placement === "center-bottom") || placement === "center-top") {
+  if ((drag && placement === "bottom-center") || placement === "top-center") {
     opacityValue = Math.max(0, 1 - dragValue / (SWIPE_THRESHOLD_Y + 5));
   } else if (drag) {
     opacityValue = Math.max(0, 1 - dragValue / (SWIPE_THRESHOLD_X + 20));
@@ -395,6 +414,14 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
       ...mergeProps(props, otherProps, toastProps, hoverProps),
     }),
     [slots, classNames, toastProps, hoverProps, toast, toast.animation, toast.key, opacityValue],
+  );
+
+  const getWrapperProps: PropGetter = useCallback(
+    (props = {}) => ({
+      className: slots.wrapper({class: classNames?.wrapper}),
+      ...props,
+    }),
+    [],
   );
 
   const getIconProps: PropGetter = useCallback(
@@ -470,8 +497,11 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
       "data-drag-value": number;
       className: string;
     } => {
-      const isCloseToEnd = total - index - 1 <= 2;
-      const dragDirection = placement === "center-bottom" || placement === "center-top" ? "y" : "x";
+      const comparingValue = isRegionExpanded
+        ? maxVisibleToasts - 1
+        : Math.min(2, maxVisibleToasts - 1);
+      const isCloseToEnd = total - index - 1 <= comparingValue;
+      const dragDirection = placement === "bottom-center" || placement === "top-center" ? "y" : "x";
       const dragConstraints = {left: 0, right: 0, top: 0, bottom: 0};
       const dragElastic = getDragElasticConstraints(placement);
 
@@ -534,9 +564,9 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
         onDrag: (_, info) => {
           let updatedDragValue = 0;
 
-          if (placement === "center-top") {
+          if (placement === "top-center") {
             updatedDragValue = -info.offset.y;
-          } else if (placement === "center-bottom") {
+          } else if (placement === "bottom-center") {
             updatedDragValue = info.offset.y;
           } else if (placement.includes("right")) {
             updatedDragValue = info.offset.x;
@@ -577,6 +607,7 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
       shouldCloseToast,
       slots,
       toastOffset,
+      maxVisibleToasts,
     ],
   );
 
@@ -587,6 +618,7 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
     icon,
     loadingIcon,
     domRef,
+    severity,
     closeIcon,
     classNames,
     color: variantProps["color"],
@@ -598,6 +630,7 @@ export function useToast<T extends ToastProps>(originalProps: UseToastProps<T>) 
     isProgressBarVisible: !!timeout,
     total,
     index,
+    getWrapperProps,
     getToastProps,
     getTitleProps,
     getContentProps,

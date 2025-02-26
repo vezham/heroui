@@ -50,9 +50,9 @@
     "version:canary": "changeset version --snapshot canary",
     "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vezham/theme build",
-    "v:changeset": "changeset",
-    "v:ci:checklist-release": "bash v/bin/checklist-release/bin/main.sh",
-    "v:sync:update-versions": "bash v/bin/update-versions/bin/main.sh"
+    "v:ws:changeset": "changeset",
+    "v:ws:changeset:checklist-release": "bash v/bin/checklist-release/bin/main.sh",
+    "v:ws:changeset:update-versions": "bash v/bin/update-versions/bin/main.sh"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
