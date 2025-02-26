@@ -1,6 +1,6 @@
 {
   "name": "@vezham/use-theme",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "React hook to switch between light and dark themes",
   "keywords": [
     "use-theme"
