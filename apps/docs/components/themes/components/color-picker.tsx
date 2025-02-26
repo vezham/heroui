@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
-import {Button, Popover, PopoverContent, PopoverTrigger} from "@heroui/react";
+import {Button, Popover, PopoverContent, PopoverTrigger} from "@vezham/react";
 import {HexColorInput, HexColorPicker} from "react-colorful";
 import Values from "values.js";
 import {readableColor} from "color2k";
 import {useTheme} from "next-themes";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@vezham/shared-utils";
 
 import {ColorPickerType, ThemeType} from "../types";
 import {colorValuesToRgb, getColorWeight} from "../utils/colors";

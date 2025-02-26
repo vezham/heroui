@@ -1,4 +1,4 @@
-import {Tooltip} from "@heroui/react";
+import {Tooltip} from "@vezham/react";
 
 import {otherColorsId} from "../../constants";
 import {useThemeBuilder} from "../../provider";

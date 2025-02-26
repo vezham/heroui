@@ -4,9 +4,9 @@ import type {ValidationResult} from "@react-types/shared";
 
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button} from "@heroui/theme";
-import {Form} from "@heroui/form";
-import {numberInput} from "@heroui/theme";
+import {button} from "@vezham/theme";
+import {Form} from "@vezham/form";
+import {numberInput} from "@vezham/theme";
 
 import {NumberInput, NumberInputProps} from "../src";
 

@@ -1,4 +1,4 @@
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@vezham/shared-utils";
 
 import {ConfigColors} from "../../types";
 

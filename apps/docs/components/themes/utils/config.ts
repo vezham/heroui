@@ -1,4 +1,4 @@
-import {HeroUIPluginConfig} from "@heroui/theme";
+import {HeroUIPluginConfig} from "@vezham/theme";
 import {readableColor} from "color2k";
 
 import {Config, ThemeType} from "../types";

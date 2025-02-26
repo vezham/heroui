@@ -1,6 +1,6 @@
 import {cloneElement} from "react";
-import {ChipProps, Chip as HeroUIChip} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {ChipProps, Chip as HeroUIChip} from "@vezham/react";
+import {clsx} from "@vezham/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

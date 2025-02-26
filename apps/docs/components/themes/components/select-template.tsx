@@ -1,4 +1,4 @@
-import {cn, Select, SelectItem} from "@heroui/react";
+import {cn, Select, SelectItem} from "@vezham/react";
 
 import {templates} from "../templates";
 import {Template, TemplateType} from "../types";

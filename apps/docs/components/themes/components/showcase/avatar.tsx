@@ -1,6 +1,6 @@
 import {cloneElement} from "react";
-import {AvatarProps, Avatar as HeroUIAvatar} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {AvatarProps, Avatar as HeroUIAvatar} from "@vezham/react";
+import {clsx} from "@vezham/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

@@ -2,7 +2,7 @@ import {
   BreadcrumbsProps,
   Breadcrumbs as HeroUIBreadcrumbs,
   BreadcrumbItem as HeroUIBreadcrumbsItem,
-} from "@heroui/react";
+} from "@vezham/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

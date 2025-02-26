@@ -1,5 +1,5 @@
 import {cloneElement} from "react";
-import {CheckboxProps, Checkbox as HeroUICheckbox} from "@heroui/react";
+import {CheckboxProps, Checkbox as HeroUICheckbox} from "@vezham/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

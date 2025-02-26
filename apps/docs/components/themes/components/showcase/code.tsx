@@ -1,4 +1,4 @@
-import {CodeProps, Code as HeroUICode} from "@heroui/react";
+import {CodeProps, Code as HeroUICode} from "@vezham/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";
@@ -18,7 +18,7 @@ const SectionBase = ({
 }) => {
   return (
     <HeroUICode key={radius} className={className} color={color} radius={radius}>
-      npm install @heroui/react
+      npm install @vezham/react
     </HeroUICode>
   );
 };
