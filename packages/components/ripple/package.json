@@ -1,6 +1,6 @@
 {
   "name": "@vezham/ripple",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A simple implementation to display a ripple animation when the source component is clicked",
   "keywords": [
     "ripple"
