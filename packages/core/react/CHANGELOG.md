@@ -1,5 +1,12 @@
 # @heroui/react
 
+## 2.7.3
+
+### Patch Changes
+
+- Updated dependencies [[`29df4f5`](https://github.com/heroui-inc/heroui/commit/29df4f531756daf84d2334926d193715fefeb428)]:
+  - @heroui/toast@2.0.4
+
 ## 2.7.2
 
 ### Patch Changes
