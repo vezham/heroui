@@ -1,5 +1,11 @@
 # @vezham/use-aria-modal-overlay
 
+## 0.1.7
+
+### Patch Changes
+
+- [`8b54da5`](https://github.com/vezham/heroui/commit/8b54da51645f63748d90549bb3cf29e1e2a810c5) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver sync
+
 ## 0.1.6
 
 ### Patch Changes

@@ -1,5 +1,62 @@
 # @vezham/react
 
+## 0.1.7
+
+### Patch Changes
+
+- [`8b54da5`](https://github.com/vezham/heroui/commit/8b54da51645f63748d90549bb3cf29e1e2a810c5) Thanks [@vigneshwaran-vtpl](https://github.com/vigneshwaran-vtpl)! - ver sync
+
+- Updated dependencies [[`8b54da5`](https://github.com/vezham/heroui/commit/8b54da51645f63748d90549bb3cf29e1e2a810c5)]:
+  - @vezham/number-input@0.1.7
+  - @vezham/toast@0.1.7
+  - @vezham/accordion@0.1.7
+  - @vezham/alert@0.1.7
+  - @vezham/autocomplete@0.1.7
+  - @vezham/avatar@0.1.7
+  - @vezham/badge@0.1.7
+  - @vezham/breadcrumbs@0.1.7
+  - @vezham/button@0.1.7
+  - @vezham/calendar@0.1.7
+  - @vezham/card@0.1.7
+  - @vezham/checkbox@0.1.7
+  - @vezham/chip@0.1.7
+  - @vezham/code@0.1.7
+  - @vezham/date-input@0.1.7
+  - @vezham/date-picker@0.1.7
+  - @vezham/divider@0.1.7
+  - @vezham/drawer@0.1.7
+  - @vezham/dropdown@0.1.7
+  - @vezham/form@0.1.7
+  - @vezham/image@0.1.7
+  - @vezham/input@0.1.7
+  - @vezham/input-otp@0.1.7
+  - @vezham/kbd@0.1.7
+  - @vezham/link@0.1.7
+  - @vezham/listbox@0.1.7
+  - @vezham/menu@0.1.7
+  - @vezham/modal@0.1.7
+  - @vezham/navbar@0.1.7
+  - @vezham/pagination@0.1.7
+  - @vezham/popover@0.1.7
+  - @vezham/progress@0.1.7
+  - @vezham/radio@0.1.7
+  - @vezham/ripple@0.1.7
+  - @vezham/scroll-shadow@0.1.7
+  - @vezham/select@0.1.7
+  - @vezham/skeleton@0.1.7
+  - @vezham/slider@0.1.7
+  - @vezham/snippet@0.1.7
+  - @vezham/spacer@0.1.7
+  - @vezham/spinner@0.1.7
+  - @vezham/switch@0.1.7
+  - @vezham/table@0.1.7
+  - @vezham/tabs@0.1.7
+  - @vezham/tooltip@0.1.7
+  - @vezham/user@0.1.7
+  - @vezham/system@0.1.7
+  - @vezham/theme@0.1.7
+  - @vezham/framer-utils@0.1.7
+
 ## 0.1.6
 
 ### Patch Changes
