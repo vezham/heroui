@@ -1,6 +1,12 @@
 # @vezham/use-aria-multiselect
 
-## 0.1.7
+## 2.4.8
+
+### Patch Changes
+
+- v2.7.4
+
+## 2.4.7
 
 ### Patch Changes
 

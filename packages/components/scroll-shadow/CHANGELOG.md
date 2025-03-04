@@ -1,6 +1,17 @@
 # @vezham/scroll-shadow
 
-## 0.1.7
+## 2.3.10
+
+### Patch Changes
+
+- v2.7.4
+
+- Updated dependencies []:
+  - @heroui/use-data-scroll-overflow@2.2.7
+  - @heroui/react-utils@2.1.8
+  - @heroui/shared-utils@2.1.7
+
+## 2.3.9
 
 ### Patch Changes
 

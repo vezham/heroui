@@ -1,6 +1,15 @@
 # @vezham/use-aria-button
 
-## 0.1.7
+## 2.2.9
+
+### Patch Changes
+
+- v2.7.4
+
+- Updated dependencies []:
+  - @heroui/shared-utils@2.1.7
+
+## 2.2.8
 
 ### Patch Changes
 

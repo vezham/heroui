@@ -1,6 +1,12 @@
 # @vezham/use-aria-modal-overlay
 
-## 0.1.7
+## 2.2.8
+
+### Patch Changes
+
+- v2.7.4
+
+## 2.2.7
 
 ### Patch Changes
 

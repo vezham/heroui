@@ -1,6 +1,16 @@
 # @vezham/use-image
 
-## 0.1.7
+## 2.1.7
+
+### Patch Changes
+
+- v2.7.4
+
+- Updated dependencies []:
+  - @heroui/use-safe-layout-effect@2.1.6
+  - @heroui/react-utils@2.1.8
+
+## 2.1.6
 
 ### Patch Changes
 

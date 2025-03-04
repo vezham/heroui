@@ -1,6 +1,28 @@
 # @vezham/snippet
 
-## 0.1.7
+## 2.2.16
+
+### Patch Changes
+
+- v2.7.4
+
+- Updated dependencies []:
+  - @heroui/button@2.2.15
+  - @heroui/tooltip@2.2.12
+  - @heroui/use-clipboard@2.1.7
+  - @heroui/react-utils@2.1.8
+  - @heroui/shared-icons@2.1.6
+  - @heroui/shared-utils@2.1.7
+
+## 2.2.15
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @heroui/button@2.2.14
+  - @heroui/tooltip@2.2.11
+
+## 2.2.14
 
 ### Patch Changes
 

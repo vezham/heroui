@@ -1,6 +1,12 @@
 # @vezham/stories-utils
 
-## 0.1.7
+## 2.1.6
+
+### Patch Changes
+
+- v2.7.4
+
+## 2.1.5
 
 ### Patch Changes
 

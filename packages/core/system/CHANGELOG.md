@@ -1,6 +1,16 @@
 # @vezham/system
 
-## 0.1.7
+## 2.4.11
+
+### Patch Changes
+
+- v2.7.4
+
+- Updated dependencies []:
+  - @heroui/system-rsc@2.3.10
+  - @heroui/react-utils@2.1.8
+
+## 2.4.10
 
 ### Patch Changes
 
