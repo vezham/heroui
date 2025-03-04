@@ -1,7 +1,7 @@
-export const safeText = (text: string): string => {
-  if (text?.length <= 4) return text;
+export const safeText = (text: string, limit = 4, count = 2): string => {
+  if (text?.length <= limit) return text;
 
-  return text?.slice(0, 3);
+  return text?.slice(0, count);
 };
 
 export const safeAriaLabel = (...texts: any[]): string => {

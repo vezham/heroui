@@ -34,6 +34,6 @@ const ResizablePanel = forwardRef(
   },
 );
 
-ResizablePanel.displayName = "HeroUI - ResizablePanel";
+ResizablePanel.displayName = "ResizablePanel";
 
 export {ResizablePanel};
