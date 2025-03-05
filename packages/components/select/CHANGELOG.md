@@ -1,5 +1,25 @@
 # @v0xoss/select
 
+## 0.0.1
+
+### Patch Changes
+
+- [`70aa656`](https://github.com/vezham/heroui/commit/70aa656b74899c2176122e026685e212895e87a7) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - initial release
+
+- Updated dependencies [[`70aa656`](https://github.com/vezham/heroui/commit/70aa656b74899c2176122e026685e212895e87a7)]:
+  - @v0xoss/form@0.0.1
+  - @v0xoss/listbox@0.0.1
+  - @v0xoss/popover@0.0.1
+  - @v0xoss/scroll-shadow@0.0.1
+  - @v0xoss/spinner@0.0.1
+  - @v0xoss/use-aria-button@0.0.1
+  - @v0xoss/use-aria-multiselect@0.0.1
+  - @v0xoss/use-safe-layout-effect@0.0.1
+  - @v0xoss/aria-utils@0.0.1
+  - @v0xoss/react-utils@0.0.1
+  - @v0xoss/shared-icons@0.0.1
+  - @v0xoss/shared-utils@0.0.1
+
 ## 2.4.15
 
 ### Patch Changes
