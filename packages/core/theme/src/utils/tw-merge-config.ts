@@ -17,7 +17,7 @@ export const twMergeConfig = {
       "bg-stripe-gradient-success",
       "bg-stripe-gradient-warning",
       "bg-stripe-gradient-danger",
-      "bg-stripe-gradient-info"
+      "bg-stripe-gradient-info",
     ],
   },
 };
