@@ -1,4 +1,4 @@
-# @heroui/snippet
+# @v0xoss/snippet
 
 ## 2.2.16
 

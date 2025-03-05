@@ -1,4 +1,4 @@
-# @heroui/slider
+# @v0xoss/slider
 
 ## 2.4.12
 

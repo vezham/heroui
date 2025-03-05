@@ -1,4 +1,4 @@
-# @heroui/spacer
+# @v0xoss/spacer
 
 ## 2.2.11
 

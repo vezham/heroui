@@ -6,7 +6,7 @@ import {
   DropdownItem,
   Button,
   cn,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export const AddNoteIcon = (props) => {
   return (

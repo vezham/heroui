@@ -18,7 +18,7 @@ import {
   Selection,
   ChipProps,
   SortDescriptor,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;

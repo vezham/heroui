@@ -3,13 +3,13 @@ const conventional = require("@commitlint/config-conventional");
 module.exports = {
   extends: ["@commitlint/config-conventional"],
   plugins: ["commitlint-plugin-function-rules"],
-  helpUrl: "https://github.com/heroui-inc/heroui/blob/main/CONTRIBUTING.md#commit-convention",
+  helpUrl: "https://storybook.vezham.com/?path=/docs/guidelines-contribution--overview#commit-convention",
   rules: {
     ...conventional.rules,
     "type-enum": [
       2,
       "always",
-      ["feat", "feature", "fix", "refactor", "docs", "build", "test", "ci", "chore"],
+      ["feat", "fix", "refactor", "mocks", "stories", "test", "docs", "i18n", "ci", "chore", "build"],
     ],
     "function-rules/header-max-length": [0],
   },

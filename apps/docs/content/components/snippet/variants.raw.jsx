@@ -1,17 +1,17 @@
-import {Snippet} from "@heroui/react";
+import {Snippet} from "@v0xoss/react";
 
 export default function App() {
   return (
     <div className="flex flex-wrap gap-4">
-      <Snippet variant="bordered">npm install @heroui/react</Snippet>
+      <Snippet variant="bordered">npm install @v0xoss/react</Snippet>
       <Snippet color="warning" variant="flat">
-        npm install @heroui/react
+        npm install @v0xoss/react
       </Snippet>
       <Snippet color="primary" variant="solid">
-        npm install @heroui/react
+        npm install @v0xoss/react
       </Snippet>
       <Snippet color="secondary" variant="shadow">
-        npm install @heroui/react
+        npm install @v0xoss/react
       </Snippet>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {image} from "@heroui/theme";
+import {image} from "@v0xoss/theme";
 
 import {Image, ImageProps} from "../src";
 

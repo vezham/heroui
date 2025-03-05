@@ -2,8 +2,8 @@ import "@testing-library/jest-dom";
 import * as React from "react";
 import {render, fireEvent, act} from "@testing-library/react";
 import userEvent, {UserEvent} from "@testing-library/user-event";
-import {Button} from "@heroui/button";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {Button} from "@v0xoss/button";
+import {spy, shouldIgnoreReactWarning} from "@v0xoss/test-utils";
 
 import {Popover, PopoverContent, PopoverTrigger} from "../src";
 import {Select, SelectItem} from "../../select/src";

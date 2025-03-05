@@ -1,4 +1,4 @@
-# @heroui/code
+# @v0xoss/code
 
 ## 2.2.11
 

@@ -1,5 +1,5 @@
 import {cloneElement} from "react";
-import {SwitchProps, Switch} from "@heroui/react";
+import {SwitchProps, Switch} from "@v0xoss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

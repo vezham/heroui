@@ -1,4 +1,4 @@
-# @heroui/use-safe-layout-effect
+# @v0xoss/use-safe-layout-effect
 
 ## 2.1.6
 

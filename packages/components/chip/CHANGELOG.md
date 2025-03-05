@@ -1,4 +1,4 @@
-# @heroui/chip
+# @v0xoss/chip
 
 ## 2.2.11
 

@@ -1,4 +1,4 @@
-# @heroui/input-otp
+# @v0xoss/input-otp
 
 ## 2.1.14
 

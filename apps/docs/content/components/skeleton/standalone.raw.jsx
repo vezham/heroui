@@ -1,4 +1,4 @@
-import {Skeleton} from "@heroui/react";
+import {Skeleton} from "@v0xoss/react";
 
 export default function App() {
   return (

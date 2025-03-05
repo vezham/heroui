@@ -1,5 +1,5 @@
-import {Select, SelectItem} from "@heroui/react";
-import {useInfiniteScroll} from "@heroui/use-infinite-scroll";
+import {Select, SelectItem} from "@v0xoss/react";
+import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
 
 export function usePokemonList({fetchDelay = 0} = {}) {
   const [items, setItems] = React.useState([]);

@@ -1,4 +1,4 @@
-# @heroui/use-draggable
+# @v0xoss/use-draggable
 
 ## 2.1.7
 

@@ -1,6 +1,6 @@
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 import {LayoutGroup} from "framer-motion";
-import {Divider} from "@heroui/divider";
+import {Divider} from "@v0xoss/divider";
 import {Fragment, Key, useCallback, useMemo} from "react";
 
 import {UseAccordionProps, useAccordion} from "./use-accordion";

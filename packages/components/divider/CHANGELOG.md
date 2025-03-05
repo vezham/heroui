@@ -1,4 +1,4 @@
-# @heroui/divider
+# @v0xoss/divider
 
 ## 2.2.10
 

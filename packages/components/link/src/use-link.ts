@@ -1,14 +1,14 @@
 import type {AriaLinkProps} from "@react-types/link";
-import type {LinkVariantProps} from "@heroui/theme";
+import type {LinkVariantProps} from "@v0xoss/theme";
 import type {MouseEventHandler} from "react";
 
-import {link} from "@heroui/theme";
-import {useAriaLink} from "@heroui/use-aria-link";
-import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
+import {link} from "@v0xoss/theme";
+import {useAriaLink} from "@v0xoss/use-aria-link";
+import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useFocusRing} from "@react-aria/focus";
-import {dataAttr, objectToDeps} from "@heroui/shared-utils";
-import {ReactRef} from "@heroui/react-utils";
+import {dataAttr, objectToDeps} from "@v0xoss/shared-utils";
+import {ReactRef} from "@v0xoss/react-utils";
 import {useMemo, useCallback} from "react";
 import {mergeProps} from "@react-aria/utils";
 
@@ -69,7 +69,7 @@ export function useLink(originalProps: UseLinkProps) {
   const disableAnimation =
     originalProps?.disableAnimation ?? globalContext?.disableAnimation ?? false;
 
-  // use `@heroui/use-aria-link` to suppress onClick deprecation warning
+  // use `@v0xoss/use-aria-link` to suppress onClick deprecation warning
   const {linkProps} = useAriaLink(
     {
       ...otherProps,

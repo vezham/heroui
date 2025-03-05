@@ -1,4 +1,4 @@
-# @heroui/alert
+# @v0xoss/alert
 
 ## 2.2.15
 

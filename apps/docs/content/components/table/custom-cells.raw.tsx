@@ -10,7 +10,7 @@ import {
   Chip,
   Tooltip,
   ChipProps,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;

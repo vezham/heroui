@@ -1,4 +1,4 @@
-# @heroui/use-image
+# @v0xoss/use-image
 
 ## 2.1.7
 

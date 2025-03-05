@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {spinner} from "@heroui/theme";
+import {spinner} from "@v0xoss/theme";
 
 import {Spinner, SpinnerProps} from "../src";
 

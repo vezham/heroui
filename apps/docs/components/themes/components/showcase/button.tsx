@@ -1,6 +1,6 @@
 import {cloneElement} from "react";
-import {ButtonProps, Button as HeroUIButton} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {ButtonProps, Button as HeroUIButton} from "@v0xoss/react";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

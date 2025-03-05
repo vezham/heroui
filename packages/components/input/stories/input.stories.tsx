@@ -4,17 +4,17 @@ import type {ValidationResult} from "@react-types/shared";
 
 import React from "react";
 import {Meta} from "@storybook/react";
-import {input} from "@heroui/theme";
+import {input} from "@v0xoss/theme";
 import {
   MailFilledIcon,
   EyeFilledIcon,
   EyeSlashFilledIcon,
   SearchIcon,
   CloseFilledIcon,
-} from "@heroui/shared-icons";
-import {button} from "@heroui/theme";
+} from "@v0xoss/shared-icons";
+import {button} from "@v0xoss/theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@heroui/form";
+import {Form} from "@v0xoss/form";
 
 import {Input, InputProps, useInput} from "../src";
 
@@ -561,7 +561,7 @@ export const Disabled = {
 
   args: {
     ...defaultProps,
-    defaultValue: "junior@heroui.com",
+    defaultValue: "junior@vezham.com",
     variant: "faded",
     isDisabled: true,
   },
@@ -572,7 +572,7 @@ export const ReadOnly = {
 
   args: {
     ...defaultProps,
-    defaultValue: "junior@heroui.com",
+    defaultValue: "junior@vezham.com",
     variant: "bordered",
     isReadOnly: true,
   },
@@ -624,7 +624,7 @@ export const Clearable = {
     ...defaultProps,
     variant: "bordered",
     placeholder: "Enter your email",
-    defaultValue: "junior@heroui.com",
+    defaultValue: "junior@vezham.com",
     // eslint-disable-next-line no-console
     onClear: () => console.log("input cleared"),
   },

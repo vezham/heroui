@@ -1,17 +1,17 @@
 import type {AriaRadioGroupProps} from "@react-types/radio";
 import type {Orientation} from "@react-types/shared";
-import type {ReactRef} from "@heroui/react-utils";
-import type {RadioGroupSlots, SlotsToClasses} from "@heroui/theme";
+import type {ReactRef} from "@v0xoss/react-utils";
+import type {RadioGroupSlots, SlotsToClasses} from "@v0xoss/theme";
 
-import {radioGroup} from "@heroui/theme";
+import {radioGroup} from "@v0xoss/theme";
 import {useCallback, useMemo} from "react";
 import {RadioGroupState, useRadioGroupState} from "@react-stately/radio";
 import {useRadioGroup as useReactAriaRadioGroup} from "@react-aria/radio";
-import {HTMLHeroUIProps, PropGetter, useProviderContext} from "@heroui/system";
-import {filterDOMProps, useDOMRef} from "@heroui/react-utils";
-import {clsx, safeAriaLabel} from "@heroui/shared-utils";
+import {HTMLHeroUIProps, PropGetter, useProviderContext} from "@v0xoss/system";
+import {filterDOMProps, useDOMRef} from "@v0xoss/react-utils";
+import {clsx, safeAriaLabel} from "@v0xoss/shared-utils";
 import {mergeProps} from "@react-aria/utils";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
 
 import {RadioProps} from "./index";
 

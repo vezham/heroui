@@ -1,4 +1,4 @@
-import {HTMLHeroUIProps} from "@heroui/system";
+import {HTMLHeroUIProps} from "@v0xoss/system";
 import {Row} from "@react-stately/table";
 import {RowProps} from "@react-types/table";
 

@@ -1,4 +1,4 @@
-import {DatePicker} from "@heroui/react";
+import {DatePicker} from "@v0xoss/react";
 
 export default function App() {
   return (

@@ -1,4 +1,4 @@
-# @heroui/use-intersection-observer
+# @v0xoss/use-intersection-observer
 
 ## 2.2.7
 

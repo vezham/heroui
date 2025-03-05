@@ -1,4 +1,4 @@
-import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@heroui/theme";
+import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@v0xoss/theme";
 
 import {
   DOMAttributes,
@@ -6,16 +6,16 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@heroui/system";
-import {slider} from "@heroui/theme";
-import {ReactRef, useDOMRef, filterDOMProps} from "@heroui/react-utils";
+} from "@v0xoss/system";
+import {slider} from "@v0xoss/theme";
+import {ReactRef, useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
 import {useSliderState} from "@react-stately/slider";
 import {ReactNode, useCallback, useMemo, useRef} from "react";
 import {useNumberFormatter, useLocale} from "@react-aria/i18n";
 import {mergeProps} from "@react-aria/utils";
 import {AriaSliderProps, useSlider as useAriaSlider} from "@react-aria/slider";
-import {clsx, objectToDeps} from "@heroui/shared-utils";
-import {TooltipProps} from "@heroui/tooltip";
+import {clsx, objectToDeps} from "@v0xoss/shared-utils";
+import {TooltipProps} from "@v0xoss/tooltip";
 import {useHover} from "@react-aria/interactions";
 import {ValueBase} from "@react-types/shared";
 

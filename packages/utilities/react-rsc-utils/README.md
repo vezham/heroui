@@ -1,4 +1,4 @@
-# @heroui/react-rsc-utils
+# @v0xoss/react-rsc-utils
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/react-rsc-utils
+yarn add @v0xoss/react-rsc-utils
 # or
-npm i @heroui/react-rsc-utils
+npm i @v0xoss/react-rsc-utils
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/heroui-inc/heroui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/vezham/heroui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/heroui-inc/heroui/blob/master/LICENSE).
+[MIT license](https://github.com/vezham/heroui/blob/master/LICENSE).

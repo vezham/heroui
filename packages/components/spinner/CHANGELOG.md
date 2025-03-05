@@ -1,4 +1,4 @@
-# @heroui/spinner
+# @v0xoss/spinner
 
 ## 2.2.12
 

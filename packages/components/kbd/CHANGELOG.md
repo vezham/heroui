@@ -1,4 +1,4 @@
-# @heroui/kbd
+# @v0xoss/kbd
 
 ## 2.2.11
 

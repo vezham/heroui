@@ -1,4 +1,4 @@
-import {forwardRef} from "@heroui/system-rsc";
+import {forwardRef} from "@v0xoss/system-rsc";
 
 import {UseDividerProps, useDivider} from "./use-divider";
 

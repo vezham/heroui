@@ -4,14 +4,14 @@ import React, {Key} from "react";
 import {Meta} from "@storybook/react";
 import {useForm} from "react-hook-form";
 import {useFilter} from "@react-aria/i18n";
-import {autocomplete, input, button} from "@heroui/theme";
-import {Pokemon, usePokemonList, animalsData, usersData, Animal, User} from "@heroui/stories-utils";
+import {autocomplete, input, button} from "@v0xoss/theme";
+import {Pokemon, usePokemonList, animalsData, usersData, Animal, User} from "@v0xoss/stories-utils";
 import {useAsyncList} from "@react-stately/data";
-import {useInfiniteScroll} from "@heroui/use-infinite-scroll";
-import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@heroui/shared-icons";
-import {Avatar} from "@heroui/avatar";
-import {Button} from "@heroui/button";
-import {Form} from "@heroui/form";
+import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
+import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@v0xoss/shared-icons";
+import {Avatar} from "@v0xoss/avatar";
+import {Button} from "@v0xoss/button";
+import {Form} from "@v0xoss/form";
 
 import {Autocomplete, AutocompleteItem, AutocompleteProps, AutocompleteSection} from "../src";
 

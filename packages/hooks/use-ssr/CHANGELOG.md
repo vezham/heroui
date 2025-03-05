@@ -1,4 +1,4 @@
-# @heroui/use-ssr
+# @v0xoss/use-ssr
 
 ## 2.1.6
 

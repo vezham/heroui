@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {dateInput, button} from "@heroui/theme";
+import {dateInput, button} from "@v0xoss/theme";
 import {
   CalendarDate,
   DateValue,
@@ -11,7 +11,7 @@ import {
   parseZonedDateTime,
   today,
 } from "@internationalized/date";
-import {CalendarBoldIcon} from "@heroui/shared-icons";
+import {CalendarBoldIcon} from "@v0xoss/shared-icons";
 import {useDateFormatter, I18nProvider} from "@react-aria/i18n";
 import {ValidationResult} from "@react-types/shared";
 

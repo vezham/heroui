@@ -1,4 +1,4 @@
-# @heroui/use-aria-multiselect
+# @v0xoss/use-aria-multiselect
 
 ## 2.4.8
 

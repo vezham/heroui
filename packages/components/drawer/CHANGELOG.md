@@ -1,4 +1,4 @@
-# @heroui/drawer
+# @v0xoss/drawer
 
 ## 2.2.12
 

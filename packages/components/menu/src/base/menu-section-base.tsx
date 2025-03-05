@@ -1,7 +1,7 @@
-import type {MenuSectionSlots, SlotsToClasses} from "@heroui/theme";
+import type {MenuSectionSlots, SlotsToClasses} from "@v0xoss/theme";
 
-import {BaseSection, SectionProps} from "@heroui/aria-utils";
-import {DividerProps} from "@heroui/divider";
+import {BaseSection, SectionProps} from "@v0xoss/aria-utils";
+import {DividerProps} from "@v0xoss/divider";
 
 import {MenuItemProps} from "../menu-item";
 

@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/use-aria-button",
-  "version": "2.2.9",
+  "name": "@v0xoss/use-aria-button",
+  "version": "0.0.0",
   "description": "Internal hook to handle button a11y and events, this is based on react-aria button hook but without the onClick warning",
   "keywords": [
     "use-aria-button"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "v0xOSS <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/hooks/use-aria-button"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,7 +37,7 @@
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
+    "@v0xoss/shared-utils": "workspace:*",
     "@react-aria/focus": "3.19.1",
     "@react-aria/interactions": "3.23.0",
     "@react-aria/utils": "3.27.0",

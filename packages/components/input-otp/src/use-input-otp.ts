@@ -3,12 +3,12 @@ import type {
   InputOtpSlots,
   InputOtpVariantProps,
   SlotsToClasses,
-} from "@heroui/theme";
+} from "@v0xoss/theme";
 
-import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@heroui/system";
-import {inputOtp} from "@heroui/theme";
-import {filterDOMProps, ReactRef, useDOMRef} from "@heroui/react-utils";
-import {clsx, dataAttr, objectToDeps, isPatternNumeric} from "@heroui/shared-utils";
+import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@v0xoss/system";
+import {inputOtp} from "@v0xoss/theme";
+import {filterDOMProps, ReactRef, useDOMRef} from "@v0xoss/react-utils";
+import {clsx, dataAttr, objectToDeps, isPatternNumeric} from "@v0xoss/shared-utils";
 import {useCallback, useMemo} from "react";
 import {chain, mergeProps, useFormReset} from "@react-aria/utils";
 import {AriaTextFieldProps} from "@react-types/textfield";
@@ -17,7 +17,7 @@ import {useFormValidationState} from "@react-stately/form";
 import {useFormValidation} from "@react-aria/form";
 import {useFocusRing} from "@react-aria/focus";
 import {OTPInputProps} from "input-otp";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
 
 interface Props extends HTMLHeroUIProps<"div"> {
   /**

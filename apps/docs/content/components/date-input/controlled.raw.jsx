@@ -1,4 +1,4 @@
-import {DateInput} from "@heroui/react";
+import {DateInput} from "@v0xoss/react";
 import {parseDate, getLocalTimeZone} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 

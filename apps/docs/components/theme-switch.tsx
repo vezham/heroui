@@ -2,9 +2,9 @@
 
 import {FC, ChangeEvent} from "react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {SwitchProps, useSwitch} from "@heroui/react";
+import {SwitchProps, useSwitch} from "@v0xoss/react";
 import {useTheme} from "next-themes";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@v0xoss/shared-utils";
 import {useIsSSR} from "@react-aria/ssr";
 import {usePostHog} from "posthog-js/react";
 

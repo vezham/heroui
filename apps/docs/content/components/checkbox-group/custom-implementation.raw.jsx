@@ -1,4 +1,4 @@
-import {useCheckbox, CheckboxGroup, Chip, VisuallyHidden, tv} from "@heroui/react";
+import {useCheckbox, CheckboxGroup, Chip, VisuallyHidden, tv} from "@v0xoss/react";
 
 export const CustomCheckbox = (props) => {
   const checkbox = tv({

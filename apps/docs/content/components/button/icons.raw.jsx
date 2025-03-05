@@ -1,4 +1,4 @@
-import {Button} from "@heroui/react";
+import {Button} from "@v0xoss/react";
 
 export const UserIcon = ({fill = "currentColor", size, height, width, ...props}) => {
   return (

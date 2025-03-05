@@ -1,4 +1,4 @@
-import {cn, Divider} from "@heroui/react";
+import {cn, Divider} from "@v0xoss/react";
 import Link from "next/link";
 import {Inter, Roboto, Outfit, Lora} from "next/font/google";
 import get from "lodash/get";

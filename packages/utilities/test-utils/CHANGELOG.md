@@ -1,4 +1,4 @@
-# @heroui/test-utils
+# @v0xoss/test-utils
 
 ## 2.1.6
 

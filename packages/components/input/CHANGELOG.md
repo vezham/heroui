@@ -1,4 +1,4 @@
-# @heroui/input
+# @v0xoss/input
 
 ## 2.4.15
 

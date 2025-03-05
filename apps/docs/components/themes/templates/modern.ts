@@ -1,4 +1,4 @@
-import {colors} from "@heroui/theme";
+import {colors} from "@v0xoss/theme";
 
 import {initialLayout} from "../constants";
 import {Config} from "../types";

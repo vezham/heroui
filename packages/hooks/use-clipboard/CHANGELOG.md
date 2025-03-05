@@ -1,4 +1,4 @@
-# @heroui/use-clipboard
+# @v0xoss/use-clipboard
 
 ## 2.1.7
 

@@ -1,4 +1,4 @@
-# @heroui/date-picker
+# @v0xoss/date-picker
 
 ## 2.3.15
 

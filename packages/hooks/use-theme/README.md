@@ -1,13 +1,13 @@
-# @heroui/use-theme
+# @v0xoss/use-theme
 
 React hook to switch between light and dark themes
 
 ## Installation
 
 ```sh
-yarn add @heroui/use-theme
+yarn add @v0xoss/use-theme
 # or
-npm i @heroui/use-theme
+npm i @v0xoss/use-theme
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i @heroui/use-theme
 Import `useTheme`
 
 ```tsx
-import {useTheme} from "@heroui/use-theme";
+import {useTheme} from "@v0xoss/use-theme";
 ```
 
 ### theme
@@ -46,10 +46,10 @@ setTheme('purple-dark')
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/heroui-inc/heroui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/vezham/heroui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/heroui-inc/heroui/blob/master/LICENSE).
+[MIT license](https://github.com/vezham/heroui/blob/master/LICENSE).

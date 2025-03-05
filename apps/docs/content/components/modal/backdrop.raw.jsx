@@ -6,7 +6,7 @@ import {
   ModalFooter,
   Button,
   useDisclosure,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export default function App() {
   const {isOpen, onOpen, onClose} = useDisclosure();

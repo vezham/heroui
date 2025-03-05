@@ -1,5 +1,5 @@
 import React, {ReactNode} from "react";
-import {Popover} from "@heroui/popover";
+import {Popover} from "@v0xoss/popover";
 
 import {DropdownProvider} from "./dropdown-context";
 import {UseDropdownProps, useDropdown} from "./use-dropdown";

@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/accordion",
-  "version": "2.2.12",
+  "name": "@v0xoss/accordion",
+  "version": "0.0.0",
   "description": "Collapse display a list of high-level options that can expand/collapse to reveal more information.",
   "keywords": [
     "react",
@@ -11,8 +11,8 @@
     "expand",
     "tree view"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "v0xOSS <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -24,11 +24,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/accordion"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -43,18 +43,18 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@heroui/theme": ">=2.4.6",
-    "@heroui/system": ">=2.4.7"
+    "@v0xoss/theme": ">=0.0.0",
+    "@v0xoss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/aria-utils": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/framer-utils": "workspace:*",
-    "@heroui/divider": "workspace:*",
-    "@heroui/use-aria-accordion": "workspace:*",
-    "@heroui/dom-animation": "workspace:*",
+    "@v0xoss/aria-utils": "workspace:*",
+    "@v0xoss/shared-icons": "workspace:*",
+    "@v0xoss/shared-utils": "workspace:*",
+    "@v0xoss/react-utils": "workspace:*",
+    "@v0xoss/framer-utils": "workspace:*",
+    "@v0xoss/divider": "workspace:*",
+    "@v0xoss/use-aria-accordion": "workspace:*",
+    "@v0xoss/dom-animation": "workspace:*",
     "@react-aria/interactions": "3.23.0",
     "@react-aria/focus": "3.19.1",
     "@react-aria/utils": "3.27.0",
@@ -64,12 +64,12 @@
     "@react-types/shared": "3.27.0"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/system": "workspace:*",
-    "@heroui/button": "workspace:*",
-    "@heroui/avatar": "workspace:*",
-    "@heroui/input": "workspace:*",
-    "@heroui/test-utils": "workspace:*",
+    "@v0xoss/theme": "workspace:*",
+    "@v0xoss/system": "workspace:*",
+    "@v0xoss/button": "workspace:*",
+    "@v0xoss/avatar": "workspace:*",
+    "@v0xoss/input": "workspace:*",
+    "@v0xoss/test-utils": "workspace:*",
     "framer-motion": "11.9.0",
     "clean-package": "2.2.0",
     "react": "18.3.0",

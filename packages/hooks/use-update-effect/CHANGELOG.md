@@ -1,4 +1,4 @@
-# @heroui/use-update-effect
+# @v0xoss/use-update-effect
 
 ## 2.1.6
 

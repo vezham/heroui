@@ -10361,14 +10361,14 @@
     }
   },
   {
-    "content": "Install @heroui/use-theme",
+    "content": "Install @v0xoss/use-theme",
     "objectID": "c56b65d3-8161-4799-82f0-f711aac4bc65",
     "type": "lvl3",
     "url": "/docs/customization/dark-mode#install-herouiuse-theme",
     "hierarchy": {
       "lvl1": "Dark mode",
       "lvl2": "Using use-theme hook",
-      "lvl3": "Install @heroui/use-theme"
+      "lvl3": "Install @v0xoss/use-theme"
     }
   },
   {
@@ -10378,7 +10378,7 @@
     "url": "/docs/customization/dark-mode#add-the-current-theme-to-the-main-element",
     "hierarchy": {
       "lvl1": "Dark mode",
-      "lvl2": "Install @heroui/use-theme",
+      "lvl2": "Install @v0xoss/use-theme",
       "lvl3": "Add the current theme to the main element"
     }
   },
@@ -10776,7 +10776,7 @@
     "content": "HeroUI CLI (recommended)",
     "objectID": "cb824406-d835-4cd7-88e0-0eacec472e91",
     "type": "lvl3",
-    "url": "/docs/frameworks/nextjs#heroui-cli-recommended",
+    "url": "/docs/frameworks/nextjs#vezham-cli-recommended",
     "hierarchy": {
       "lvl1": "Next.js",
       "lvl2": "App Directory Setup",
@@ -10897,7 +10897,7 @@
     "content": "HeroUI CLI (recommended)",
     "objectID": "945e2029-2013-4cc5-b5ae-87c8c836944d",
     "type": "lvl3",
-    "url": "/docs/frameworks/nextjs#heroui-cli-recommended-1",
+    "url": "/docs/frameworks/nextjs#vezham-cli-recommended-1",
     "hierarchy": {
       "lvl1": "Next.js",
       "lvl2": "Pages Directory Setup",
@@ -11087,7 +11087,7 @@
     "content": "HeroUI CLI (recommended)",
     "objectID": "70b5eecb-9599-496b-887b-f4271383452a",
     "type": "lvl3",
-    "url": "/docs/frameworks/vite#heroui-cli-recommended",
+    "url": "/docs/frameworks/vite#vezham-cli-recommended",
     "hierarchy": {
       "lvl1": "Vite",
       "lvl2": "Vite",

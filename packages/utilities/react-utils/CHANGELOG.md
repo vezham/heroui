@@ -1,4 +1,4 @@
-# @heroui/react-utils
+# @v0xoss/react-utils
 
 ## 2.1.8
 

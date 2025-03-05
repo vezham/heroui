@@ -1,4 +1,4 @@
-# @heroui/use-resize
+# @v0xoss/use-resize
 
 ## 2.1.6
 

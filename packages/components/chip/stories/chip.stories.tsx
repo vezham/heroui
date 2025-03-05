@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {chip} from "@heroui/theme";
-import {Avatar} from "@heroui/avatar";
-import {CheckIcon} from "@heroui/shared-icons";
+import {chip} from "@v0xoss/theme";
+import {Avatar} from "@v0xoss/avatar";
+import {CheckIcon} from "@v0xoss/shared-icons";
 
 import {Chip, ChipProps} from "../src";
 

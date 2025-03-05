@@ -20,10 +20,10 @@ import {
   ChipProps,
   Pagination,
   SortDescriptor,
-} from "@heroui/react";
-import {ChevronDownIcon, SearchIcon} from "@heroui/shared-icons";
+} from "@v0xoss/react";
+import {ChevronDownIcon, SearchIcon} from "@v0xoss/shared-icons";
 import {useCallback, useMemo, useState} from "react";
-import {capitalize} from "@heroui/shared-utils";
+import {capitalize} from "@v0xoss/shared-utils";
 
 import {PlusLinearIcon} from "@/components/icons";
 import {VerticalDotsIcon} from "@/components/icons/vertical-dots";

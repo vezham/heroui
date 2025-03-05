@@ -1,4 +1,4 @@
-# @heroui/date-input
+# @v0xoss/date-input
 
 ## 2.3.14
 

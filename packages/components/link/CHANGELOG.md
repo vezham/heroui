@@ -1,4 +1,4 @@
-# @heroui/link
+# @v0xoss/link
 
 ## 2.2.12
 

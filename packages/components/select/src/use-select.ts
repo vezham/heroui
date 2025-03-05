@@ -1,4 +1,4 @@
-import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@heroui/theme";
+import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@v0xoss/theme";
 import type {HiddenSelectProps} from "./hidden-select";
 
 import {
@@ -9,29 +9,29 @@ import {
   SharedSelection,
   useLabelPlacement,
   useProviderContext,
-} from "@heroui/system";
-import {select} from "@heroui/theme";
-import {ReactRef, useDOMRef, filterDOMProps} from "@heroui/react-utils";
+} from "@v0xoss/system";
+import {select} from "@v0xoss/theme";
+import {ReactRef, useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
 import {useMemo, useCallback, useRef, Key, ReactNode, useEffect} from "react";
-import {ListboxProps} from "@heroui/listbox";
-import {useAriaButton} from "@heroui/use-aria-button";
+import {ListboxProps} from "@v0xoss/listbox";
+import {useAriaButton} from "@v0xoss/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr, objectToDeps} from "@heroui/shared-utils";
+import {clsx, dataAttr, objectToDeps} from "@v0xoss/shared-utils";
 import {mergeProps} from "@react-aria/utils";
 import {useHover} from "@react-aria/interactions";
-import {PopoverProps} from "@heroui/popover";
-import {ScrollShadowProps} from "@heroui/scroll-shadow";
+import {PopoverProps} from "@v0xoss/popover";
+import {ScrollShadowProps} from "@v0xoss/scroll-shadow";
 import {
   MultiSelectProps,
   MultiSelectState,
   useMultiSelect,
   useMultiSelectState,
-} from "@heroui/use-aria-multiselect";
-import {SpinnerProps} from "@heroui/spinner";
-import {useSafeLayoutEffect} from "@heroui/use-safe-layout-effect";
-import {ariaShouldCloseOnInteractOutside} from "@heroui/aria-utils";
+} from "@v0xoss/use-aria-multiselect";
+import {SpinnerProps} from "@v0xoss/spinner";
+import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
+import {ariaShouldCloseOnInteractOutside} from "@v0xoss/aria-utils";
 import {CollectionChildren, ValidationError} from "@react-types/shared";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
 import {usePreventScroll} from "@react-aria/overlays";
 
 export type SelectedItemProps<T = object> = {

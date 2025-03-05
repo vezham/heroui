@@ -1,4 +1,4 @@
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 
 import {AvatarGroupProvider} from "./avatar-group-context";
 import {useAvatarGroup, UseAvatarGroupProps} from "./use-avatar-group";

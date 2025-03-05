@@ -1,7 +1,7 @@
-import type {ListboxSectionSlots, SlotsToClasses} from "@heroui/theme";
+import type {ListboxSectionSlots, SlotsToClasses} from "@v0xoss/theme";
 
-import {BaseSection, SectionProps} from "@heroui/aria-utils";
-import {DividerProps} from "@heroui/divider";
+import {BaseSection, SectionProps} from "@v0xoss/aria-utils";
+import {DividerProps} from "@v0xoss/divider";
 
 import {ListboxItemProps} from "../listbox-item";
 

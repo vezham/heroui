@@ -1,4 +1,4 @@
-# @heroui/system-rsc
+# @v0xoss/system-rsc
 
 ## 2.3.10
 

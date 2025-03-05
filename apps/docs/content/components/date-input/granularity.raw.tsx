@@ -1,5 +1,5 @@
 import React from "react";
-import {DateInput} from "@heroui/react";
+import {DateInput} from "@v0xoss/react";
 import {DateValue, now, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

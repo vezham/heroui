@@ -1,4 +1,4 @@
-# @heroui/use-infinite-scroll
+# @v0xoss/use-infinite-scroll
 
 ## 2.2.7
 

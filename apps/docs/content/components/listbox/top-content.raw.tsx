@@ -1,7 +1,7 @@
 import type {Selection} from "@react-types/shared";
 
 import React from "react";
-import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar} from "@heroui/react";
+import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar} from "@v0xoss/react";
 
 export const users = [
   {

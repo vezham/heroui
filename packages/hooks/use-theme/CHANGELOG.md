@@ -1,4 +1,4 @@
-# @heroui/use-theme
+# @v0xoss/use-theme
 
 ## 2.1.6
 

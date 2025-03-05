@@ -1,4 +1,4 @@
-# @heroui/switch
+# @v0xoss/switch
 
 ## 2.2.13
 

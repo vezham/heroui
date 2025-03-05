@@ -1,4 +1,4 @@
-import {HTMLHeroUIProps} from "@heroui/system";
+import {HTMLHeroUIProps} from "@v0xoss/system";
 import {TableBody as TableBodyBase} from "@react-stately/table";
 import {TableBodyProps as TableBodyBaseProps} from "@react-types/table";
 import {ReactNode} from "react";

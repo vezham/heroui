@@ -1,4 +1,4 @@
-# @heroui/react-rsc-utils
+# @v0xoss/react-rsc-utils
 
 ## 2.1.6
 

@@ -1,4 +1,4 @@
-# @heroui/use-is-mounted
+# @v0xoss/use-is-mounted
 
 ## 2.1.6
 

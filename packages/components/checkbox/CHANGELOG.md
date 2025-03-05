@@ -1,4 +1,4 @@
-# @heroui/checkbox
+# @v0xoss/checkbox
 
 ## 2.3.14
 

@@ -1,4 +1,4 @@
-# @heroui/use-data-scroll-overflow
+# @v0xoss/use-data-scroll-overflow
 
 ## 2.2.7
 

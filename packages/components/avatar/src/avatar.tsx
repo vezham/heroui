@@ -1,5 +1,5 @@
 import {useMemo} from "react";
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 
 import {AvatarIcon} from "./avatar-icon";
 import {useAvatar, UseAvatarProps} from "./use-avatar";

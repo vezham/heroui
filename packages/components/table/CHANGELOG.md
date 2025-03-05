@@ -1,4 +1,4 @@
-# @heroui/table
+# @v0xoss/table
 
 ## 2.2.14
 

@@ -1,22 +1,22 @@
 import type {DateValue} from "@internationalized/date";
-import type {DateInputProps} from "@heroui/date-input";
+import type {DateInputProps} from "@v0xoss/date-input";
 import type {DatePickerState} from "@react-stately/datepicker";
-import type {ButtonProps} from "@heroui/button";
-import type {CalendarProps} from "@heroui/calendar";
-import type {PopoverProps} from "@heroui/popover";
+import type {ButtonProps} from "@v0xoss/button";
+import type {CalendarProps} from "@v0xoss/calendar";
+import type {PopoverProps} from "@v0xoss/popover";
 import type {UseDatePickerBaseProps} from "./use-date-picker-base";
-import type {DOMAttributes} from "@heroui/system";
-import type {DatePickerSlots, SlotsToClasses} from "@heroui/theme";
+import type {DOMAttributes} from "@v0xoss/system";
+import type {DatePickerSlots, SlotsToClasses} from "@v0xoss/theme";
 
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@v0xoss/system";
 import {useMemo, useRef} from "react";
-import {datePicker} from "@heroui/theme";
+import {datePicker} from "@v0xoss/theme";
 import {useDatePickerState} from "@react-stately/datepicker";
 import {AriaDatePickerProps, useDatePicker as useAriaDatePicker} from "@react-aria/datepicker";
-import {clsx, dataAttr, objectToDeps} from "@heroui/shared-utils";
+import {clsx, dataAttr, objectToDeps} from "@v0xoss/shared-utils";
 import {mergeProps} from "@react-aria/utils";
-import {FormContext, useSlottedContext} from "@heroui/form";
-import {ariaShouldCloseOnInteractOutside} from "@heroui/aria-utils";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {ariaShouldCloseOnInteractOutside} from "@v0xoss/aria-utils";
 
 import {useDatePickerBase} from "./use-date-picker-base";
 

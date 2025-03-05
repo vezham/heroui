@@ -1,4 +1,4 @@
-# @heroui/use-is-mobile
+# @v0xoss/use-is-mobile
 
 ## 2.2.7
 

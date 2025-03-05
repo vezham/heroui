@@ -1,4 +1,4 @@
-# @heroui/accordion
+# @v0xoss/accordion
 
 ## 2.2.12
 

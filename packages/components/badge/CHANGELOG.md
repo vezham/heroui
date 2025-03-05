@@ -1,4 +1,4 @@
-# @heroui/badge
+# @v0xoss/badge
 
 ## 2.2.10
 

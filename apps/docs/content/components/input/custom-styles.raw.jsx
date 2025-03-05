@@ -1,4 +1,4 @@
-import {Input} from "@heroui/react";
+import {Input} from "@v0xoss/react";
 
 export const SearchIcon = (props) => {
   return (

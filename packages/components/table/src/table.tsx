@@ -1,6 +1,6 @@
 import {useCallback} from "react";
-import {Spacer} from "@heroui/spacer";
-import {forwardRef} from "@heroui/system";
+import {Spacer} from "@v0xoss/spacer";
+import {forwardRef} from "@v0xoss/system";
 
 import {UseTableProps, useTable} from "./use-table";
 import VirtualizedTable from "./virtualized-table";

@@ -1,12 +1,12 @@
 import type {ForwardedRef, ReactElement} from "react";
 
-import {Listbox} from "@heroui/listbox";
-import {FreeSoloPopover} from "@heroui/popover";
-import {ChevronDownIcon} from "@heroui/shared-icons";
-import {Spinner} from "@heroui/spinner";
+import {Listbox} from "@v0xoss/listbox";
+import {FreeSoloPopover} from "@v0xoss/popover";
+import {ChevronDownIcon} from "@v0xoss/shared-icons";
+import {Spinner} from "@v0xoss/spinner";
 import {useMemo} from "react";
-import {forwardRef} from "@heroui/system";
-import {ScrollShadow} from "@heroui/scroll-shadow";
+import {forwardRef} from "@v0xoss/system";
+import {ScrollShadow} from "@v0xoss/scroll-shadow";
 import {cloneElement} from "react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 import {AnimatePresence} from "framer-motion";

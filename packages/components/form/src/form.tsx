@@ -1,6 +1,6 @@
 import type {ForwardedRef} from "react";
 
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@v0xoss/system";
 import {forwardRef} from "react";
 
 import {Form as AriaForm, FormProps} from "./base-form";

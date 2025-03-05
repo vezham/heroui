@@ -1,5 +1,5 @@
-import {CloseFilledIcon} from "@heroui/shared-icons";
-import {forwardRef} from "@heroui/system";
+import {CloseFilledIcon} from "@v0xoss/shared-icons";
+import {forwardRef} from "@v0xoss/system";
 import {useMemo} from "react";
 
 import {UseChipProps, useChip} from "./use-chip";

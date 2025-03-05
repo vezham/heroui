@@ -1,4 +1,4 @@
-# @heroui/use-intersection-observer
+# @v0xoss/use-intersection-observer
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-intersection-observer
+yarn add @v0xoss/use-intersection-observer
 # or
-npm i @heroui/use-intersection-observer
+npm i @v0xoss/use-intersection-observer
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/heroui-inc/heroui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/vezham/heroui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/heroui-inc/heroui/blob/master/LICENSE).
+[MIT license](https://github.com/vezham/heroui/blob/master/LICENSE).

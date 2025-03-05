@@ -1,4 +1,4 @@
-# @heroui/button
+# @v0xoss/button
 
 ## 2.2.15
 

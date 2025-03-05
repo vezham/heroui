@@ -1,4 +1,4 @@
-import {Button, ButtonGroup} from "@heroui/react";
+import {Button, ButtonGroup} from "@v0xoss/react";
 
 export default function App() {
   return (

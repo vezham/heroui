@@ -1,4 +1,4 @@
-# @heroui/number-input
+# @v0xoss/number-input
 
 ## 2.0.5
 

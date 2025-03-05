@@ -1,4 +1,4 @@
-# @heroui/toast
+# @v0xoss/toast
 
 ## 2.0.5
 

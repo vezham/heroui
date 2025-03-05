@@ -2,7 +2,7 @@ import type {RangeValue, DateValue} from "../src";
 
 import React from "react";
 import {Meta} from "@storybook/react";
-import {calendar} from "@heroui/theme";
+import {calendar} from "@v0xoss/theme";
 import {
   today,
   getLocalTimeZone,
@@ -14,9 +14,9 @@ import {
   endOfWeek,
 } from "@internationalized/date";
 import {I18nProvider, useLocale} from "@react-aria/i18n";
-import {Button, ButtonGroup} from "@heroui/button";
-import {Radio, RadioGroup} from "@heroui/radio";
-import {cn} from "@heroui/theme";
+import {Button, ButtonGroup} from "@v0xoss/button";
+import {Radio, RadioGroup} from "@v0xoss/radio";
+import {cn} from "@v0xoss/theme";
 
 import {RangeCalendar, RangeCalendarProps} from "../src";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import {Link} from "@heroui/react";
+import {Link} from "@v0xoss/react";
 import {usePostHog} from "posthog-js/react";
 
 export type Sponsor = {

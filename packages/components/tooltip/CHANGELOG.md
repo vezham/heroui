@@ -1,4 +1,4 @@
-# @heroui/tooltip
+# @v0xoss/tooltip
 
 ## 2.2.12
 

@@ -2,8 +2,8 @@ import type {Ref} from "react";
 
 import {forwardRef} from "react";
 import {domAnimation, LazyMotion, m} from "framer-motion";
-import {useMeasure} from "@heroui/use-measure";
-import {HTMLHeroUIProps} from "@heroui/system";
+import {useMeasure} from "@v0xoss/use-measure";
+import {HTMLHeroUIProps} from "@v0xoss/system";
 
 /**
  * Props for the ResizablePanel component.
@@ -34,6 +34,6 @@ const ResizablePanel = forwardRef(
   },
 );
 
-ResizablePanel.displayName = "HeroUI - ResizablePanel";
+ResizablePanel.displayName = "ResizablePanel";
 
 export {ResizablePanel};

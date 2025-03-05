@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button, buttonGroup} from "@heroui/theme";
+import {button, buttonGroup} from "@v0xoss/theme";
 
 import {Button, ButtonGroup, ButtonGroupProps} from "../src";
 

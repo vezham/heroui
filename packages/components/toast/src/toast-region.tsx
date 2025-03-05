@@ -3,7 +3,7 @@ import {useToastRegion, AriaToastRegionProps} from "@react-aria/toast";
 import {QueuedToast, ToastState} from "@react-stately/toast";
 import {useHover} from "@react-aria/interactions";
 import {mergeProps} from "@react-aria/utils";
-import {toastRegion, ToastRegionVariantProps} from "@heroui/theme";
+import {toastRegion, ToastRegionVariantProps} from "@v0xoss/theme";
 
 import Toast from "./toast";
 import {ToastProps, ToastPlacement} from "./use-toast";

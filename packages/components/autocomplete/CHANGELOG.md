@@ -1,4 +1,4 @@
-# @heroui/autocomplete
+# @v0xoss/autocomplete
 
 ## 2.3.16
 

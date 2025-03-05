@@ -1,8 +1,8 @@
 import * as React from "react";
 import {act, render, fireEvent, within} from "@testing-library/react";
 import userEvent, {UserEvent} from "@testing-library/user-event";
-import {focus} from "@heroui/test-utils";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {focus} from "@v0xoss/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@v0xoss/test-utils";
 
 import {Tabs, Tab, TabsProps} from "../src";
 

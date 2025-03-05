@@ -1,6 +1,6 @@
-import {forwardRef, HTMLHeroUIProps} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx} from "@heroui/shared-utils";
+import {forwardRef, HTMLHeroUIProps} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {useNavbarContext} from "./navbar-context";
 

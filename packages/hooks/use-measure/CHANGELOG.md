@@ -1,4 +1,4 @@
-# @heroui/use-real-shape
+# @v0xoss/use-real-shape
 
 ## 2.1.6
 

@@ -1,4 +1,4 @@
-import {getUniqueID} from "@heroui/shared-utils";
+import {getUniqueID} from "@v0xoss/shared-utils";
 import React, {useCallback, useState} from "react";
 import {PressEvent} from "@react-types/shared";
 

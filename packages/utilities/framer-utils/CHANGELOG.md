@@ -1,4 +1,4 @@
-# @heroui/framer-utils
+# @v0xoss/framer-utils
 
 ## 2.1.11
 

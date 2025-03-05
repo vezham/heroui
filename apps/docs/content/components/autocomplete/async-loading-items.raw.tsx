@@ -1,6 +1,6 @@
 import React from "react";
-import {Autocomplete, AutocompleteItem} from "@heroui/react";
-import {useInfiniteScroll} from "@heroui/use-infinite-scroll";
+import {Autocomplete, AutocompleteItem} from "@v0xoss/react";
+import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
 
 export type Pokemon = {
   name: string;

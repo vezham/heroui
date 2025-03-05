@@ -1,4 +1,4 @@
-# @heroui/popover
+# @v0xoss/popover
 
 ## 2.3.15
 

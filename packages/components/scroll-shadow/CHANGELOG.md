@@ -1,4 +1,4 @@
-# @heroui/scroll-shadow
+# @v0xoss/scroll-shadow
 
 ## 2.3.10
 

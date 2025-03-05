@@ -1,4 +1,4 @@
-# @heroui/avatar
+# @v0xoss/avatar
 
 ## 2.2.11
 

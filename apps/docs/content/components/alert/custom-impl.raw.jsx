@@ -1,5 +1,5 @@
 import React, {forwardRef, useMemo} from "react";
-import {useAlert} from "@heroui/react";
+import {useAlert} from "@v0xoss/react";
 
 export const InfoCircleIcon = (props) => {
   return (

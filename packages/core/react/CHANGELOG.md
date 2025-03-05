@@ -1,4 +1,4 @@
-# @heroui/react
+# @v0xoss/react
 
 ## 2.7.4
 

@@ -1,4 +1,4 @@
-# @heroui/modal
+# @v0xoss/modal
 
 ## 2.2.12
 

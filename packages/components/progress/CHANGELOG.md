@@ -1,4 +1,4 @@
-# @heroui/progress
+# @v0xoss/progress
 
 ## 2.2.11
 

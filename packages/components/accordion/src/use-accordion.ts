@@ -1,18 +1,18 @@
 import type {SelectionBehavior, MultipleSelection} from "@react-types/shared";
 import type {AriaAccordionProps} from "@react-types/accordion";
-import type {AccordionGroupVariantProps} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {AccordionGroupVariantProps} from "@v0xoss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 
-import {useProviderContext} from "@heroui/system";
-import {ReactRef, filterDOMProps} from "@heroui/react-utils";
+import {useProviderContext} from "@v0xoss/system";
+import {ReactRef, filterDOMProps} from "@v0xoss/react-utils";
 import React, {Key, useCallback} from "react";
 import {TreeState, useTreeState} from "@react-stately/tree";
 import {mergeProps} from "@react-aria/utils";
-import {accordion} from "@heroui/theme";
-import {useDOMRef} from "@heroui/react-utils";
+import {accordion} from "@v0xoss/theme";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useMemo, useState} from "react";
-import {DividerProps} from "@heroui/divider";
-import {useReactAriaAccordion} from "@heroui/use-aria-accordion";
+import {DividerProps} from "@v0xoss/divider";
+import {useReactAriaAccordion} from "@v0xoss/use-aria-accordion";
 
 import {AccordionItemProps} from "./accordion-item";
 

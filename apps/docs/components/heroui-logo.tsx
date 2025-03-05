@@ -1,5 +1,5 @@
 import React from "react";
-import {cn} from "@heroui/theme";
+import {cn} from "@v0xoss/theme";
 
 import {IconSvgProps} from "@/types";
 import {dataAttr} from "@/utils";

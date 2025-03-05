@@ -1,4 +1,4 @@
-# @heroui/aria-utils
+# @v0xoss/aria-utils
 
 ## 2.2.12
 

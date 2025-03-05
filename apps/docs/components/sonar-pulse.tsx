@@ -1,6 +1,6 @@
 import {FC, ReactNode, useMemo} from "react";
 import {parseToRgba} from "color2k";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@v0xoss/shared-utils";
 import {useIsSSR} from "@react-aria/ssr";
 export interface SonarPulseProps {
   children: ReactNode;

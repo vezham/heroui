@@ -1,4 +1,4 @@
-# @heroui/use-pagination
+# @v0xoss/use-pagination
 
 ## 2.2.8
 

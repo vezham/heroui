@@ -6,3 +6,4 @@ export * from "./drag";
 export * from "./events";
 export * from "./constants";
 export * from "./spy";
+export * from "./tobe";

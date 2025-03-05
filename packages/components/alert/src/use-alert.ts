@@ -1,13 +1,13 @@
-import type {ButtonProps} from "@heroui/button";
-import type {AlertSlots, AlertVariantProps, SlotsToClasses} from "@heroui/theme";
+import type {ButtonProps} from "@v0xoss/button";
+import type {AlertSlots, AlertVariantProps, SlotsToClasses} from "@v0xoss/theme";
 
-import {HTMLHeroUIProps, mapPropsVariants, PropGetter} from "@heroui/system";
-import {filterDOMProps, ReactRef, useDOMRef} from "@heroui/react-utils";
+import {HTMLHeroUIProps, mapPropsVariants, PropGetter} from "@v0xoss/system";
+import {filterDOMProps, ReactRef, useDOMRef} from "@v0xoss/react-utils";
 import {ReactNode, useCallback, useMemo} from "react";
 import {mergeProps} from "@react-aria/utils";
-import {alert} from "@heroui/theme";
+import {alert} from "@v0xoss/theme";
 import {useControlledState} from "@react-stately/utils";
-import {clsx, dataAttr, isEmpty, objectToDeps} from "@heroui/shared-utils";
+import {clsx, dataAttr, isEmpty, objectToDeps} from "@v0xoss/shared-utils";
 
 interface Props extends HTMLHeroUIProps<"div", "title"> {
   /**

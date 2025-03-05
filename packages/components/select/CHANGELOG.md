@@ -1,4 +1,4 @@
-# @heroui/select
+# @v0xoss/select
 
 ## 2.4.15
 

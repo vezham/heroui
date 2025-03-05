@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button} from "@heroui/theme";
-import {Camera, HeadphonesIcon, Notification} from "@heroui/shared-icons";
+import {button} from "@v0xoss/theme";
+import {Camera, HeadphonesIcon, Notification} from "@v0xoss/shared-icons";
 
 import {Button, ButtonProps} from "../src";
 

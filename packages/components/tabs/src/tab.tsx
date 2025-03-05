@@ -1,8 +1,8 @@
 import type {TabItemProps as BaseTabItemProps} from "./base/tab-item-base";
 
-import {forwardRef} from "@heroui/system";
-import {useDOMRef, filterDOMProps, mergeRefs} from "@heroui/react-utils";
-import {clsx, dataAttr} from "@heroui/shared-utils";
+import {forwardRef} from "@v0xoss/system";
+import {useDOMRef, filterDOMProps, mergeRefs} from "@v0xoss/react-utils";
+import {clsx, dataAttr} from "@v0xoss/shared-utils";
 import {chain, mergeProps} from "@react-aria/utils";
 import scrollIntoView from "scroll-into-view-if-needed";
 import {useFocusRing} from "@react-aria/focus";
@@ -10,7 +10,7 @@ import {Node} from "@react-types/shared";
 import {useTab} from "@react-aria/tabs";
 import {useHover} from "@react-aria/interactions";
 import {m, domMax, LazyMotion} from "framer-motion";
-import {useIsMounted} from "@heroui/use-is-mounted";
+import {useIsMounted} from "@v0xoss/use-is-mounted";
 
 import {ValuesType} from "./use-tabs";
 

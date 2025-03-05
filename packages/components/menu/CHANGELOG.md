@@ -1,4 +1,4 @@
-# @heroui/menu
+# @v0xoss/menu
 
 ## 2.2.14
 

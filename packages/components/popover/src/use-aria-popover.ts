@@ -11,10 +11,10 @@ import {
   ariaHideOutside,
   toReactAriaPlacement,
   ariaShouldCloseOnInteractOutside,
-} from "@heroui/aria-utils";
+} from "@v0xoss/aria-utils";
 import {OverlayTriggerState} from "@react-stately/overlays";
 import {mergeProps} from "@react-aria/utils";
-import {useSafeLayoutEffect} from "@heroui/use-safe-layout-effect";
+import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
 
 export interface Props {
   /**

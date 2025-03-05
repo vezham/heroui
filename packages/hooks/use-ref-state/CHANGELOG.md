@@ -1,4 +1,4 @@
-# @heroui/use-ref-state
+# @v0xoss/use-ref-state
 
 ## 2.1.6
 

@@ -1,4 +1,4 @@
-# @heroui/breadcrumbs
+# @v0xoss/breadcrumbs
 
 ## 2.2.11
 

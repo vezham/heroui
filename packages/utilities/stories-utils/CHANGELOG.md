@@ -1,4 +1,4 @@
-# @heroui/stories-utils
+# @v0xoss/stories-utils
 
 ## 2.1.6
 

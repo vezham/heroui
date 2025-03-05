@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@heroui/react";
+import {DateRangePicker} from "@v0xoss/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 

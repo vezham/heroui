@@ -1,4 +1,4 @@
-# @heroui/theme
+# @v0xoss/theme
 
 ## 2.4.11
 

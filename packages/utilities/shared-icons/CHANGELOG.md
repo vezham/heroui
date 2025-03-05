@@ -1,4 +1,4 @@
-# @heroui/shared-icons
+# @v0xoss/shared-icons
 
 ## 2.1.6
 

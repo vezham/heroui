@@ -1,4 +1,4 @@
-import {Button, Form, NumberInput} from "@heroui/react";
+import {Button, Form, NumberInput} from "@v0xoss/react";
 
 export default function App() {
   const [isLoading, setIsLoading] = React.useState(false);

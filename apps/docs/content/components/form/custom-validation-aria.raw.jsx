@@ -1,4 +1,4 @@
-import {Form, Input, Button} from "@heroui-org/react";
+import {Form, Input, Button} from "@v0xoss/react";
 
 export default function App() {
   const onSubmit = (e) => {

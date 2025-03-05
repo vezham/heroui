@@ -1,8 +1,8 @@
-import {forwardRef, HTMLHeroUIProps} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx, dataAttr} from "@heroui/shared-utils";
+import {forwardRef, HTMLHeroUIProps} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
+import {clsx, dataAttr} from "@v0xoss/shared-utils";
 import {useTableRowGroup} from "@react-aria/table";
-import {filterDOMProps} from "@heroui/react-utils";
+import {filterDOMProps} from "@v0xoss/react-utils";
 import {mergeProps} from "@react-aria/utils";
 import {useMemo} from "react";
 

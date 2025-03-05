@@ -1,5 +1,5 @@
-import {InputProps, Input} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {InputProps, Input} from "@v0xoss/react";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

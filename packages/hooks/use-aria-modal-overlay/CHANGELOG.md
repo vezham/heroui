@@ -1,4 +1,4 @@
-# @heroui/use-aria-modal-overlay
+# @v0xoss/use-aria-modal-overlay
 
 ## 2.2.8
 

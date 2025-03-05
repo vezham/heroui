@@ -1,4 +1,4 @@
-# @heroui/use-scroll-position
+# @v0xoss/use-scroll-position
 
 ## 2.1.6
 

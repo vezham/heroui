@@ -2,9 +2,9 @@ import type {GridNode} from "@react-types/grid";
 import type {TableColumnProps} from "./base";
 
 import {Key, useMemo} from "react";
-import {forwardRef, HTMLHeroUIProps} from "@heroui/system";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {clsx, dataAttr} from "@heroui/shared-utils";
+import {forwardRef, HTMLHeroUIProps} from "@v0xoss/system";
+import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
+import {clsx, dataAttr} from "@v0xoss/shared-utils";
 import {useTableCell} from "@react-aria/table";
 import {mergeProps} from "@react-aria/utils";
 import {useFocusRing} from "@react-aria/focus";

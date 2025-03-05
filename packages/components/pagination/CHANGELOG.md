@@ -1,4 +1,4 @@
-# @heroui/pagination
+# @v0xoss/pagination
 
 ## 2.2.13
 

@@ -1,4 +1,4 @@
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 
 import {RadioGroupProvider} from "./radio-group-context";
 import {UseRadioGroupProps, useRadioGroup} from "./use-radio-group";

@@ -1,12 +1,12 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {navbar} from "@heroui/theme";
-import {Link} from "@heroui/link";
-import {Button} from "@heroui/button";
-import {Avatar} from "@heroui/avatar";
-import {Input} from "@heroui/input";
+import {navbar} from "@v0xoss/theme";
+import {Link} from "@v0xoss/link";
+import {Button} from "@v0xoss/button";
+import {Avatar} from "@v0xoss/avatar";
+import {Input} from "@v0xoss/input";
 import Lorem from "react-lorem-component";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@heroui/dropdown";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@v0xoss/dropdown";
 import {
   ChevronDown,
   Lock,
@@ -16,7 +16,7 @@ import {
   TagUser,
   Scale,
   SearchIcon,
-} from "@heroui/shared-icons";
+} from "@v0xoss/shared-icons";
 
 import {
   Navbar,

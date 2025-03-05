@@ -1,4 +1,4 @@
-# @heroui/dropdown
+# @v0xoss/dropdown
 
 ## 2.3.15
 

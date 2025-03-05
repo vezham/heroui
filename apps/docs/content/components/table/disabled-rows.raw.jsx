@@ -6,7 +6,7 @@ import {
   TableRow,
   TableCell,
   getKeyValue,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 const rows = [
   {

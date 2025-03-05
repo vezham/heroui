@@ -1,4 +1,4 @@
-# @heroui/listbox
+# @v0xoss/listbox
 
 ## 2.3.14
 

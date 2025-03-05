@@ -1,4 +1,4 @@
-# @heroui/calendar
+# @v0xoss/calendar
 
 ## 2.2.15
 

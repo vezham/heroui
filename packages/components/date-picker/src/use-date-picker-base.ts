@@ -1,18 +1,18 @@
 import type {DateValue} from "@internationalized/date";
 import type {AriaDatePickerBaseProps} from "@react-types/datepicker";
-import type {DateInputProps, TimeInputProps} from "@heroui/date-input";
-import type {ButtonProps} from "@heroui/button";
-import type {CalendarProps} from "@heroui/calendar";
-import type {PopoverProps} from "@heroui/popover";
+import type {DateInputProps, TimeInputProps} from "@v0xoss/date-input";
+import type {ButtonProps} from "@v0xoss/button";
+import type {CalendarProps} from "@v0xoss/calendar";
+import type {PopoverProps} from "@v0xoss/popover";
 import type {ReactNode} from "react";
 import type {ValueBase} from "@react-types/shared";
 
-import {dataAttr} from "@heroui/shared-utils";
-import {dateInput, DatePickerVariantProps} from "@heroui/theme";
+import {dataAttr} from "@v0xoss/shared-utils";
+import {dateInput, DatePickerVariantProps} from "@v0xoss/theme";
 import {useCallback} from "react";
-import {HTMLHeroUIProps, mapPropsVariants, useProviderContext} from "@heroui/system";
+import {HTMLHeroUIProps, mapPropsVariants, useProviderContext} from "@v0xoss/system";
 import {mergeProps} from "@react-aria/utils";
-import {useDOMRef} from "@heroui/react-utils";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useLocalizedStringFormatter} from "@react-aria/i18n";
 import {useControlledState} from "@react-stately/utils";
 

@@ -1,4 +1,4 @@
-# @heroui/dom-animation
+# @v0xoss/dom-animation
 
 ## 2.1.6
 

@@ -1,4 +1,4 @@
-# @heroui/use-aria-link
+# @v0xoss/use-aria-link
 
 ## 2.2.10
 

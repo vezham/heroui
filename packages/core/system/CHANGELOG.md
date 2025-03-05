@@ -1,4 +1,4 @@
-# @heroui/system
+# @v0xoss/system
 
 ## 2.4.11
 

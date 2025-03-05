@@ -1,4 +1,4 @@
-# @heroui/use-aria-button
+# @v0xoss/use-aria-button
 
 ## 2.2.9
 

@@ -1,17 +1,17 @@
 import type {ListboxItemBaseProps} from "./base/listbox-item-base";
-import type {MenuItemVariantProps} from "@heroui/theme";
+import type {MenuItemVariantProps} from "@v0xoss/theme";
 
 import {useMemo, useRef, useCallback} from "react";
-import {listboxItem} from "@heroui/theme";
-import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@heroui/system";
+import {listboxItem} from "@v0xoss/theme";
+import {HTMLHeroUIProps, mapPropsVariants, PropGetter, useProviderContext} from "@v0xoss/system";
 import {useFocusRing} from "@react-aria/focus";
 import {Node} from "@react-types/shared";
-import {filterDOMProps} from "@heroui/react-utils";
-import {clsx, dataAttr, objectToDeps, removeEvents, warn} from "@heroui/shared-utils";
+import {filterDOMProps} from "@v0xoss/react-utils";
+import {clsx, dataAttr, objectToDeps, removeEvents, warn} from "@v0xoss/shared-utils";
 import {useOption} from "@react-aria/listbox";
 import {mergeProps} from "@react-aria/utils";
 import {useHover, usePress} from "@react-aria/interactions";
-import {useIsMobile} from "@heroui/use-is-mobile";
+import {useIsMobile} from "@v0xoss/use-is-mobile";
 import {ListState} from "@react-stately/list";
 
 interface Props<T extends object> extends ListboxItemBaseProps<T> {
@@ -69,7 +69,7 @@ export function useListboxItem<T extends object>(originalProps: UseListboxItemPr
 
   if (deprecatedOnClick && typeof deprecatedOnClick === "function") {
     warn(
-      "onClick is deprecated, please use onPress instead. See: https://github.com/heroui-inc/heroui/issues/4292",
+      "onClick is deprecated, please use onPress instead. See: https://github.com/vezham/heroui/issues/4292",
       "ListboxItem",
     );
   }

@@ -1,4 +1,4 @@
-# @heroui/image
+# @v0xoss/image
 
 ## 2.2.10
 

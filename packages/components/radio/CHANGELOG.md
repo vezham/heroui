@@ -1,4 +1,4 @@
-# @heroui/radio
+# @v0xoss/radio
 
 ## 2.3.14
 

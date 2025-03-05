@@ -1,4 +1,4 @@
-import {Card, CardBody, CardFooter, Image} from "@heroui/react";
+import {Card, CardBody, CardFooter, Image} from "@v0xoss/react";
 
 export default function App() {
   const list = [

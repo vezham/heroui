@@ -1,7 +1,7 @@
-import type {Selection} from "@heroui/react";
+import type {Selection} from "@v0xoss/react";
 
 import React from "react";
-import {Select, SelectItem} from "@heroui/react";
+import {Select, SelectItem} from "@v0xoss/react";
 
 export const animals = [
   {key: "cat", label: "Cat"},

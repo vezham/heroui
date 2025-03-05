@@ -1,4 +1,4 @@
-import {Accordion, AccordionItem} from "@heroui/react";
+import {Accordion, AccordionItem} from "@v0xoss/react";
 
 const MonitorMobileIcon = (props) => {
   return (

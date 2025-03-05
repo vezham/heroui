@@ -1,15 +1,15 @@
-import {forwardRef} from "@heroui/system";
-import {Button, ButtonProps} from "@heroui/button";
+import {forwardRef} from "@v0xoss/system";
+import {Button, ButtonProps} from "@v0xoss/button";
 import {
   CloseIcon,
   DangerIcon,
   InfoFilledIcon,
   SuccessIcon,
   WarningIcon,
-} from "@heroui/shared-icons";
+} from "@v0xoss/shared-icons";
 import {AnimatePresence, m, LazyMotion} from "framer-motion";
 import {cloneElement, isValidElement} from "react";
-import {Spinner} from "@heroui/spinner";
+import {Spinner} from "@v0xoss/spinner";
 
 import {UseToastProps, useToast} from "./use-toast";
 

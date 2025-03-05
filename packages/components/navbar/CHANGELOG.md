@@ -1,4 +1,4 @@
-# @heroui/navbar
+# @v0xoss/navbar
 
 ## 2.2.13
 

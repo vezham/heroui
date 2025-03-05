@@ -1,4 +1,4 @@
-import {PopoverProps, Popover, PopoverTrigger, PopoverContent, Button} from "@heroui/react";
+import {PopoverProps, Popover, PopoverTrigger, PopoverContent, Button} from "@v0xoss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

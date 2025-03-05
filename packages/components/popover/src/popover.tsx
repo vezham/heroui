@@ -1,5 +1,5 @@
 import {Children, ReactNode} from "react";
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 import {Overlay} from "@react-aria/overlays";
 import {AnimatePresence} from "framer-motion";
 

@@ -1,4 +1,4 @@
-import {Tabs, Tab, Chip} from "@heroui/react";
+import {Tabs, Tab, Chip} from "@v0xoss/react";
 
 export const GalleryIcon = (props) => {
   return (

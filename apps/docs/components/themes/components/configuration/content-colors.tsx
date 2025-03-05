@@ -1,4 +1,4 @@
-import {Tooltip} from "@heroui/react";
+import {Tooltip} from "@v0xoss/react";
 
 import {baseColorsId} from "../../constants";
 import {setCssContentColor} from "../../css-vars";

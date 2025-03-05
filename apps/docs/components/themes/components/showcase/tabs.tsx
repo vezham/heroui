@@ -1,5 +1,5 @@
 import {cloneElement} from "react";
-import {TabsProps, Tabs, Tab} from "@heroui/react";
+import {TabsProps, Tabs, Tab} from "@v0xoss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

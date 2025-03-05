@@ -1,4 +1,4 @@
-# @heroui/shared-utils
+# @v0xoss/shared-utils
 
 ## 2.1.7
 

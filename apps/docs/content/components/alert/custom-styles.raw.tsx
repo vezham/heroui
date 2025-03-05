@@ -1,7 +1,7 @@
-import type {AlertProps} from "@heroui/react";
+import type {AlertProps} from "@v0xoss/react";
 
 import React from "react";
-import {Alert, Button, cn} from "@heroui/react";
+import {Alert, Button, cn} from "@v0xoss/react";
 
 const CustomAlert = ({children, variant, color, className, classNames, ...props}: AlertProps) => {
   const colorClass = React.useMemo(() => {

@@ -1,10 +1,10 @@
-import type {SpacerVariantProps} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system-rsc";
+import type {SpacerVariantProps} from "@v0xoss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system-rsc";
 
-import {mapPropsVariants} from "@heroui/system-rsc";
-import {spacer} from "@heroui/theme";
-import {clsx, dataAttr, objectToDeps} from "@heroui/shared-utils";
-import {ReactRef} from "@heroui/react-utils";
+import {mapPropsVariants} from "@v0xoss/system-rsc";
+import {spacer} from "@v0xoss/theme";
+import {clsx, dataAttr, objectToDeps} from "@v0xoss/shared-utils";
+import {ReactRef} from "@v0xoss/react-utils";
 import {useMemo} from "react";
 
 import {spacing, Space} from "./utils";

@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {checkbox} from "@heroui/theme";
-import {CloseIcon} from "@heroui/shared-icons";
-import {button} from "@heroui/theme";
+import {checkbox} from "@v0xoss/theme";
+import {CloseIcon} from "@v0xoss/shared-icons";
+import {button} from "@v0xoss/theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@heroui/form";
+import {Form} from "@v0xoss/form";
 import {ValidationErrors} from "@react-types/shared";
 
 import {Checkbox, CheckboxIconProps, CheckboxProps} from "../src";

@@ -1,11 +1,11 @@
 /* eslint-disable react/display-name */
 import React from "react";
 import {Meta} from "@storybook/react";
-import {toggle} from "@heroui/theme";
+import {toggle} from "@v0xoss/theme";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {SunFilledIcon, MoonFilledIcon} from "@heroui/shared-icons";
-import {clsx} from "@heroui/shared-utils";
-import {button} from "@heroui/theme";
+import {SunFilledIcon, MoonFilledIcon} from "@v0xoss/shared-icons";
+import {clsx} from "@v0xoss/shared-utils";
+import {button} from "@v0xoss/theme";
 import {useForm} from "react-hook-form";
 
 import {Switch, SwitchProps, SwitchThumbIconProps, useSwitch} from "../src";

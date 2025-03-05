@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {skeleton} from "@heroui/theme";
-import {Card} from "@heroui/card";
-import {Button} from "@heroui/button";
+import {skeleton} from "@v0xoss/theme";
+import {Card} from "@v0xoss/card";
+import {Button} from "@v0xoss/button";
 
 import {Skeleton, SkeletonProps} from "../src";
 

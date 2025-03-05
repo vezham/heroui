@@ -1,4 +1,4 @@
-# @heroui/ripple
+# @v0xoss/ripple
 
 ## 2.2.12
 

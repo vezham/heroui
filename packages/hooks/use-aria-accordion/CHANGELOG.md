@@ -1,4 +1,4 @@
-# @heroui/use-aria-accordion
+# @v0xoss/use-aria-accordion
 
 ## 2.2.7
 

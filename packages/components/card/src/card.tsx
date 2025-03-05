@@ -1,5 +1,5 @@
-import {forwardRef} from "@heroui/system";
-import {Ripple} from "@heroui/ripple";
+import {forwardRef} from "@v0xoss/system";
+import {Ripple} from "@v0xoss/ripple";
 
 import {CardProvider} from "./card-context";
 import {useCard, UseCardProps} from "./use-card";

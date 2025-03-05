@@ -1,4 +1,4 @@
-import {Button, Link} from "@heroui/react";
+import {Button, Link} from "@v0xoss/react";
 
 import {sectionWrapper} from "@/components/primitives";
 import {Story2DesignLogo, CodeRabbitLogo, MochiiAILogo} from "@/components/icons/sponsors";

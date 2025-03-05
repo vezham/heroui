@@ -7,7 +7,7 @@ import {
   TableCell,
   Pagination,
   getKeyValue,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export const users = [
   {

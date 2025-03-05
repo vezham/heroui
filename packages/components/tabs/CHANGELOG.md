@@ -1,4 +1,4 @@
-# @heroui/tabs
+# @v0xoss/tabs
 
 ## 2.2.12
 

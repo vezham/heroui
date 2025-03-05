@@ -1,4 +1,4 @@
-# @heroui/use-disclosure
+# @v0xoss/use-disclosure
 
 ## 2.2.7
 

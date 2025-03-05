@@ -1,4 +1,4 @@
-# @heroui/card
+# @v0xoss/card
 
 ## 2.2.14
 

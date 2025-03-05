@@ -1,7 +1,7 @@
 import * as React from "react";
 import {render, fireEvent, act} from "@testing-library/react";
-import {Button} from "@heroui/button";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {Button} from "@v0xoss/button";
+import {spy, shouldIgnoreReactWarning} from "@v0xoss/test-utils";
 
 import {Tooltip} from "../src";
 

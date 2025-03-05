@@ -1,5 +1,5 @@
-import {renderFn} from "@heroui/react-utils";
-import {forwardRef} from "@heroui/system";
+import {renderFn} from "@v0xoss/react-utils";
+import {forwardRef} from "@v0xoss/system";
 
 import Thumb from "./slider-thumb";
 import {UseSliderProps, useSlider} from "./use-slider";

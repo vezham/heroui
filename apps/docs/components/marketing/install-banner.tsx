@@ -1,10 +1,10 @@
 "use client";
 
-import {Button, Link} from "@heroui/react";
-import {ArrowRightIcon} from "@heroui/shared-icons";
-import {clsx} from "@heroui/shared-utils";
+import {Button, Link} from "@v0xoss/react";
+import {ArrowRightIcon} from "@v0xoss/shared-icons";
+import {clsx} from "@v0xoss/shared-utils";
 import NextLink from "next/link";
-import {Code} from "@heroui/react";
+import {Code} from "@v0xoss/react";
 import {usePostHog} from "posthog-js/react";
 
 import {FeaturesGrid} from "./features-grid";

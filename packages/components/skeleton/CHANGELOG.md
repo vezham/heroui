@@ -1,4 +1,4 @@
-# @heroui/skeleton
+# @v0xoss/skeleton
 
 ## 2.2.10
 
