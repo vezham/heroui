@@ -1,5 +1,18 @@
 # @v0xoss/pagination
 
+## 0.0.1
+
+### Patch Changes
+
+- [`70aa656`](https://github.com/vezham/heroui/commit/70aa656b74899c2176122e026685e212895e87a7) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - initial release
+
+- Updated dependencies [[`70aa656`](https://github.com/vezham/heroui/commit/70aa656b74899c2176122e026685e212895e87a7)]:
+  - @v0xoss/use-intersection-observer@0.0.1
+  - @v0xoss/use-pagination@0.0.1
+  - @v0xoss/react-utils@0.0.1
+  - @v0xoss/shared-icons@0.0.1
+  - @v0xoss/shared-utils@0.0.1
+
 ## 2.2.13
 
 ### Patch Changes
