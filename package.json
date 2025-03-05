@@ -53,7 +53,9 @@
     "postinstall": "husky install && pnpm --filter @v0xoss/theme build",
     "v:ws:changeset": "changeset",
     "v:ws:changeset:checklist-release": "bash v/bin/checklist-release/bin/main.sh",
-    "v:ws:changeset:update-versions": "bash v/bin/update-versions/bin/main.sh"
+    "v:ws:changeset:update-versions": "bash v/bin/update-versions/bin/main.sh",
+    "v:ws:git:cleanup-release": "bash v/bin/cleanup-release/bin/main.sh",
+    "v:ws:npm:unpublish": "bash v/bin/npm-unpublish/bin/main.sh"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
