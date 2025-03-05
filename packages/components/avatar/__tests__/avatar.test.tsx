@@ -31,7 +31,7 @@ describe("Avatar", () => {
   it("should render initials", () => {
     const {container} = render(<Avatar name="Junior" />);
 
-    expect(container.querySelector("span")).toHaveTextContent("Jun");
+    expect(container.querySelector("span")).toHaveTextContent("Ju");
   });
 
   it('should work with custom "getInitials" function', () => {
@@ -96,7 +96,7 @@ describe("Avatar - fallback + loading strategy", () => {
   test("should render a name avatar if no src", () => {
     const {container} = render(<Avatar name="Junior" />);
 
-    expect(container.querySelector("span")).toHaveTextContent("Jun");
+    expect(container.querySelector("span")).toHaveTextContent("Ju");
   });
 
   test("should render a default avatar if no name or src", () => {

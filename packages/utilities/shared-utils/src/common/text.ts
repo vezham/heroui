@@ -1,4 +1,4 @@
-export const safeText = (text: string, limit = 4, count = 3): string => {
+export const safeText = (text: string, limit = 4, count = 2): string => {
   if (text?.length <= limit) return text;
 
   return text?.slice(0, count);
