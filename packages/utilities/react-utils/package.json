@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/react-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A set of utilities for react on client side",
   "keywords": [
     "react-utils"

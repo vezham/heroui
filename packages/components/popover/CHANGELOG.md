@@ -1,5 +1,21 @@
 # @v0xoss/popover
 
+## 0.0.2
+
+### Patch Changes
+
+- [`7f01772`](https://github.com/vezham/heroui/commit/7f01772c9de0adbe869d3aa15a502e5399654b72) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - sync theme with old impl
+
+- Updated dependencies [[`7f01772`](https://github.com/vezham/heroui/commit/7f01772c9de0adbe869d3aa15a502e5399654b72)]:
+  - @v0xoss/button@0.0.2
+  - @v0xoss/use-aria-button@0.0.2
+  - @v0xoss/use-safe-layout-effect@0.0.2
+  - @v0xoss/aria-utils@0.0.2
+  - @v0xoss/dom-animation@0.0.2
+  - @v0xoss/framer-utils@0.0.2
+  - @v0xoss/react-utils@0.0.2
+  - @v0xoss/shared-utils@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

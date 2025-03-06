@@ -1,5 +1,11 @@
 # @v0xoss/use-is-mounted
 
+## 0.0.2
+
+### Patch Changes
+
+- [`7f01772`](https://github.com/vezham/heroui/commit/7f01772c9de0adbe869d3aa15a502e5399654b72) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - sync theme with old impl
+
 ## 0.0.1
 
 ### Patch Changes
