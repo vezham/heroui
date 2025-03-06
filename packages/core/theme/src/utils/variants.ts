@@ -5,6 +5,7 @@ const solid = {
   success: "bg-success text-success-foreground",
   warning: "bg-warning text-warning-foreground",
   danger: "bg-danger text-danger-foreground",
+  info: "bg-info text-info-foreground",
   foreground: "bg-foreground text-background",
 };
 
@@ -15,6 +16,7 @@ const shadow = {
   success: "shadow-lg shadow-success/40 bg-success text-success-foreground",
   warning: "shadow-lg shadow-warning/40 bg-warning text-warning-foreground",
   danger: "shadow-lg shadow-danger/40 bg-danger text-danger-foreground",
+  info: "shadow-lg shadow-info/40 bg-info text-info-foreground",
   foreground: "shadow-lg shadow-foreground/40 bg-foreground text-background",
 };
 
@@ -25,6 +27,7 @@ const bordered = {
   success: "bg-transparent border-success text-success",
   warning: "bg-transparent border-warning text-warning",
   danger: "bg-transparent border-danger text-danger",
+  info: "bg-transparent border-info text-info",
   foreground: "bg-transparent border-foreground text-foreground",
 };
 
@@ -35,8 +38,21 @@ const flat = {
   success: "bg-success/20 text-success-700 dark:text-success",
   warning: "bg-warning/20 text-warning-700 dark:text-warning",
   danger: "bg-danger/20 text-danger-600 dark:text-danger-500",
+  info: "bg-info/20 text-info-600",
   foreground: "bg-foreground/10 text-foreground",
 };
+
+// wjdlz/TODO: corss check color-code
+// const flat = {
+//   default: "bg-default/40 text-default-foreground",
+//   primary: "bg-primary/20 text-primary",
+//   secondary: "bg-secondary/20 text-secondary",
+//   success: "bg-success/20 text-success-600 dark:text-success",
+//   warning: "bg-warning/20 text-warning-600 dark:text-warning",
+//   danger: "bg-danger/20 text-danger dark:text-danger-500",
+//   info: "bg-info/20 text-info dark:text-info-500",
+//   foreground: "bg-foreground/10 text-foreground",
+// };
 
 const faded = {
   default: "border-default bg-default-100 text-default-foreground",
@@ -45,6 +61,7 @@ const faded = {
   success: "border-default bg-default-100 text-success",
   warning: "border-default bg-default-100 text-warning",
   danger: "border-default bg-default-100 text-danger",
+  info: "border-default bg-default-100 text-info",
   foreground: "border-default bg-default-100 text-foreground",
 };
 
@@ -55,6 +72,7 @@ const light = {
   success: "bg-transparent text-success",
   warning: "bg-transparent text-warning",
   danger: "bg-transparent text-danger",
+  info: "bg-transparent text-info",
   foreground: "bg-transparent text-foreground",
 };
 
@@ -65,6 +83,7 @@ const ghost = {
   success: "border-success text-success",
   warning: "border-warning text-warning",
   danger: "border-danger text-danger",
+  info: "border-info text-info",
   foreground: "border-foreground text-foreground hover:!bg-foreground",
 };
 

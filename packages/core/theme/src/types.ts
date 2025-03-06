@@ -1,4 +1,4 @@
-import {ThemeColors} from "./colors/types";
+import {SemanticColors} from "./colors/types";
 
 export type DefaultThemeType = "light" | "dark";
 
@@ -101,7 +101,7 @@ export interface LayoutTheme {
 export type ConfigTheme = {
   extend?: "light" | "dark";
   layout?: LayoutTheme;
-  colors?: Partial<ThemeColors>;
+  colors?: Partial<SemanticColors>;
 };
 
 export type ConfigThemes = Record<string, ConfigTheme>;
@@ -113,7 +113,7 @@ export type ConfigThemes = Record<string, ConfigTheme>;
 export type HeroUIPluginConfig = {
   /**
    * The prefix for the css variables.
-   * @default "heroui"
+   * @default "v0x"
    */
   prefix?: string;
   /**

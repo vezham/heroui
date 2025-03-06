@@ -66,6 +66,7 @@ export const collapseAdjacentVariantBorders = {
   success: ["[&+.border-medium.border-success]:ms-[calc(theme(borderWidth.medium)*-1)]"],
   warning: ["[&+.border-medium.border-warning]:ms-[calc(theme(borderWidth.medium)*-1)]"],
   danger: ["[&+.border-medium.border-danger]:ms-[calc(theme(borderWidth.medium)*-1)]"],
+  info: ["[&+.border-medium.border-info]:ms-[calc(theme(borderWidth.medium)*-1)]"],
 };
 
 export const hiddenInputClasses = [

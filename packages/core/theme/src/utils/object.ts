@@ -1,4 +1,9 @@
 import flatten from "flat";
+import {readableColor as rc} from "color2k";
+
+export function readableColor(color = "") {
+  return rc(color);
+}
 
 export function swapColorValues<T extends Object>(colors: T) {
   const swappedColors = {};

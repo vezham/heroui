@@ -8,7 +8,9 @@ import plugin from "tailwindcss/plugin.js";
 import deepMerge from "deepmerge";
 import {omit, kebabCase, mapKeys} from "@v0xoss/shared-utils";
 
-import {semanticColors, commonColors} from "./colors";
+import {commonColors} from "./colors/lib/common";
+import {semanticColors} from "./colors/lib/semantic";
+import {themeColors} from "./colors/lib/theme";
 import {animations} from "./animations";
 import {utilities} from "./utilities";
 import {flattenThemeObject} from "./utils/object";
@@ -18,9 +20,72 @@ import {lightLayout, darkLayout, defaultLayout} from "./default-layout";
 import {baseStyles} from "./utils/classes";
 import {DEFAULT_TRANSITION_DURATION} from "./utilities/transition";
 
-const DEFAULT_PREFIX = "heroui";
+const DEFAULT_PREFIX = "v0x";
+
+const v0xattr = {
+  color: "vcolor",
+  mode: "vmode",
+};
 
 const parsedColorsCache: Record<string, number[]> = {};
+
+type TflatColors = Record<string, string>;
+
+type Tresolved = {
+  variants: {name: string; definition: string[]}[];
+  utilities: Record<string, Record<string, any>>;
+  colors: Record<
+    string,
+    ({opacityValue, opacityVariable}: {opacityValue: string; opacityVariable: string}) => string
+  >;
+};
+
+const resolveColor = (
+  resolved: Tresolved,
+  prefix: string,
+  cssSelector: string,
+  flatColors: TflatColors,
+) => {
+  for (const [colorName, colorValue] of Object.entries(flatColors)) {
+    if (!colorValue) return;
+
+    try {
+      const parsedColor = parsedColorsCache[colorValue] || Color(colorValue).hsl().round(2).array();
+
+      parsedColorsCache[colorValue] = parsedColor;
+
+      const [h, s, l, defaultAlphaValue] = parsedColor;
+      const herouiColorVariable = `--${prefix}-${colorName}`;
+      const herouiOpacityVariable = `--${prefix}-${colorName}-opacity`;
+
+      // set the css variable in "@layer utilities"
+      resolved.utilities[cssSelector]![herouiColorVariable] = `${h} ${s}% ${l}%`;
+      // if an alpha value was provided in the color definition, store it in a css variable
+      if (typeof defaultAlphaValue === "number") {
+        resolved.utilities[cssSelector]![herouiOpacityVariable] = defaultAlphaValue.toFixed(2);
+      }
+      // set the dynamic color in tailwind config theme.colors
+      resolved.colors[colorName] = ({opacityVariable, opacityValue}) => {
+        // if the opacity is set  with a slash (e.g. bg-primary/90), use the provided value
+        if (!isNaN(+opacityValue)) {
+          return `hsl(var(${herouiColorVariable}) / ${opacityValue})`;
+        }
+        // if no opacityValue was provided (=it is not parsable to a number)
+        // the herouiOpacityVariable (opacity defined in the color definition rgb(0, 0, 0, 0.5)) should have the priority
+        // over the tw class based opacity(e.g. "bg-opacity-90")
+        // This is how tailwind behaves as for v3.2.4
+        if (opacityVariable) {
+          return `hsl(var(${herouiColorVariable}) / var(${herouiOpacityVariable}, var(${opacityVariable})))`;
+        }
+
+        return `hsl(var(${herouiColorVariable}) / var(${herouiOpacityVariable}, 1))`;
+      };
+    } catch (error: any) {
+      // eslint-disable-next-line no-console
+      console.log("error", error?.message);
+    }
+  }
+};
 
 // @internal
 const resolveConfig = (
@@ -28,14 +93,7 @@ const resolveConfig = (
   defaultTheme: DefaultThemeType,
   prefix: string,
 ) => {
-  const resolved: {
-    variants: {name: string; definition: string[]}[];
-    utilities: Record<string, Record<string, any>>;
-    colors: Record<
-      string,
-      ({opacityValue, opacityVariable}: {opacityValue: string; opacityVariable: string}) => string
-    >;
-  } = {
+  const resolved: Tresolved = {
     variants: [],
     utilities: {},
     colors: {},
@@ -56,11 +114,6 @@ const resolveConfig = (
         }
       : {};
 
-    // flatten color definitions
-    const flatColors = flattenThemeObject(colors) as Record<string, string>;
-
-    const flatLayout = layout ? mapKeys(layout, (_, key) => kebabCase(key)) : {};
-
     // resolved.variants
     resolved.variants.push({
       name: themeName,
@@ -70,50 +123,16 @@ const resolveConfig = (
     /**
      * Colors
      */
-    for (const [colorName, colorValue] of Object.entries(flatColors)) {
-      if (!colorValue) return;
+    // flatten color definitions
+    const flatColors: TflatColors = flattenThemeObject(colors);
 
-      try {
-        const parsedColor =
-          parsedColorsCache[colorValue] || Color(colorValue).hsl().round(2).array();
-
-        parsedColorsCache[colorValue] = parsedColor;
-
-        const [h, s, l, defaultAlphaValue] = parsedColor;
-        const herouiColorVariable = `--${prefix}-${colorName}`;
-        const herouiOpacityVariable = `--${prefix}-${colorName}-opacity`;
-
-        // set the css variable in "@layer utilities"
-        resolved.utilities[cssSelector]![herouiColorVariable] = `${h} ${s}% ${l}%`;
-        // if an alpha value was provided in the color definition, store it in a css variable
-        if (typeof defaultAlphaValue === "number") {
-          resolved.utilities[cssSelector]![herouiOpacityVariable] = defaultAlphaValue.toFixed(2);
-        }
-        // set the dynamic color in tailwind config theme.colors
-        resolved.colors[colorName] = ({opacityVariable, opacityValue}) => {
-          // if the opacity is set  with a slash (e.g. bg-primary/90), use the provided value
-          if (!isNaN(+opacityValue)) {
-            return `hsl(var(${herouiColorVariable}) / ${opacityValue})`;
-          }
-          // if no opacityValue was provided (=it is not parsable to a number)
-          // the herouiOpacityVariable (opacity defined in the color definition rgb(0, 0, 0, 0.5)) should have the priority
-          // over the tw class based opacity(e.g. "bg-opacity-90")
-          // This is how tailwind behaves as for v3.2.4
-          if (opacityVariable) {
-            return `hsl(var(${herouiColorVariable}) / var(${herouiOpacityVariable}, var(${opacityVariable})))`;
-          }
-
-          return `hsl(var(${herouiColorVariable}) / var(${herouiOpacityVariable}, 1))`;
-        };
-      } catch (error: any) {
-        // eslint-disable-next-line no-console
-        console.log("error", error?.message);
-      }
-    }
+    resolveColor(resolved, prefix, cssSelector, flatColors);
 
     /**
      * Layout
      */
+    const flatLayout = layout ? mapKeys(layout, (_, key) => kebabCase(key)) : {};
+
     for (const [key, value] of Object.entries(flatLayout)) {
       if (!value) return;
 
@@ -140,6 +159,43 @@ const resolveConfig = (
   return resolved;
 };
 
+const themeColorConfig = (prefix: string) => {
+  const resolved: Tresolved = {
+    variants: [],
+    utilities: {},
+    colors: {},
+  };
+
+  const mode: DefaultThemeType[] = ["light", "dark"];
+
+  mode.forEach((theme_mode) => {
+    for (const [theme_color] of Object.entries(themeColors)) {
+      const cssSelector = `:root,.${v0xattr.mode}-${theme_mode}.${v0xattr.color}-${theme_color}`;
+
+      resolved.utilities[cssSelector] = {};
+
+      resolved.variants.push({
+        name: theme_mode,
+        definition: [`&.${v0xattr.mode}-${theme_mode}.${v0xattr.color}-${theme_color}`],
+      });
+
+      /**
+       * Colors
+       */
+      // flatten color definitions
+
+      // @ts-ignore
+      const tcolor = themeColors[theme_color][theme_mode];
+      const flatColors: TflatColors = flattenThemeObject(tcolor);
+
+      resolveColor(resolved, prefix, cssSelector, flatColors);
+      // console.log('flatColors | ', flatColors)
+    }
+  });
+
+  return resolved;
+};
+
 const corePlugin = (
   themes: ConfigThemes = {},
   defaultTheme: DefaultThemeType,
@@ -147,10 +203,13 @@ const corePlugin = (
   addCommonColors: boolean,
 ) => {
   const resolved = resolveConfig(themes, defaultTheme, prefix);
+  const resolved_theme_color = themeColorConfig(prefix);
 
   const createStripeGradient = (stripeColor: string, backgroundColor: string) =>
     `linear-gradient(45deg,  hsl(var(--${prefix}-${stripeColor})) 25%,  hsl(var(--${prefix}-${backgroundColor})) 25%,  hsl(var(--${prefix}-${backgroundColor})) 50%,  hsl(var(--${prefix}-${stripeColor})) 50%,  hsl(var(--${prefix}-${stripeColor})) 75%,  hsl(var(--${prefix}-${backgroundColor})) 75%,  hsl(var(--${prefix}-${backgroundColor})))`;
 
+  // console.log('resolved | ', JSON.stringify(resolved))
+  // console.log('resolved_theme_color | ', JSON.stringify(resolved_theme_color))
   return plugin(
     ({addBase, addUtilities, addVariant}) => {
       // add base classNames
@@ -161,9 +220,12 @@ const corePlugin = (
       });
 
       // add the css variables to "@layer utilities"
-      addUtilities({...resolved?.utilities, ...utilities});
+      addUtilities({...resolved?.utilities, ...resolved_theme_color.utilities, ...utilities});
       // add the theme as variant e.g. "[theme-name]:text-2xl"
       resolved?.variants.forEach((variant) => {
+        addVariant(variant.name, variant.definition);
+      });
+      resolved_theme_color?.variants.forEach((variant) => {
         addVariant(variant.name, variant.definition);
       });
     },
@@ -175,6 +237,7 @@ const corePlugin = (
           colors: {
             ...(addCommonColors ? commonColors : {}),
             ...resolved?.colors,
+            ...resolved_theme_color?.colors,
           },
           scale: {
             "80": "0.8",
@@ -225,6 +288,7 @@ const corePlugin = (
             "stripe-gradient-success": createStripeGradient("success-200", "success"),
             "stripe-gradient-warning": createStripeGradient("warning-200", "warning"),
             "stripe-gradient-danger": createStripeGradient("danger-200", "danger"),
+            "stripe-gradient-info": createStripeGradient("info-200", "info"),
           },
           transitionDuration: {
             0: "0ms",
@@ -306,3 +370,5 @@ export const heroui = (config: HeroUIPluginConfig = {}): ReturnType<typeof plugi
 
   return corePlugin(themes, defaultTheme, defaultPrefix, addCommonColors);
 };
+
+export const vezham = heroui;

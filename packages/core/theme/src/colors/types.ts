@@ -1,6 +1,8 @@
 export type ColorScale =
   | Partial<{
+      25: string;
       50: string;
+      75: string;
       100: string;
       200: string;
       300: string;
@@ -27,16 +29,27 @@ export type BaseColors = {
   content4: ColorScale;
 };
 
-export type ThemeColors = BaseColors & {
+// colors:semantic
+export type SemanticColors = BaseColors & {
   default: ColorScale;
-  primary: ColorScale;
-  secondary: ColorScale;
   success: ColorScale;
   warning: ColorScale;
   danger: ColorScale;
+  info: ColorScale;
 };
 
 export type SemanticBaseColors = {
   light: BaseColors;
   dark: BaseColors;
+};
+
+// colors:theme
+export type ThemeColors = {
+  primary: ColorScale;
+  secondary: ColorScale;
+};
+
+export type ThemeBaseColors = {
+  light: ThemeColors;
+  dark: ThemeColors;
 };

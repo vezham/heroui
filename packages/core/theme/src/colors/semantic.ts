@@ -79,11 +79,11 @@ const base: SemanticBaseColors = {
 
 export const themeColorsLight: ThemeColors = {
   ...base.light,
-  default: {
-    ...common.zinc,
-    foreground: readableColor(common.zinc[300]),
-    DEFAULT: common.zinc[300],
-  },
+  // default: {
+  //   ...common.zinc,
+  //   foreground: readableColor(common.zinc[300]),
+  //   DEFAULT: common.zinc[300],
+  // },
   primary: {
     ...common.blue,
     foreground: readableColor(common.blue[500]),
@@ -94,30 +94,30 @@ export const themeColorsLight: ThemeColors = {
     foreground: readableColor(common.purple[500]),
     DEFAULT: common.purple[500],
   },
-  success: {
-    ...common.green,
-    foreground: readableColor(common.green[500]),
-    DEFAULT: common.green[500],
-  },
-  warning: {
-    ...common.yellow,
-    foreground: readableColor(common.yellow[500]),
-    DEFAULT: common.yellow[500],
-  },
-  danger: {
-    ...common.red,
-    foreground: common.white,
-    DEFAULT: common.red[500],
-  },
+  // success: {
+  //   ...common.green,
+  //   foreground: readableColor(common.green[500]),
+  //   DEFAULT: common.green[500],
+  // },
+  // warning: {
+  //   ...common.yellow,
+  //   foreground: readableColor(common.yellow[500]),
+  //   DEFAULT: common.yellow[500],
+  // },
+  // danger: {
+  //   ...common.red,
+  //   foreground: common.white,
+  //   DEFAULT: common.red[500],
+  // },
 };
 
 export const themeColorsDark: ThemeColors = {
   ...base.dark,
-  default: {
-    ...swapColorValues(common.zinc),
-    foreground: readableColor(common.zinc[700]),
-    DEFAULT: common.zinc[700],
-  },
+  // default: {
+  //   ...swapColorValues(common.zinc),
+  //   foreground: readableColor(common.zinc[700]),
+  //   DEFAULT: common.zinc[700],
+  // },
   primary: {
     ...swapColorValues(common.blue),
     foreground: readableColor(common.blue[500]),
@@ -128,21 +128,21 @@ export const themeColorsDark: ThemeColors = {
     foreground: readableColor(common.purple[400]),
     DEFAULT: common.purple[400],
   },
-  success: {
-    ...swapColorValues(common.green),
-    foreground: readableColor(common.green[500]),
-    DEFAULT: common.green[500],
-  },
-  warning: {
-    ...swapColorValues(common.yellow),
-    foreground: readableColor(common.yellow[500]),
-    DEFAULT: common.yellow[500],
-  },
-  danger: {
-    ...swapColorValues(common.red),
-    foreground: common.white,
-    DEFAULT: common.red[500],
-  },
+  // success: {
+  //   ...swapColorValues(common.green),
+  //   foreground: readableColor(common.green[500]),
+  //   DEFAULT: common.green[500],
+  // },
+  // warning: {
+  //   ...swapColorValues(common.yellow),
+  //   foreground: readableColor(common.yellow[500]),
+  //   DEFAULT: common.yellow[500],
+  // },
+  // danger: {
+  //   ...swapColorValues(common.red),
+  //   foreground: common.white,
+  //   DEFAULT: common.red[500],
+  // },
 };
 
 export const semanticColors = {
