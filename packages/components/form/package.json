@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/form",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A form is a group of inputs that allows users submit data to a server and supports field validation errors.",
   "keywords": [
     "form"
