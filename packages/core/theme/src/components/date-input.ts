@@ -128,6 +128,10 @@ const dateInput = tv({
         segment:
           "focus:bg-danger-400/50 dark:focus:bg-danger-400/20 data-[editable=true]:focus:text-danger",
       },
+      info: {
+        segment:
+          "focus:bg-info-400/50 dark:focus:bg-info-400/20 data-[editable=true]:focus:text-info",
+      },
     },
     size: {
       sm: {
@@ -276,6 +280,17 @@ const dateInput = tv({
         label: "text-danger",
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        innerWrapper: "text-info",
+        inputWrapper: ["bg-info-100", "hover:bg-info-50", "focus-within:bg-info-50"],
+        segment:
+          "text-info-300 data-[editable=true]:data-[placeholder=true]:text-info-300 data-[editable=true]:text-info",
+        label: "text-info",
+      },
+    },
     // faded & color
     {
       variant: "faded",
@@ -342,6 +357,19 @@ const dateInput = tv({
         label: "text-danger",
       },
     },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        innerWrapper: "text-info",
+        inputWrapper: [
+          "hover:border-info",
+          "focus-within:border-info",
+          "focus-within:hover:border-info",
+        ],
+        label: "text-info",
+      },
+    },
     // bordered & color
     {
       variant: "bordered",
@@ -388,6 +416,15 @@ const dateInput = tv({
         label: "text-danger",
       },
     },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        innerWrapper: "text-info",
+        inputWrapper: ["focus-within:border-info", "focus-within:hover:border-info"],
+        label: "text-info",
+      },
+    },
     // underlined & color
     {
       variant: "underlined",
@@ -432,6 +469,15 @@ const dateInput = tv({
         innerWrapper: "text-danger",
         inputWrapper: "after:bg-danger",
         label: "text-danger",
+      },
+    },
+    {
+      variant: "underlined",
+      color: "info",
+      class: {
+        innerWrapper: "text-info",
+        inputWrapper: "after:bg-info",
+        label: "text-info",
       },
     },
     // size & labelPlacement

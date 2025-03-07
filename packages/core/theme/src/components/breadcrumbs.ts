@@ -50,6 +50,10 @@ const breadcrumbItem = tv({
         item: "text-danger/80",
         separator: "text-danger/80",
       },
+      info: {
+        item: "text-info/80",
+        separator: "text-info/80",
+      },
     },
     size: {
       sm: {
@@ -150,6 +154,13 @@ const breadcrumbItem = tv({
       color: "danger",
       class: {
         item: "text-danger",
+      },
+    },
+    {
+      isCurrent: true,
+      color: "info",
+      class: {
+        item: "text-info",
       },
     },
     // !isCurrent && underline

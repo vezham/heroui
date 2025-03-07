@@ -102,6 +102,9 @@ const toast = tv({
       danger: {
         progressIndicator: "h-full opacity-20 bg-danger-400",
       },
+      info: {
+        progressIndicator: "h-full opacity-20 bg-info-400",
+      },
     },
     radius: {
       none: {
@@ -236,6 +239,17 @@ const toast = tv({
         description: "text-danger-500",
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        base: "bg-info-50 text-info-600 border-info-100",
+        closeButton: "text-info-400 hover:text-info-600",
+        closeIcon: "border border-info-400 bg-info-100",
+        title: "text-info-600",
+        description: "text-info-500",
+      },
+    },
     // bordered and color
     {
       variant: "bordered",
@@ -303,6 +317,17 @@ const toast = tv({
         description: "text-danger-500",
       },
     },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        base: "border-info-400 text-info-600",
+        closeButton: "text-info-400 hover:text-info-600",
+        closeIcon: "border border-info-400 bg-info-100",
+        title: "text-info-600",
+        description: "text-info-500",
+      },
+    },
     // solid and color
     {
       variant: "solid",
@@ -368,6 +393,17 @@ const toast = tv({
         closeIcon: "border border-danger-400 bg-danger-100",
         title: "text-danger-foreground",
         description: "text-danger-foreground",
+      },
+    },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        base: colorVariants.solid.info,
+        closeButton: "text-info-400 hover:text-info-600",
+        closeIcon: "border border-info-400 bg-info-100",
+        title: "text-info-foreground",
+        description: "text-info-foreground",
       },
     },
   ],

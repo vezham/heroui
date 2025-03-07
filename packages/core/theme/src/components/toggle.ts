@@ -99,6 +99,12 @@ const toggle = tv({
           "data-[selected=true]:text-danger-foreground",
         ],
       },
+      info: {
+        wrapper: [
+          "group-data-[selected=true]:bg-info",
+          "group-data-[selected=true]:text-info-foreground",
+        ],
+      },
     },
     size: {
       sm: {

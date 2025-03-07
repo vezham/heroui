@@ -56,6 +56,7 @@ const snippet = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     size: {
       sm: {
@@ -145,6 +146,13 @@ const snippet = tv({
         copyButton: "data-[focus-visible]:outline-danger-foreground",
       },
     },
+    {
+      variant: ["solid", "shadow"],
+      color: "info",
+      class: {
+        copyButton: "data-[focus-visible]:outline-info-foreground",
+      },
+    },
     // flat / color
     {
       variant: "flat",
@@ -186,6 +194,13 @@ const snippet = tv({
       color: "danger",
       class: {
         base: colorVariants.flat.danger,
+      },
+    },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        base: colorVariants.flat.info,
       },
     },
     // solid / color
@@ -231,6 +246,13 @@ const snippet = tv({
         base: colorVariants.solid.danger,
       },
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        base: colorVariants.solid.info,
+      },
+    },
     // shadow / color
     {
       variant: "shadow",
@@ -274,6 +296,13 @@ const snippet = tv({
         base: colorVariants.shadow.danger,
       },
     },
+    {
+      variant: "shadow",
+      color: "info",
+      class: {
+        base: colorVariants.shadow.info,
+      },
+    },
     // bordered / color
     {
       variant: "bordered",
@@ -315,6 +344,13 @@ const snippet = tv({
       color: "danger",
       class: {
         base: colorVariants.bordered.danger,
+      },
+    },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        base: colorVariants.bordered.info,
       },
     },
   ],

@@ -133,6 +133,9 @@ const table = tv({
       danger: {
         td: "before:bg-danger/20 data-[selected=true]:text-danger dark:data-[selected=true]:text-danger-500",
       },
+      info: {
+        td: "before:bg-info/20 data-[selected=true]:text-info dark:data-[selected=true]:text-info-500",
+      },
     },
     layout: {
       auto: {
@@ -295,6 +298,13 @@ const table = tv({
       color: "danger",
       class: {
         td: "group-data-[odd=true]/tr:data-[selected=true]/tr:before:bg-danger/20",
+      },
+    },
+    {
+      isStriped: true,
+      color: "info",
+      class: {
+        td: "group-data-[odd=true]/tr:data-[selected=true]/tr:before:bg-info/20",
       },
     },
   ],

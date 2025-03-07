@@ -127,6 +127,7 @@ const inputOtp = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     size: {
       sm: {
@@ -209,6 +210,15 @@ const inputOtp = tv({
         passwordChar: ["bg-danger"],
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        segment: ["bg-info-100", "data-[active=true]:bg-info-200", "text-info"],
+        caret: ["bg-info"],
+        passwordChar: ["bg-info"],
+      },
+    },
     // faded & color
     {
       variant: "faded",
@@ -287,6 +297,15 @@ const inputOtp = tv({
         passwordChar: ["bg-danger"],
       },
     },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        segment: ["bg-info-100", "text-info", "border-info-200", "data-[active=true]:border-info"],
+        caret: ["bg-info"],
+        passwordChar: ["bg-info"],
+      },
+    },
     // bordered & color
     {
       variant: "bordered",
@@ -341,6 +360,15 @@ const inputOtp = tv({
         passwordChar: ["bg-danger"],
       },
     },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        segment: ["border-info-200", "text-info", "data-[active=true]:border-info"],
+        caret: ["bg-info"],
+        passwordChar: ["bg-info"],
+      },
+    },
     // underlined & color
     {
       variant: "underlined",
@@ -392,6 +420,15 @@ const inputOtp = tv({
         segment: ["border-danger-200", "text-danger", "after:bg-danger"],
         caret: ["bg-danger"],
         passwordChar: ["bg-danger"],
+      },
+    },
+    {
+      variant: "underlined",
+      color: "info",
+      class: {
+        segment: ["border-info-200", "text-info", "after:bg-info"],
+        caret: ["bg-info"],
+        passwordChar: ["bg-info"],
       },
     },
     // isInvalid and flat

@@ -99,6 +99,7 @@ const tabs = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     size: {
       sm: {
@@ -238,6 +239,14 @@ const tabs = tv({
         tabContent: "group-data-[selected=true]:text-danger-foreground",
       },
     },
+    {
+      variant: ["solid", "bordered", "light"],
+      color: "info",
+      class: {
+        cursor: colorVariants.solid.info,
+        tabContent: "group-data-[selected=true]:text-info-foreground",
+      },
+    },
     // underlined && color
     {
       variant: "underlined",
@@ -285,6 +294,14 @@ const tabs = tv({
       class: {
         cursor: "bg-danger",
         tabContent: "group-data-[selected=true]:text-danger",
+      },
+    },
+    {
+      variant: "underlined",
+      color: "info",
+      class: {
+        cursor: "bg-info",
+        tabContent: "group-data-[selected=true]:text-info",
       },
     },
     /**
@@ -357,6 +374,14 @@ const tabs = tv({
         tab: "data-[selected=true]:bg-danger data-[selected=true]:text-danger-foreground",
       },
     },
+    {
+      disableAnimation: true,
+      color: "info",
+      variant: ["solid", "bordered", "light"],
+      class: {
+        tab: "data-[selected=true]:bg-info data-[selected=true]:text-info-foreground",
+      },
+    },
     // disableAnimation && color && underlined
     {
       disableAnimation: true,
@@ -404,6 +429,14 @@ const tabs = tv({
       variant: "underlined",
       class: {
         tab: "data-[selected=true]:after:bg-danger",
+      },
+    },
+    {
+      disableAnimation: true,
+      color: "info",
+      variant: "underlined",
+      class: {
+        tab: "data-[selected=true]:after:bg-info",
       },
     },
   ],

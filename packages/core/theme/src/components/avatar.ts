@@ -83,6 +83,9 @@ const avatar = tv({
       danger: {
         base: colorVariants.solid.danger,
       },
+      info: {
+        base: colorVariants.solid.info,
+      },
     },
     radius: {
       none: {
@@ -178,6 +181,13 @@ const avatar = tv({
       isBordered: true,
       class: {
         base: "ring-danger",
+      },
+    },
+    {
+      color: "info",
+      isBordered: true,
+      class: {
+        base: "ring-info",
       },
     },
   ],

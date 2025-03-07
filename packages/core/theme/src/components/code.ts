@@ -23,6 +23,7 @@ const code = tv({
       success: colorVariants.flat.success,
       warning: colorVariants.flat.warning,
       danger: colorVariants.flat.danger,
+      info: colorVariants.flat.info,
     },
     size: {
       sm: "text-small",

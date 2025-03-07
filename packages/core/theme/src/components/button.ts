@@ -63,6 +63,7 @@ const button = tv({
       success: "",
       warning: "",
       danger: "",
+      info: "",
     },
     radius: {
       none: "rounded-none",
@@ -129,6 +130,11 @@ const button = tv({
       color: "danger",
       class: colorVariants.solid.danger,
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: colorVariants.solid.info,
+    },
     // shadow / color
     {
       variant: "shadow",
@@ -159,6 +165,11 @@ const button = tv({
       variant: "shadow",
       color: "danger",
       class: colorVariants.shadow.danger,
+    },
+    {
+      variant: "shadow",
+      color: "info",
+      class: colorVariants.shadow.info,
     },
     // bordered / color
     {
@@ -191,6 +202,11 @@ const button = tv({
       color: "danger",
       class: colorVariants.bordered.danger,
     },
+    {
+      variant: "bordered",
+      color: "info",
+      class: colorVariants.bordered.info,
+    },
     // flat / color
     {
       variant: "flat",
@@ -221,6 +237,11 @@ const button = tv({
       variant: "flat",
       color: "danger",
       class: colorVariants.flat.danger,
+    },
+    {
+      variant: "flat",
+      color: "info",
+      class: colorVariants.flat.info,
     },
     // faded / color
     {
@@ -253,6 +274,11 @@ const button = tv({
       color: "danger",
       class: colorVariants.faded.danger,
     },
+    {
+      variant: "faded",
+      color: "info",
+      class: colorVariants.faded.info,
+    },
     // light / color
     {
       variant: "light",
@@ -283,6 +309,11 @@ const button = tv({
       variant: "light",
       color: "danger",
       class: [colorVariants.light.danger, "data-[hover=true]:bg-danger/20"],
+    },
+    {
+      variant: "light",
+      color: "info",
+      class: [colorVariants.light.info, "data-[hover=true]:bg-info/20"],
     },
     // ghost / color
     {
@@ -328,6 +359,14 @@ const button = tv({
       class: [
         colorVariants.ghost.danger,
         "data-[hover=true]:!bg-danger data-[hover=true]:!text-danger-foreground",
+      ],
+    },
+    {
+      variant: "ghost",
+      color: "info",
+      class: [
+        colorVariants.ghost.danger,
+        "data-[hover=true]:!bg-info data-[hover=true]:!text-info-foreground",
       ],
     },
     // isInGroup / radius / size <-- radius not provided
@@ -417,6 +456,12 @@ const button = tv({
       variant: ["ghost", "bordered"],
       color: "danger",
       className: collapseAdjacentVariantBorders.danger,
+    },
+    {
+      isInGroup: true,
+      variant: ["ghost", "bordered"],
+      color: "info",
+      className: collapseAdjacentVariantBorders.info,
     },
     {
       isIconOnly: true,

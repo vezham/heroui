@@ -50,6 +50,9 @@ const progress = tv(
         danger: {
           indicator: "bg-danger",
         },
+        info: {
+          indicator: "bg-info",
+        },
       },
       size: {
         sm: {
@@ -150,7 +153,6 @@ const progress = tv(
           indicator: "bg-stripe-gradient-success bg-stripe-size",
         },
       },
-
       {
         color: "warning",
         isStriped: true,
@@ -158,12 +160,18 @@ const progress = tv(
           indicator: "bg-stripe-gradient-warning bg-stripe-size",
         },
       },
-
       {
         color: "danger",
         isStriped: true,
         class: {
           indicator: "bg-stripe-gradient-danger bg-stripe-size",
+        },
+      },
+      {
+        color: "info",
+        isStriped: true,
+        class: {
+          indicator: "bg-stripe-gradient-info bg-stripe-size",
         },
       },
     ],
@@ -221,6 +229,9 @@ const circularProgress = tv({
       },
       danger: {
         svg: "text-danger",
+      },
+      info: {
+        svg: "text-info",
       },
     },
     size: {

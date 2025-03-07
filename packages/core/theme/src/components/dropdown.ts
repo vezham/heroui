@@ -110,6 +110,7 @@ const dropdownItem = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     isDisabled: {
       true: {
@@ -169,6 +170,13 @@ const dropdownItem = tv({
         base: "data-[hover=true]:bg-danger data-[hover=true]:text-danger-foreground",
       },
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        base: "data-[hover=true]:bg-info data-[hover=true]:text-info-foreground",
+      },
+    },
     // shadow / color
     {
       variant: "shadow",
@@ -210,6 +218,13 @@ const dropdownItem = tv({
       color: "danger",
       class: {
         base: "data-[hover=true]:shadow-danger/30 data-[hover=true]:bg-danger data-[hover=true]:text-danger-foreground",
+      },
+    },
+    {
+      variant: "shadow",
+      color: "info",
+      class: {
+        base: "data-[hover=true]:shadow-info/30 data-[hover=true]:bg-info data-[hover=true]:text-info-foreground",
       },
     },
     // bordered / color
@@ -255,6 +270,13 @@ const dropdownItem = tv({
         base: "data-[hover=true]:border-danger data-[hover=true]:text-danger",
       },
     },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        base: "data-[hover=true]:border-info data-[hover=true]:text-info",
+      },
+    },
     // flat / color
     {
       variant: "flat",
@@ -296,6 +318,13 @@ const dropdownItem = tv({
       color: "danger",
       class: {
         base: "data-[hover=true]:bg-danger/20 data-[hover=true]:text-danger",
+      },
+    },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        base: "data-[hover=true]:bg-info/20 data-[hover=true]:text-info",
       },
     },
     // faded / color
@@ -341,6 +370,13 @@ const dropdownItem = tv({
         base: "data-[hover=true]:text-danger",
       },
     },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        base: "data-[hover=true]:text-info",
+      },
+    },
     // light / color
     {
       variant: "light",
@@ -382,6 +418,13 @@ const dropdownItem = tv({
       color: "danger",
       class: {
         base: "data-[hover=true]:text-danger",
+      },
+    },
+    {
+      variant: "light",
+      color: "info",
+      class: {
+        base: "data-[hover=true]:text-info",
       },
     },
   ],

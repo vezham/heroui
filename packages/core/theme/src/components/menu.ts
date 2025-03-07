@@ -117,6 +117,7 @@ const menuItem = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     showDivider: {
       true: {
@@ -225,6 +226,16 @@ const menuItem = tv({
         ],
       },
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        base: [
+          "data-[hover=true]:bg-info data-[hover=true]:text-info-foreground",
+          "data-[selectable=true]:focus:bg-info data-[selectable=true]:focus:text-info-foreground",
+        ],
+      },
+    },
     // shadow / color
     {
       variant: "shadow",
@@ -286,6 +297,16 @@ const menuItem = tv({
         ],
       },
     },
+    {
+      variant: "shadow",
+      color: "info",
+      class: {
+        base: [
+          "data-[hover=true]:shadow-info/30 data-[hover=true]:bg-info data-[hover=true]:text-info-foreground",
+          "data-[selectable=true]:focus:shadow-info/30 data-[selectable=true]:focus:bg-info data-[selectable=true]:focus:text-info-foreground",
+        ],
+      },
+    },
     // bordered / color
     {
       variant: "bordered",
@@ -341,6 +362,16 @@ const menuItem = tv({
         base: [
           "data-[hover=true]:border-danger data-[hover=true]:text-danger",
           "data-[selectable=true]:focus:border-danger data-[selectable=true]:focus:text-danger",
+        ],
+      },
+    },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        base: [
+          "data-[hover=true]:border-info data-[hover=true]:text-info",
+          "data-[selectable=true]:focus:border-info data-[selectable=true]:focus:text-info",
         ],
       },
     },
@@ -407,6 +438,16 @@ const menuItem = tv({
         ],
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        base: [
+          "data-[hover=true]:bg-info/20 data-[hover=true]:text-info",
+          "data-[selectable=true]:focus:bg-info/20 data-[selectable=true]:focus:text-info",
+        ],
+      },
+    },
     // faded / color
     {
       variant: "faded",
@@ -453,6 +494,13 @@ const menuItem = tv({
         base: ["data-[hover=true]:text-danger", "data-[selectable=true]:focus:text-danger"],
       },
     },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        base: ["data-[hover=true]:text-info", "data-[selectable=true]:focus:text-info"],
+      },
+    },
     // light / color
     {
       variant: "light",
@@ -497,6 +545,13 @@ const menuItem = tv({
       color: "danger",
       class: {
         base: ["data-[hover=true]:text-danger", "data-[selectable=true]:focus:text-danger"],
+      },
+    },
+    {
+      variant: "light",
+      color: "info",
+      class: {
+        base: ["data-[hover=true]:text-info", "data-[selectable=true]:focus:text-info"],
       },
     },
   ],

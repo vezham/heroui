@@ -67,6 +67,7 @@ const calendar = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     // @internal
     isRange: {
@@ -262,6 +263,24 @@ const calendar = tv({
         ],
       },
     },
+    {
+      isRange: false,
+      color: "info",
+      class: {
+        cellButton: [
+          "data-[selected=true]:bg-info",
+          "data-[selected=true]:text-info-foreground",
+          "data-[hover=true]:bg-info-100",
+          "data-[hover=true]:text-info-500",
+          "dark:data-[hover=true]:bg-info-50",
+          "dark:data-[hover=true]:text-info-500",
+          "data-[selected=true]:data-[hover=true]:bg-info",
+          "dark:data-[selected=true]:data-[hover=true]:bg-info",
+          "dark:data-[selected=true]:data-[hover=true]:text-info-foreground",
+          "data-[selected=true]:data-[hover=true]:text-info-foreground",
+        ],
+      },
+    },
     // isRange & colors --> RangeCalendar
     {
       isRange: true,
@@ -382,6 +401,25 @@ const calendar = tv({
         ],
       },
     },
+    {
+      isRange: true,
+      color: "info",
+      class: {
+        cellButton: [
+          // middle
+          "data-[selected=true]:data-[range-selection=true]:before:bg-info-50",
+          "data-[selected=true]:data-[range-selection=true]:text-info-500",
+
+          // start (selected)
+          "data-[selected=true]:data-[selection-start=true]:data-[range-selection=true]:bg-info",
+          "data-[selected=true]:data-[selection-start=true]:data-[range-selection=true]:text-info-foreground",
+
+          // end (selected)
+          "data-[selected=true]:data-[selection-end=true]:data-[range-selection=true]:bg-info",
+          "data-[selected=true]:data-[selection-end=true]:data-[range-selection=true]:text-info-foreground",
+        ],
+      },
+    },
     // showShadow & colors
     {
       showShadow: true,
@@ -423,6 +461,13 @@ const calendar = tv({
       color: "danger",
       class: {
         cellButton: "data-[selected=true]:shadow-danger/40",
+      },
+    },
+    {
+      showShadow: true,
+      color: "info",
+      class: {
+        cellButton: "data-[selected=true]:shadow-info/40",
       },
     },
     // showShadow & isRange

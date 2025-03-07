@@ -86,6 +86,10 @@ const radio = tv({
         control: "bg-danger text-danger-foreground",
         wrapper: "group-data-[selected=true]:border-danger",
       },
+      info: {
+        control: "bg-info text-info-foreground",
+        wrapper: "group-data-[selected=true]:border-info",
+      },
     },
     size: {
       sm: {

@@ -54,6 +54,7 @@ const badge = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     size: {
       sm: {
@@ -157,6 +158,13 @@ const badge = tv({
         badge: colorVariants.solid.danger,
       },
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        badge: colorVariants.solid.info,
+      },
+    },
     // shadow / color
     {
       variant: "shadow",
@@ -198,6 +206,13 @@ const badge = tv({
       color: "danger",
       class: {
         badge: colorVariants.shadow.danger,
+      },
+    },
+    {
+      variant: "shadow",
+      color: "info",
+      class: {
+        badge: colorVariants.shadow.info,
       },
     },
     // flat / color
@@ -243,6 +258,13 @@ const badge = tv({
         badge: colorVariants.flat.danger,
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        badge: colorVariants.flat.info,
+      },
+    },
     // faded / color
     {
       variant: "faded",
@@ -284,6 +306,13 @@ const badge = tv({
       color: "danger",
       class: {
         badge: colorVariants.faded.danger,
+      },
+    },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        badge: colorVariants.faded.info,
       },
     },
     // isOneChar / size

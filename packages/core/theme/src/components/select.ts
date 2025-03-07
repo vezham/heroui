@@ -106,6 +106,9 @@ const select = tv({
       danger: {
         selectorIcon: "text-danger",
       },
+      info: {
+        selectorIcon: "text-info",
+      },
     },
     size: {
       sm: {
@@ -308,6 +311,21 @@ const select = tv({
         label: "text-danger dark:text-danger-500",
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        trigger: [
+          "bg-info-100",
+          "text-info",
+          "dark:text-info-500",
+          "data-[hover=true]:bg-info-50",
+          "group-data-[focus=true]:bg-info-50",
+        ],
+        value: "text-info dark:text-info-500",
+        label: "text-info dark:text-info-500",
+      },
+    },
     // faded & color
     {
       variant: "faded",
@@ -352,6 +370,15 @@ const select = tv({
         trigger:
           "data-[hover=true]:border-danger data-[focus=true]:border-danger data-[open=true]:border-danger",
         label: "text-danger",
+      },
+    },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        trigger:
+          "data-[hover=true]:border-info data-[focus=true]:border-info data-[open=true]:border-info",
+        label: "text-info",
       },
     },
     // underlined & color
@@ -403,6 +430,14 @@ const select = tv({
         label: "text-danger",
       },
     },
+    {
+      variant: "underlined",
+      color: "info",
+      class: {
+        trigger: "after:bg-info",
+        label: "text-info",
+      },
+    },
     // bordered & color
     {
       variant: "bordered",
@@ -442,6 +477,14 @@ const select = tv({
       class: {
         trigger: ["data-[open=true]:border-danger", "data-[focus=true]:border-danger"],
         label: "text-danger",
+      },
+    },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        trigger: ["data-[open=true]:border-info", "data-[focus=true]:border-info"],
+        label: "text-info",
       },
     },
     // labelPlacement=outside & default

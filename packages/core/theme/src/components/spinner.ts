@@ -106,6 +106,12 @@ const spinner = tv({
         dots: "bg-danger",
         spinnerBars: "bg-danger",
       },
+      info: {
+        circle1: "border-b-info",
+        circle2: "border-b-info",
+        dots: "bg-info",
+        spinnerBars: "bg-info",
+      },
     },
     labelColor: {
       foreground: {
@@ -125,6 +131,9 @@ const spinner = tv({
       },
       danger: {
         label: "text-danger",
+      },
+      info: {
+        label: "text-info",
       },
     },
     variant: {
@@ -189,6 +198,7 @@ const spinner = tv({
     {variant: "gradient", color: "success", class: {circle1: "to-success"}},
     {variant: "gradient", color: "warning", class: {circle1: "to-warning"}},
     {variant: "gradient", color: "danger", class: {circle1: "to-danger"}},
+    {variant: "gradient", color: "info", class: {circle1: "to-info"}},
     {
       variant: "wave",
       size: "sm",
@@ -309,6 +319,13 @@ const spinner = tv({
       color: "danger",
       class: {
         wrapper: "text-danger",
+      },
+    },
+    {
+      variant: "simple",
+      color: "info",
+      class: {
+        wrapper: "text-info",
       },
     },
   ],

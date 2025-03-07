@@ -94,6 +94,9 @@ const pagination = tv({
       danger: {
         cursor: colorVariants.solid.danger,
       },
+      info: {
+        cursor: colorVariants.solid.info,
+      },
     },
     size: {
       sm: {},
@@ -204,6 +207,13 @@ const pagination = tv({
         cursor: [colorVariants.shadow.danger, "shadow-md"],
       },
     },
+    {
+      showShadow: true,
+      color: "info",
+      class: {
+        cursor: [colorVariants.shadow.info, "shadow-md"],
+      },
+    },
     // isCompact / bordered
     {
       isCompact: true,
@@ -285,6 +295,17 @@ const pagination = tv({
         ],
       },
     },
+    {
+      disableCursorAnimation: true,
+      color: "info",
+      class: {
+        item: [
+          "data-[active=true]:bg-info",
+          "data-[active=true]:border-info",
+          "data-[active=true]:text-info-foreground",
+        ],
+      },
+    },
     // shadow / color
     {
       disableCursorAnimation: true,
@@ -332,6 +353,14 @@ const pagination = tv({
       color: "danger",
       class: {
         item: ["data-[active=true]:shadow-md", "data-[active=true]:shadow-danger/40"],
+      },
+    },
+    {
+      disableCursorAnimation: true,
+      showShadow: true,
+      color: "info",
+      class: {
+        item: ["data-[active=true]:shadow-md", "data-[active=true]:shadow-info/40"],
       },
     },
   ],

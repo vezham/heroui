@@ -160,6 +160,9 @@ const numberInput = tv({
       danger: {
         stepperButton: "text-danger",
       },
+      info: {
+        stepperButton: "text-info",
+      },
     },
     size: {
       sm: {
@@ -373,6 +376,23 @@ const numberInput = tv({
         label: "text-danger dark:text-danger-500",
       },
     },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        inputWrapper: [
+          "bg-info-100",
+          "text-info",
+          "dark:text-info-500",
+          "placeholder:text-info",
+          "dark:placeholder:text-info-500",
+          "data-[hover=true]:bg-info-50",
+          "group-data-[focus=true]:bg-info-50",
+        ],
+        input: "placeholder:text-info dark:placeholder:text-info-500",
+        label: "text-info dark:text-info-500",
+      },
+    },
     // faded & color
     {
       variant: "faded",
@@ -412,6 +432,14 @@ const numberInput = tv({
       class: {
         label: "text-danger",
         inputWrapper: "data-[hover=true]:border-danger focus-within:border-danger",
+      },
+    },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        label: "text-info",
+        inputWrapper: "data-[hover=true]:border-info focus-within:border-info",
       },
     },
     // underlined & color
@@ -462,6 +490,14 @@ const numberInput = tv({
         label: "text-danger",
       },
     },
+    {
+      variant: "underlined",
+      color: "info",
+      class: {
+        inputWrapper: "after:bg-info",
+        label: "text-info",
+      },
+    },
     // bordered & color
     {
       variant: "bordered",
@@ -501,6 +537,14 @@ const numberInput = tv({
       class: {
         inputWrapper: "group-data-[focus=true]:border-danger",
         label: "text-danger",
+      },
+    },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        inputWrapper: "group-data-[focus=true]:border-info",
+        label: "text-info",
       },
     },
     // labelPlacement=inside & default

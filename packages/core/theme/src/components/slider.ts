@@ -134,6 +134,10 @@ const slider = tv({
         filler: "bg-danger",
         thumb: "bg-danger",
       },
+      info: {
+        filler: "bg-info",
+        thumb: "bg-info",
+      },
     },
     isVertical: {
       true: {
@@ -261,6 +265,13 @@ const slider = tv({
         step: "data-[in-range=true]:bg-danger",
       },
     },
+    {
+      size: "sm",
+      color: "info",
+      class: {
+        step: "data-[in-range=true]:bg-info",
+      },
+    },
     // size && !isVertical
     {
       size: "sm",
@@ -360,6 +371,14 @@ const slider = tv({
         track: "border-s-danger",
       },
     },
+    {
+      color: "info",
+      isVertical: false,
+      hasSingleThumb: true,
+      class: {
+        track: "border-s-info",
+      },
+    },
     // color && isVertical && hasSingleThumb
     {
       color: "foreground",
@@ -407,6 +426,14 @@ const slider = tv({
       hasSingleThumb: true,
       class: {
         track: "border-b-danger",
+      },
+    },
+    {
+      color: "info",
+      isVertical: true,
+      hasSingleThumb: true,
+      class: {
+        track: "border-b-info",
       },
     },
   ],

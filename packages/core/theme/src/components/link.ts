@@ -28,6 +28,7 @@ const link = tv({
       success: "text-success",
       warning: "text-warning",
       danger: "text-danger",
+      info: "text-info",
     },
     underline: {
       none: "no-underline",
@@ -89,6 +90,11 @@ const link = tv({
       isBlock: true,
       color: "danger",
       class: "hover:after:bg-danger/20",
+    },
+    {
+      isBlock: true,
+      color: "info",
+      class: "hover:after:bg-info/20",
     },
     {
       underline: ["hover", "always", "active", "focus"],

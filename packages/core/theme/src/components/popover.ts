@@ -123,6 +123,10 @@ const popover = tv({
         base: "before:bg-danger",
         content: colorVariants.solid.danger,
       },
+      info: {
+        base: "before:bg-info",
+        content: colorVariants.solid.info,
+      },
     },
     radius: {
       none: {content: "rounded-none"},

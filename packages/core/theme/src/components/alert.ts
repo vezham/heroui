@@ -41,6 +41,7 @@ const alert = tv({
       success: {},
       warning: {},
       danger: {},
+      info: {},
     },
     variant: {
       solid: {},
@@ -140,6 +141,13 @@ const alert = tv({
         base: colorVariants.solid.danger,
       },
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        base: colorVariants.solid.info,
+      },
+    },
     // flat & faded / color
     {
       variant: ["flat", "faded"],
@@ -200,6 +208,15 @@ const alert = tv({
         iconWrapper: "bg-danger-50 dark:bg-danger-100 border-danger-100",
       },
     },
+    {
+      variant: ["flat", "faded"],
+      color: "info",
+      class: {
+        base: [colorVariants.flat.info, "bg-info-50 dark:bg-info-50/50"],
+        closeButton: "text-info-500 data-[hover]:bg-info-200",
+        iconWrapper: "bg-info-50 dark:bg-info-100 border-info-100",
+      },
+    },
     // faded / color
     {
       variant: "faded",
@@ -241,6 +258,13 @@ const alert = tv({
       color: "danger",
       class: {
         base: "border-danger-200 dark:border-danger-100",
+      },
+    },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        base: "border-info-200 dark:border-info-100",
       },
     },
     // bordered / color
@@ -291,6 +315,14 @@ const alert = tv({
       class: {
         base: [colorVariants.bordered.danger],
         closeButton: "data-[hover]:bg-danger-50",
+      },
+    },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        base: [colorVariants.bordered.info],
+        closeButton: "data-[hover]:bg-info-50",
       },
     },
     // flat & bordered & faded
@@ -348,6 +380,13 @@ const alert = tv({
       color: "danger",
       class: {
         iconWrapper: "bg-danger-100 dark:bg-danger-50",
+      },
+    },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        iconWrapper: "bg-info-100 dark:bg-info-50",
       },
     },
   ],

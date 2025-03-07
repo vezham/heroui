@@ -75,6 +75,9 @@ const checkbox = tv({
       danger: {
         wrapper: "after:bg-danger after:text-danger-foreground text-danger-foreground",
       },
+      info: {
+        wrapper: "after:bg-info after:text-info-foreground text-info-foreground",
+      },
     },
     size: {
       sm: {

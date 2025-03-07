@@ -85,6 +85,9 @@ const chip = tv({
       danger: {
         dot: "bg-danger",
       },
+      info: {
+        dot: "bg-info",
+      },
     },
     size: {
       sm: {
@@ -197,6 +200,13 @@ const chip = tv({
         base: colorVariants.solid.danger,
       },
     },
+    {
+      variant: "solid",
+      color: "info",
+      class: {
+        base: colorVariants.solid.info,
+      },
+    },
     // shadow / color
     {
       variant: "shadow",
@@ -238,6 +248,13 @@ const chip = tv({
       color: "danger",
       class: {
         base: colorVariants.shadow.danger,
+      },
+    },
+    {
+      variant: "shadow",
+      color: "info",
+      class: {
+        base: colorVariants.shadow.info,
       },
     },
     // bordered / color
@@ -283,6 +300,13 @@ const chip = tv({
         base: colorVariants.bordered.danger,
       },
     },
+    {
+      variant: "bordered",
+      color: "info",
+      class: {
+        base: colorVariants.bordered.info,
+      },
+    },
     // flat / color
     {
       variant: "flat",
@@ -324,6 +348,13 @@ const chip = tv({
       color: "danger",
       class: {
         base: colorVariants.flat.danger,
+      },
+    },
+    {
+      variant: "flat",
+      color: "info",
+      class: {
+        base: colorVariants.flat.info,
       },
     },
     // faded / color
@@ -369,6 +400,13 @@ const chip = tv({
         base: colorVariants.faded.danger,
       },
     },
+    {
+      variant: "faded",
+      color: "info",
+      class: {
+        base: colorVariants.faded.info,
+      },
+    },
     // light / color
     {
       variant: "light",
@@ -410,6 +448,13 @@ const chip = tv({
       color: "danger",
       class: {
         base: colorVariants.light.danger,
+      },
+    },
+    {
+      variant: "light",
+      color: "info",
+      class: {
+        base: colorVariants.light.info,
       },
     },
     // isOneChar / size
