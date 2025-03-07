@@ -1,5 +1,15 @@
 # @v0xoss/skeleton
 
+## 0.0.3
+
+### Patch Changes
+
+- [`f566e5e`](https://github.com/vezham/heroui/commit/f566e5e2ef2a6a670acad4dec192504f502246d4) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - added info color variant
+
+- Updated dependencies [[`f566e5e`](https://github.com/vezham/heroui/commit/f566e5e2ef2a6a670acad4dec192504f502246d4)]:
+  - @v0xoss/react-utils@0.0.3
+  - @v0xoss/shared-utils@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
