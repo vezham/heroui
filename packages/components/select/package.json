@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/select",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A select displays a collapsible list of options and allows a user to select one of them.",
   "keywords": [
     "select"

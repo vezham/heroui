@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/use-disclosure",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The hook in charge of managing modals",
   "keywords": [
     "use-disclosure"

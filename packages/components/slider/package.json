@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/slider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A slider allows a user to select one or more values within a range.",
   "keywords": [
     "slider"

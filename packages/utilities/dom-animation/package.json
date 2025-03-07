@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/dom-animation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dom Animation from Framer Motion for dynamic import",
   "keywords": [
     "dom-animation"

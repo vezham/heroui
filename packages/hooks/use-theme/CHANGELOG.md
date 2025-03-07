@@ -1,5 +1,11 @@
 # @v0xoss/use-theme
 
+## 0.0.3
+
+### Patch Changes
+
+- [`f566e5e`](https://github.com/vezham/heroui/commit/f566e5e2ef2a6a670acad4dec192504f502246d4) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - added info color variant
+
 ## 0.0.2
 
 ### Patch Changes
