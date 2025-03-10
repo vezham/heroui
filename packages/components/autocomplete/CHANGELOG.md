@@ -1,5 +1,19 @@
 # @v0xoss/autocomplete
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @v0xoss/button@0.0.5
+  - @v0xoss/form@0.0.5
+  - @v0xoss/input@0.0.5
+  - @v0xoss/listbox@0.0.5
+  - @v0xoss/popover@0.0.5
+  - @v0xoss/scroll-shadow@0.0.4
+  - @v0xoss/spinner@0.0.5
+  - @v0xoss/aria-utils@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

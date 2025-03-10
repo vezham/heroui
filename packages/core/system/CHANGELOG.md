@@ -1,5 +1,11 @@
 # @v0xoss/system
 
+## 0.0.5
+
+### Patch Changes
+
+- [`cb269ff`](https://github.com/vezham/heroui/commit/cb269ffa53ebe0e4520664e8e4f411f719e7691f) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - fix: V0xdsProvider
+
 ## 0.0.4
 
 ### Patch Changes

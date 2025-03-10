@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/accordion",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Collapse display a list of high-level options that can expand/collapse to reveal more information.",
   "keywords": [
     "react",

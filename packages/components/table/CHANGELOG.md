@@ -1,5 +1,12 @@
 # @v0xoss/table
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @v0xoss/checkbox@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

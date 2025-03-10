@@ -1,5 +1,17 @@
 # @v0xoss/date-picker
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @v0xoss/button@0.0.5
+  - @v0xoss/calendar@0.0.5
+  - @v0xoss/date-input@0.0.5
+  - @v0xoss/form@0.0.5
+  - @v0xoss/popover@0.0.5
+  - @v0xoss/aria-utils@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
