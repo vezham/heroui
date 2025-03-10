@@ -1,5 +1,12 @@
 # @v0xoss/input-otp
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @v0xoss/form@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

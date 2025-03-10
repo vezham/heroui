@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/listbox",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A listbox displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "listbox"

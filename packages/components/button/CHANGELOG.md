@@ -1,5 +1,13 @@
 # @v0xoss/button
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @v0xoss/ripple@0.0.4
+  - @v0xoss/spinner@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
