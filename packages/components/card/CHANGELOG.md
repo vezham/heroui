@@ -1,5 +1,17 @@
 # @v0xoss/card
 
+## 0.0.4
+
+### Patch Changes
+
+- [`0a77de2`](https://github.com/vezham/heroui/commit/0a77de22f0fde81ace90278c6122320b8dc4261c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - bump ver
+
+- Updated dependencies [[`0a77de2`](https://github.com/vezham/heroui/commit/0a77de22f0fde81ace90278c6122320b8dc4261c)]:
+  - @v0xoss/ripple@0.0.4
+  - @v0xoss/use-aria-button@0.0.4
+  - @v0xoss/react-utils@0.0.4
+  - @v0xoss/shared-utils@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes

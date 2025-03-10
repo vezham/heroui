@@ -1,5 +1,62 @@
 # @v0xoss/react
 
+## 0.0.4
+
+### Patch Changes
+
+- [`0a77de2`](https://github.com/vezham/heroui/commit/0a77de22f0fde81ace90278c6122320b8dc4261c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - bump ver
+
+- Updated dependencies [[`0a77de2`](https://github.com/vezham/heroui/commit/0a77de22f0fde81ace90278c6122320b8dc4261c)]:
+  - @v0xoss/system@0.0.4
+  - @v0xoss/accordion@0.0.4
+  - @v0xoss/alert@0.0.4
+  - @v0xoss/autocomplete@0.0.4
+  - @v0xoss/avatar@0.0.4
+  - @v0xoss/badge@0.0.4
+  - @v0xoss/breadcrumbs@0.0.4
+  - @v0xoss/button@0.0.4
+  - @v0xoss/calendar@0.0.4
+  - @v0xoss/card@0.0.4
+  - @v0xoss/checkbox@0.0.4
+  - @v0xoss/chip@0.0.4
+  - @v0xoss/code@0.0.4
+  - @v0xoss/date-input@0.0.4
+  - @v0xoss/date-picker@0.0.4
+  - @v0xoss/divider@0.0.4
+  - @v0xoss/drawer@0.0.4
+  - @v0xoss/dropdown@0.0.4
+  - @v0xoss/form@0.0.4
+  - @v0xoss/image@0.0.4
+  - @v0xoss/input@0.0.4
+  - @v0xoss/input-otp@0.0.4
+  - @v0xoss/kbd@0.0.4
+  - @v0xoss/link@0.0.4
+  - @v0xoss/listbox@0.0.4
+  - @v0xoss/menu@0.0.4
+  - @v0xoss/modal@0.0.4
+  - @v0xoss/navbar@0.0.4
+  - @v0xoss/number-input@0.0.4
+  - @v0xoss/pagination@0.0.4
+  - @v0xoss/popover@0.0.4
+  - @v0xoss/progress@0.0.4
+  - @v0xoss/radio@0.0.4
+  - @v0xoss/ripple@0.0.4
+  - @v0xoss/scroll-shadow@0.0.4
+  - @v0xoss/select@0.0.4
+  - @v0xoss/skeleton@0.0.4
+  - @v0xoss/slider@0.0.4
+  - @v0xoss/snippet@0.0.4
+  - @v0xoss/spacer@0.0.4
+  - @v0xoss/spinner@0.0.4
+  - @v0xoss/switch@0.0.4
+  - @v0xoss/table@0.0.4
+  - @v0xoss/tabs@0.0.4
+  - @v0xoss/toast@0.0.4
+  - @v0xoss/tooltip@0.0.4
+  - @v0xoss/user@0.0.4
+  - @v0xoss/theme@0.0.4
+  - @v0xoss/framer-utils@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
