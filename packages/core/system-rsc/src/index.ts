@@ -29,3 +29,5 @@ export type {
   ExtendVariantWithSlotsProps,
   ExtendVariants,
 } from "./extend-variants";
+
+export type {HTMLHeroUIProps as v0xdsHTMLProps} from "./types";

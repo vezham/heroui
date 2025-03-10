@@ -111,3 +111,5 @@ export const HeroUIProvider: React.FC<HeroUIProviderProps> = ({
     </ProviderContext>
   );
 };
+
+export const v0xdsProvider = HeroUIProvider;
