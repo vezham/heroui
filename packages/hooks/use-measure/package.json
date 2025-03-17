@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/use-measure",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Hook that measure and track a element dimensions",
   "keywords": [
     "use-measure"

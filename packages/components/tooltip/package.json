@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/tooltip",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A React Component for rendering dynamically positioned Tooltips",
   "keywords": [
     "tooltip"

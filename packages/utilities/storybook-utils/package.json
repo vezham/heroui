@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/storybook-utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "utils to manage v0x stories",
   "keywords": [
     "storybook-utils"
@@ -33,13 +33,13 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "dependencies":{
-    "@v0xoss/chip":  "workspace:*",
-    "@v0xoss/divider":  "workspace:*",
-    "@v0xoss/react-utils":  "workspace:*",
-    "@v0xoss/system-rsc":  "workspace:*",
-    "@v0xoss/tabs":  "workspace:*",
-    "@v0xoss/theme":  "workspace:*"
+  "dependencies": {
+    "@v0xoss/chip": "workspace:*",
+    "@v0xoss/divider": "workspace:*",
+    "@v0xoss/react-utils": "workspace:*",
+    "@v0xoss/system-rsc": "workspace:*",
+    "@v0xoss/tabs": "workspace:*",
+    "@v0xoss/theme": "workspace:*"
   },
   "devDependencies": {
     "clean-package": "2.2.0"

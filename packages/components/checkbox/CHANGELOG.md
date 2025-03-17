@@ -1,5 +1,18 @@
 # @v0xoss/checkbox
 
+## 0.0.6
+
+### Patch Changes
+
+- [`253d71f`](https://github.com/vezham/heroui/commit/253d71f4f7ee317c1a2af799992506196d30e815) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - ver bump
+
+- Updated dependencies [[`253d71f`](https://github.com/vezham/heroui/commit/253d71f4f7ee317c1a2af799992506196d30e815)]:
+  - @v0xoss/form@0.0.6
+  - @v0xoss/use-callback-ref@0.0.5
+  - @v0xoss/use-safe-layout-effect@0.0.5
+  - @v0xoss/react-utils@0.0.5
+  - @v0xoss/shared-utils@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes

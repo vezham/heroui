@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/use-intersection-observer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Tracks the intersection of a DOM element and its containing element or the viewport.",
   "keywords": [
     "use-intersection-observer"
