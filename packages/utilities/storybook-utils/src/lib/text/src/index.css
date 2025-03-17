@@ -1,0 +1,7 @@
+.vtext {
+  line-height: 1.5rem;
+}
+
+/* [data-disabled] .vtext {
+  @apply text-default-500;
+} */

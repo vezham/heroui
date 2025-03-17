@@ -4174,6 +4174,31 @@ importers:
         specifier: 2.2.0
         version: 2.2.0
 
+  packages/utilities/storybook-utils:
+    dependencies:
+      '@v0xoss/chip':
+        specifier: workspace:*
+        version: link:../../components/chip
+      '@v0xoss/divider':
+        specifier: workspace:*
+        version: link:../../components/divider
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../react-utils
+      '@v0xoss/system-rsc':
+        specifier: workspace:*
+        version: link:../../core/system-rsc
+      '@v0xoss/tabs':
+        specifier: workspace:*
+        version: link:../../components/tabs
+      '@v0xoss/theme':
+        specifier: workspace:*
+        version: link:../../core/theme
+    devDependencies:
+      clean-package:
+        specifier: 2.2.0
+        version: 2.2.0
+
   packages/utilities/test-utils:
     devDependencies:
       clean-package:
