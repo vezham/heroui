@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/popover",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A popover is an overlay element positioned relative to a trigger.",
   "keywords": [
     "popover"

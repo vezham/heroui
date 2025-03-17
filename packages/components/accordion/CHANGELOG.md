@@ -1,5 +1,21 @@
 # @v0xoss/accordion
 
+## 0.0.6
+
+### Patch Changes
+
+- [`253d71f`](https://github.com/vezham/heroui/commit/253d71f4f7ee317c1a2af799992506196d30e815) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - ver bump
+
+- Updated dependencies [[`253d71f`](https://github.com/vezham/heroui/commit/253d71f4f7ee317c1a2af799992506196d30e815)]:
+  - @v0xoss/divider@0.0.5
+  - @v0xoss/use-aria-accordion@0.0.5
+  - @v0xoss/aria-utils@0.0.6
+  - @v0xoss/dom-animation@0.0.5
+  - @v0xoss/framer-utils@0.0.6
+  - @v0xoss/react-utils@0.0.5
+  - @v0xoss/shared-icons@0.0.5
+  - @v0xoss/shared-utils@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes

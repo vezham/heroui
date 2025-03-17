@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/menu",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A menu displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "menu"
