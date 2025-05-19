@@ -1,3 +1,10 @@
+<a href="https://ph.heroui.chat?utm_source=https://github.com/heroui-inc/heroui&utm_medium=banner">
+  <img alt="HeroUI Chat on Product Hunt" src="https://heroui-chat-assets.nyc3.cdn.digitaloceanspaces.com/github_banner-round.png">
+</a>
+
+<br/>
+<br/>
+
 <p align="center">
   <a href="https://vezham.com" target="_blank" rel="noreferrer">
       <picture>
