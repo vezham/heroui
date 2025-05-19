@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/user",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Flexible User Profile Component.",
   "keywords": [
     "user"
