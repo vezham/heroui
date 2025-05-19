@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/user",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Flexible User Profile Component.",
   "keywords": [
     "user"
@@ -43,8 +43,8 @@
     "@v0xoss/avatar": "workspace:*",
     "@v0xoss/shared-utils": "workspace:*",
     "@v0xoss/react-utils": "workspace:*",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/utils": "3.27.0"
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/utils": "3.28.2"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

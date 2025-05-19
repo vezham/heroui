@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/breadcrumbs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Breadcrumbs display a hierarchy of links to the current page or resource in an application.",
   "keywords": [
     "breadcrumbs"
@@ -43,11 +43,11 @@
     "@v0xoss/react-utils": "workspace:*",
     "@v0xoss/shared-utils": "workspace:*",
     "@v0xoss/shared-icons": "workspace:*",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/breadcrumbs": "3.5.20",
-    "@react-aria/utils": "3.27.0",
-    "@react-types/breadcrumbs": "3.7.10",
-    "@react-types/shared": "3.27.0"
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/breadcrumbs": "3.5.23",
+    "@react-aria/utils": "3.28.2",
+    "@react-types/breadcrumbs": "3.7.12",
+    "@react-types/shared": "3.29.0"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

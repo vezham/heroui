@@ -43,8 +43,8 @@
     "@v0xoss/react-utils": "workspace:*",
     "@v0xoss/shared-icons": "workspace:*",
     "@v0xoss/shared-utils": "workspace:*",
-    "@react-stately/utils": "3.10.5",
-    "@react-aria/utils": "3.27.0",
+    "@react-stately/utils": "3.10.6",
+    "@react-aria/utils": "3.28.2",
     "@v0xoss/button": "workspace:*"
   },
   "devDependencies": {

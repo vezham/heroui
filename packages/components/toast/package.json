@@ -46,16 +46,18 @@
     "@v0xoss/shared-icons": "workspace:*",
     "@v0xoss/use-is-mobile": "workspace:*",
     "@v0xoss/spinner": "workspace:*",
-    "@react-aria/toast": "3.0.0-beta.19",
-    "@react-aria/utils": "3.27.0",
-    "@react-aria/interactions": "3.23.0",
-    "@react-stately/toast": "3.0.0-beta.7",
-    "@react-stately/utils": "3.10.5"
+    "@react-aria/toast": "3.0.2",
+    "@react-aria/utils": "3.28.2",
+    "@react-aria/interactions": "3.25.0",
+    "@react-stately/toast": "3.1.0",
+    "@react-stately/utils": "3.10.6"
   },
   "devDependencies": {
     "@v0xoss/system": "workspace:*",
     "@v0xoss/theme": "workspace:*",
     "@v0xoss/button": "workspace:*",
+    "@v0xoss/modal": "workspace:*",
+    "@v0xoss/drawer": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

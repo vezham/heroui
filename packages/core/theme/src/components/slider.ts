@@ -134,10 +134,6 @@ const slider = tv({
         filler: "bg-danger",
         thumb: "bg-danger",
       },
-      info: {
-        filler: "bg-info",
-        thumb: "bg-info",
-      },
     },
     isVertical: {
       true: {
@@ -265,13 +261,6 @@ const slider = tv({
         step: "data-[in-range=true]:bg-danger",
       },
     },
-    {
-      size: "sm",
-      color: "info",
-      class: {
-        step: "data-[in-range=true]:bg-info",
-      },
-    },
     // size && !isVertical
     {
       size: "sm",
@@ -322,118 +311,92 @@ const slider = tv({
           "w-7 mx-[calc((theme(spacing.7)-theme(spacing.5))/2)] border-y-[calc(theme(spacing.7)/2)]",
       },
     },
-    // color && !isVertical && hasSingleThumb
+    // color && !isVertical
     {
       color: "foreground",
       isVertical: false,
-      hasSingleThumb: true,
       class: {
-        track: "border-s-foreground",
+        track:
+          "data-[fill-start=true]:border-s-foreground data-[fill-end=true]:border-e-foreground",
       },
     },
     {
       color: "primary",
       isVertical: false,
-      hasSingleThumb: true,
       class: {
-        track: "border-s-primary",
+        track: "data-[fill-start=true]:border-s-primary data-[fill-end=true]:border-e-primary",
       },
     },
     {
       color: "secondary",
       isVertical: false,
-      hasSingleThumb: true,
       class: {
-        track: "border-s-secondary",
+        track: "data-[fill-start=true]:border-s-secondary data-[fill-end=true]:border-e-secondary",
       },
     },
     {
       color: "success",
       isVertical: false,
-      hasSingleThumb: true,
       class: {
-        track: "border-s-success",
+        track: "data-[fill-start=true]:border-s-success data-[fill-end=true]:border-e-success",
       },
     },
     {
       color: "warning",
       isVertical: false,
-      hasSingleThumb: true,
       class: {
-        track: "border-s-warning",
+        track: "data-[fill-start=true]:border-s-warning data-[fill-end=true]:border-e-warning",
       },
     },
     {
       color: "danger",
       isVertical: false,
-      hasSingleThumb: true,
       class: {
-        track: "border-s-danger",
+        track: "data-[fill-start=true]:border-s-danger data-[fill-end=true]:border-e-danger",
       },
     },
-    {
-      color: "info",
-      isVertical: false,
-      hasSingleThumb: true,
-      class: {
-        track: "border-s-info",
-      },
-    },
-    // color && isVertical && hasSingleThumb
+    // color && isVertical
     {
       color: "foreground",
       isVertical: true,
-      hasSingleThumb: true,
       class: {
-        track: "border-b-foreground",
+        track:
+          "data-[fill-start=true]:border-b-foreground data-[fill-end=true]:border-t-foreground",
       },
     },
     {
       color: "primary",
       isVertical: true,
-      hasSingleThumb: true,
       class: {
-        track: "border-b-primary",
+        track: "data-[fill-start=true]:border-b-primary data-[fill-end=true]:border-t-primary",
       },
     },
     {
       color: "secondary",
       isVertical: true,
-      hasSingleThumb: true,
       class: {
-        track: "border-b-secondary",
+        track: "data-[fill-start=true]:border-b-secondary data-[fill-end=true]:border-t-secondary",
       },
     },
     {
       color: "success",
       isVertical: true,
-      hasSingleThumb: true,
       class: {
-        track: "border-b-success",
+        track: "data-[fill-start=true]:border-b-success data-[fill-end=true]:border-t-success",
       },
     },
     {
       color: "warning",
       isVertical: true,
-      hasSingleThumb: true,
       class: {
-        track: "border-b-warning",
+        track: "data-[fill-start=true]:border-b-warning data-[fill-end=true]:border-t-warning",
       },
     },
     {
       color: "danger",
       isVertical: true,
-      hasSingleThumb: true,
       class: {
-        track: "border-b-danger",
-      },
-    },
-    {
-      color: "info",
-      isVertical: true,
-      hasSingleThumb: true,
-      class: {
-        track: "border-b-info",
+        track: "data-[fill-start=true]:border-b-danger data-[fill-end=true]:border-t-danger",
       },
     },
   ],

@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/progress",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Progress bars show either determinate or indeterminate progress of an operation over time.",
   "keywords": [
     "progress"
@@ -43,10 +43,10 @@
     "@v0xoss/shared-utils": "workspace:*",
     "@v0xoss/react-utils": "workspace:*",
     "@v0xoss/use-is-mounted": "workspace:*",
-    "@react-aria/i18n": "3.12.5",
-    "@react-aria/progress": "3.4.19",
-    "@react-aria/utils": "3.27.0",
-    "@react-types/progress": "3.5.9"
+    "@react-aria/i18n": "3.12.8",
+    "@react-aria/progress": "3.4.22",
+    "@react-aria/utils": "3.28.2",
+    "@react-types/progress": "3.5.11"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/use-scroll-position",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Provides the logic to control the scroll over an element",
   "keywords": [
     "use-scroll-position"

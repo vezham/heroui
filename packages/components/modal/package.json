@@ -50,13 +50,13 @@
     "@v0xoss/shared-icons": "workspace:*",
     "@v0xoss/use-aria-modal-overlay": "workspace:*",
     "@v0xoss/dom-animation": "workspace:*",
-    "@react-aria/dialog": "3.5.21",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/interactions": "3.23.0",
-    "@react-aria/overlays": "3.25.0",
-    "@react-aria/utils": "3.27.0",
-    "@react-stately/overlays": "3.6.13",
-    "@react-types/overlays": "3.8.12"
+    "@react-aria/dialog": "3.5.24",
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/interactions": "3.25.0",
+    "@react-aria/overlays": "3.27.0",
+    "@react-aria/utils": "3.28.2",
+    "@react-stately/overlays": "3.6.15",
+    "@react-types/overlays": "3.8.14"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

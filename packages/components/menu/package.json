@@ -45,14 +45,14 @@
     "@v0xoss/use-is-mobile": "workspace:*",
     "@v0xoss/shared-utils": "workspace:*",
     "@v0xoss/react-utils": "workspace:*",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/interactions": "3.23.0",
-    "@react-aria/menu": "3.17.0",
-    "@react-aria/utils": "3.27.0",
-    "@react-stately/menu": "3.9.1",
-    "@react-stately/tree": "3.8.7",
-    "@react-types/menu": "3.9.14",
-    "@react-types/shared": "3.27.0"
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/interactions": "3.25.0",
+    "@react-aria/menu": "3.18.2",
+    "@react-aria/utils": "3.28.2",
+    "@react-stately/menu": "3.9.3",
+    "@react-stately/tree": "3.8.9",
+    "@react-types/menu": "3.10.0",
+    "@react-types/shared": "3.29.0"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

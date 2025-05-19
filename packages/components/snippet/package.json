@@ -47,8 +47,8 @@
     "@v0xoss/shared-icons": "workspace:*",
     "@v0xoss/use-clipboard": "workspace:*",
     "@v0xoss/tooltip": "workspace:*",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/utils": "3.27.0"
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/utils": "3.28.2"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

@@ -91,7 +91,7 @@
     "@v0xoss/alert": "workspace:*",
     "@v0xoss/number-input": "workspace:*",
     "@v0xoss/toast": "workspace:*",
-    "@react-aria/visually-hidden": "3.8.19"
+    "@react-aria/visually-hidden": "3.8.22"
   },
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",

@@ -45,6 +45,24 @@
 - Updated dependencies [[`70aa656`](https://github.com/vezham/heroui/commit/70aa656b74899c2176122e026685e212895e87a7)]:
   - @v0xoss/react-utils@0.0.1
 
+## 2.1.10
+
+### Patch Changes
+
+- [`b9e94a2`](https://github.com/heroui-inc/heroui/commit/b9e94a21518ba18447603680055c3a7dad8372bf) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - add default value for custom theme properties (#5194)
+
+  v2.7.7
+
+- Updated dependencies [[`b9e94a2`](https://github.com/heroui-inc/heroui/commit/b9e94a21518ba18447603680055c3a7dad8372bf)]:
+  - @heroui/react-utils@2.1.10
+
+## 2.1.9
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @heroui/react-utils@2.1.9
+
 ## 2.1.8
 
 ### Patch Changes

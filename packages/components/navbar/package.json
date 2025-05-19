@@ -46,13 +46,13 @@
     "@v0xoss/framer-utils": "workspace:*",
     "@v0xoss/use-scroll-position": "workspace:*",
     "@v0xoss/dom-animation": "workspace:*",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/interactions": "3.23.0",
-    "@react-aria/button": "3.11.1",
-    "@react-aria/overlays": "3.25.0",
-    "@react-aria/utils": "3.27.0",
-    "@react-stately/toggle": "3.8.1",
-    "@react-stately/utils": "3.10.5"
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/interactions": "3.25.0",
+    "@react-aria/button": "3.13.0",
+    "@react-aria/overlays": "3.27.0",
+    "@react-aria/utils": "3.28.2",
+    "@react-stately/toggle": "3.8.3",
+    "@react-stately/utils": "3.10.6"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

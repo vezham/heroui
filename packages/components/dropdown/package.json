@@ -46,11 +46,11 @@
     "@v0xoss/popover": "workspace:*",
     "@v0xoss/react-utils": "workspace:*",
     "@v0xoss/shared-utils": "workspace:*",
-    "@react-aria/focus": "3.19.1",
-    "@react-aria/menu": "3.17.0",
-    "@react-aria/utils": "3.27.0",
-    "@react-stately/menu": "3.9.1",
-    "@react-types/menu": "3.9.14"
+    "@react-aria/focus": "3.20.2",
+    "@react-aria/menu": "3.18.2",
+    "@react-aria/utils": "3.28.2",
+    "@react-stately/menu": "3.9.3",
+    "@react-types/menu": "3.10.0"
   },
   "devDependencies": {
     "@v0xoss/avatar": "workspace:*",

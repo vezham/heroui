@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/kbd",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The keyboard key components indicates which key or set of keys used to execute a specificv  action",
   "keywords": [
     "kbd"
@@ -42,7 +42,7 @@
     "@v0xoss/system-rsc": "workspace:*",
     "@v0xoss/shared-utils": "workspace:*",
     "@v0xoss/react-utils": "workspace:*",
-    "@react-aria/utils": "3.27.0"
+    "@react-aria/utils": "3.28.2"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

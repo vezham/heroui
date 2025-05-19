@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/divider",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": ". A separator is a visual divider between two groups of content",
   "keywords": [
     "divider"
@@ -42,7 +42,7 @@
     "@v0xoss/shared-utils": "workspace:*",
     "@v0xoss/react-rsc-utils": "workspace:*",
     "@v0xoss/system-rsc": "workspace:*",
-    "@react-types/shared": "3.27.0"
+    "@react-types/shared": "3.29.0"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",
