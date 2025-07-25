@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/drawer",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Used to render a content that slides in from the side of the screen.",
   "keywords": [
     "drawer"

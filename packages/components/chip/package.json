@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/chip",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Chips help people enter information, make selections, filter content, or trigger actions.",
   "keywords": [
     "chip"

@@ -6,7 +6,7 @@ on:
   pull_request:
     types: [closed]
   push:
-    branches: [timeline]
+    branches: [timeline, feat/tv4]
     paths:
       - ".github/workflows/bnd.yml"
       - ".changeset/**"

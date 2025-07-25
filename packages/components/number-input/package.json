@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/number-input",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "The numeric input component is designed for users to enter a number, and increase or decrease the value using stepper buttons",
   "keywords": [
     "input",

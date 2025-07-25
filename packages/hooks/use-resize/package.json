@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/use-resize",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Hook that adds an event listener to the resize window event",
   "keywords": [
     "use-resize"
