@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/calendar",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A calendar displays one or more date grids and allows users to select a single date.",
   "keywords": [
     "calendar"

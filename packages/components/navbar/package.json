@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/navbar",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A responsive navigation header positioned on top side of your page that includes support for branding, links, navigation, collapse and more.",
   "keywords": [
     "navbar"

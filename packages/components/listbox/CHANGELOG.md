@@ -1,5 +1,18 @@
 # @heroui/listbox
 
+## 0.0.8
+
+### Patch Changes
+
+- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
+
+- Updated dependencies [[`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c)]:
+  - @v0xoss/shared-utils@0.0.8
+  - @v0xoss/react-utils@0.0.8
+  - @v0xoss/aria-utils@0.0.8
+  - @v0xoss/use-is-mobile@0.0.8
+  - @v0xoss/divider@0.0.8
+
 ## 2.3.22
 
 ### Patch Changes

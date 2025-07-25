@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/system",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "HeroUI system primitives",
   "keywords": [
     "system"

@@ -1,5 +1,21 @@
 # @heroui/number-input
 
+## 0.0.8
+
+### Patch Changes
+
+- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
+
+- [#5484](https://github.com/heroui-inc/heroui/pull/5484) [`9dceb11`](https://github.com/vezham/heroui/commit/9dceb116ce1a260e099be738af9f175446823d53) Thanks [@wulimao49](https://github.com/wulimao49)! - Fixed NumberInput label class being incorrectly mixed into the description (#5489).
+
+- Updated dependencies [[`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c)]:
+  - @v0xoss/use-safe-layout-effect@0.0.8
+  - @v0xoss/shared-icons@0.0.8
+  - @v0xoss/shared-utils@0.0.8
+  - @v0xoss/react-utils@0.0.8
+  - @v0xoss/button@0.0.8
+  - @v0xoss/form@0.0.8
+
 ## 2.0.14
 
 ### Patch Changes

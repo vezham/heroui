@@ -1,5 +1,11 @@
 # @heroui/use-viewport-size
 
+## 0.0.8
+
+### Patch Changes
+
+- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
+
 ## 2.0.1
 
 ### Patch Changes

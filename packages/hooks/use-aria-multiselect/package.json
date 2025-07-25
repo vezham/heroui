@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/use-aria-multiselect",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Provides the behavior and accessibility implementation for a multi-select component.",
   "keywords": [
     "use-aria-multiselect"

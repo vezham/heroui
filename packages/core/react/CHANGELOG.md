@@ -1,5 +1,62 @@
 # @heroui/react
 
+## 0.0.8
+
+### Patch Changes
+
+- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
+
+- Updated dependencies [[`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c), [`9dceb11`](https://github.com/vezham/heroui/commit/9dceb116ce1a260e099be738af9f175446823d53)]:
+  - @v0xoss/scroll-shadow@0.0.8
+  - @v0xoss/autocomplete@0.0.8
+  - @v0xoss/number-input@0.0.8
+  - @v0xoss/breadcrumbs@0.0.8
+  - @v0xoss/date-picker@0.0.8
+  - @v0xoss/framer-utils@0.0.8
+  - @v0xoss/date-input@0.0.8
+  - @v0xoss/pagination@0.0.8
+  - @v0xoss/accordion@0.0.8
+  - @v0xoss/input-otp@0.0.8
+  - @v0xoss/calendar@0.0.8
+  - @v0xoss/checkbox@0.0.8
+  - @v0xoss/dropdown@0.0.8
+  - @v0xoss/progress@0.0.8
+  - @v0xoss/skeleton@0.0.8
+  - @v0xoss/divider@0.0.8
+  - @v0xoss/listbox@0.0.8
+  - @v0xoss/popover@0.0.8
+  - @v0xoss/snippet@0.0.8
+  - @v0xoss/spinner@0.0.8
+  - @v0xoss/tooltip@0.0.8
+  - @v0xoss/avatar@0.0.8
+  - @v0xoss/button@0.0.8
+  - @v0xoss/drawer@0.0.8
+  - @v0xoss/navbar@0.0.8
+  - @v0xoss/ripple@0.0.8
+  - @v0xoss/select@0.0.8
+  - @v0xoss/slider@0.0.8
+  - @v0xoss/spacer@0.0.8
+  - @v0xoss/switch@0.0.8
+  - @v0xoss/alert@0.0.8
+  - @v0xoss/badge@0.0.8
+  - @v0xoss/image@0.0.8
+  - @v0xoss/input@0.0.8
+  - @v0xoss/modal@0.0.8
+  - @v0xoss/radio@0.0.8
+  - @v0xoss/table@0.0.8
+  - @v0xoss/toast@0.0.8
+  - @v0xoss/card@0.0.8
+  - @v0xoss/chip@0.0.8
+  - @v0xoss/code@0.0.8
+  - @v0xoss/form@0.0.8
+  - @v0xoss/link@0.0.8
+  - @v0xoss/menu@0.0.8
+  - @v0xoss/tabs@0.0.8
+  - @v0xoss/user@0.0.8
+  - @v0xoss/kbd@0.0.8
+  - @v0xoss/system@0.0.8
+  - @v0xoss/theme@0.0.8
+
 ## 2.8.1
 
 ### Patch Changes
