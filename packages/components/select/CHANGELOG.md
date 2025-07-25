@@ -1,5 +1,26 @@
 # @heroui/select
 
+## 0.0.8
+
+### Patch Changes
+
+- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
+
+- Updated dependencies [[`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c)]:
+  - @v0xoss/use-safe-layout-effect@0.0.8
+  - @v0xoss/use-aria-multiselect@0.0.8
+  - @v0xoss/scroll-shadow@0.0.8
+  - @v0xoss/shared-icons@0.0.8
+  - @v0xoss/shared-utils@0.0.8
+  - @v0xoss/use-aria-button@0.0.8
+  - @v0xoss/react-utils@0.0.8
+  - @v0xoss/use-form-reset@0.0.8
+  - @v0xoss/aria-utils@0.0.8
+  - @v0xoss/listbox@0.0.8
+  - @v0xoss/popover@0.0.8
+  - @v0xoss/spinner@0.0.8
+  - @v0xoss/form@0.0.8
+
 ## 2.4.24
 
 ### Patch Changes

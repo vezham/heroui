@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/table",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Tables are used to display tabular data using rows and columns. ",
   "keywords": [
     "table"
