@@ -1,0 +1,125 @@
+# wjdlz/NOTE: @v0xci
+name: QA
+
+on:
+  schedule:
+    - cron: '30 22 * * 2,5' # Wed, Sat at 4am IST
+  workflow_dispatch:
+  push:
+    branches: [timeline, feat/*]
+    paths:
+      - ".github/workflows/qa.yml"
+      - ".changeset/**"
+      - "packages/**"
+
+run-name: "${{ github.event_name == 'schedule' && 'ci(TVA): QA' || github.event_name == 'workflow_dispatch' && 'ci(TVA): Dry Run - QA' || github.event.head_commit.message || github.event.workflow_run.head_commit.message || github.ref_name }} - by @${{ github.event_name == 'schedule' && 'v0x' || github.actor || 'v0xci' }}"
+
+concurrency:
+  group: qa-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+# timeout-minutes: 10
+
+permissions:
+  checks: write
+  contents: write
+  pull-requests: write
+
+env:
+  REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
+  BRANCH: ${{ github.ref_name || 'timeline' }} # inputs.GIT_BRANCH
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
+
+      - name: fork | build
+        # id: build
+        # continue-on-error: false
+        shell: bash
+        run: |
+          pnpm build || {
+            echo "build failed with exit code $?"
+            exit 1
+          }
+
+  types:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
+
+      - name: fork | typecheck
+        shell: bash
+        run: |
+          pnpm typecheck
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
+
+      - name: fork | lint - ESLint
+        shell: bash
+        run: |
+          pnpm lint
+
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
+
+      - name: fork | format - Prettier
+        shell: bash
+        run: |
+          pnpm format:check
+
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-checkout@timeline
+        with:
+          GIT_REPO: ${{ env.REPO }}
+          GIT_BRANCH: ${{ env.BRANCH }}
+
+      - name: action | node & pnpm
+        uses: vezham/v0xFE-deployer/.github/actions/common/setup-install@timeline
+
+      - name: fork | test - jest
+        shell: bash
+        run: |
+          pnpm test
