@@ -1,5 +1,5 @@
-import {Tooltip} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {Tooltip} from "@v0xoss/react";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {CircleInfo} from "@/components/icons";
 

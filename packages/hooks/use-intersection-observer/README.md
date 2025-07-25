@@ -1,4 +1,4 @@
-# @heroui/use-intersection-observer
+# @v0xoss/use-intersection-observer
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-intersection-observer
+yarn add @v0xoss/use-intersection-observer
 # or
-npm i @heroui/use-intersection-observer
+npm i @v0xoss/use-intersection-observer
 ```
 
 ## Contribution

@@ -1,12 +1,12 @@
-import type {AriaButtonProps} from "@heroui/use-aria-button";
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {AriaButtonProps} from "@v0xoss/use-aria-button";
+import type {HTMLHeroUIProps} from "@v0xoss/system";
 
-import {useAriaButton} from "@heroui/use-aria-button";
+import {useAriaButton} from "@v0xoss/use-aria-button";
 import {useHover} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 import {forwardRef} from "react";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {dataAttr, mergeProps} from "@heroui/shared-utils";
+import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
+import {dataAttr, mergeProps} from "@v0xoss/shared-utils";
 
 const CalendarPickerItem = forwardRef<
   HTMLButtonElement,

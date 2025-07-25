@@ -1,4 +1,4 @@
-# @heroui/use-image
+# @v0xoss/use-image
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-image
+yarn add @v0xoss/use-image
 # or
-npm i @heroui/use-image
+npm i @v0xoss/use-image
 ```
 
 ## Contribution

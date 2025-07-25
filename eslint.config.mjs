@@ -47,7 +47,9 @@ export default defineConfig([globalIgnores([
     "!**/tsup.config.ts",
     "apps/docs/preinstall.js",
     "apps/docs/next-redirect.js",
-    "apps/docs/.contentlayer/**/*"
+    "apps/docs/.contentlayer/**/*",
+    "**/.vezham",
+    "**/v"
 ]), {
     extends: fixupConfigRules(compat.extends(
         "plugin:react/recommended",

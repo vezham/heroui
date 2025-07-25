@@ -1,13 +1,13 @@
-# @heroui/date-input
+# @v0xoss/date-input
 
 A date input allows users to enter and edit date and time values using a keyboard.
 
 ## Installation
 
 ```sh
-yarn add @heroui/date-input
+yarn add @v0xoss/date-input
 # or
-npm i @heroui/date-input
+npm i @v0xoss/date-input
 ```
 
 ## Contribution

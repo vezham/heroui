@@ -1,4 +1,4 @@
-# @heroui/slider
+# @v0xoss/slider
 
 Slider allows a user to select one or more values within a range.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/slider) f
 ## Installation
 
 ```sh
-yarn add @heroui/slider
+yarn add @v0xoss/slider
 # or
-npm i @heroui/slider
+npm i @v0xoss/slider
 ```
 
 ## Contribution

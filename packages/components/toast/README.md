@@ -1,13 +1,13 @@
-# @heroui/toast
+# @v0xoss/toast
 
 Toast Component helps to provide feedback on user-actions.
 
 ## Installation
 
 ```sh
-yarn add @heroui/toast
+yarn add @v0xoss/toast
 # or
-npm i @heroui/toast
+npm i @v0xoss/toast
 ```
 
 ## Contribution

@@ -1,7 +1,7 @@
 import type {DateValue} from "@react-types/calendar";
 
 import React from "react";
-import {Calendar} from "@heroui/react";
+import {Calendar} from "@v0xoss/react";
 import {today, getLocalTimeZone} from "@internationalized/date";
 
 export default function App() {

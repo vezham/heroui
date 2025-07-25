@@ -1,10 +1,10 @@
-import type {ButtonProps} from "@heroui/button";
+import type {ButtonProps} from "@v0xoss/button";
 import type {CalendarDate} from "@internationalized/date";
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@v0xoss/system";
 
 import {useDateFormatter} from "@react-aria/i18n";
 import {m} from "framer-motion";
-import {Button} from "@heroui/button";
+import {Button} from "@v0xoss/button";
 import {useCallback} from "react";
 
 import {slideVariants} from "./calendar-transitions";

@@ -1,18 +1,18 @@
 import type {ListboxItemBaseProps} from "./base/listbox-item-base";
-import type {MenuItemVariantProps} from "@heroui/theme";
+import type {MenuItemVariantProps} from "@v0xoss/theme";
 import type {Node} from "@react-types/shared";
 import type {ListState} from "@react-stately/list";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 
 import {useMemo, useRef, useCallback} from "react";
-import {listboxItem} from "@heroui/theme";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
+import {listboxItem} from "@v0xoss/theme";
+import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
 import {useFocusRing} from "@react-aria/focus";
-import {filterDOMProps} from "@heroui/react-utils";
-import {clsx, dataAttr, objectToDeps, removeEvents, mergeProps} from "@heroui/shared-utils";
+import {filterDOMProps} from "@v0xoss/react-utils";
+import {clsx, dataAttr, objectToDeps, removeEvents, mergeProps} from "@v0xoss/shared-utils";
 import {useOption} from "@react-aria/listbox";
 import {useHover, usePress} from "@react-aria/interactions";
-import {useIsMobile} from "@heroui/use-is-mobile";
+import {useIsMobile} from "@v0xoss/use-is-mobile";
 
 interface Props<T extends object> extends ListboxItemBaseProps<T> {
   item: Node<T>;

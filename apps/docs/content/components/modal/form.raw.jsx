@@ -9,7 +9,7 @@ import {
   Checkbox,
   Input,
   Link,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export const MailIcon = (props) => {
   return (

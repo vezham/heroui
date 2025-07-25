@@ -1,8 +1,8 @@
 import type {UseButtonProps} from "./use-button";
 
-import {Spinner} from "@heroui/spinner";
-import {Ripple} from "@heroui/ripple";
-import {forwardRef} from "@heroui/system";
+import {Spinner} from "@v0xoss/spinner";
+import {Ripple} from "@v0xoss/ripple";
+import {forwardRef} from "@v0xoss/system";
 
 import {useButton} from "./use-button";
 

@@ -1,4 +1,4 @@
-import {Table, TableHeader, TableColumn, TableBody} from "@heroui/react";
+import {Table, TableHeader, TableColumn, TableBody} from "@v0xoss/react";
 
 export default function App() {
   return (

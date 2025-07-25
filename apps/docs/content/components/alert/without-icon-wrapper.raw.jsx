@@ -1,4 +1,4 @@
-import {Alert} from "@heroui/react";
+import {Alert} from "@v0xoss/react";
 
 export default function App() {
   return (

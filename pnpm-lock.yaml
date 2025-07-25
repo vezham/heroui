@@ -283,30 +283,6 @@ importers:
       '@emotion/is-prop-valid':
         specifier: ^1.3.1
         version: 1.3.1
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../packages/utilities/aria-utils
-      '@heroui/react':
-        specifier: workspace:*
-        version: link:../../packages/core/react
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../packages/utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../packages/utilities/shared-utils
-      '@heroui/spacer':
-        specifier: workspace:*
-        version: link:../../packages/components/spacer
-      '@heroui/theme':
-        specifier: workspace:*
-        version: link:../../packages/core/theme
-      '@heroui/use-clipboard':
-        specifier: workspace:*
-        version: link:../../packages/hooks/use-clipboard
-      '@heroui/use-infinite-scroll':
-        specifier: workspace:*
-        version: link:../../packages/hooks/use-infinite-scroll
       '@iconify/icons-solar':
         specifier: 1.2.3
         version: 1.2.3
@@ -355,6 +331,30 @@ importers:
       '@types/lodash':
         specifier: ^4.17.15
         version: 4.17.18
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../packages/utilities/aria-utils
+      '@v0xoss/react':
+        specifier: workspace:*
+        version: link:../../packages/core/react
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../packages/utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../packages/utilities/shared-utils
+      '@v0xoss/spacer':
+        specifier: workspace:*
+        version: link:../../packages/components/spacer
+      '@v0xoss/theme':
+        specifier: workspace:*
+        version: link:../../packages/core/theme
+      '@v0xoss/use-clipboard':
+        specifier: workspace:*
+        version: link:../../packages/hooks/use-clipboard
+      '@v0xoss/use-infinite-scroll':
+        specifier: workspace:*
+        version: link:../../packages/hooks/use-infinite-scroll
       '@vercel/analytics':
         specifier: ^1.4.1
         version: 1.5.0(next@15.3.1(@babel/core@7.27.4)(@opentelemetry/api@1.9.0)(babel-plugin-macros@3.1.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0))(react@18.3.0)
@@ -575,30 +575,6 @@ importers:
 
   packages/components/accordion:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/divider':
-        specifier: workspace:*
-        version: link:../divider
-      '@heroui/dom-animation':
-        specifier: workspace:*
-        version: link:../../utilities/dom-animation
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-accordion':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-accordion
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -614,23 +590,47 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/divider':
+        specifier: workspace:*
+        version: link:../divider
+      '@v0xoss/dom-animation':
+        specifier: workspace:*
+        version: link:../../utilities/dom-animation
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-accordion':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-accordion
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/input':
+      '@v0xoss/input':
         specifier: workspace:*
         version: link:../input
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -648,26 +648,26 @@ importers:
 
   packages/components/alert:
     dependencies:
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-stately/utils':
         specifier: 3.10.7
         version: 3.10.7(react@18.3.0)
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -682,39 +682,6 @@ importers:
 
   packages/components/autocomplete:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/input':
-        specifier: workspace:*
-        version: link:../input
-      '@heroui/listbox':
-        specifier: workspace:*
-        version: link:../listbox
-      '@heroui/popover':
-        specifier: workspace:*
-        version: link:../popover
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/scroll-shadow':
-        specifier: workspace:*
-        version: link:../scroll-shadow
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/combobox':
         specifier: 3.12.5
         version: 3.12.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -730,28 +697,61 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/input':
+        specifier: workspace:*
+        version: link:../input
+      '@v0xoss/listbox':
+        specifier: workspace:*
+        version: link:../listbox
+      '@v0xoss/popover':
+        specifier: workspace:*
+        version: link:../popover
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/scroll-shadow':
+        specifier: workspace:*
+        version: link:../scroll-shadow
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
     devDependencies:
-      '@heroui/avatar':
-        specifier: workspace:*
-        version: link:../avatar
-      '@heroui/stories-utils':
-        specifier: workspace:*
-        version: link:../../utilities/stories-utils
-      '@heroui/system':
-        specifier: workspace:*
-        version: link:../../core/system
-      '@heroui/test-utils':
-        specifier: workspace:*
-        version: link:../../utilities/test-utils
-      '@heroui/theme':
-        specifier: workspace:*
-        version: link:../../core/theme
-      '@heroui/use-infinite-scroll':
-        specifier: workspace:*
-        version: link:../../hooks/use-infinite-scroll
       '@react-stately/data':
         specifier: 3.13.1
         version: 3.13.1(react@18.3.0)
+      '@v0xoss/avatar':
+        specifier: workspace:*
+        version: link:../avatar
+      '@v0xoss/stories-utils':
+        specifier: workspace:*
+        version: link:../../utilities/stories-utils
+      '@v0xoss/system':
+        specifier: workspace:*
+        version: link:../../core/system
+      '@v0xoss/test-utils':
+        specifier: workspace:*
+        version: link:../../utilities/test-utils
+      '@v0xoss/theme':
+        specifier: workspace:*
+        version: link:../../core/theme
+      '@v0xoss/use-infinite-scroll':
+        specifier: workspace:*
+        version: link:../../hooks/use-infinite-scroll
       clean-package:
         specifier: 2.2.0
         version: 2.2.0
@@ -770,32 +770,32 @@ importers:
 
   packages/components/avatar:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-image':
-        specifier: workspace:*
-        version: link:../../hooks/use-image
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@react-aria/interactions':
         specifier: 3.25.3
         version: 3.25.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-image':
+        specifier: workspace:*
+        version: link:../../hooks/use-image
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -810,26 +810,26 @@ importers:
 
   packages/components/badge:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/switch':
+      '@v0xoss/switch':
         specifier: workspace:*
         version: link:../switch
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -844,15 +844,6 @@ importers:
 
   packages/components/breadcrumbs:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-aria/breadcrumbs':
         specifier: 3.5.26
         version: 3.5.26(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -862,20 +853,29 @@ importers:
       '@react-types/breadcrumbs':
         specifier: 3.7.14
         version: 3.7.14(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/dropdown':
+      '@v0xoss/dropdown':
         specifier: workspace:*
         version: link:../dropdown
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
-      '@heroui/tooltip':
+      '@v0xoss/tooltip':
         specifier: workspace:*
         version: link:../tooltip
       clean-package:
@@ -890,21 +890,6 @@ importers:
 
   packages/components/button:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/ripple':
-        specifier: workspace:*
-        version: link:../ripple
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/spinner':
-        specifier: workspace:*
-        version: link:../spinner
-      '@heroui/use-aria-button':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-button
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -914,14 +899,29 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/ripple':
+        specifier: workspace:*
+        version: link:../ripple
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/spinner':
+        specifier: workspace:*
+        version: link:../spinner
+      '@v0xoss/use-aria-button':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-button
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -939,27 +939,6 @@ importers:
 
   packages/components/calendar:
     dependencies:
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/dom-animation':
-        specifier: workspace:*
-        version: link:../../utilities/dom-animation
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-button':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-button
       '@internationalized/date':
         specifier: 3.8.2
         version: 3.8.2
@@ -993,20 +972,41 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/dom-animation':
+        specifier: workspace:*
+        version: link:../../utilities/dom-animation
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-button':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-button
       scroll-into-view-if-needed:
         specifier: 3.0.10
         version: 3.0.10
     devDependencies:
-      '@heroui/radio':
+      '@v0xoss/radio':
         specifier: workspace:*
         version: link:../radio
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1024,18 +1024,6 @@ importers:
 
   packages/components/card:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/ripple':
-        specifier: workspace:*
-        version: link:../ripple
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-button':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-button
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1045,26 +1033,38 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/ripple':
+        specifier: workspace:*
+        version: link:../ripple
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-button':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-button
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/code':
+      '@v0xoss/code':
         specifier: workspace:*
         version: link:../code
-      '@heroui/image':
+      '@v0xoss/image':
         specifier: workspace:*
         version: link:../image
-      '@heroui/link':
+      '@v0xoss/link':
         specifier: workspace:*
         version: link:../link
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1082,21 +1082,6 @@ importers:
 
   packages/components/checkbox:
     dependencies:
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-callback-ref':
-        specifier: workspace:*
-        version: link:../../hooks/use-callback-ref
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/checkbox':
         specifier: 3.15.7
         version: 3.15.7(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1118,14 +1103,29 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-callback-ref':
+        specifier: workspace:*
+        version: link:../../hooks/use-callback-ref
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1143,29 +1143,29 @@ importers:
 
   packages/components/chip:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@react-aria/interactions':
         specifier: 3.25.3
         version: 3.25.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1180,20 +1180,20 @@ importers:
 
   packages/components/code:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/system-rsc':
+      '@v0xoss/system-rsc':
         specifier: workspace:*
         version: link:../../core/system-rsc
     devDependencies:
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1208,15 +1208,6 @@ importers:
 
   packages/components/date-input:
     dependencies:
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@internationalized/date':
         specifier: 3.8.2
         version: 3.8.2
@@ -1235,17 +1226,26 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1260,33 +1260,6 @@ importers:
 
   packages/components/date-picker:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/calendar':
-        specifier: workspace:*
-        version: link:../calendar
-      '@heroui/date-input':
-        specifier: workspace:*
-        version: link:../date-input
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/popover':
-        specifier: workspace:*
-        version: link:../popover
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@internationalized/date':
         specifier: 3.8.2
         version: 3.8.2
@@ -1308,17 +1281,44 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/calendar':
+        specifier: workspace:*
+        version: link:../calendar
+      '@v0xoss/date-input':
+        specifier: workspace:*
+        version: link:../date-input
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/popover':
+        specifier: workspace:*
+        version: link:../popover
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/radio':
+      '@v0xoss/radio':
         specifier: workspace:*
         version: link:../radio
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1336,17 +1336,17 @@ importers:
 
   packages/components/divider:
     dependencies:
-      '@heroui/react-rsc-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-rsc-utils
-      '@heroui/system-rsc':
-        specifier: workspace:*
-        version: link:../../core/system-rsc
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/react-rsc-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-rsc-utils
+      '@v0xoss/system-rsc':
+        specifier: workspace:*
+        version: link:../../core/system-rsc
     devDependencies:
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1361,53 +1361,53 @@ importers:
 
   packages/components/drawer:
     dependencies:
-      '@heroui/framer-utils':
+      '@v0xoss/framer-utils':
         specifier: workspace:*
         version: link:../../utilities/framer-utils
-      '@heroui/modal':
+      '@v0xoss/modal':
         specifier: workspace:*
         version: link:../modal
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/checkbox':
+      '@v0xoss/checkbox':
         specifier: workspace:*
         version: link:../checkbox
-      '@heroui/image':
+      '@v0xoss/image':
         specifier: workspace:*
         version: link:../image
-      '@heroui/input':
+      '@v0xoss/input':
         specifier: workspace:*
         version: link:../input
-      '@heroui/link':
+      '@v0xoss/link':
         specifier: workspace:*
         version: link:../link
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
-      '@heroui/tooltip':
+      '@v0xoss/tooltip':
         specifier: workspace:*
         version: link:../tooltip
-      '@heroui/use-disclosure':
+      '@v0xoss/use-disclosure':
         specifier: workspace:*
         version: link:../../hooks/use-disclosure
       clean-package:
@@ -1422,21 +1422,6 @@ importers:
 
   packages/components/dropdown:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/menu':
-        specifier: workspace:*
-        version: link:../menu
-      '@heroui/popover':
-        specifier: workspace:*
-        version: link:../popover
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1449,29 +1434,44 @@ importers:
       '@react-types/menu':
         specifier: 3.10.2
         version: 3.10.2(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/menu':
+        specifier: workspace:*
+        version: link:../menu
+      '@v0xoss/popover':
+        specifier: workspace:*
+        version: link:../popover
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/image':
+      '@v0xoss/image':
         specifier: workspace:*
         version: link:../image
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
-      '@heroui/user':
+      '@v0xoss/user':
         specifier: workspace:*
         version: link:../user
       clean-package:
@@ -1489,15 +1489,6 @@ importers:
 
   packages/components/form:
     dependencies:
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/system':
-        specifier: workspace:*
-        version: link:../../core/system
-      '@heroui/theme':
-        specifier: workspace:*
-        version: link:../../core/theme
       '@react-stately/form':
         specifier: 3.1.5
         version: 3.1.5(react@18.3.0)
@@ -1507,8 +1498,17 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/system':
+        specifier: workspace:*
+        version: link:../../core/system
+      '@v0xoss/theme':
+        specifier: workspace:*
+        version: link:../../core/theme
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
       clean-package:
@@ -1523,20 +1523,20 @@ importers:
 
   packages/components/image:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/use-image':
+      '@v0xoss/use-image':
         specifier: workspace:*
         version: link:../../hooks/use-image
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1551,21 +1551,6 @@ importers:
 
   packages/components/input:
     dependencies:
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1584,14 +1569,29 @@ importers:
       '@react-types/textfield':
         specifier: 3.12.3
         version: 3.12.3(react@18.3.0)
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
       react-textarea-autosize:
         specifier: ^8.5.3
         version: 8.5.9(@types/react@18.2.8)(react@18.3.0)
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1609,18 +1609,6 @@ importers:
 
   packages/components/input-otp:
     dependencies:
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-form-reset':
-        specifier: workspace:*
-        version: link:../../hooks/use-form-reset
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1636,17 +1624,29 @@ importers:
       '@react-types/textfield':
         specifier: 3.12.3
         version: 3.12.3(react@18.3.0)
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-form-reset':
+        specifier: workspace:*
+        version: link:../../hooks/use-form-reset
       input-otp:
         specifier: 1.4.1
         version: 1.4.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1664,20 +1664,20 @@ importers:
 
   packages/components/kbd:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/system-rsc':
+      '@v0xoss/system-rsc':
         specifier: workspace:*
         version: link:../../core/system-rsc
     devDependencies:
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1692,29 +1692,29 @@ importers:
 
   packages/components/link:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-link':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-link
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@react-types/link':
         specifier: 3.6.2
         version: 3.6.2(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-link':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-link
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1729,21 +1729,6 @@ importers:
 
   packages/components/listbox:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/divider':
-        specifier: workspace:*
-        version: link:../divider
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-is-mobile':
-        specifier: workspace:*
-        version: link:../../hooks/use-is-mobile
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1762,26 +1747,41 @@ importers:
       '@tanstack/react-virtual':
         specifier: 3.11.3
         version: 3.11.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/divider':
+        specifier: workspace:*
+        version: link:../divider
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-is-mobile':
+        specifier: workspace:*
+        version: link:../../hooks/use-is-mobile
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/chip':
+      '@v0xoss/chip':
         specifier: workspace:*
         version: link:../chip
-      '@heroui/scroll-shadow':
+      '@v0xoss/scroll-shadow':
         specifier: workspace:*
         version: link:../scroll-shadow
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/stories-utils':
+      '@v0xoss/stories-utils':
         specifier: workspace:*
         version: link:../../utilities/stories-utils
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1796,21 +1796,6 @@ importers:
 
   packages/components/menu:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/divider':
-        specifier: workspace:*
-        version: link:../divider
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-is-mobile':
-        specifier: workspace:*
-        version: link:../../hooks/use-is-mobile
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1829,14 +1814,29 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/divider':
+        specifier: workspace:*
+        version: link:../divider
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-is-mobile':
+        specifier: workspace:*
+        version: link:../../hooks/use-is-mobile
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1851,36 +1851,6 @@ importers:
 
   packages/components/modal:
     dependencies:
-      '@heroui/dom-animation':
-        specifier: workspace:*
-        version: link:../../utilities/dom-animation
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-button':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-button
-      '@heroui/use-aria-modal-overlay':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-modal-overlay
-      '@heroui/use-disclosure':
-        specifier: workspace:*
-        version: link:../../hooks/use-disclosure
-      '@heroui/use-draggable':
-        specifier: workspace:*
-        version: link:../../hooks/use-draggable
-      '@heroui/use-viewport-size':
-        specifier: workspace:*
-        version: link:../../hooks/use-viewport-size
       '@react-aria/dialog':
         specifier: 3.5.27
         version: 3.5.27(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1893,32 +1863,62 @@ importers:
       '@react-stately/overlays':
         specifier: 3.6.17
         version: 3.6.17(react@18.3.0)
+      '@v0xoss/dom-animation':
+        specifier: workspace:*
+        version: link:../../utilities/dom-animation
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-button':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-button
+      '@v0xoss/use-aria-modal-overlay':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-modal-overlay
+      '@v0xoss/use-disclosure':
+        specifier: workspace:*
+        version: link:../../hooks/use-disclosure
+      '@v0xoss/use-draggable':
+        specifier: workspace:*
+        version: link:../../hooks/use-draggable
+      '@v0xoss/use-viewport-size':
+        specifier: workspace:*
+        version: link:../../hooks/use-viewport-size
     devDependencies:
-      '@heroui/autocomplete':
+      '@v0xoss/autocomplete':
         specifier: workspace:*
         version: link:../autocomplete
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/checkbox':
+      '@v0xoss/checkbox':
         specifier: workspace:*
         version: link:../checkbox
-      '@heroui/input':
+      '@v0xoss/input':
         specifier: workspace:*
         version: link:../input
-      '@heroui/link':
+      '@v0xoss/link':
         specifier: workspace:*
         version: link:../link
-      '@heroui/switch':
+      '@v0xoss/switch':
         specifier: workspace:*
         version: link:../switch
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -1939,24 +1939,6 @@ importers:
 
   packages/components/navbar:
     dependencies:
-      '@heroui/dom-animation':
-        specifier: workspace:*
-        version: link:../../utilities/dom-animation
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-resize':
-        specifier: workspace:*
-        version: link:../../hooks/use-resize
-      '@heroui/use-scroll-position':
-        specifier: workspace:*
-        version: link:../../hooks/use-scroll-position
       '@react-aria/button':
         specifier: 3.13.3
         version: 3.13.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -1975,32 +1957,50 @@ importers:
       '@react-stately/utils':
         specifier: 3.10.7
         version: 3.10.7(react@18.3.0)
+      '@v0xoss/dom-animation':
+        specifier: workspace:*
+        version: link:../../utilities/dom-animation
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-resize':
+        specifier: workspace:*
+        version: link:../../hooks/use-resize
+      '@v0xoss/use-scroll-position':
+        specifier: workspace:*
+        version: link:../../hooks/use-scroll-position
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/dropdown':
+      '@v0xoss/dropdown':
         specifier: workspace:*
         version: link:../dropdown
-      '@heroui/input':
+      '@v0xoss/input':
         specifier: workspace:*
         version: link:../input
-      '@heroui/link':
+      '@v0xoss/link':
         specifier: workspace:*
         version: link:../link
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2021,24 +2021,6 @@ importers:
 
   packages/components/number-input:
     dependencies:
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2063,11 +2045,29 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2085,21 +2085,6 @@ importers:
 
   packages/components/pagination:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-intersection-observer':
-        specifier: workspace:*
-        version: link:../../hooks/use-intersection-observer
-      '@heroui/use-pagination':
-        specifier: workspace:*
-        version: link:../../hooks/use-pagination
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2112,17 +2097,32 @@ importers:
       '@react-aria/utils':
         specifier: 3.29.1
         version: 3.29.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-intersection-observer':
+        specifier: workspace:*
+        version: link:../../hooks/use-intersection-observer
+      '@v0xoss/use-pagination':
+        specifier: workspace:*
+        version: link:../../hooks/use-pagination
       scroll-into-view-if-needed:
         specifier: 3.0.10
         version: 3.0.10
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2137,33 +2137,6 @@ importers:
 
   packages/components/popover:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/dom-animation':
-        specifier: workspace:*
-        version: link:../../utilities/dom-animation
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-button':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-button
-      '@heroui/use-aria-overlay':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-overlay
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/dialog':
         specifier: 3.5.27
         version: 3.5.27(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2179,20 +2152,47 @@ importers:
       '@react-types/overlays':
         specifier: 3.8.16
         version: 3.8.16(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/dom-animation':
+        specifier: workspace:*
+        version: link:../../utilities/dom-animation
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-button':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-button
+      '@v0xoss/use-aria-overlay':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-overlay
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
     devDependencies:
-      '@heroui/card':
+      '@v0xoss/card':
         specifier: workspace:*
         version: link:../card
-      '@heroui/input':
+      '@v0xoss/input':
         specifier: workspace:*
         version: link:../input
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2210,32 +2210,32 @@ importers:
 
   packages/components/progress:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-is-mounted':
-        specifier: workspace:*
-        version: link:../../hooks/use-is-mounted
       '@react-aria/progress':
         specifier: 3.4.24
         version: 3.4.24(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@react-types/progress':
         specifier: 3.5.13
         version: 3.5.13(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-is-mounted':
+        specifier: workspace:*
+        version: link:../../hooks/use-is-mounted
     devDependencies:
-      '@heroui/card':
+      '@v0xoss/card':
         specifier: workspace:*
         version: link:../card
-      '@heroui/chip':
+      '@v0xoss/chip':
         specifier: workspace:*
         version: link:../chip
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2250,15 +2250,6 @@ importers:
 
   packages/components/radio:
     dependencies:
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2280,11 +2271,20 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2299,17 +2299,17 @@ importers:
 
   packages/components/ripple:
     dependencies:
-      '@heroui/dom-animation':
+      '@v0xoss/dom-animation':
         specifier: workspace:*
         version: link:../../utilities/dom-animation
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2327,20 +2327,20 @@ importers:
 
   packages/components/scroll-shadow:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/use-data-scroll-overflow':
+      '@v0xoss/use-data-scroll-overflow':
         specifier: workspace:*
         version: link:../../hooks/use-data-scroll-overflow
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2358,45 +2358,6 @@ importers:
 
   packages/components/select:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../form
-      '@heroui/listbox':
-        specifier: workspace:*
-        version: link:../listbox
-      '@heroui/popover':
-        specifier: workspace:*
-        version: link:../popover
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/scroll-shadow':
-        specifier: workspace:*
-        version: link:../scroll-shadow
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/spinner':
-        specifier: workspace:*
-        version: link:../spinner
-      '@heroui/use-aria-button':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-button
-      '@heroui/use-aria-multiselect':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-multiselect
-      '@heroui/use-form-reset':
-        specifier: workspace:*
-        version: link:../../hooks/use-form-reset
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2415,29 +2376,68 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../form
+      '@v0xoss/listbox':
+        specifier: workspace:*
+        version: link:../listbox
+      '@v0xoss/popover':
+        specifier: workspace:*
+        version: link:../popover
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/scroll-shadow':
+        specifier: workspace:*
+        version: link:../scroll-shadow
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/spinner':
+        specifier: workspace:*
+        version: link:../spinner
+      '@v0xoss/use-aria-button':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-button
+      '@v0xoss/use-aria-multiselect':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-multiselect
+      '@v0xoss/use-form-reset':
+        specifier: workspace:*
+        version: link:../../hooks/use-form-reset
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
     devDependencies:
-      '@heroui/avatar':
+      '@v0xoss/avatar':
         specifier: workspace:*
         version: link:../avatar
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/chip':
+      '@v0xoss/chip':
         specifier: workspace:*
         version: link:../chip
-      '@heroui/stories-utils':
+      '@v0xoss/stories-utils':
         specifier: workspace:*
         version: link:../../utilities/stories-utils
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
-      '@heroui/use-infinite-scroll':
+      '@v0xoss/use-infinite-scroll':
         specifier: workspace:*
         version: link:../../hooks/use-infinite-scroll
       clean-package:
@@ -2458,20 +2458,20 @@ importers:
 
   packages/components/skeleton:
     dependencies:
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/card':
+      '@v0xoss/card':
         specifier: workspace:*
         version: link:../card
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2486,15 +2486,6 @@ importers:
 
   packages/components/slider:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/tooltip':
-        specifier: workspace:*
-        version: link:../tooltip
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2513,14 +2504,23 @@ importers:
       '@react-stately/slider':
         specifier: 3.6.5
         version: 3.6.5(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/tooltip':
+        specifier: workspace:*
+        version: link:../tooltip
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2535,32 +2535,32 @@ importers:
 
   packages/components/snippet:
     dependencies:
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/tooltip':
-        specifier: workspace:*
-        version: link:../tooltip
-      '@heroui/use-clipboard':
-        specifier: workspace:*
-        version: link:../../hooks/use-clipboard
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/tooltip':
+        specifier: workspace:*
+        version: link:../tooltip
+      '@v0xoss/use-clipboard':
+        specifier: workspace:*
+        version: link:../../hooks/use-clipboard
     devDependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2578,20 +2578,20 @@ importers:
 
   packages/components/spacer:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/system-rsc':
+      '@v0xoss/system-rsc':
         specifier: workspace:*
         version: link:../../core/system-rsc
     devDependencies:
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2606,17 +2606,17 @@ importers:
 
   packages/components/spinner:
     dependencies:
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/system-rsc':
+      '@v0xoss/system-rsc':
         specifier: workspace:*
         version: link:../../core/system-rsc
     devDependencies:
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2631,15 +2631,6 @@ importers:
 
   packages/components/switch:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2655,14 +2646,23 @@ importers:
       '@react-stately/toggle':
         specifier: 3.8.5
         version: 3.8.5(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
     devDependencies:
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2680,21 +2680,6 @@ importers:
 
   packages/components/table:
     dependencies:
-      '@heroui/checkbox':
-        specifier: workspace:*
-        version: link:../checkbox
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/spacer':
-        specifier: workspace:*
-        version: link:../spacer
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2722,37 +2707,52 @@ importers:
       '@tanstack/react-virtual':
         specifier: 3.11.3
         version: 3.11.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/checkbox':
+        specifier: workspace:*
+        version: link:../checkbox
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/spacer':
+        specifier: workspace:*
+        version: link:../spacer
     devDependencies:
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../button
-      '@heroui/chip':
-        specifier: workspace:*
-        version: link:../chip
-      '@heroui/pagination':
-        specifier: workspace:*
-        version: link:../pagination
-      '@heroui/spinner':
-        specifier: workspace:*
-        version: link:../spinner
-      '@heroui/system':
-        specifier: workspace:*
-        version: link:../../core/system
-      '@heroui/theme':
-        specifier: workspace:*
-        version: link:../../core/theme
-      '@heroui/tooltip':
-        specifier: workspace:*
-        version: link:../tooltip
-      '@heroui/use-infinite-scroll':
-        specifier: workspace:*
-        version: link:../../hooks/use-infinite-scroll
-      '@heroui/user':
-        specifier: workspace:*
-        version: link:../user
       '@react-stately/data':
         specifier: 3.13.1
         version: 3.13.1(react@18.3.0)
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../button
+      '@v0xoss/chip':
+        specifier: workspace:*
+        version: link:../chip
+      '@v0xoss/pagination':
+        specifier: workspace:*
+        version: link:../pagination
+      '@v0xoss/spinner':
+        specifier: workspace:*
+        version: link:../spinner
+      '@v0xoss/system':
+        specifier: workspace:*
+        version: link:../../core/system
+      '@v0xoss/theme':
+        specifier: workspace:*
+        version: link:../../core/theme
+      '@v0xoss/tooltip':
+        specifier: workspace:*
+        version: link:../tooltip
+      '@v0xoss/use-infinite-scroll':
+        specifier: workspace:*
+        version: link:../../hooks/use-infinite-scroll
+      '@v0xoss/user':
+        specifier: workspace:*
+        version: link:../user
       clean-package:
         specifier: 2.2.0
         version: 2.2.0
@@ -2768,18 +2768,6 @@ importers:
 
   packages/components/tabs:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-is-mounted':
-        specifier: workspace:*
-        version: link:../../hooks/use-is-mounted
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2795,29 +2783,41 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-is-mounted':
+        specifier: workspace:*
+        version: link:../../hooks/use-is-mounted
       scroll-into-view-if-needed:
         specifier: 3.0.10
         version: 3.0.10
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/card':
+      '@v0xoss/card':
         specifier: workspace:*
         version: link:../card
-      '@heroui/input':
+      '@v0xoss/input':
         specifier: workspace:*
         version: link:../input
-      '@heroui/shared-icons':
+      '@v0xoss/shared-icons':
         specifier: workspace:*
         version: link:../../utilities/shared-icons
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2838,21 +2838,6 @@ importers:
 
   packages/components/toast:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/spinner':
-        specifier: workspace:*
-        version: link:../spinner
-      '@heroui/use-is-mobile':
-        specifier: workspace:*
-        version: link:../../hooks/use-is-mobile
       '@react-aria/interactions':
         specifier: 3.25.3
         version: 3.25.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2862,23 +2847,38 @@ importers:
       '@react-stately/toast':
         specifier: 3.1.1
         version: 3.1.1(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/spinner':
+        specifier: workspace:*
+        version: link:../spinner
+      '@v0xoss/use-is-mobile':
+        specifier: workspace:*
+        version: link:../../hooks/use-is-mobile
       framer-motion:
         specifier: '>=11.5.6 || >=12.0.0-alpha.1'
         version: 11.18.2(@emotion/is-prop-valid@1.3.1)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/drawer':
+      '@v0xoss/drawer':
         specifier: workspace:*
         version: link:../drawer
-      '@heroui/modal':
+      '@v0xoss/modal':
         specifier: workspace:*
         version: link:../modal
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2893,27 +2893,6 @@ importers:
 
   packages/components/tooltip:
     dependencies:
-      '@heroui/aria-utils':
-        specifier: workspace:*
-        version: link:../../utilities/aria-utils
-      '@heroui/dom-animation':
-        specifier: workspace:*
-        version: link:../../utilities/dom-animation
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
-      '@heroui/use-aria-overlay':
-        specifier: workspace:*
-        version: link:../../hooks/use-aria-overlay
-      '@heroui/use-safe-layout-effect':
-        specifier: workspace:*
-        version: link:../../hooks/use-safe-layout-effect
       '@react-aria/overlays':
         specifier: 3.27.3
         version: 3.27.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -2929,6 +2908,27 @@ importers:
       '@react-types/tooltip':
         specifier: 3.4.18
         version: 3.4.18(react@18.3.0)
+      '@v0xoss/aria-utils':
+        specifier: workspace:*
+        version: link:../../utilities/aria-utils
+      '@v0xoss/dom-animation':
+        specifier: workspace:*
+        version: link:../../utilities/dom-animation
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
+      '@v0xoss/use-aria-overlay':
+        specifier: workspace:*
+        version: link:../../hooks/use-aria-overlay
+      '@v0xoss/use-safe-layout-effect':
+        specifier: workspace:*
+        version: link:../../hooks/use-safe-layout-effect
       react:
         specifier: 18.3.0
         version: 18.3.0
@@ -2936,16 +2936,16 @@ importers:
         specifier: 18.3.0
         version: 18.3.0(react@18.3.0)
     devDependencies:
-      '@heroui/button':
+      '@v0xoss/button':
         specifier: workspace:*
         version: link:../button
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2957,26 +2957,26 @@ importers:
 
   packages/components/user:
     dependencies:
-      '@heroui/avatar':
-        specifier: workspace:*
-        version: link:../avatar
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-aria/focus':
         specifier: 3.20.5
         version: 3.20.5(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/avatar':
+        specifier: workspace:*
+        version: link:../avatar
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
-      '@heroui/link':
+      '@v0xoss/link':
         specifier: workspace:*
         version: link:../link
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../../core/theme
       clean-package:
@@ -2991,156 +2991,156 @@ importers:
 
   packages/core/react:
     dependencies:
-      '@heroui/accordion':
-        specifier: workspace:*
-        version: link:../../components/accordion
-      '@heroui/alert':
-        specifier: workspace:*
-        version: link:../../components/alert
-      '@heroui/autocomplete':
-        specifier: workspace:*
-        version: link:../../components/autocomplete
-      '@heroui/avatar':
-        specifier: workspace:*
-        version: link:../../components/avatar
-      '@heroui/badge':
-        specifier: workspace:*
-        version: link:../../components/badge
-      '@heroui/breadcrumbs':
-        specifier: workspace:*
-        version: link:../../components/breadcrumbs
-      '@heroui/button':
-        specifier: workspace:*
-        version: link:../../components/button
-      '@heroui/calendar':
-        specifier: workspace:*
-        version: link:../../components/calendar
-      '@heroui/card':
-        specifier: workspace:*
-        version: link:../../components/card
-      '@heroui/checkbox':
-        specifier: workspace:*
-        version: link:../../components/checkbox
-      '@heroui/chip':
-        specifier: workspace:*
-        version: link:../../components/chip
-      '@heroui/code':
-        specifier: workspace:*
-        version: link:../../components/code
-      '@heroui/date-input':
-        specifier: workspace:*
-        version: link:../../components/date-input
-      '@heroui/date-picker':
-        specifier: workspace:*
-        version: link:../../components/date-picker
-      '@heroui/divider':
-        specifier: workspace:*
-        version: link:../../components/divider
-      '@heroui/drawer':
-        specifier: workspace:*
-        version: link:../../components/drawer
-      '@heroui/dropdown':
-        specifier: workspace:*
-        version: link:../../components/dropdown
-      '@heroui/form':
-        specifier: workspace:*
-        version: link:../../components/form
-      '@heroui/framer-utils':
-        specifier: workspace:*
-        version: link:../../utilities/framer-utils
-      '@heroui/image':
-        specifier: workspace:*
-        version: link:../../components/image
-      '@heroui/input':
-        specifier: workspace:*
-        version: link:../../components/input
-      '@heroui/input-otp':
-        specifier: workspace:*
-        version: link:../../components/input-otp
-      '@heroui/kbd':
-        specifier: workspace:*
-        version: link:../../components/kbd
-      '@heroui/link':
-        specifier: workspace:*
-        version: link:../../components/link
-      '@heroui/listbox':
-        specifier: workspace:*
-        version: link:../../components/listbox
-      '@heroui/menu':
-        specifier: workspace:*
-        version: link:../../components/menu
-      '@heroui/modal':
-        specifier: workspace:*
-        version: link:../../components/modal
-      '@heroui/navbar':
-        specifier: workspace:*
-        version: link:../../components/navbar
-      '@heroui/number-input':
-        specifier: workspace:*
-        version: link:../../components/number-input
-      '@heroui/pagination':
-        specifier: workspace:*
-        version: link:../../components/pagination
-      '@heroui/popover':
-        specifier: workspace:*
-        version: link:../../components/popover
-      '@heroui/progress':
-        specifier: workspace:*
-        version: link:../../components/progress
-      '@heroui/radio':
-        specifier: workspace:*
-        version: link:../../components/radio
-      '@heroui/ripple':
-        specifier: workspace:*
-        version: link:../../components/ripple
-      '@heroui/scroll-shadow':
-        specifier: workspace:*
-        version: link:../../components/scroll-shadow
-      '@heroui/select':
-        specifier: workspace:*
-        version: link:../../components/select
-      '@heroui/skeleton':
-        specifier: workspace:*
-        version: link:../../components/skeleton
-      '@heroui/slider':
-        specifier: workspace:*
-        version: link:../../components/slider
-      '@heroui/snippet':
-        specifier: workspace:*
-        version: link:../../components/snippet
-      '@heroui/spacer':
-        specifier: workspace:*
-        version: link:../../components/spacer
-      '@heroui/spinner':
-        specifier: workspace:*
-        version: link:../../components/spinner
-      '@heroui/switch':
-        specifier: workspace:*
-        version: link:../../components/switch
-      '@heroui/system':
-        specifier: workspace:*
-        version: link:../system
-      '@heroui/table':
-        specifier: workspace:*
-        version: link:../../components/table
-      '@heroui/tabs':
-        specifier: workspace:*
-        version: link:../../components/tabs
-      '@heroui/theme':
-        specifier: workspace:*
-        version: link:../theme
-      '@heroui/toast':
-        specifier: workspace:*
-        version: link:../../components/toast
-      '@heroui/tooltip':
-        specifier: workspace:*
-        version: link:../../components/tooltip
-      '@heroui/user':
-        specifier: workspace:*
-        version: link:../../components/user
       '@react-aria/visually-hidden':
         specifier: 3.8.25
         version: 3.8.25(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/accordion':
+        specifier: workspace:*
+        version: link:../../components/accordion
+      '@v0xoss/alert':
+        specifier: workspace:*
+        version: link:../../components/alert
+      '@v0xoss/autocomplete':
+        specifier: workspace:*
+        version: link:../../components/autocomplete
+      '@v0xoss/avatar':
+        specifier: workspace:*
+        version: link:../../components/avatar
+      '@v0xoss/badge':
+        specifier: workspace:*
+        version: link:../../components/badge
+      '@v0xoss/breadcrumbs':
+        specifier: workspace:*
+        version: link:../../components/breadcrumbs
+      '@v0xoss/button':
+        specifier: workspace:*
+        version: link:../../components/button
+      '@v0xoss/calendar':
+        specifier: workspace:*
+        version: link:../../components/calendar
+      '@v0xoss/card':
+        specifier: workspace:*
+        version: link:../../components/card
+      '@v0xoss/checkbox':
+        specifier: workspace:*
+        version: link:../../components/checkbox
+      '@v0xoss/chip':
+        specifier: workspace:*
+        version: link:../../components/chip
+      '@v0xoss/code':
+        specifier: workspace:*
+        version: link:../../components/code
+      '@v0xoss/date-input':
+        specifier: workspace:*
+        version: link:../../components/date-input
+      '@v0xoss/date-picker':
+        specifier: workspace:*
+        version: link:../../components/date-picker
+      '@v0xoss/divider':
+        specifier: workspace:*
+        version: link:../../components/divider
+      '@v0xoss/drawer':
+        specifier: workspace:*
+        version: link:../../components/drawer
+      '@v0xoss/dropdown':
+        specifier: workspace:*
+        version: link:../../components/dropdown
+      '@v0xoss/form':
+        specifier: workspace:*
+        version: link:../../components/form
+      '@v0xoss/framer-utils':
+        specifier: workspace:*
+        version: link:../../utilities/framer-utils
+      '@v0xoss/image':
+        specifier: workspace:*
+        version: link:../../components/image
+      '@v0xoss/input':
+        specifier: workspace:*
+        version: link:../../components/input
+      '@v0xoss/input-otp':
+        specifier: workspace:*
+        version: link:../../components/input-otp
+      '@v0xoss/kbd':
+        specifier: workspace:*
+        version: link:../../components/kbd
+      '@v0xoss/link':
+        specifier: workspace:*
+        version: link:../../components/link
+      '@v0xoss/listbox':
+        specifier: workspace:*
+        version: link:../../components/listbox
+      '@v0xoss/menu':
+        specifier: workspace:*
+        version: link:../../components/menu
+      '@v0xoss/modal':
+        specifier: workspace:*
+        version: link:../../components/modal
+      '@v0xoss/navbar':
+        specifier: workspace:*
+        version: link:../../components/navbar
+      '@v0xoss/number-input':
+        specifier: workspace:*
+        version: link:../../components/number-input
+      '@v0xoss/pagination':
+        specifier: workspace:*
+        version: link:../../components/pagination
+      '@v0xoss/popover':
+        specifier: workspace:*
+        version: link:../../components/popover
+      '@v0xoss/progress':
+        specifier: workspace:*
+        version: link:../../components/progress
+      '@v0xoss/radio':
+        specifier: workspace:*
+        version: link:../../components/radio
+      '@v0xoss/ripple':
+        specifier: workspace:*
+        version: link:../../components/ripple
+      '@v0xoss/scroll-shadow':
+        specifier: workspace:*
+        version: link:../../components/scroll-shadow
+      '@v0xoss/select':
+        specifier: workspace:*
+        version: link:../../components/select
+      '@v0xoss/skeleton':
+        specifier: workspace:*
+        version: link:../../components/skeleton
+      '@v0xoss/slider':
+        specifier: workspace:*
+        version: link:../../components/slider
+      '@v0xoss/snippet':
+        specifier: workspace:*
+        version: link:../../components/snippet
+      '@v0xoss/spacer':
+        specifier: workspace:*
+        version: link:../../components/spacer
+      '@v0xoss/spinner':
+        specifier: workspace:*
+        version: link:../../components/spinner
+      '@v0xoss/switch':
+        specifier: workspace:*
+        version: link:../../components/switch
+      '@v0xoss/system':
+        specifier: workspace:*
+        version: link:../system
+      '@v0xoss/table':
+        specifier: workspace:*
+        version: link:../../components/table
+      '@v0xoss/tabs':
+        specifier: workspace:*
+        version: link:../../components/tabs
+      '@v0xoss/theme':
+        specifier: workspace:*
+        version: link:../theme
+      '@v0xoss/toast':
+        specifier: workspace:*
+        version: link:../../components/toast
+      '@v0xoss/tooltip':
+        specifier: workspace:*
+        version: link:../../components/tooltip
+      '@v0xoss/user':
+        specifier: workspace:*
+        version: link:../../components/user
       framer-motion:
         specifier: '>=11.5.6 || >=12.0.0-alpha.1'
         version: 11.18.2(@emotion/is-prop-valid@1.3.1)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -3157,12 +3157,6 @@ importers:
 
   packages/core/system:
     dependencies:
-      '@heroui/react-utils':
-        specifier: workspace:*
-        version: link:../../utilities/react-utils
-      '@heroui/system-rsc':
-        specifier: workspace:*
-        version: link:../system-rsc
       '@react-aria/i18n':
         specifier: 3.12.10
         version: 3.12.10(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -3172,6 +3166,12 @@ importers:
       '@react-aria/utils':
         specifier: 3.29.1
         version: 3.29.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/react-utils':
+        specifier: workspace:*
+        version: link:../../utilities/react-utils
+      '@v0xoss/system-rsc':
+        specifier: workspace:*
+        version: link:../system-rsc
     devDependencies:
       clean-package:
         specifier: 2.2.0
@@ -3195,13 +3195,13 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
     devDependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../theme
       clean-package:
@@ -3216,7 +3216,7 @@ importers:
 
   packages/core/theme:
     dependencies:
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
       clsx:
@@ -3356,9 +3356,6 @@ importers:
 
   packages/hooks/use-aria-modal-overlay:
     dependencies:
-      '@heroui/use-aria-overlay':
-        specifier: workspace:*
-        version: link:../use-aria-overlay
       '@react-aria/overlays':
         specifier: 3.27.3
         version: 3.27.3(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -3368,6 +3365,9 @@ importers:
       '@react-stately/overlays':
         specifier: 3.6.17
         version: 3.6.17(react@18.3.0)
+      '@v0xoss/use-aria-overlay':
+        specifier: workspace:*
+        version: link:../use-aria-overlay
     devDependencies:
       clean-package:
         specifier: 2.2.0
@@ -3458,7 +3458,7 @@ importers:
 
   packages/hooks/use-callback-ref:
     dependencies:
-      '@heroui/use-safe-layout-effect':
+      '@v0xoss/use-safe-layout-effect':
         specifier: workspace:*
         version: link:../use-safe-layout-effect
     devDependencies:
@@ -3480,7 +3480,7 @@ importers:
 
   packages/hooks/use-data-scroll-overflow:
     dependencies:
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
     devDependencies:
@@ -3493,15 +3493,15 @@ importers:
 
   packages/hooks/use-disclosure:
     dependencies:
-      '@heroui/use-callback-ref':
-        specifier: workspace:*
-        version: link:../use-callback-ref
       '@react-aria/utils':
         specifier: 3.29.1
         version: 3.29.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@react-stately/utils':
         specifier: 3.10.7
         version: 3.10.7(react@18.3.0)
+      '@v0xoss/use-callback-ref':
+        specifier: workspace:*
+        version: link:../use-callback-ref
     devDependencies:
       clean-package:
         specifier: 2.2.0
@@ -3534,14 +3534,14 @@ importers:
 
   packages/hooks/use-image:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
-      '@heroui/use-safe-layout-effect':
+      '@v0xoss/use-safe-layout-effect':
         specifier: workspace:*
         version: link:../use-safe-layout-effect
     devDependencies:
-      '@heroui/test-utils':
+      '@v0xoss/test-utils':
         specifier: workspace:*
         version: link:../../utilities/test-utils
       clean-package:
@@ -3553,7 +3553,7 @@ importers:
 
   packages/hooks/use-infinite-scroll:
     dependencies:
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
     devDependencies:
@@ -3606,12 +3606,12 @@ importers:
 
   packages/hooks/use-pagination:
     dependencies:
-      '@heroui/shared-utils':
-        specifier: workspace:*
-        version: link:../../utilities/shared-utils
       '@react-aria/i18n':
         specifier: 3.12.10
         version: 3.12.10(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@v0xoss/shared-utils':
+        specifier: workspace:*
+        version: link:../../utilities/shared-utils
     devDependencies:
       clean-package:
         specifier: 2.2.0
@@ -3622,7 +3622,7 @@ importers:
 
   packages/hooks/use-real-shape:
     dependencies:
-      '@heroui/react-utils':
+      '@v0xoss/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
     devDependencies:
@@ -3707,10 +3707,10 @@ importers:
 
   packages/storybook:
     dependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../core/system
-      '@heroui/theme':
+      '@v0xoss/theme':
         specifier: workspace:*
         version: link:../core/theme
       react:
@@ -3777,9 +3777,6 @@ importers:
 
   packages/utilities/aria-utils:
     dependencies:
-      '@heroui/system':
-        specifier: workspace:*
-        version: link:../../core/system
       '@react-aria/utils':
         specifier: 3.29.1
         version: 3.29.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -3792,6 +3789,9 @@ importers:
       '@react-types/shared':
         specifier: 3.30.0
         version: 3.30.0(react@18.3.0)
+      '@v0xoss/system':
+        specifier: workspace:*
+        version: link:../../core/system
     devDependencies:
       clean-package:
         specifier: 2.2.0
@@ -3814,10 +3814,10 @@ importers:
 
   packages/utilities/framer-utils:
     dependencies:
-      '@heroui/system':
+      '@v0xoss/system':
         specifier: workspace:*
         version: link:../../core/system
-      '@heroui/use-measure':
+      '@v0xoss/use-measure':
         specifier: workspace:*
         version: link:../../hooks/use-measure
     devDependencies:
@@ -3845,10 +3845,10 @@ importers:
 
   packages/utilities/react-utils:
     dependencies:
-      '@heroui/react-rsc-utils':
+      '@v0xoss/react-rsc-utils':
         specifier: workspace:*
         version: link:../react-rsc-utils
-      '@heroui/shared-utils':
+      '@v0xoss/shared-utils':
         specifier: workspace:*
         version: link:../shared-utils
     devDependencies:

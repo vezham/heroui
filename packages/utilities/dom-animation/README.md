@@ -1,4 +1,4 @@
-# @heroui/dom-animation
+# @v0xoss/dom-animation
 
 A Quick description of the component
 
@@ -6,9 +6,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/dom-animation
+yarn add @v0xoss/dom-animation
 # or
-npm i @heroui/dom-animation
+npm i @v0xoss/dom-animation
 ```
 
 ## Contribution

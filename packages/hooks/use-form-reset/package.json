@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/use-form-reset",
-  "version": "2.0.1",
+  "name": "@v0xoss/use-form-reset",
+  "version": "0.0.0",
   "description": "use-form-reset hook from `@react-aria` utils",
   "keywords": [
     "use-form-reset"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/hooks/use-form-reset"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

@@ -1,4 +1,4 @@
-# @heroui/framer-utils
+# @v0xoss/framer-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/framer-utils
+yarn add @v0xoss/framer-utils
 # or
-npm i @heroui/framer-utils
+npm i @v0xoss/framer-utils
 ```
 
 ## Contribution

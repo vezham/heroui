@@ -1,13 +1,13 @@
 import type {ButtonProps} from "./index";
-import type {ReactRef} from "@heroui/react-utils";
-import type {ButtonGroupVariantProps} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {ReactRef} from "@v0xoss/react-utils";
+import type {ButtonGroupVariantProps} from "@v0xoss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 
-import {buttonGroup} from "@heroui/theme";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
+import {buttonGroup} from "@v0xoss/theme";
+import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useMemo, useCallback} from "react";
-import {objectToDeps} from "@heroui/shared-utils";
+import {objectToDeps} from "@v0xoss/shared-utils";
 interface Props extends HTMLHeroUIProps, ButtonGroupVariantProps {
   /**
    * Ref to the DOM node.

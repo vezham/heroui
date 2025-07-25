@@ -1,4 +1,4 @@
-# @heroui/spacer
+# @v0xoss/spacer
 
 Spacer is a component used to add space between components.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/spacer) f
 ## Installation
 
 ```sh
-yarn add @heroui/spacer
+yarn add @v0xoss/spacer
 # or
-npm i @heroui/spacer
+npm i @v0xoss/spacer
 ```
 
 ## Contribution

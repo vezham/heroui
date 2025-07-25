@@ -1,19 +1,19 @@
-import type {HTMLHeroUIProps, PropGetter, SharedSelection} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter, SharedSelection} from "@v0xoss/system";
 import type {AriaMenuProps} from "@react-types/menu";
 import type {AriaMenuOptions} from "@react-aria/menu";
-import type {MenuVariantProps, SlotsToClasses, MenuSlots} from "@heroui/theme";
+import type {MenuVariantProps, SlotsToClasses, MenuSlots} from "@v0xoss/theme";
 import type {TreeState} from "@react-stately/tree";
-import type {ReactRef} from "@heroui/react-utils";
+import type {ReactRef} from "@v0xoss/react-utils";
 import type {ReactNode} from "react";
 import type {MenuItemProps} from "./menu-item";
 
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@v0xoss/system";
 import {useMenu as useAriaMenu} from "@react-aria/menu";
-import {menu} from "@heroui/theme";
+import {menu} from "@v0xoss/theme";
 import {useTreeState} from "@react-stately/tree";
-import {filterDOMProps, useDOMRef} from "@heroui/react-utils";
+import {filterDOMProps, useDOMRef} from "@v0xoss/react-utils";
 import {useMemo} from "react";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@v0xoss/shared-utils";
 
 interface Props<T> {
   /**

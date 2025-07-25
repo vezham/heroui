@@ -3,9 +3,9 @@ import type {Meta} from "@storybook/react";
 import type {NumberInputProps} from "../src";
 
 import React from "react";
-import {button} from "@heroui/theme";
-import {Form} from "@heroui/form";
-import {numberInput} from "@heroui/theme";
+import {button} from "@v0xoss/theme";
+import {Form} from "@v0xoss/form";
+import {numberInput} from "@v0xoss/theme";
 
 import {NumberInput} from "../src";
 

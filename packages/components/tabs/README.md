@@ -1,4 +1,4 @@
-# @heroui/tabs
+# @v0xoss/tabs
 
 Tabs organize content into multiple sections and allow users to navigate between them.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/tabs) for
 ## Installation
 
 ```sh
-yarn add @heroui/tabs
+yarn add @v0xoss/tabs
 # or
-npm i @heroui/tabs
+npm i @v0xoss/tabs
 ```
 
 ## Contribution

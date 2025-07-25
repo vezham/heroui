@@ -1,20 +1,20 @@
-import type {SlotsToClasses, ToastSlots, ToastVariantProps} from "@heroui/theme";
+import type {SlotsToClasses, ToastSlots, ToastVariantProps} from "@v0xoss/theme";
 import type {DOMAttributes} from "react";
-import type {ReactRef} from "@heroui/react-utils";
+import type {ReactRef} from "@v0xoss/react-utils";
 import type {ReactNode} from "react";
 import type {AriaToastProps} from "@react-aria/toast";
 import type {QueuedToast, ToastState} from "@react-stately/toast";
 import type {MotionProps} from "framer-motion";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {toast as toastTheme} from "@heroui/theme";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx, dataAttr, isEmpty, objectToDeps, chain, mergeProps} from "@heroui/shared-utils";
+import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
+import {toast as toastTheme} from "@v0xoss/theme";
+import {useDOMRef} from "@v0xoss/react-utils";
+import {clsx, dataAttr, isEmpty, objectToDeps, chain, mergeProps} from "@v0xoss/shared-utils";
 import {useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState} from "react";
 import {useToast as useToastAria} from "@react-aria/toast";
 import {useHover} from "@react-aria/interactions";
-import {useIsMobile} from "@heroui/use-is-mobile";
+import {useIsMobile} from "@v0xoss/use-is-mobile";
 
 export type ToastPlacement =
   | "bottom-right"

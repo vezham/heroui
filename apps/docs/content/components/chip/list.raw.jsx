@@ -1,4 +1,4 @@
-import {Chip} from "@heroui/react";
+import {Chip} from "@v0xoss/react";
 
 const initialFruits = ["Apple", "Banana", "Cherry", "Watermelon", "Orange"];
 

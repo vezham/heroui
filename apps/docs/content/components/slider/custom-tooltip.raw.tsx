@@ -1,6 +1,6 @@
-import type {SliderValue} from "@heroui/react";
+import type {SliderValue} from "@v0xoss/react";
 
-import {Slider} from "@heroui/react";
+import {Slider} from "@v0xoss/react";
 
 export default function App() {
   const formatMillisecondsToHHMMSS = (milliseconds: number) => {

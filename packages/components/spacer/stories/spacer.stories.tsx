@@ -2,7 +2,7 @@ import type {Meta} from "@storybook/react";
 import type {SpacerProps} from "../src";
 
 import React from "react";
-import {spacer} from "@heroui/theme";
+import {spacer} from "@v0xoss/theme";
 
 import {Spacer} from "../src";
 

@@ -1,10 +1,10 @@
 import type {UseInputProps} from "./use-input";
 
-import {dataAttr, mergeProps} from "@heroui/shared-utils";
-import {forwardRef} from "@heroui/system";
+import {dataAttr, mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@v0xoss/system";
 import {useMemo, useState} from "react";
 import TextareaAutosize from "react-textarea-autosize";
-import {CloseFilledIcon} from "@heroui/shared-icons";
+import {CloseFilledIcon} from "@v0xoss/shared-icons";
 
 import {useInput} from "./use-input";
 

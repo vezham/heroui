@@ -6,7 +6,7 @@ import type {GradientBoxProps} from "@/components/gradient-box";
 
 import React, {useCallback, useMemo, useRef, useState} from "react";
 import dynamic from "next/dynamic";
-import {addToast, Button, Skeleton, Spinner, Tab, Tabs} from "@heroui/react";
+import {addToast, Button, Skeleton, Spinner, Tab, Tabs} from "@v0xoss/react";
 import {useInView} from "framer-motion";
 import {usePostHog} from "posthog-js/react";
 import {usePathname} from "next/navigation";

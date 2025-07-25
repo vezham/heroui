@@ -1,7 +1,7 @@
 import type {DateValue} from "@internationalized/date";
 
 import React from "react";
-import {DatePicker} from "@heroui/react";
+import {DatePicker} from "@v0xoss/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 

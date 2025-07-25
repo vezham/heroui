@@ -1,12 +1,12 @@
-import type {ModalProps} from "@heroui/modal";
-import type {ReactRef} from "@heroui/react-utils";
-import type {PropGetter} from "@heroui/system";
+import type {ModalProps} from "@v0xoss/modal";
+import type {ReactRef} from "@v0xoss/react-utils";
+import type {PropGetter} from "@v0xoss/system";
 
-import {drawer} from "@heroui/theme";
-import {useDOMRef} from "@heroui/react-utils";
+import {drawer} from "@v0xoss/theme";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useCallback, useMemo} from "react";
-import {TRANSITION_EASINGS} from "@heroui/framer-utils";
-import {clsx, isEmpty} from "@heroui/shared-utils";
+import {TRANSITION_EASINGS} from "@v0xoss/framer-utils";
+import {clsx, isEmpty} from "@v0xoss/shared-utils";
 
 interface Props extends Omit<ModalProps, "placement" | "scrollBehavior" | "children"> {
   /**

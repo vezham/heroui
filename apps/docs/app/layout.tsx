@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import "@/styles/sandpack.css";
 import type {Metadata, Viewport} from "next";
 
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@v0xoss/shared-utils";
 import {Analytics} from "@vercel/analytics/next";
 
 import {Providers} from "./providers";

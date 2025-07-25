@@ -1,4 +1,4 @@
-import {Card, Skeleton} from "@heroui/react";
+import {Card, Skeleton} from "@v0xoss/react";
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/divider",
-  "version": "2.2.16",
+  "name": "@v0xoss/divider",
+  "version": "0.0.0",
   "description": ". A separator is a visual divider between two groups of content",
   "keywords": [
     "divider"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/divider"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,15 +36,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.17"
+    "@v0xoss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/react-rsc-utils": "workspace:*",
-    "@heroui/system-rsc": "workspace:*",
+    "@v0xoss/react-rsc-utils": "workspace:*",
+    "@v0xoss/system-rsc": "workspace:*",
     "@react-types/shared": "3.30.0"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
+    "@v0xoss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

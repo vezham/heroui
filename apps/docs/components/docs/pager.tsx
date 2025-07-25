@@ -3,10 +3,10 @@
 import type {Route} from "@/libs/docs/page";
 
 import * as React from "react";
-import {Link} from "@heroui/react";
+import {Link} from "@v0xoss/react";
 import {usePostHog} from "posthog-js/react";
 import {useRouter} from "next/navigation";
-import {ChevronIcon} from "@heroui/shared-icons";
+import {ChevronIcon} from "@v0xoss/shared-icons";
 
 import manifest from "@/config/routes.json";
 import {removeFromLast} from "@/utils";

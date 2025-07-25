@@ -18,11 +18,11 @@ TailwindCSS v4 is now available since 2.8.0! This guide will help you migrate yo
 
 <PackageManagers
   commands={{
-    cli: "npx heroui-cli@latest upgrade --all",
-    pnpm: "pnpm install @heroui/react@latest",
-    npm: "npm install @heroui/react@latest",
-    yarn: "yarn add @heroui/react@latest",
-    bun: "bun install @heroui/react@latest"
+    cli: "npx vezham-cli@latest upgrade --all",
+    pnpm: "pnpm install @v0xoss/react@latest",
+    npm: "npm install @v0xoss/react@latest",
+    yarn: "yarn add @v0xoss/react@latest",
+    bun: "bun install @v0xoss/react@latest"
   }}
 />
 
@@ -38,9 +38,9 @@ Create `hero.ts` file to export `heroui` plugin.
 
 ```tsx
 // hero.ts
-import { heroui } from "@heroui/react";
+import { heroui } from "@v0xoss/react";
 // or import from theme package if you are using individual packages.
-// import { heroui } from "@heroui/theme";
+// import { heroui } from "@v0xoss/theme";
 export default heroui();
 ```
 
@@ -55,7 +55,7 @@ Update your main css file as below
 + @import "tailwindcss";
 + @plugin './hero.ts';
 /* Note: You may need to change the path to fit your project structure */
-+ @source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
++ @source '../../node_modules/@v0xoss/theme/dist/**/*.{js,ts,jsx,tsx}';
 + @custom-variant dark (&:is(.dark *));
 ```
 
@@ -125,4 +125,4 @@ After migration, verify that:
 
 If you encounter any issues during migration, please:
 - Join our [Discord community](https://discord.gg/9b6yyZKmH4)
-- [Open an issue](https://github.com/heroui-inc/heroui/issues) on our GitHub repository
+- [Open an issue](https://github.com/vezham/heroui/issues) on our GitHub repository

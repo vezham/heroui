@@ -1,11 +1,11 @@
-import type {CodeVariantProps} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system-rsc";
-import type {ReactRef} from "@heroui/react-utils";
+import type {CodeVariantProps} from "@v0xoss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system-rsc";
+import type {ReactRef} from "@v0xoss/react-utils";
 
-import {code} from "@heroui/theme";
-import {mapPropsVariants} from "@heroui/system-rsc";
+import {code} from "@v0xoss/theme";
+import {mapPropsVariants} from "@v0xoss/system-rsc";
 import {useMemo} from "react";
-import {objectToDeps} from "@heroui/shared-utils";
+import {objectToDeps} from "@v0xoss/shared-utils";
 
 export interface UseCodeProps extends HTMLHeroUIProps<"code">, CodeVariantProps {
   /**

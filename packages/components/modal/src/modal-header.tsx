@@ -1,10 +1,10 @@
-import type {HTMLHeroUIProps} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {ReactRef} from "@v0xoss/react-utils";
 
 import {useEffect} from "react";
-import {forwardRef} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx} from "@heroui/shared-utils";
+import {forwardRef} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {useModalContext} from "./modal-context";
 

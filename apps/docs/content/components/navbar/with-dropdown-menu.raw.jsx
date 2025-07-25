@@ -9,7 +9,7 @@ import {
   DropdownTrigger,
   Dropdown,
   DropdownMenu,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 export const AcmeLogo = () => {
   return (

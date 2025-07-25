@@ -3,7 +3,7 @@ import type {UseTabsProps} from "./use-tabs";
 
 import {useId} from "react";
 import {LayoutGroup} from "framer-motion";
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 
 import {useTabs} from "./use-tabs";
 import Tab from "./tab";

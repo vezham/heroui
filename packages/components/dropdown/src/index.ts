@@ -1,6 +1,6 @@
-import type {MenuItemProps, MenuSectionProps} from "@heroui/menu";
+import type {MenuItemProps, MenuSectionProps} from "@v0xoss/menu";
 
-import {MenuItem, MenuSection} from "@heroui/menu";
+import {MenuItem, MenuSection} from "@v0xoss/menu";
 
 import Dropdown from "./dropdown";
 import DropdownTrigger from "./dropdown-trigger";

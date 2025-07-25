@@ -1,4 +1,4 @@
-# @heroui/dropdown
+# @v0xoss/dropdown
 
 Displays a list of actions or options that a user can choose.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/dropdown)
 ## Installation
 
 ```sh
-yarn add @heroui/dropdown
+yarn add @v0xoss/dropdown
 # or
-npm i @heroui/dropdown
+npm i @v0xoss/dropdown
 ```
 
 ## Contribution

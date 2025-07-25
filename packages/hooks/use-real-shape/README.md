@@ -1,4 +1,4 @@
-# @heroui/use-real-shape
+# @v0xoss/use-real-shape
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-real-shape
+yarn add @v0xoss/use-real-shape
 # or
-npm i @heroui/use-real-shape
+npm i @v0xoss/use-real-shape
 ```
 
 ## Contribution

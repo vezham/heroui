@@ -1,8 +1,8 @@
 import type {RefObject} from "react";
-import type {ShapeType} from "@heroui/react-utils";
+import type {ShapeType} from "@v0xoss/react-utils";
 
 import {useCallback, useState, useEffect} from "react";
-import {getRealShape} from "@heroui/react-utils";
+import {getRealShape} from "@v0xoss/react-utils";
 
 export type ShapeResult = [ShapeType, () => void];
 

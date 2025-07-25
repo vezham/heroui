@@ -1,4 +1,4 @@
-import {Popover, PopoverTrigger, PopoverContent, Button, Input} from "@heroui/react";
+import {Popover, PopoverTrigger, PopoverContent, Button, Input} from "@v0xoss/react";
 
 export default function App() {
   return (

@@ -1,4 +1,4 @@
-# @heroui/tooltip
+# @v0xoss/tooltip
 
 Tooltips display a brief, informative message that appears when a user interacts with an element.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/tooltip) 
 ## Installation
 
 ```sh
-yarn add @heroui/tooltip
+yarn add @v0xoss/tooltip
 # or
-npm i @heroui/tooltip
+npm i @v0xoss/tooltip
 ```
 
 ## Contribution

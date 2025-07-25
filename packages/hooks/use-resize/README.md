@@ -1,4 +1,4 @@
-# @heroui/use-resize
+# @v0xoss/use-resize
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-resize
+yarn add @v0xoss/use-resize
 # or
-npm i @heroui/use-resize
+npm i @v0xoss/use-resize
 ```
 
 ## Contribution

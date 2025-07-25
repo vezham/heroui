@@ -1,11 +1,11 @@
 import type {AriaTabPanelProps} from "@react-aria/tabs";
 import type {Key} from "@react-types/shared";
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@v0xoss/system";
 import type {ValuesType} from "./use-tabs";
 
-import {forwardRef} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx, getInertValue, mergeProps} from "@heroui/shared-utils";
+import {forwardRef} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
+import {clsx, getInertValue, mergeProps} from "@v0xoss/shared-utils";
 import {useTabPanel} from "@react-aria/tabs";
 import {useFocusRing} from "@react-aria/focus";
 

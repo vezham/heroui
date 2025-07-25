@@ -1,4 +1,4 @@
-import {Tooltip, Button} from "@heroui/react";
+import {Tooltip, Button} from "@v0xoss/react";
 
 export default function App() {
   const placements = [

@@ -1,4 +1,4 @@
-# @heroui/use-is-mounted
+# @v0xoss/use-is-mounted
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-is-mounted
+yarn add @v0xoss/use-is-mounted
 # or
-npm i @heroui/use-is-mounted
+npm i @v0xoss/use-is-mounted
 ```
 
 ## Contribution

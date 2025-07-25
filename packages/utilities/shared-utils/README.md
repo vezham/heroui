@@ -1,4 +1,4 @@
-# @heroui/shared-utils
+# @v0xoss/shared-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/shared-utils
+yarn add @v0xoss/shared-utils
 # or
-npm i @heroui/shared-utils
+npm i @v0xoss/shared-utils
 ```
 
 ## Contribution

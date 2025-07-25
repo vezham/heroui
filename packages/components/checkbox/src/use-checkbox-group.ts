@@ -1,19 +1,19 @@
-import type {CheckboxGroupSlots, SlotsToClasses} from "@heroui/theme";
+import type {CheckboxGroupSlots, SlotsToClasses} from "@v0xoss/theme";
 import type {AriaCheckboxGroupProps} from "@react-types/checkbox";
 import type {Orientation} from "@react-types/shared";
-import type {ReactRef} from "@heroui/react-utils";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {ReactRef} from "@v0xoss/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 import type {CheckboxGroupState} from "@react-stately/checkbox";
 import type {CheckboxProps} from "./index";
 
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@v0xoss/system";
 import {useCallback, useMemo} from "react";
-import {checkboxGroup} from "@heroui/theme";
+import {checkboxGroup} from "@v0xoss/theme";
 import {useCheckboxGroup as useReactAriaCheckboxGroup} from "@react-aria/checkbox";
 import {useCheckboxGroupState} from "@react-stately/checkbox";
-import {filterDOMProps, useDOMRef} from "@heroui/react-utils";
-import {clsx, safeAriaLabel, chain, mergeProps} from "@heroui/shared-utils";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {filterDOMProps, useDOMRef} from "@v0xoss/react-utils";
+import {clsx, safeAriaLabel, chain, mergeProps} from "@v0xoss/shared-utils";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
 
 interface Props extends HTMLHeroUIProps<"div"> {
   /**

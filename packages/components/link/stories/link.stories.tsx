@@ -1,10 +1,10 @@
-import type {VariantProps} from "@heroui/theme";
+import type {VariantProps} from "@v0xoss/theme";
 import type {Meta} from "@storybook/react";
 import type {LinkProps} from "../src";
 
 import React, {useState} from "react";
-import {tv} from "@heroui/theme";
-import {link} from "@heroui/theme";
+import {tv} from "@v0xoss/theme";
+import {link} from "@v0xoss/theme";
 
 import {Link} from "../src";
 

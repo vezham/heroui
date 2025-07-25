@@ -1,4 +1,4 @@
-# @heroui/system
+# @v0xoss/system
 
 HeroUI system primitives, here you can find the `extendVariants` utility, `HeroUIProvider` and some other utilities.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com) for more information.
 ## Installation
 
 ```sh
-yarn add @heroui/system
+yarn add @v0xoss/system
 # or
-npm i @heroui/system
+npm i @v0xoss/system
 ```
 
 ## Contribution

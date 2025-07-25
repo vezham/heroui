@@ -1,7 +1,7 @@
-import type {ButtonProps} from "@heroui/react";
+import type {ButtonProps} from "@v0xoss/react";
 import type {ReactNode} from "react";
 
-import {Button, Code, Link, Tooltip} from "@heroui/react";
+import {Button, Code, Link, Tooltip} from "@v0xoss/react";
 import Balancer from "react-wrap-balancer";
 import {usePostHog} from "posthog-js/react";
 
@@ -88,10 +88,10 @@ export const ComponentLinks = ({
         Storybook
       </ButtonLink>
       <ButtonLink
-        href={`https://www.npmjs.com/package/@heroui/${npm || component}`}
+        href={`https://www.npmjs.com/package/@v0xoss/${npm || component}`}
         startContent={<NpmIcon className="text-2xl text-[#E53E3E]" />}
       >
-        {`@heroui/${npm || component}`}
+        {`@v0xoss/${npm || component}`}
       </ButtonLink>
       {reactAriaHook && (
         <ButtonLink

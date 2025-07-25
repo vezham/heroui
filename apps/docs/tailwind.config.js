@@ -1,5 +1,5 @@
-const {heroui} = require("@heroui/theme/plugin");
-const {commonColors} = require("@heroui/theme/colors");
+const {heroui} = require("@v0xoss/theme/plugin");
+const {commonColors} = require("@v0xoss/theme/colors");
 
 // get tailwindcss default config
 const defaultTheme = require("tailwindcss/defaultTheme");
@@ -13,7 +13,7 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx,mdx}",
     "./libs/**/*.{js,ts,jsx,tsx,mdx}",
     "./content/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@v0xoss/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "class",
   theme: {

@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/skeleton",
-  "version": "2.2.15",
+  "name": "@v0xoss/skeleton",
+  "version": "0.0.0",
   "description": "Skeleton is used to display the loading state of some component.",
   "keywords": [
     "skeleton"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/skeleton"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,17 +36,17 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.17",
-    "@heroui/system": ">=2.4.18"
+    "@v0xoss/theme": ">=0.0.0",
+    "@v0xoss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*"
+    "@v0xoss/shared-utils": "workspace:*"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/card": "workspace:*",
-    "@heroui/button": "workspace:*",
-    "@heroui/system": "workspace:*",
+    "@v0xoss/theme": "workspace:*",
+    "@v0xoss/card": "workspace:*",
+    "@v0xoss/button": "workspace:*",
+    "@v0xoss/system": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

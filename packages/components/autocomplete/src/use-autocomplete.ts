@@ -1,26 +1,26 @@
-import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@heroui/theme";
-import type {DOMAttributes, HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@v0xoss/theme";
+import type {DOMAttributes, HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 import type {FilterFn} from "@react-stately/combobox";
-import type {ReactRef} from "@heroui/react-utils";
+import type {ReactRef} from "@v0xoss/react-utils";
 import type {ReactNode} from "react";
 import type {ComboBoxProps} from "@react-types/combobox";
-import type {PopoverProps} from "@heroui/popover";
-import type {ListboxProps} from "@heroui/listbox";
-import type {InputProps} from "@heroui/input";
-import type {ScrollShadowProps} from "@heroui/scroll-shadow";
-import type {ButtonProps} from "@heroui/button";
+import type {PopoverProps} from "@v0xoss/popover";
+import type {ListboxProps} from "@v0xoss/listbox";
+import type {InputProps} from "@v0xoss/input";
+import type {ScrollShadowProps} from "@v0xoss/scroll-shadow";
+import type {ButtonProps} from "@v0xoss/button";
 import type {AsyncLoadable, PressEvent} from "@react-types/shared";
 
-import {clsx, dataAttr, objectToDeps, chain, mergeProps} from "@heroui/shared-utils";
+import {clsx, dataAttr, objectToDeps, chain, mergeProps} from "@v0xoss/shared-utils";
 import {useEffect, useMemo, useRef} from "react";
-import {useDOMRef} from "@heroui/react-utils";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useComboBoxState} from "@react-stately/combobox";
 import {useFilter} from "@react-aria/i18n";
-import {autocomplete} from "@heroui/theme";
-import {useSafeLayoutEffect} from "@heroui/use-safe-layout-effect";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
+import {autocomplete} from "@v0xoss/theme";
+import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
+import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
 import {useComboBox} from "@react-aria/combobox";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
 
 interface Props<T> extends Omit<HTMLHeroUIProps<"input">, keyof ComboBoxProps<T>> {
   /**
@@ -469,7 +469,7 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
     }) as ButtonProps;
 
   // prevent use-input's useFormValidation hook from overwriting use-autocomplete's useFormValidation hook when there are uncommitted validation errors
-  // see https://github.com/heroui-inc/heroui/pull/4452
+  // see https://github.com/vezham/heroui/pull/4452
   const hasUncommittedValidation =
     validationBehavior === "native" &&
     state.displayValidation.isInvalid === false &&

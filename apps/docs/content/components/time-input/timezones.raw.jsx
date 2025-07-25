@@ -1,4 +1,4 @@
-import {TimeInput} from "@heroui/react";
+import {TimeInput} from "@v0xoss/react";
 import {parseZonedDateTime, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

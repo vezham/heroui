@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/ripple",
-  "version": "2.2.18",
+  "name": "@v0xoss/ripple",
+  "version": "0.0.0",
   "description": "A simple implementation to display a ripple animation when the source component is clicked",
   "keywords": [
     "ripple"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/ripple"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,16 +37,16 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@heroui/theme": ">=2.4.17",
-    "@heroui/system": ">=2.4.18"
+    "@v0xoss/theme": ">=0.0.0",
+    "@v0xoss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/dom-animation": "workspace:*"
+    "@v0xoss/shared-utils": "workspace:*",
+    "@v0xoss/dom-animation": "workspace:*"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/system": "workspace:*",
+    "@v0xoss/theme": "workspace:*",
+    "@v0xoss/system": "workspace:*",
     "clean-package": "2.2.0",
     "framer-motion": "11.18.2",
     "react": "18.3.0",

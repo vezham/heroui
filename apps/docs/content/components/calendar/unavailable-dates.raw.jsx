@@ -1,4 +1,4 @@
-import {Calendar} from "@heroui/react";
+import {Calendar} from "@v0xoss/react";
 import {today, getLocalTimeZone, isWeekend} from "@internationalized/date";
 import {useLocale} from "@react-aria/i18n";
 

@@ -1,4 +1,4 @@
-# @heroui/use-disclosure
+# @v0xoss/use-disclosure
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-disclosure
+yarn add @v0xoss/use-disclosure
 # or
-npm i @heroui/use-disclosure
+npm i @v0xoss/use-disclosure
 ```
 
 ## Contribution

@@ -9,8 +9,8 @@ import {
   TableCell,
   getKeyValue,
   Spinner,
-} from "@heroui/react";
-import {SortIcon} from "@heroui/shared-icons";
+} from "@v0xoss/react";
+import {SortIcon} from "@v0xoss/shared-icons";
 import {useAsyncList} from "@react-stately/data";
 import {useState} from "react";
 

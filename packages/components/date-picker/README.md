@@ -1,13 +1,13 @@
-# @heroui/date-picker
+# @v0xoss/date-picker
 
 A date picker combines a DateInput and a Calendar popover to allow users to enter or select a date and time value.
 
 ## Installation
 
 ```sh
-yarn add @heroui/date-picker
+yarn add @v0xoss/date-picker
 # or
-npm i @heroui/date-picker
+npm i @v0xoss/date-picker
 ```
 
 ## Contribution

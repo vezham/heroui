@@ -1,5 +1,5 @@
 import React from "react";
-import {Code} from "@heroui/react";
+import {Code} from "@v0xoss/react";
 
 import {
   MoonIcon,
@@ -94,7 +94,7 @@ export default {
       icon: <MagicIcon className="text-pink-500" />,
     },
   ],
-  themingCode: `const { heroui } = require("@heroui/react");
+  themingCode: `const { heroui } = require("@v0xoss/react");
 
 module.exports = {
   // ...
@@ -182,7 +182,7 @@ module.exports = {
 `,
 
   darkModeCode: `import React from "react";
-import {HeroUIProvider} from "@heroui/react";
+import {HeroUIProvider} from "@v0xoss/react";
 
 const Application = ({Component, pageProps}) => {
   return (
@@ -197,7 +197,7 @@ const Application = ({Component, pageProps}) => {
 export default Application;  
 `,
   customizationCode: `import React from 'react';
-import {Button} from '@heroui/react';
+import {Button} from '@v0xoss/react';
 import confetti from 'canvas-confetti';
 
 const CustomButton = () => {
@@ -227,14 +227,14 @@ export default CustomButton;
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-} from "@heroui/react";
+} from "@v0xoss/react";
 
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@heroui/shared-icons";
+} from "@v0xoss/shared-icons";
 
 const iconClasses = "text-2xl text-default-500 pointer-events-none shrink-0";
 
@@ -299,9 +299,9 @@ export const Example = () => {
   );
 };
 `,
-  darkModeExampleCode: `import {Card, CardBody, Button, Image, Progress, CardProps} from "@heroui/react";
+  darkModeExampleCode: `import {Card, CardBody, Button, Image, Progress, CardProps} from "@v0xoss/react";
 import {useState, FC} from "react";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {
   PauseCircleBoldIcon,

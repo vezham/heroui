@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@heroui/react";
+import {DateRangePicker} from "@v0xoss/react";
 import {isWeekend, today, getLocalTimeZone} from "@internationalized/date";
 import {useLocale} from "@react-aria/i18n";
 

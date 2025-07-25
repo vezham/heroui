@@ -1,6 +1,6 @@
 import type {UseBadgeProps} from "./use-badge";
 
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 
 import {useBadge} from "./use-badge";
 

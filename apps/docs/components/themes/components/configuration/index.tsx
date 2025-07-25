@@ -13,13 +13,13 @@ import {
   Drawer,
   DrawerContent,
   cn,
-} from "@heroui/react";
+} from "@v0xoss/react";
 import {useTheme} from "next-themes";
 import {useLocalStorage} from "usehooks-ts";
 import {Icon} from "@iconify/react/dist/offline";
 import LinkSquareIcon from "@iconify/icons-solar/link-square-linear";
-import {ArrowLeftIcon, ChevronIcon, ChevronUpIcon, CloseIcon} from "@heroui/shared-icons";
-import {clsx} from "@heroui/shared-utils";
+import {ArrowLeftIcon, ChevronIcon, ChevronUpIcon, CloseIcon} from "@v0xoss/shared-icons";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {useThemeBuilder} from "../../provider";
 import {configKey, syncThemesKey, initialConfig} from "../../constants";

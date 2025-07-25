@@ -1,10 +1,10 @@
 import type {GridNode} from "@react-types/grid";
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@v0xoss/system";
 import type {ValuesType} from "./use-table";
 
-import {forwardRef} from "@heroui/system";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {clsx, mergeProps} from "@heroui/shared-utils";
+import {forwardRef} from "@v0xoss/system";
+import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
+import {clsx, mergeProps} from "@v0xoss/shared-utils";
 import {useTableHeaderRow} from "@react-aria/table";
 
 // @internal

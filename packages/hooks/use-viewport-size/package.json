@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/use-viewport-size",
-  "version": "2.0.1",
+  "name": "@v0xoss/use-viewport-size",
+  "version": "0.0.0",
   "description": "use-viewport-size hook from `@react-aria` utils",
   "keywords": [
     "use-viewport-size"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/hooks/use-viewport-size"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

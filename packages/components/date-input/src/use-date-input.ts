@@ -1,16 +1,16 @@
-import type {DateInputVariantProps, DateInputSlots, SlotsToClasses} from "@heroui/theme";
+import type {DateInputVariantProps, DateInputSlots, SlotsToClasses} from "@v0xoss/theme";
 import type {AriaDateFieldProps, SpectrumDatePickerBase} from "@react-types/datepicker";
-import type {ReactRef} from "@heroui/react-utils";
+import type {ReactRef} from "@v0xoss/react-utils";
 import type {DOMAttributes, GroupDOMAttributes} from "@react-types/shared";
 import type {DateInputGroupProps} from "./date-input-group";
 import type {DateValue, CalendarIdentifier} from "@internationalized/date";
-import type {PropGetter, HTMLHeroUIProps} from "@heroui/system";
+import type {PropGetter, HTMLHeroUIProps} from "@v0xoss/system";
 
 import {useLocale} from "@react-aria/i18n";
 import {createCalendar, CalendarDate, DateFormatter} from "@internationalized/date";
-import {useLabelPlacement, useProviderContext} from "@heroui/system";
-import {mapPropsVariants} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
+import {useLabelPlacement, useProviderContext} from "@v0xoss/system";
+import {mapPropsVariants} from "@v0xoss/system";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useDateField as useAriaDateField} from "@react-aria/datepicker";
 import {useDateFieldState} from "@react-stately/datepicker";
 import {
@@ -19,10 +19,10 @@ import {
   dataAttr,
   getGregorianYearOffset,
   mergeProps,
-} from "@heroui/shared-utils";
-import {dateInput, cn} from "@heroui/theme";
+} from "@v0xoss/shared-utils";
+import {dateInput, cn} from "@v0xoss/theme";
 import {useMemo} from "react";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {FormContext, useSlottedContext} from "@v0xoss/form";
 
 type HeroUIBaseProps<T extends DateValue> = Omit<
   HTMLHeroUIProps<"div">,

@@ -1,6 +1,6 @@
 import type {Meta} from "@storybook/react";
 
-import {code} from "@heroui/theme";
+import {code} from "@v0xoss/theme";
 
 import {Code} from "../src";
 
@@ -30,7 +30,7 @@ export default {
 } as Meta<typeof Code>;
 
 const defaultProps = {
-  children: "npm install @heroui/react",
+  children: "npm install @v0xoss/react",
   ...code.defaultVariants,
 };
 

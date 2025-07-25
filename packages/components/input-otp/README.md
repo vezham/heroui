@@ -1,4 +1,4 @@
-# @heroui/input-otp
+# @v0xoss/input-otp
 
 InputOTP is a component that allows users to enter otp input. It can be used to get user otp in forms.
 
@@ -9,9 +9,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/input-otp
 ## Installation
 
 ```sh
-yarn add @heroui/input-otp
+yarn add @v0xoss/input-otp
 # or
-npm i @heroui/input-otp
+npm i @v0xoss/input-otp
 ```
 
 ## Contribution

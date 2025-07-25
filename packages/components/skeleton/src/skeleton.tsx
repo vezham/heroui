@@ -1,6 +1,6 @@
 import type {UseSkeletonProps} from "./use-skeleton";
 
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@v0xoss/system";
 
 import {useSkeleton} from "./use-skeleton";
 

@@ -9,19 +9,19 @@ import type {
   ItemProps,
 } from "@react-types/shared";
 import type {TreeState} from "@react-stately/tree";
-import type {SpacerProps} from "@heroui/react";
+import type {SpacerProps} from "@v0xoss/react";
 import type {Route} from "@/libs/docs/page";
 
 import {useEffect, useState, useRef, useMemo, useLayoutEffect} from "react";
 import {usePostHog} from "posthog-js/react";
-import {ChevronIcon} from "@heroui/shared-icons";
-import {BaseItem} from "@heroui/aria-utils";
+import {ChevronIcon} from "@v0xoss/shared-icons";
+import {BaseItem} from "@v0xoss/aria-utils";
 import {useFocusRing} from "@react-aria/focus";
 import {useTreeState} from "@react-stately/tree";
 import {useSelectableCollection} from "@react-aria/selection";
 import {usePress} from "@react-aria/interactions";
-import {clsx, dataAttr, debounce, isEmpty} from "@heroui/shared-utils";
-import {Spacer, Link as HeroUILink, Chip, dataFocusVisibleClasses} from "@heroui/react";
+import {clsx, dataAttr, debounce, isEmpty} from "@v0xoss/shared-utils";
+import {Spacer, Link as HeroUILink, Chip, dataFocusVisibleClasses} from "@v0xoss/react";
 import Link from "next/link";
 import {usePathname, useRouter} from "next/navigation";
 

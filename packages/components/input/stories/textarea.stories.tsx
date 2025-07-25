@@ -3,10 +3,10 @@ import type {Meta} from "@storybook/react";
 import type {TextAreaProps} from "../src";
 
 import React from "react";
-import {input} from "@heroui/theme";
-import {SendFilledIcon, PlusFilledIcon} from "@heroui/shared-icons";
-import {button} from "@heroui/theme";
-import {Form} from "@heroui/form";
+import {input} from "@v0xoss/theme";
+import {SendFilledIcon, PlusFilledIcon} from "@v0xoss/shared-icons";
+import {button} from "@v0xoss/theme";
+import {Form} from "@v0xoss/form";
 
 import {Textarea} from "../src";
 

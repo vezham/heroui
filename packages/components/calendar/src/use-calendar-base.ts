@@ -1,21 +1,21 @@
-import type {CalendarReturnType, CalendarVariantProps} from "@heroui/theme";
+import type {CalendarReturnType, CalendarVariantProps} from "@v0xoss/theme";
 import type {CalendarPropsBase as AriaCalendarPropsBase} from "@react-types/calendar";
-import type {CalendarSlots, SlotsToClasses} from "@heroui/theme";
+import type {CalendarSlots, SlotsToClasses} from "@v0xoss/theme";
 import type {AriaCalendarGridProps} from "@react-aria/calendar";
 import type {AriaButtonProps} from "@react-types/button";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
 import type {DateValue, Calendar, CalendarIdentifier} from "@internationalized/date";
-import type {ButtonProps} from "@heroui/button";
+import type {ButtonProps} from "@v0xoss/button";
 import type {CalendarState, RangeCalendarState} from "@react-stately/calendar";
 import type {RefObject, ReactNode} from "react";
-import type {ReactRef} from "@heroui/react-utils";
+import type {ReactRef} from "@v0xoss/react-utils";
 
 import {createCalendar, CalendarDate, DateFormatter} from "@internationalized/date";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
+import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
 import {useCallback, useMemo} from "react";
-import {calendar} from "@heroui/theme";
+import {calendar} from "@v0xoss/theme";
 import {useControlledState} from "@react-stately/utils";
-import {useDOMRef} from "@heroui/react-utils";
+import {useDOMRef} from "@v0xoss/react-utils";
 import {useLocale} from "@react-aria/i18n";
 import {
   clamp,
@@ -23,7 +23,7 @@ import {
   objectToDeps,
   getGregorianYearOffset,
   mergeProps,
-} from "@heroui/shared-utils";
+} from "@v0xoss/shared-utils";
 
 type HeroUIBaseProps = Omit<HTMLHeroUIProps<"div">, keyof AriaCalendarPropsBase | "onChange">;
 

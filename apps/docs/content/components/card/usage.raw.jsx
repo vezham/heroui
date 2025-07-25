@@ -1,4 +1,4 @@
-import {Card, CardBody} from "@heroui/react";
+import {Card, CardBody} from "@v0xoss/react";
 
 export default function App() {
   return (

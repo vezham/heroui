@@ -1,5 +1,5 @@
 import React from "react";
-import * as HeroUI from "@heroui/react";
+import * as HeroUI from "@v0xoss/react";
 
 const importRegex = /^(import\s+(?!type\s+\{)[\s\S]*?;)/gm;
 

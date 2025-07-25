@@ -1,4 +1,4 @@
-# @heroui/drawer
+# @v0xoss/drawer
 
 Used to render a content that slides in from the side of the screen.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/drawer) f
 ## Installation
 
 ```sh
-yarn add @heroui/drawer
+yarn add @v0xoss/drawer
 # or
-npm i @heroui/drawer
+npm i @v0xoss/drawer
 ```
 
 ## Contribution

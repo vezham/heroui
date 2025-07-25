@@ -1,4 +1,4 @@
-import {DatePicker} from "@heroui/react";
+import {DatePicker} from "@v0xoss/react";
 import {getLocalTimeZone, today} from "@internationalized/date";
 
 export default function App() {

@@ -1,9 +1,9 @@
-import type {ListboxSectionSlots, SlotsToClasses} from "@heroui/theme";
-import type {SectionProps} from "@heroui/aria-utils";
-import type {DividerProps} from "@heroui/divider";
+import type {ListboxSectionSlots, SlotsToClasses} from "@v0xoss/theme";
+import type {SectionProps} from "@v0xoss/aria-utils";
+import type {DividerProps} from "@v0xoss/divider";
 import type {ListboxItemProps} from "../listbox-item";
 
-import {BaseSection} from "@heroui/aria-utils";
+import {BaseSection} from "@v0xoss/aria-utils";
 
 export interface ListboxSectionBaseProps<T extends object = {}> extends SectionProps<"ul", T> {
   /**

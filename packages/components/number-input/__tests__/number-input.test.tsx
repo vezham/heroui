@@ -4,7 +4,7 @@ import * as React from "react";
 import {render, renderHook, fireEvent, act} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import {useForm} from "react-hook-form";
-import {Form} from "@heroui/form";
+import {Form} from "@v0xoss/form";
 
 import {NumberInput} from "../src";
 

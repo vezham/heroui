@@ -1,8 +1,8 @@
 "use client";
 
 import {useState} from "react";
-import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@v0xoss/react";
+import {clsx} from "@v0xoss/shared-utils";
 
 interface UserTwitterCardProps {
   className?: string;

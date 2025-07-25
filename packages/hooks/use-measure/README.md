@@ -1,4 +1,4 @@
-# @heroui/use-measure
+# @v0xoss/use-measure
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-measure
+yarn add @v0xoss/use-measure
 # or
-npm i @heroui/use-measure
+npm i @v0xoss/use-measure
 ```
 
 ## Contribution

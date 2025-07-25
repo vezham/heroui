@@ -1,4 +1,4 @@
-# @heroui/image
+# @v0xoss/image
 
 The Image component is used to display images with support for fallback.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/image) fo
 ## Installation
 
 ```sh
-yarn add @heroui/image
+yarn add @v0xoss/image
 # or
-npm i @heroui/image
+npm i @v0xoss/image
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-# @heroui/aria-utils
+# @v0xoss/aria-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/aria-utils
+yarn add @v0xoss/aria-utils
 # or
-npm i @heroui/aria-utils
+npm i @v0xoss/aria-utils
 ```
 
 ## Contribution

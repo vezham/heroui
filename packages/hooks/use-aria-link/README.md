@@ -1,4 +1,4 @@
-# @heroui/use-aria-link
+# @v0xoss/use-aria-link
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-aria-link
+yarn add @v0xoss/use-aria-link
 # or
-npm i @heroui/use-aria-link
+npm i @v0xoss/use-aria-link
 ```
 
 ## Contribution

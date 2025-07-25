@@ -1,5 +1,5 @@
-import {Snippet} from "@heroui/react";
+import {Snippet} from "@v0xoss/react";
 
 export default function App() {
-  return <Snippet>npm install @heroui/react</Snippet>;
+  return <Snippet>npm install @v0xoss/react</Snippet>;
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@heroui/use-ssr",
-  "version": "2.1.8",
+  "name": "@v0xoss/use-ssr",
+  "version": "0.0.0",
   "description": "",
   "keywords": [
     "use-ssr"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/hooks/use-ssr"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

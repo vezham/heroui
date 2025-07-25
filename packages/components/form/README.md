@@ -1,4 +1,4 @@
-# @heroui/form
+# @v0xoss/form
 
 A form is a group of inputs that allows users submit data to a server and supports field validation errors.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/form) for
 ## Installation
 
 ```sh
-yarn add @heroui/form
+yarn add @v0xoss/form
 # or
-npm i @heroui/form
+npm i @v0xoss/form
 ```
 
 ## Contribution

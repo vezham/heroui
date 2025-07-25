@@ -2,11 +2,11 @@ import type {Meta} from "@storybook/react";
 import type {TabsProps} from "../src";
 
 import React from "react";
-import {button, link, tabs} from "@heroui/theme";
+import {button, link, tabs} from "@v0xoss/theme";
 import Lorem from "react-lorem-component";
-import {Input} from "@heroui/input";
-import {Button} from "@heroui/button";
-import {Card, CardBody} from "@heroui/card";
+import {Input} from "@v0xoss/input";
+import {Button} from "@v0xoss/button";
+import {Card, CardBody} from "@v0xoss/card";
 import {
   AlignVerticallyBoldIcon,
   AlignHorizontallyBoldIcon,
@@ -14,7 +14,7 @@ import {
   AlignLeftBoldIcon,
   AlignRightBoldIcon,
   AlignTopBoldIcon,
-} from "@heroui/shared-icons";
+} from "@v0xoss/shared-icons";
 
 import {Tabs, Tab} from "../src";
 

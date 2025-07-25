@@ -1,4 +1,4 @@
-# @heroui/use-form-reset
+# @v0xoss/use-form-reset
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-form-reset
+yarn add @v0xoss/use-form-reset
 # or
-npm i @heroui/use-form-reset
+npm i @v0xoss/use-form-reset
 ```
 
 ## Contribution

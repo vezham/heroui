@@ -1,9 +1,9 @@
-import type {ChipProps} from "@heroui/react";
+import type {ChipProps} from "@v0xoss/react";
 import type {Border, HeroUIScaling} from "../../types";
 
 import {cloneElement} from "react";
-import {Chip as HeroUIChip} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {Chip as HeroUIChip} from "@v0xoss/react";
+import {clsx} from "@v0xoss/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

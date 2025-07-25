@@ -1,4 +1,4 @@
-import {Alert, Button} from "@heroui/react";
+import {Alert, Button} from "@v0xoss/react";
 
 const CustomAlert = React.forwardRef(
   (

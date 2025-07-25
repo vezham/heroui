@@ -3,8 +3,8 @@ import type {GradientBoxProps} from "@/components/gradient-box";
 
 import React from "react";
 import {LivePreview, LiveProvider, LiveError} from "react-live";
-import {clsx} from "@heroui/shared-utils";
-import * as HeroUI from "@heroui/react";
+import {clsx} from "@v0xoss/shared-utils";
+import * as HeroUI from "@v0xoss/react";
 import * as intlDateUtils from "@internationalized/date";
 import * as reactAriaI18n from "@react-aria/i18n";
 import * as reactHookFormBase from "react-hook-form";
@@ -29,7 +29,7 @@ export interface ReactLiveDemoProps {
 }
 
 // 🚨 Do not pass react-hook-form to scope, it will break the live preview since
-// it also has a "Form" component that will override the one from @heroui/react
+// it also has a "Form" component that will override the one from @v0xoss/react
 const reactHookForm = {
   useForm: reactHookFormBase.useForm,
   Controller: reactHookFormBase.Controller,

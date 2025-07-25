@@ -1,5 +1,5 @@
-import {Button} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {Button} from "@v0xoss/react";
+import {clsx} from "@v0xoss/shared-utils";
 
 interface ValueButtonProps<T extends string | number> {
   currentValue: T;
