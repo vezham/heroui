@@ -5,8 +5,8 @@
   "keywords": [
     "icons-utils"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "v0xOSS <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
