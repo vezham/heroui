@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/stories-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A list of utilities for storybook' stories.",
   "keywords": [
     "stories-utils"
