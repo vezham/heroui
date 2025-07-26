@@ -1,5 +1,24 @@
 # @heroui/date-picker
 
+## 0.0.9
+
+### Patch Changes
+
+- [#42](https://github.com/vezham/heroui/pull/42) [`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a) Thanks [@github-actions](https://github.com/apps/github-actions)! - test ver chk
+
+- [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - final ver sync init
+
+- Updated dependencies [[`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a), [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a)]:
+  - @v0xoss/shared-icons@0.0.9
+  - @v0xoss/shared-utils@0.0.9
+  - @v0xoss/date-input@0.0.9
+  - @v0xoss/react-utils@0.0.9
+  - @v0xoss/aria-utils@0.0.9
+  - @v0xoss/calendar@0.0.9
+  - @v0xoss/popover@0.0.9
+  - @v0xoss/button@0.0.9
+  - @v0xoss/form@0.0.9
+
 ## 0.0.8
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/spinner",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Loaders express an unspecified wait time or display the length of a process.",
   "keywords": [
     "loading",

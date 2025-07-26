@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/skeleton",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Skeleton is used to display the loading state of some component.",
   "keywords": [
     "skeleton"

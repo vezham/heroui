@@ -1,5 +1,64 @@
 # @heroui/react
 
+## 0.0.9
+
+### Patch Changes
+
+- [#42](https://github.com/vezham/heroui/pull/42) [`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a) Thanks [@github-actions](https://github.com/apps/github-actions)! - test ver chk
+
+- [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - final ver sync init
+
+- Updated dependencies [[`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a), [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a)]:
+  - @v0xoss/scroll-shadow@0.0.9
+  - @v0xoss/autocomplete@0.0.9
+  - @v0xoss/number-input@0.0.9
+  - @v0xoss/breadcrumbs@0.0.9
+  - @v0xoss/date-picker@0.0.9
+  - @v0xoss/framer-utils@0.0.9
+  - @v0xoss/date-input@0.0.9
+  - @v0xoss/pagination@0.0.9
+  - @v0xoss/accordion@0.0.9
+  - @v0xoss/input-otp@0.0.9
+  - @v0xoss/calendar@0.0.9
+  - @v0xoss/checkbox@0.0.9
+  - @v0xoss/dropdown@0.0.9
+  - @v0xoss/progress@0.0.9
+  - @v0xoss/skeleton@0.0.9
+  - @v0xoss/divider@0.0.9
+  - @v0xoss/listbox@0.0.9
+  - @v0xoss/popover@0.0.9
+  - @v0xoss/snippet@0.0.9
+  - @v0xoss/spinner@0.0.9
+  - @v0xoss/tooltip@0.0.9
+  - @v0xoss/avatar@0.0.9
+  - @v0xoss/button@0.0.9
+  - @v0xoss/drawer@0.0.9
+  - @v0xoss/navbar@0.0.9
+  - @v0xoss/ripple@0.0.9
+  - @v0xoss/select@0.0.9
+  - @v0xoss/slider@0.0.9
+  - @v0xoss/spacer@0.0.9
+  - @v0xoss/switch@0.0.9
+  - @v0xoss/alert@0.0.9
+  - @v0xoss/badge@0.0.9
+  - @v0xoss/image@0.0.9
+  - @v0xoss/input@0.0.9
+  - @v0xoss/modal@0.0.9
+  - @v0xoss/radio@0.0.9
+  - @v0xoss/table@0.0.9
+  - @v0xoss/toast@0.0.9
+  - @v0xoss/card@0.0.9
+  - @v0xoss/chip@0.0.9
+  - @v0xoss/code@0.0.9
+  - @v0xoss/form@0.0.9
+  - @v0xoss/link@0.0.9
+  - @v0xoss/menu@0.0.9
+  - @v0xoss/tabs@0.0.9
+  - @v0xoss/user@0.0.9
+  - @v0xoss/kbd@0.0.9
+  - @v0xoss/system@0.0.9
+  - @v0xoss/theme@0.0.9
+
 ## 0.0.8
 
 ### Patch Changes

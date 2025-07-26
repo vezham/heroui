@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/ripple",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A simple implementation to display a ripple animation when the source component is clicked",
   "keywords": [
     "ripple"
