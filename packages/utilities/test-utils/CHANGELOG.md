@@ -1,5 +1,11 @@
 # @heroui/test-utils
 
+## 0.0.7
+
+### Patch Changes
+
+- [`e181157`](https://github.com/vezham/heroui/commit/e18115789bcb1eef59cf69be2f722408ff972ca4) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - ver npm sync
+
 ## 0.0.6
 
 ### Patch Changes
