@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/test-utils",
-  "version": "0.0.9",
+  "version": "0.0.5",
   "description": "A set of utilities for react testing",
   "keywords": [
     "test-utils"
@@ -26,11 +26,12 @@
   },
   "scripts": {
     "build": "tsup src --dts",
+    "build:fast": "tsup src",
     "dev": "pnpm build:fast --watch",
     "clean": "rimraf dist .turbo",
     "typecheck": "tsc --noEmit",
-    "build:fast": "tsup src",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
-  }
+  },
+  "clean-package": "../../../clean-package.config.json"
 }

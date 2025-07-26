@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/stories-utils",
-  "version": "0.0.9",
+  "version": "0.0.5",
   "description": "A list of utilities for storybook' stories.",
   "keywords": [
     "stories-utils"
@@ -26,11 +26,12 @@
   },
   "scripts": {
     "build": "tsup src --dts",
+    "build:fast": "tsup src",
     "dev": "pnpm build:fast --watch",
     "clean": "rimraf dist .turbo",
     "typecheck": "tsc --noEmit",
-    "build:fast": "tsup src",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
-  }
+  },
+  "clean-package": "../../../clean-package.config.json"
 }
