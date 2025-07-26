@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/code",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Code is a component used to display inline code.",
   "keywords": [
     "code"

@@ -1,6 +1,6 @@
 {
   "name": "@v0xoss/card",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Card is a container for text, photos, and actions in the context of a single subject.",
   "keywords": [
     "card"
