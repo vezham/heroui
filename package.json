@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "pnpm sb",
-    "build": "turbo build --filter='!@v0xoss/docs' --filter='!@v0xoss/storybook' --filter='!@v0xoss/stories-utils' --filter='!@v0xoss/test-utils'",
+    "build": "turbo build --filter='!@v0xoss/docs' --filter='!@v0xoss/storybook'",
+    "build:og": "turbo build --filter='!@v0xoss/docs' --filter='!@v0xoss/storybook' --filter='!@v0xoss/stories-utils' --filter='!@v0xoss/test-utils'",
     "build:fast": "turbo build:fast --filter='!@v0xoss/docs' --filter='!@v0xoss/storybook' --filter='!@v0xoss/stories-utils' --filter='!@v0xoss/test-utils'",
     "dev:docs": "turbo dev --filter=@v0xoss/docs",
     "build:docs": "turbo build --filter=@v0xoss/docs",
