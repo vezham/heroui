@@ -1,5 +1,11 @@
 # @heroui/test-utils
 
+## 0.0.6
+
+### Patch Changes
+
+- [`9a6b1d1`](https://github.com/vezham/heroui/commit/9a6b1d12fe075749ac53f72c1560de7f614b6c10) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - build test
+
 ## 0.0.9
 
 ### Patch Changes
