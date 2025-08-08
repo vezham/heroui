@@ -1,5 +1,11 @@
 # @heroui/use-resize
 
+## 0.1.0
+
+### Minor Changes
+
+- [`6f3c3d3`](https://github.com/vezham/heroui/commit/6f3c3d3d7cb5c5557718edef344326660d3a8a7e) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - ver bump
+
 ## 0.0.12
 
 ### Patch Changes
