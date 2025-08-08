@@ -1,5 +1,18 @@
 # @heroui/pagination
 
+## 0.0.1
+
+### Patch Changes
+
+- [`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - vx-oss inital ver chk
+
+- Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
+  - @vx-oss/use-intersection-observer@0.0.1
+  - @vx-oss/shared-icons@0.0.1
+  - @vx-oss/shared-utils@0.0.1
+  - @vx-oss/react-utils@0.0.1
+  - @vx-oss/use-pagination@0.0.1
+
 ## 2.2.22
 
 ### Patch Changes
