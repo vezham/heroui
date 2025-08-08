@@ -2,17 +2,17 @@ import type {Meta} from "@storybook/react";
 import type {DropdownProps, DropdownMenuProps} from "../src";
 
 import React from "react";
-import {dropdown, popover} from "@heroui/theme";
-import {Button} from "@heroui/button";
-import {Avatar} from "@heroui/avatar";
-import {User} from "@heroui/user";
+import {dropdown, popover} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
+import {Avatar} from "@vx-oss/avatar";
+import {User} from "@vx-oss/user";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@heroui/shared-icons";
-import {clsx} from "@heroui/shared-utils";
+} from "@vx-oss/shared-icons";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {Dropdown, DropdownSection, DropdownTrigger, DropdownMenu, DropdownItem} from "../src";
 

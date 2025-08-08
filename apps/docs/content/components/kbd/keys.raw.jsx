@@ -1,4 +1,4 @@
-import {Kbd} from "@heroui/react";
+import {Kbd} from "@vx-oss/react";
 
 export default function App() {
   return (

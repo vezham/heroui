@@ -1,4 +1,4 @@
-# @heroui/chip
+# @vx-oss/chip
 
 A Chip is a small block of essential information that represent an input, attribute, or action.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/chip) for
 ## Installation
 
 ```sh
-yarn add @heroui/chip
+yarn add @vx-oss/chip
 # or
-npm i @heroui/chip
+npm i @vx-oss/chip
 ```
 
 ## Contribution

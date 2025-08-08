@@ -1,7 +1,7 @@
-import type {TimeInputValue} from "@heroui/react";
+import type {TimeInputValue} from "@vx-oss/react";
 
 import React from "react";
-import {TimeInput} from "@heroui/react";
+import {TimeInput} from "@vx-oss/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

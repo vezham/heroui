@@ -1,11 +1,11 @@
-import {Input} from "@heroui/react";
+import {Input} from "@vx-oss/react";
 
 export default function App() {
   return (
     <Input
       isDisabled
       className="max-w-xs"
-      defaultValue="junior@heroui.com"
+      defaultValue="junior@vx-oss.com"
       label="Email"
       type="email"
     />

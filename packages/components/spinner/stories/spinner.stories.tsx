@@ -2,7 +2,7 @@ import type {Meta} from "@storybook/react";
 import type {SpinnerProps} from "../src";
 
 import React from "react";
-import {spinner} from "@heroui/theme";
+import {spinner} from "@vx-oss/theme";
 
 import {Spinner} from "../src";
 

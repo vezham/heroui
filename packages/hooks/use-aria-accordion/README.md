@@ -1,4 +1,4 @@
-# @heroui/use-aria-accordion
+# @vx-oss/use-aria-accordion
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-aria-accordion
+yarn add @vx-oss/use-aria-accordion
 # or
-npm i @heroui/use-aria-accordion
+npm i @vx-oss/use-aria-accordion
 ```
 
 ## Contribution

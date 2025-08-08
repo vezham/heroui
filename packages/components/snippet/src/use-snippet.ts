@@ -1,15 +1,15 @@
-import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@heroui/theme";
-import type {ReactRef} from "@heroui/react-utils";
+import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@vx-oss/theme";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {ReactElement} from "react";
-import type {TooltipProps} from "@heroui/tooltip";
-import type {ButtonProps} from "@heroui/button";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {TooltipProps} from "@vx-oss/tooltip";
+import type {ButtonProps} from "@vx-oss/button";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 
-import {snippet} from "@heroui/theme";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@heroui/shared-utils";
-import {useClipboard} from "@heroui/use-clipboard";
+import {snippet} from "@vx-oss/theme";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@vx-oss/shared-utils";
+import {useClipboard} from "@vx-oss/use-clipboard";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback, useRef} from "react";
 

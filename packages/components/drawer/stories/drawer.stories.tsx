@@ -3,16 +3,16 @@ import type {Meta} from "@storybook/react";
 import type {DrawerProps} from "../src";
 
 import React from "react";
-import {drawer} from "@heroui/theme";
-import {Button} from "@heroui/button";
-import {Input} from "@heroui/input";
-import {Checkbox} from "@heroui/checkbox";
-import {Link} from "@heroui/link";
-import {Tooltip} from "@heroui/tooltip";
-import {Image} from "@heroui/image";
-import {Avatar, AvatarGroup} from "@heroui/avatar";
-import {MailFilledIcon, LockFilledIcon} from "@heroui/shared-icons";
-import {useDisclosure} from "@heroui/use-disclosure";
+import {drawer} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
+import {Input} from "@vx-oss/input";
+import {Checkbox} from "@vx-oss/checkbox";
+import {Link} from "@vx-oss/link";
+import {Tooltip} from "@vx-oss/tooltip";
+import {Image} from "@vx-oss/image";
+import {Avatar, AvatarGroup} from "@vx-oss/avatar";
+import {MailFilledIcon, LockFilledIcon} from "@vx-oss/shared-icons";
+import {useDisclosure} from "@vx-oss/use-disclosure";
 
 import {Drawer, DrawerContent, DrawerHeader, DrawerBody, DrawerFooter} from "../src";
 
@@ -484,10 +484,10 @@ const CustomStylesTemplate = (args: DrawerProps) => {
                 </div>
               </DrawerBody>
               <DrawerFooter className="flex flex-col gap-1">
-                <Link className="text-default-400" href="mailto:hello@heroui.com" size="sm">
+                <Link className="text-default-400" href="mailto:hello@vx-oss.com" size="sm">
                   Contact the host
                 </Link>
-                <Link className="text-default-400" href="mailto:hello@heroui.com" size="sm">
+                <Link className="text-default-400" href="mailto:hello@vx-oss.com" size="sm">
                   Report event
                 </Link>
               </DrawerFooter>

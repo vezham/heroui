@@ -1,4 +1,4 @@
-import {CircularProgress} from "@heroui/react";
+import {CircularProgress} from "@vx-oss/react";
 
 export default function App() {
   return (

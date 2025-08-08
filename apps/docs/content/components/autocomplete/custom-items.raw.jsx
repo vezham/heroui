@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem, Avatar} from "@heroui/react";
+import {Autocomplete, AutocompleteItem, Avatar} from "@vx-oss/react";
 
 export const users = [
   {

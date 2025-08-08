@@ -2,11 +2,11 @@ import type {MappedDateValue} from "@react-types/datepicker";
 import type {Meta} from "@storybook/react";
 import type {RangeValue, ValidationResult} from "@react-types/shared";
 import type {DateValue} from "@react-types/datepicker";
-import type {RadioProps} from "@heroui/radio";
+import type {RadioProps} from "@vx-oss/radio";
 import type {DateRangePickerProps} from "../src";
 
 import React from "react";
-import {dateInput, button} from "@heroui/theme";
+import {dateInput, button} from "@vx-oss/theme";
 import {
   endOfMonth,
   endOfWeek,
@@ -20,11 +20,11 @@ import {
   today,
 } from "@internationalized/date";
 import {I18nProvider, useDateFormatter, useLocale} from "@react-aria/i18n";
-import {Button, ButtonGroup} from "@heroui/button";
-import {Radio, RadioGroup} from "@heroui/radio";
-import {cn} from "@heroui/theme";
-import {Form} from "@heroui/form";
-import {MoonIcon, SunIcon} from "@heroui/shared-icons";
+import {Button, ButtonGroup} from "@vx-oss/button";
+import {Radio, RadioGroup} from "@vx-oss/radio";
+import {cn} from "@vx-oss/theme";
+import {Form} from "@vx-oss/form";
+import {MoonIcon, SunIcon} from "@vx-oss/shared-icons";
 
 import {DateRangePicker} from "../src";
 

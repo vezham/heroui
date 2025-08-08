@@ -1,9 +1,9 @@
-import type {ButtonProps} from "@heroui/react";
+import type {ButtonProps} from "@vx-oss/react";
 import type {Border} from "../../types";
 
 import {cloneElement} from "react";
-import {Button as HeroUIButton} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {Button as HeroUIButton} from "@vx-oss/react";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

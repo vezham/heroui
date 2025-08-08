@@ -14,7 +14,7 @@ import {
   Chip,
   User,
   Pagination,
-} from "@heroui/react";
+} from "@vx-oss/react";
 
 export const columns = [
   {name: "ID", uid: "id", sortable: true},

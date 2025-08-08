@@ -1,14 +1,14 @@
 import type {GridNode} from "@react-types/grid";
 import type {Key} from "react";
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {ValuesType} from "./use-table";
 
-import {forwardRef} from "@heroui/system";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {clsx, dataAttr, mergeProps} from "@heroui/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
 import {useTableCell, useTableSelectionCheckbox} from "@react-aria/table";
 import {useFocusRing} from "@react-aria/focus";
-import {Checkbox} from "@heroui/checkbox";
+import {Checkbox} from "@vx-oss/checkbox";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 
 // @internal

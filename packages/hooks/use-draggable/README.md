@@ -1,4 +1,4 @@
-# @heroui/use-draggable
+# @vx-oss/use-draggable
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-draggable
+yarn add @vx-oss/use-draggable
 # or
-npm i @heroui/use-draggable
+npm i @vx-oss/use-draggable
 ```
 
 ## Contribution

@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/navbar",
-  "version": "2.2.22",
+  "name": "@vx-oss/navbar",
+  "version": "0.0.0",
   "description": "A responsive navigation header positioned on top side of your page that includes support for branding, links, navigation, collapse and more.",
   "keywords": [
     "navbar"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/navbar"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,16 +37,16 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@heroui/theme": ">=2.4.17",
-    "@heroui/system": ">=2.4.18"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/framer-utils": "workspace:*",
-    "@heroui/use-resize": "workspace:*",
-    "@heroui/use-scroll-position": "workspace:*",
-    "@heroui/dom-animation": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/framer-utils": "workspace:*",
+    "@vx-oss/use-resize": "workspace:*",
+    "@vx-oss/use-scroll-position": "workspace:*",
+    "@vx-oss/dom-animation": "workspace:*",
     "@react-aria/focus": "3.21.0",
     "@react-aria/interactions": "3.25.4",
     "@react-aria/button": "3.14.0",
@@ -55,15 +55,15 @@
     "@react-stately/utils": "3.10.8"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/system": "workspace:*",
-    "@heroui/avatar": "workspace:*",
-    "@heroui/button": "workspace:*",
-    "@heroui/dropdown": "workspace:*",
-    "@heroui/input": "workspace:*",
-    "@heroui/link": "workspace:*",
-    "@heroui/test-utils": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/avatar": "workspace:*",
+    "@vx-oss/button": "workspace:*",
+    "@vx-oss/dropdown": "workspace:*",
+    "@vx-oss/input": "workspace:*",
+    "@vx-oss/link": "workspace:*",
+    "@vx-oss/test-utils": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
     "framer-motion": "11.18.2",
     "react-lorem-component": "0.13.0",
     "clean-package": "2.2.0",

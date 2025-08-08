@@ -1,6 +1,6 @@
-import type {ListboxItemProps, ListboxSectionProps} from "@heroui/listbox";
+import type {ListboxItemProps, ListboxSectionProps} from "@vx-oss/listbox";
 
-import {ListboxItem, ListboxSection} from "@heroui/listbox";
+import {ListboxItem, ListboxSection} from "@vx-oss/listbox";
 
 import Select from "./select";
 import {HiddenSelect} from "./hidden-select";

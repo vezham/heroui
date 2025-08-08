@@ -1,5 +1,5 @@
-import {Button} from "@heroui/react";
-import {clsx} from "@heroui/shared-utils";
+import {Button} from "@vx-oss/react";
+import {clsx} from "@vx-oss/shared-utils";
 
 interface EditableButtonProps {
   title: any;

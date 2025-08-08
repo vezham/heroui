@@ -9,11 +9,11 @@ import {
   shouldIgnoreReactWarning,
   triggerPress,
   warnSpy,
-} from "@heroui/test-utils";
+} from "@vx-oss/test-utils";
 import userEvent from "@testing-library/user-event";
 import {CalendarDate, CalendarDateTime} from "@internationalized/date";
-import {HeroUIProvider} from "@heroui/system";
-import {Form} from "@heroui/form";
+import {HeroUIProvider} from "@vx-oss/system";
+import {Form} from "@vx-oss/form";
 
 import {DatePicker as DatePickerBase} from "../src";
 

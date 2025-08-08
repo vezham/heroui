@@ -1,4 +1,4 @@
-import {DatePicker} from "@heroui/react";
+import {DatePicker} from "@vx-oss/react";
 
 export default function App() {
   const placements = ["inside", "outside", "outside-left"];

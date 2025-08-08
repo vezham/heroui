@@ -1,4 +1,4 @@
-import {DateInput} from "@heroui/react";
+import {DateInput} from "@vx-oss/react";
 import {now, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

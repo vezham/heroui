@@ -2,21 +2,21 @@
 "use client";
 
 import type {FC} from "react";
-import type {ButtonProps} from "@heroui/react";
+import type {ButtonProps} from "@vx-oss/react";
 
 import {Command} from "cmdk";
 import {useEffect, useState, useMemo, useCallback, useRef} from "react";
 import {matchSorter} from "match-sorter";
-import {Button, Kbd, Modal, ModalContent} from "@heroui/react";
-import {CloseIcon} from "@heroui/shared-icons";
+import {Button, Kbd, Modal, ModalContent} from "@vx-oss/react";
+import {CloseIcon} from "@vx-oss/shared-icons";
 import {tv} from "tailwind-variants";
 import {usePathname, useRouter} from "next/navigation";
 import MultiRef from "react-multi-ref";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 import scrollIntoView from "scroll-into-view-if-needed";
 import {isAppleDevice, isWebKit} from "@react-aria/utils";
 import {create} from "zustand";
-import {isEmpty, intersectionBy} from "@heroui/shared-utils";
+import {isEmpty, intersectionBy} from "@vx-oss/shared-utils";
 import {writeStorage, useLocalStorage} from "@rehooks/local-storage";
 import {usePostHog} from "posthog-js/react";
 

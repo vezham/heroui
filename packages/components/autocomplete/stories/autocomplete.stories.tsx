@@ -1,20 +1,20 @@
 import type {ValidationResult} from "@react-types/shared";
 import type {Key} from "react";
 import type {Meta} from "@storybook/react";
-import type {Pokemon, Animal, User} from "@heroui/stories-utils";
+import type {Pokemon, Animal, User} from "@vx-oss/stories-utils";
 import type {AutocompleteProps} from "../src";
 
 import React from "react";
 import {useForm} from "react-hook-form";
 import {useFilter} from "@react-aria/i18n";
-import {autocomplete, input, button} from "@heroui/theme";
-import {usePokemonList, animalsData, usersData} from "@heroui/stories-utils";
+import {autocomplete, input, button} from "@vx-oss/theme";
+import {usePokemonList, animalsData, usersData} from "@vx-oss/stories-utils";
 import {useAsyncList} from "@react-stately/data";
-import {useInfiniteScroll} from "@heroui/use-infinite-scroll";
-import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@heroui/shared-icons";
-import {Avatar} from "@heroui/avatar";
-import {Button} from "@heroui/button";
-import {Form} from "@heroui/form";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
+import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@vx-oss/shared-icons";
+import {Avatar} from "@vx-oss/avatar";
+import {Button} from "@vx-oss/button";
+import {Form} from "@vx-oss/form";
 
 import {Autocomplete, AutocompleteItem, AutocompleteSection} from "../src";
 

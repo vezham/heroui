@@ -1,4 +1,4 @@
-# @heroui/use-pagination
+# @vx-oss/use-pagination
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-pagination
+yarn add @vx-oss/use-pagination
 # or
-npm i @heroui/use-pagination
+npm i @vx-oss/use-pagination
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import {Checkbox} from "@heroui/react";
+import {Checkbox} from "@vx-oss/react";
 
 export default function App() {
   return <Checkbox defaultSelected>Option</Checkbox>;

@@ -12,7 +12,7 @@ import {
   Dropdown,
   DropdownMenu,
   Avatar,
-} from "@heroui/react";
+} from "@vx-oss/react";
 
 import {SearchLinearIcon} from "@/components/icons";
 

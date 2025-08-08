@@ -1,4 +1,4 @@
-# @heroui/scroll-shadow
+# @vx-oss/scroll-shadow
 
 A component that applies top and bottom shadows when content overflows on scroll.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/listbox) 
 ## Installation
 
 ```sh
-yarn add @heroui/scroll-shadow
+yarn add @vx-oss/scroll-shadow
 # or
-npm i @heroui/scroll-shadow
+npm i @vx-oss/scroll-shadow
 ```
 
 ## Contribution

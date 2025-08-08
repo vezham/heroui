@@ -2,11 +2,11 @@ import type {ReactNode} from "react";
 import type {UseSnippetProps} from "./use-snippet";
 
 import {useCallback, useMemo, cloneElement} from "react";
-import {forwardRef} from "@heroui/system";
-import {Tooltip} from "@heroui/tooltip";
-import {CopyLinearIcon, CheckLinearIcon} from "@heroui/shared-icons";
-import {Button} from "@heroui/button";
-import {objectToDeps} from "@heroui/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {Tooltip} from "@vx-oss/tooltip";
+import {CopyLinearIcon, CheckLinearIcon} from "@vx-oss/shared-icons";
+import {Button} from "@vx-oss/button";
+import {objectToDeps} from "@vx-oss/shared-utils";
 
 import {useSnippet} from "./use-snippet";
 

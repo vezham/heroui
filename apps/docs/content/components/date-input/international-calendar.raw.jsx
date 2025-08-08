@@ -1,4 +1,4 @@
-import {DateInput} from "@heroui/react";
+import {DateInput} from "@vx-oss/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 

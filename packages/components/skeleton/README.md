@@ -1,4 +1,4 @@
-# @heroui/skeleton
+# @vx-oss/skeleton
 
 Skeleton is a placeholder to show a loading state and the expected shape of a component.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/skeleton)
 ## Installation
 
 ```sh
-yarn add @heroui/skeleton
+yarn add @vx-oss/skeleton
 # or
-npm i @heroui/skeleton
+npm i @vx-oss/skeleton
 ```
 
 ## Contribution

@@ -1,8 +1,8 @@
 import type {Meta} from "@storybook/react";
 
 import React from "react";
-import {Activity, Camera} from "@heroui/shared-icons";
-import {avatar} from "@heroui/theme";
+import {Activity, Camera} from "@vx-oss/shared-icons";
+import {avatar} from "@vx-oss/theme";
 
 import {Avatar} from "../src";
 

@@ -1,4 +1,4 @@
-import {Image} from "@heroui/react";
+import {Image} from "@vx-oss/react";
 
 import {ScriptProviders} from "@/components/scripts/script-providers";
 

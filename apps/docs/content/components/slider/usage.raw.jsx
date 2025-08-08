@@ -1,4 +1,4 @@
-import {Slider} from "@heroui/react";
+import {Slider} from "@vx-oss/react";
 
 export default function App() {
   return (

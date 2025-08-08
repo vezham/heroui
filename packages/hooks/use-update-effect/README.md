@@ -1,4 +1,4 @@
-# @heroui/use-update-effect
+# @vx-oss/use-update-effect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-update-effect
+yarn add @vx-oss/use-update-effect
 # or
-npm i @heroui/use-update-effect
+npm i @vx-oss/use-update-effect
 ```
 
 ## Contribution

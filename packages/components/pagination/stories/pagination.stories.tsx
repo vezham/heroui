@@ -2,9 +2,9 @@ import type {Meta} from "@storybook/react";
 import type {PaginationItemRenderProps} from "../src";
 
 import React from "react";
-import {button, pagination} from "@heroui/theme";
-import {cn} from "@heroui/theme";
-import {ChevronIcon} from "@heroui/shared-icons";
+import {button, pagination} from "@vx-oss/theme";
+import {cn} from "@vx-oss/theme";
+import {ChevronIcon} from "@vx-oss/shared-icons";
 import {useLocale} from "@react-aria/i18n";
 
 import {Pagination, PaginationItemType, usePagination} from "../src";

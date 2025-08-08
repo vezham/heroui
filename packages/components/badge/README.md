@@ -1,4 +1,4 @@
-# @heroui/badge
+# @vx-oss/badge
 
 Badges are used as a small numerical value or status descriptor for UI elements.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/badge) fo
 ## Installation
 
 ```sh
-yarn add @heroui/badge
+yarn add @vx-oss/badge
 # or
-npm i @heroui/badge
+npm i @vx-oss/badge
 ```
 
 ## Contribution

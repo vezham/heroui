@@ -4,12 +4,12 @@ import type {Key} from "react";
 import type {MenuItemProps} from "./menu-item";
 import type {MenuSectionBaseProps} from "./base/menu-section-base";
 
-import {menuSection} from "@heroui/theme";
+import {menuSection} from "@vx-oss/theme";
 import {useMenuSection} from "@react-aria/menu";
 import {useMemo} from "react";
-import {forwardRef} from "@heroui/system";
-import {clsx, mergeProps} from "@heroui/shared-utils";
-import {Divider} from "@heroui/divider";
+import {forwardRef} from "@vx-oss/system";
+import {clsx, mergeProps} from "@vx-oss/shared-utils";
+import {Divider} from "@vx-oss/divider";
 
 import MenuItem from "./menu-item";
 

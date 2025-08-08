@@ -1,18 +1,18 @@
 import type {MenuItemBaseProps} from "./base/menu-item-base";
-import type {MenuItemVariantProps} from "@heroui/theme";
+import type {MenuItemVariantProps} from "@vx-oss/theme";
 import type {Node, PressEvent} from "@react-types/shared";
 import type {TreeState} from "@react-stately/tree";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 
 import {useMemo, useRef, useCallback} from "react";
-import {menuItem} from "@heroui/theme";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
+import {menuItem} from "@vx-oss/theme";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr, objectToDeps, removeEvents, mergeProps} from "@heroui/shared-utils";
+import {clsx, dataAttr, objectToDeps, removeEvents, mergeProps} from "@vx-oss/shared-utils";
 import {useMenuItem as useAriaMenuItem} from "@react-aria/menu";
 import {isFocusVisible as AriaIsFocusVisible, useHover} from "@react-aria/interactions";
-import {useIsMobile} from "@heroui/use-is-mobile";
-import {filterDOMProps} from "@heroui/react-utils";
+import {useIsMobile} from "@vx-oss/use-is-mobile";
+import {filterDOMProps} from "@vx-oss/react-utils";
 
 interface Props<T extends object> extends MenuItemBaseProps<T> {
   item: Node<T>;

@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 
 export interface PreProps {
   className?: string;

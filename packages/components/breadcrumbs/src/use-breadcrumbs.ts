@@ -1,17 +1,17 @@
-import type {BreadcrumbsVariantProps, SlotsToClasses, BreadcrumbsSlots} from "@heroui/theme";
+import type {BreadcrumbsVariantProps, SlotsToClasses, BreadcrumbsSlots} from "@vx-oss/theme";
 import type {AriaBreadcrumbsProps} from "@react-types/breadcrumbs";
 import type {ReactNode, Key, ReactElement} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {BreadcrumbItemProps} from "./breadcrumb-item";
 
 import {Children} from "react";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {breadcrumbs} from "@heroui/theme";
-import {filterDOMProps, pickChildren, useDOMRef} from "@heroui/react-utils";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {breadcrumbs} from "@vx-oss/theme";
+import {filterDOMProps, pickChildren, useDOMRef} from "@vx-oss/react-utils";
 import {useBreadcrumbs as useAriaBreadcrumbs} from "@react-aria/breadcrumbs";
 import {useMemo} from "react";
-import {clsx, dataAttr, objectToDeps, mergeProps} from "@heroui/shared-utils";
+import {clsx, dataAttr, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
 
 import BreadcrumbItem from "./breadcrumb-item";
 

@@ -3,7 +3,7 @@ import type {Meta} from "@storybook/react";
 import type {AccordionProps, AccordionItemProps} from "../src";
 
 import React from "react";
-import {accordionItem, button} from "@heroui/theme";
+import {accordionItem, button} from "@vx-oss/theme";
 import {
   AnchorIcon,
   MoonIcon,
@@ -12,10 +12,10 @@ import {
   ShieldSecurityIcon,
   MonitorMobileIcon,
   InvalidCardIcon,
-} from "@heroui/shared-icons";
-import {Avatar} from "@heroui/avatar";
-import {Input, Textarea} from "@heroui/input";
-import {Button} from "@heroui/button";
+} from "@vx-oss/shared-icons";
+import {Avatar} from "@vx-oss/avatar";
+import {Input, Textarea} from "@vx-oss/input";
+import {Button} from "@vx-oss/button";
 
 import {Accordion, AccordionItem} from "../src";
 

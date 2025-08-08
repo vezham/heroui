@@ -2,11 +2,11 @@ import type {Meta} from "@storybook/react";
 import type {BadgeProps} from "../src";
 
 import React from "react";
-import {badge} from "@heroui/theme";
-import {Avatar} from "@heroui/avatar";
-import {CheckIcon} from "@heroui/shared-icons";
-import {Switch} from "@heroui/switch";
-import {Notification, CartIcon} from "@heroui/shared-icons";
+import {badge} from "@vx-oss/theme";
+import {Avatar} from "@vx-oss/avatar";
+import {CheckIcon} from "@vx-oss/shared-icons";
+import {Switch} from "@vx-oss/switch";
+import {Notification, CartIcon} from "@vx-oss/shared-icons";
 
 import {Badge} from "../src";
 

@@ -1,4 +1,4 @@
-import {InputOtp} from "@heroui/react";
+import {InputOtp} from "@vx-oss/react";
 
 export default function App() {
   const allowedKeysConfig = [

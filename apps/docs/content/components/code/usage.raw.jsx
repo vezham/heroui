@@ -1,5 +1,5 @@
-import {Code} from "@heroui/react";
+import {Code} from "@vx-oss/react";
 
 export default function App() {
-  return <Code>npm install @heroui/react</Code>;
+  return <Code>npm install @vx-oss/react</Code>;
 }

@@ -1,14 +1,14 @@
 "use client";
 
 import type {ReactNode} from "react";
-import type {LinkProps, SlotsToClasses} from "@heroui/react";
+import type {LinkProps, SlotsToClasses} from "@vx-oss/react";
 
 import React from "react";
 import {usePostHog} from "posthog-js/react";
 import {tv} from "tailwind-variants";
-import {Card, CardHeader, CardBody} from "@heroui/react";
+import {Card, CardHeader, CardBody} from "@vx-oss/react";
 import {useRouter} from "next/navigation";
-import {LinkIcon} from "@heroui/shared-icons";
+import {LinkIcon} from "@vx-oss/shared-icons";
 
 const styles = tv({
   slots: {

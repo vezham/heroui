@@ -1,6 +1,6 @@
 "use client";
 
-import {Button, Chip} from "@heroui/react";
+import {Button, Chip} from "@vx-oss/react";
 import {useEffect, useState} from "react";
 import {useTheme} from "next-themes";
 

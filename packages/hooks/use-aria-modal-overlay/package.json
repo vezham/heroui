@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/use-aria-modal-overlay",
-  "version": "2.2.17",
+  "name": "@vx-oss/use-aria-modal-overlay",
+  "version": "0.0.0",
   "description": "A custom implementation of react aria modal overlay, this removes the prevent scroll",
   "keywords": [
     "use-aria-modal-overlay"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/hooks/use-aria-modal-overlay"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -34,7 +34,7 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@heroui/use-aria-overlay": "workspace:*",
+    "@vx-oss/use-aria-overlay": "workspace:*",
     "@react-aria/overlays": "3.28.0",
     "@react-aria/utils": "3.30.0",
     "@react-stately/overlays": "3.6.18"

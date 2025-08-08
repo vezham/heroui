@@ -2,8 +2,8 @@ import type {Meta} from "@storybook/react";
 import type {TooltipProps} from "../src";
 
 import React from "react";
-import {popover} from "@heroui/theme";
-import {Button} from "@heroui/button";
+import {popover} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
 
 import {Tooltip} from "../src";
 

@@ -1,6 +1,6 @@
 import type {Sponsor} from "@/components/marketing/sponsor-item";
 
-import {Button, Link} from "@heroui/react";
+import {Button, Link} from "@vx-oss/react";
 
 import {sectionWrapper} from "@/components/primitives";
 import {Story2DesignLogo, CodeRabbitLogo, MochiiAILogo} from "@/components/icons/sponsors";

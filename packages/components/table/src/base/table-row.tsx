@@ -1,4 +1,4 @@
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {RowProps} from "@react-types/table";
 
 import {Row} from "@react-stately/table";

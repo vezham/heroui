@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@heroui/react";
+import {DateRangePicker} from "@vx-oss/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

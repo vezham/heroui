@@ -1,4 +1,4 @@
-import {TimeInput} from "@heroui/react";
+import {TimeInput} from "@vx-oss/react";
 import {Time} from "@internationalized/date";
 
 export const ClockCircleLinearIcon = (props) => {

@@ -2,9 +2,9 @@ import type {Meta} from "@storybook/react";
 import type {SkeletonProps} from "../src";
 
 import React from "react";
-import {skeleton} from "@heroui/theme";
-import {Card} from "@heroui/card";
-import {Button} from "@heroui/button";
+import {skeleton} from "@vx-oss/theme";
+import {Card} from "@vx-oss/card";
+import {Button} from "@vx-oss/button";
 
 import {Skeleton} from "../src";
 

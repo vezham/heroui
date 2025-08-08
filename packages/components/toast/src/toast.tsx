@@ -1,19 +1,19 @@
 import type {ReactElement} from "react";
-import type {ButtonProps} from "@heroui/button";
+import type {ButtonProps} from "@vx-oss/button";
 import type {UseToastProps} from "./use-toast";
 
-import {forwardRef} from "@heroui/system";
-import {Button} from "@heroui/button";
+import {forwardRef} from "@vx-oss/system";
+import {Button} from "@vx-oss/button";
 import {
   CloseIcon,
   DangerIcon,
   InfoFilledIcon,
   SuccessIcon,
   WarningIcon,
-} from "@heroui/shared-icons";
+} from "@vx-oss/shared-icons";
 import {m} from "framer-motion";
 import {cloneElement, isValidElement} from "react";
-import {Spinner} from "@heroui/spinner";
+import {Spinner} from "@vx-oss/spinner";
 
 import {useToast} from "./use-toast";
 

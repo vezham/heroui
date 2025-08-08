@@ -2,10 +2,10 @@ import type {Meta} from "@storybook/react";
 import type {BreadcrumbsProps} from "../src";
 
 import React from "react";
-import {breadcrumbItem} from "@heroui/theme";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@heroui/dropdown";
-import {Button} from "@heroui/button";
-import {Tooltip} from "@heroui/tooltip";
+import {breadcrumbItem} from "@vx-oss/theme";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@vx-oss/dropdown";
+import {Button} from "@vx-oss/button";
+import {Tooltip} from "@vx-oss/tooltip";
 import {
   CheckIcon,
   ChevronDownIcon,
@@ -14,8 +14,8 @@ import {
   MailFilledIcon,
   PetBoldIcon,
   ShoppingCartBoldIcon,
-} from "@heroui/shared-icons";
-import {clsx} from "@heroui/shared-utils";
+} from "@vx-oss/shared-icons";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {Breadcrumbs, BreadcrumbItem} from "../src";
 

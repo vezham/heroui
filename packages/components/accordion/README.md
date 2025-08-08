@@ -1,4 +1,4 @@
-# @heroui-inc/accordion
+# @vx-oss/accordion
 
 Accordion display a list of high-level options that can expand/collapse to reveal more information.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com//docs/components/accordio
 ## Installation
 
 ```sh
-yarn add @heroui/accordion
+yarn add @vx-oss/accordion
 # or
-npm i @heroui/accordion
+npm i @vx-oss/accordion
 ```
 
 ## Contribution

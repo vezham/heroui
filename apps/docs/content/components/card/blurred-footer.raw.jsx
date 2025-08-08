@@ -1,4 +1,4 @@
-import {Card, CardFooter, Image, Button} from "@heroui/react";
+import {Card, CardFooter, Image, Button} from "@vx-oss/react";
 
 export default function App() {
   return (

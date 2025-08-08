@@ -1,5 +1,5 @@
 import React from "react";
-import {Select, SelectItem} from "@heroui/react";
+import {Select, SelectItem} from "@vx-oss/react";
 
 export const animals = [
   {key: "cat", label: "Cat"},

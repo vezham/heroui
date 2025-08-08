@@ -1,10 +1,10 @@
-import {Input} from "@heroui/react";
+import {Input} from "@vx-oss/react";
 
 export default function App() {
   return (
     <Input
       className="max-w-xs"
-      defaultValue="junior@heroui.com"
+      defaultValue="junior@vx-oss.com"
       description="We'll never share your email with anyone else."
       label="Email"
       type="email"

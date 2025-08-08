@@ -1,13 +1,13 @@
-import type {AccordionItemVariantProps} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
-import type {NodeWithProps} from "@heroui/aria-utils";
+import type {AccordionItemVariantProps} from "@vx-oss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
+import type {NodeWithProps} from "@vx-oss/aria-utils";
 import type {TreeState} from "@react-stately/tree";
 import type {AccordionItemBaseProps} from "./base/accordion-item-base";
 
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@vx-oss/system";
 import {useFocusRing} from "@react-aria/focus";
-import {accordionItem} from "@heroui/theme";
+import {accordionItem} from "@vx-oss/theme";
 import {
   clsx,
   callAllHandlers,
@@ -15,9 +15,9 @@ import {
   objectToDeps,
   chain,
   mergeProps,
-} from "@heroui/shared-utils";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {useReactAriaAccordionItem} from "@heroui/use-aria-accordion";
+} from "@vx-oss/shared-utils";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {useReactAriaAccordionItem} from "@vx-oss/use-aria-accordion";
 import {useCallback, useMemo} from "react";
 import {useHover, usePress} from "@react-aria/interactions";
 

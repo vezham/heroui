@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem} from "@heroui/react";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/react";
 
 const SelectorIcon = (props) => {
   return (

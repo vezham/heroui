@@ -17,10 +17,10 @@ import {
   Kbd,
   Chip,
   Divider,
-} from "@heroui/react";
-import {dataFocusVisibleClasses} from "@heroui/theme";
+} from "@vx-oss/react";
+import {dataFocusVisibleClasses} from "@vx-oss/theme";
 import {isAppleDevice} from "@react-aria/utils";
-import {clsx} from "@heroui/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 import NextLink from "next/link";
 import {usePathname} from "next/navigation";
 import {motion, AnimatePresence} from "framer-motion";

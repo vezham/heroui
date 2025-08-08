@@ -81,7 +81,7 @@ export const useSandpack = ({
 
   let dependencies = {
     "framer-motion": "11.18.2",
-    "@heroui/react": "latest",
+    "@vx-oss/react": "latest",
   };
 
   // sort files by dependency
@@ -158,14 +158,14 @@ export const useSandpack = ({
 
   //   if (hasComponents) {
   //     let deps = {
-  //       "@heroui/theme": "canary",
-  //       "@heroui/system": "canary",
+  //       "@vx-oss/theme": "canary",
+  //       "@vx-oss/system": "canary",
   //     };
 
   //     heroUIComponents.forEach((component) => {
   //       deps = {
   //         ...deps,
-  //         [`@heroui/${component}`]: "canary",
+  //         [`@vx-oss/${component}`]: "canary",
   //       };
   //     });
 
@@ -174,7 +174,7 @@ export const useSandpack = ({
 
   //   return {
   //     ...deps,
-  //     "@heroui/react": "canary",
+  //     "@vx-oss/react": "canary",
   //   };
   // }, [hasComponents, heroUIComponents, component]);
 

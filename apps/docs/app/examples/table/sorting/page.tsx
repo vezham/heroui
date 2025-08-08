@@ -9,7 +9,7 @@ import {
   TableCell,
   getKeyValue,
   Spinner,
-} from "@heroui/react";
+} from "@vx-oss/react";
 import {useAsyncList} from "@react-stately/data";
 import {useState} from "react";
 

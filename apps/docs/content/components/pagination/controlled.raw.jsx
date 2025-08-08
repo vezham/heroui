@@ -1,4 +1,4 @@
-import {Pagination, Button} from "@heroui/react";
+import {Pagination, Button} from "@vx-oss/react";
 
 export default function App() {
   const [currentPage, setCurrentPage] = React.useState(1);

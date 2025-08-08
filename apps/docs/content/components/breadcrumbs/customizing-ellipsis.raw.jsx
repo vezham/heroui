@@ -6,7 +6,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
-} from "@heroui/react";
+} from "@vx-oss/react";
 
 export default function App() {
   return (

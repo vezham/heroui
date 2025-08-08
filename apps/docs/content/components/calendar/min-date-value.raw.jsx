@@ -1,4 +1,4 @@
-import {Calendar} from "@heroui/react";
+import {Calendar} from "@vx-oss/react";
 import {today, getLocalTimeZone} from "@internationalized/date";
 
 export default function App() {

@@ -1,4 +1,4 @@
-import {Chip} from "@heroui/react";
+import {Chip} from "@vx-oss/react";
 
 export const HeroUIProChip = () => (
   <Chip

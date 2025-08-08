@@ -1,11 +1,11 @@
-import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system-rsc";
-import type {ReactRef} from "@heroui/react-utils";
+import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@vx-oss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system-rsc";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {KbdKey} from "./utils";
 
-import {mapPropsVariants} from "@heroui/system-rsc";
-import {kbd} from "@heroui/theme";
-import {clsx, objectToDeps} from "@heroui/shared-utils";
+import {mapPropsVariants} from "@vx-oss/system-rsc";
+import {kbd} from "@vx-oss/theme";
+import {clsx, objectToDeps} from "@vx-oss/shared-utils";
 import {useMemo} from "react";
 
 interface Props extends HTMLHeroUIProps<"kbd"> {

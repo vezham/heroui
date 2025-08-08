@@ -1,4 +1,4 @@
-# @heroui/stories-utils
+# @vx-oss/stories-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/stories-utils
+yarn add @vx-oss/stories-utils
 # or
-npm i @heroui/stories-utils
+npm i @vx-oss/stories-utils
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-# @heroui/react-utils
+# @vx-oss/react-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/react-utils
+yarn add @vx-oss/react-utils
 # or
-npm i @heroui/react-utils
+npm i @vx-oss/react-utils
 ```
 
 ## Contribution

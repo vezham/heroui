@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/menu",
-  "version": "2.2.23",
+  "name": "@vx-oss/menu",
+  "version": "0.0.0",
   "description": "A menu displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "menu"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/menu"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,15 +36,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.17",
-    "@heroui/system": ">=2.4.18"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/divider": "workspace:*",
-    "@heroui/aria-utils": "workspace:*",
-    "@heroui/use-is-mobile": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
+    "@vx-oss/divider": "workspace:*",
+    "@vx-oss/aria-utils": "workspace:*",
+    "@vx-oss/use-is-mobile": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
     "@react-aria/focus": "3.21.0",
     "@react-aria/interactions": "3.25.4",
     "@react-aria/menu": "3.19.0",
@@ -53,9 +53,9 @@
     "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/system": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

@@ -1,9 +1,9 @@
-import {Snippet} from "@heroui/react";
+import {Snippet} from "@vx-oss/react";
 
 export default function App() {
   return (
     <Snippet hideCopyButton color="primary" variant="solid">
-      npm install @heroui/react
+      npm install @vx-oss/react
     </Snippet>
   );
 }

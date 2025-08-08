@@ -1,4 +1,4 @@
-import {Button, Form, Input} from "@heroui/react";
+import {Button, Form, Input} from "@vx-oss/react";
 
 export default function App() {
   const [isLoading, setIsLoading] = React.useState(false);

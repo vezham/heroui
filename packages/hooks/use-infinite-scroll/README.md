@@ -1,4 +1,4 @@
-# @heroui/use-infinite-scroll
+# @vx-oss/use-infinite-scroll
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-infinite-scroll
+yarn add @vx-oss/use-infinite-scroll
 # or
-npm i @heroui/use-infinite-scroll
+npm i @vx-oss/use-infinite-scroll
 ```
 
 ## Contribution

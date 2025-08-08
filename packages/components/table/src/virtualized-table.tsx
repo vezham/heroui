@@ -1,8 +1,8 @@
 import type {UseTableProps} from "./use-table";
 
 import {useCallback, useLayoutEffect, useRef, useState} from "react";
-import {Spacer} from "@heroui/spacer";
-import {forwardRef} from "@heroui/system";
+import {Spacer} from "@vx-oss/spacer";
+import {forwardRef} from "@vx-oss/system";
 import {useVirtualizer} from "@tanstack/react-virtual";
 
 import {useTable} from "./use-table";

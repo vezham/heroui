@@ -1,4 +1,4 @@
-# @heroui/autocomplete
+# @vx-oss/autocomplete
 
 An autocomplete combines a text input with a listbox, allowing users to filter a list of options to items matching a query.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/autocompl
 ## Installation
 
 ```sh
-yarn add @heroui/autocomplete
+yarn add @vx-oss/autocomplete
 # or
-npm i @heroui/autocomplete
+npm i @vx-oss/autocomplete
 ```
 
 ## Contribution

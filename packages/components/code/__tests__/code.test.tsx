@@ -1,6 +1,6 @@
 import * as React from "react";
 import {render} from "@testing-library/react";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vx-oss/test-utils";
 
 import {Code} from "../src";
 
@@ -25,8 +25,8 @@ describe("Code", () => {
   });
 
   it("should include the code", () => {
-    const wrapper = render(<Code data-testid="code-test">npm install @heroui/react</Code>);
+    const wrapper = render(<Code data-testid="code-test">npm install @vx-oss/react</Code>);
 
-    expect(wrapper.getByTestId("code-test")).toHaveTextContent("npm install @heroui/react");
+    expect(wrapper.getByTestId("code-test")).toHaveTextContent("npm install @vx-oss/react");
   });
 });

@@ -2,13 +2,13 @@ import type {Meta} from "@storybook/react";
 import type {NavbarProps} from "../src";
 
 import React from "react";
-import {navbar} from "@heroui/theme";
-import {Link} from "@heroui/link";
-import {Button} from "@heroui/button";
-import {Avatar} from "@heroui/avatar";
-import {Input} from "@heroui/input";
+import {navbar} from "@vx-oss/theme";
+import {Link} from "@vx-oss/link";
+import {Button} from "@vx-oss/button";
+import {Avatar} from "@vx-oss/avatar";
+import {Input} from "@vx-oss/input";
 import Lorem from "react-lorem-component";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@heroui/dropdown";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@vx-oss/dropdown";
 import {
   ChevronDown,
   Lock,
@@ -18,7 +18,7 @@ import {
   TagUser,
   Scale,
   SearchIcon,
-} from "@heroui/shared-icons";
+} from "@vx-oss/shared-icons";
 
 import {
   Navbar,

@@ -1,14 +1,14 @@
 {
-  "name": "@heroui/spinner",
-  "version": "2.2.21",
+  "name": "@vx-oss/spinner",
+  "version": "0.0.0",
   "description": "Loaders express an unspecified wait time or display the length of a process.",
   "keywords": [
     "loading",
     "spinner",
     "progress"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui.git",
     "directory": "packages/components/loading"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -38,15 +38,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.17"
+    "@vx-oss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/system-rsc": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/system": "workspace:*"
+    "@vx-oss/system-rsc": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/system": "workspace:*"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

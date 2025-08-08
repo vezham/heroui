@@ -11,7 +11,18 @@
   "tailwindCSS.experimental.classRegex": [
     ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
+  "search.exclude": {
+    "**/.vezham": true,
+    "**/dist": true,
+    "**-lock.json": true,
+    "**-lock.yaml": true,
+    "**/coverage": true,
+    "**/bower_components": true,
+    // "generated/**": true,
+    ".nx/**": true,
+    ".git/**": true
+  },
   "cSpell.words": [
-    "heroui"
+    "vezham", "vx"
   ],
 }

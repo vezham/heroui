@@ -1,4 +1,4 @@
-import {Input} from "@heroui/react";
+import {Input} from "@vx-oss/react";
 
 import {floatNumberPattern} from "../constants";
 

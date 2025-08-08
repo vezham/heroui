@@ -1,4 +1,4 @@
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {TableBodyProps as TableBodyBaseProps} from "@react-types/table";
 import type {ReactNode} from "react";
 

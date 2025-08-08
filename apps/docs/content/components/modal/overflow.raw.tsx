@@ -1,4 +1,4 @@
-import type {ModalProps} from "@heroui/react";
+import type {ModalProps} from "@vx-oss/react";
 
 import React from "react";
 import {
@@ -11,7 +11,7 @@ import {
   useDisclosure,
   RadioGroup,
   Radio,
-} from "@heroui/react";
+} from "@vx-oss/react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();

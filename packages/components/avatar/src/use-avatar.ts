@@ -1,14 +1,14 @@
-import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@heroui/theme";
-import type {DOMElement, DOMAttributes, HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@vx-oss/theme";
+import type {DOMElement, DOMAttributes, HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 
-import {avatar} from "@heroui/theme";
-import {useProviderContext} from "@heroui/system";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {clsx, safeText, dataAttr, mergeProps} from "@heroui/shared-utils";
+import {avatar} from "@vx-oss/theme";
+import {useProviderContext} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, safeText, dataAttr, mergeProps} from "@vx-oss/shared-utils";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback} from "react";
-import {useImage} from "@heroui/use-image";
+import {useImage} from "@vx-oss/use-image";
 import {useHover} from "@react-aria/interactions";
 
 import {useAvatarGroupContext} from "./avatar-group-context";

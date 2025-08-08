@@ -1,4 +1,4 @@
-# @heroui/system-rsc
+# @vx-oss/system-rsc
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/system-rsc
+yarn add @vx-oss/system-rsc
 # or
-npm i @heroui/system-rsc
+npm i @vx-oss/system-rsc
 ```
 
 ## Contribution

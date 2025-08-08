@@ -1,9 +1,9 @@
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {ValuesType} from "./use-table";
 
 import {forwardRef} from "react";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx, mergeProps} from "@heroui/shared-utils";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, mergeProps} from "@vx-oss/shared-utils";
 import {useTableRowGroup} from "@react-aria/table";
 
 export interface TableRowGroupProps extends HTMLHeroUIProps<"thead"> {

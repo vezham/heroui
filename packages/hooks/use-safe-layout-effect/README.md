@@ -1,4 +1,4 @@
-# @heroui/use-safe-layout-effect
+# @vx-oss/use-safe-layout-effect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-safe-layout-effect
+yarn add @vx-oss/use-safe-layout-effect
 # or
-npm i @heroui/use-safe-layout-effect
+npm i @vx-oss/use-safe-layout-effect
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import {Button} from "@heroui/react";
+import {Button} from "@vx-oss/react";
 
 export const HeartIcon = ({fill = "currentColor", filled, size, height, width, ...props}) => {
   return (

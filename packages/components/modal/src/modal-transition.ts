@@ -1,4 +1,4 @@
-import {TRANSITION_EASINGS} from "@heroui/framer-utils";
+import {TRANSITION_EASINGS} from "@vx-oss/framer-utils";
 
 export const scaleInOut = {
   enter: {

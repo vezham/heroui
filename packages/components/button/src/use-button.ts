@@ -1,23 +1,23 @@
-import type {ButtonVariantProps} from "@heroui/theme";
-import type {AriaButtonProps} from "@heroui/use-aria-button";
+import type {ButtonVariantProps} from "@vx-oss/theme";
+import type {AriaButtonProps} from "@vx-oss/use-aria-button";
 import type {ReactNode} from "react";
-import type {RippleProps} from "@heroui/ripple";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {RippleProps} from "@vx-oss/ripple";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {MouseEventHandler} from "react";
 import type {PressEvent} from "@react-aria/interactions";
-import type {SpinnerProps} from "@heroui/spinner";
+import type {SpinnerProps} from "@vx-oss/spinner";
 
-import {useProviderContext} from "@heroui/system";
-import {dataAttr, chain, mergeProps} from "@heroui/shared-utils";
+import {useProviderContext} from "@vx-oss/system";
+import {dataAttr, chain, mergeProps} from "@vx-oss/shared-utils";
 import {useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {button} from "@heroui/theme";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {button} from "@vx-oss/theme";
 import {isValidElement, cloneElement, useMemo} from "react";
-import {useAriaButton} from "@heroui/use-aria-button";
+import {useAriaButton} from "@vx-oss/use-aria-button";
 import {useHover} from "@react-aria/interactions";
-import {useRipple} from "@heroui/ripple";
+import {useRipple} from "@vx-oss/ripple";
 
 import {useButtonGroupContext} from "./button-group-context";
 

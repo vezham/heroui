@@ -1,4 +1,4 @@
-# @heroui/use-data-scroll-overflow
+# @vx-oss/use-data-scroll-overflow
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-data-scroll-overflow
+yarn add @vx-oss/use-data-scroll-overflow
 # or
-npm i @heroui/use-data-scroll-overflow
+npm i @vx-oss/use-data-scroll-overflow
 ```
 
 ## Contribution

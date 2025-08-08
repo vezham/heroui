@@ -5,7 +5,7 @@ import type {DateValue} from "@internationalized/date";
 import * as React from "react";
 import {fireEvent, render} from "@testing-library/react";
 import {CalendarDate, CalendarDateTime, ZonedDateTime} from "@internationalized/date";
-import {pointerMap, triggerPress} from "@heroui/test-utils";
+import {pointerMap, triggerPress} from "@vx-oss/test-utils";
 import userEvent from "@testing-library/user-event";
 
 import {DateInput as DateInputBase} from "../src";

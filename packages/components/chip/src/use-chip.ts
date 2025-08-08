@@ -1,15 +1,15 @@
-import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@heroui/theme";
+import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@vx-oss/theme";
 import type {ReactNode} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {PressEvent} from "@react-types/shared";
 
-import {mapPropsVariants} from "@heroui/system";
+import {mapPropsVariants} from "@vx-oss/system";
 import {usePress} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
-import {chip} from "@heroui/theme";
-import {useDOMRef} from "@heroui/react-utils";
-import {clsx, objectToDeps, mergeProps} from "@heroui/shared-utils";
+import {chip} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
 import {useMemo, isValidElement, cloneElement} from "react";
 
 export interface UseChipProps extends HTMLHeroUIProps, ChipVariantProps {

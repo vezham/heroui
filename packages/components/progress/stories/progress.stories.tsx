@@ -2,7 +2,7 @@ import type {Meta} from "@storybook/react";
 import type {ProgressProps} from "../src";
 
 import React from "react";
-import {progress} from "@heroui/theme";
+import {progress} from "@vx-oss/theme";
 
 import {Progress} from "../src";
 

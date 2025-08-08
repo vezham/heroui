@@ -1,8 +1,8 @@
-import type {TabsProps} from "@heroui/react";
+import type {TabsProps} from "@vx-oss/react";
 import type {Border, HeroUIScaling} from "../../types";
 
 import {cloneElement} from "react";
-import {Tabs, Tab} from "@heroui/react";
+import {Tabs, Tab} from "@vx-oss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

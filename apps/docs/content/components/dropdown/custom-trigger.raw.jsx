@@ -1,4 +1,4 @@
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Avatar, User} from "@heroui/react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Avatar, User} from "@vx-oss/react";
 
 export default function App() {
   return (

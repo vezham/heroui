@@ -1,26 +1,26 @@
-import type {PopoverVariantProps, SlotsToClasses} from "@heroui/theme";
+import type {PopoverVariantProps, SlotsToClasses} from "@vx-oss/theme";
 import type {AriaTooltipProps} from "@react-types/tooltip";
 import type {OverlayTriggerProps} from "@react-types/overlays";
 import type {AriaOverlayProps} from "@react-aria/overlays";
 import type {HTMLMotionProps} from "framer-motion";
-import type {OverlayOptions} from "@heroui/aria-utils";
+import type {OverlayOptions} from "@vx-oss/aria-utils";
 import type {ReactNode, Ref} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 
 import {useId, useImperativeHandle} from "react";
 import {useTooltipTriggerState} from "@react-stately/tooltip";
 import {useTooltip as useReactAriaTooltip, useTooltipTrigger} from "@react-aria/tooltip";
 import {useOverlayPosition} from "@react-aria/overlays";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {popover} from "@heroui/theme";
-import {clsx, dataAttr, objectToDeps, mergeProps} from "@heroui/shared-utils";
-import {mergeRefs} from "@heroui/react-utils";
-import {createDOMRef} from "@heroui/react-utils";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {popover} from "@vx-oss/theme";
+import {clsx, dataAttr, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
+import {mergeRefs} from "@vx-oss/react-utils";
+import {createDOMRef} from "@vx-oss/react-utils";
 import {useMemo, useRef, useCallback} from "react";
-import {toReactAriaPlacement, getArrowPlacement} from "@heroui/aria-utils";
-import {useSafeLayoutEffect} from "@heroui/use-safe-layout-effect";
-import {useAriaOverlay} from "@heroui/use-aria-overlay";
+import {toReactAriaPlacement, getArrowPlacement} from "@vx-oss/aria-utils";
+import {useSafeLayoutEffect} from "@vx-oss/use-safe-layout-effect";
+import {useAriaOverlay} from "@vx-oss/use-aria-overlay";
 
 interface Props extends Omit<HTMLHeroUIProps, "content"> {
   /**
