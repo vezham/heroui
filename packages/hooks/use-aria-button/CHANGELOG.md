@@ -1,5 +1,11 @@
 # @heroui/use-aria-button
 
+## 0.0.10
+
+### Patch Changes
+
+- [`025a889`](https://github.com/vezham/heroui/commit/025a889e233360bb9b589b36e60460937a509d0b) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: vx-oss impl
+
 ## 2.2.18
 
 ### Patch Changes

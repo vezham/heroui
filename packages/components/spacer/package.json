@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/spacer",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A flexible spacer component designed to create consistent spacing and maintain alignment in your layout.",
   "keywords": [
     "spacer"
