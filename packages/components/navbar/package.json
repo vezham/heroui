@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/navbar",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "A responsive navigation header positioned on top side of your page that includes support for branding, links, navigation, collapse and more.",
   "keywords": [
     "navbar"
