@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/framer-utils",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A set of framer motion transitions for react",
   "keywords": [
     "framer-utils"
