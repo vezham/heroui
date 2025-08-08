@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/ripple",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple implementation to display a ripple animation when the source component is clicked",
   "keywords": [
     "ripple"

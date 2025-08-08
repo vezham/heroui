@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-resize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hook that adds an event listener to the resize window event",
   "keywords": [
     "use-resize"

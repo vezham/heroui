@@ -1,5 +1,11 @@
 # @heroui/use-draggable
 
+## 0.1.2
+
+### Patch Changes
+
+- [`147ab76`](https://github.com/vezham/heroui/commit/147ab767eefb591ded55a6f286a6bef7b58e496c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - nj
+
 ## 0.1.1
 
 ### Patch Changes
