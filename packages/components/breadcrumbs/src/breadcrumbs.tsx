@@ -1,9 +1,9 @@
 import type {UseBreadcrumbsProps} from "./use-breadcrumbs";
 
 import {cloneElement, isValidElement, useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {ChevronRightIcon, EllipsisIcon} from "@v0xoss/shared-icons";
-import {chain, warn} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {ChevronRightIcon, EllipsisIcon} from "@vx-oss/shared-icons";
+import {chain, warn} from "@vx-oss/shared-utils";
 
 import {useBreadcrumbs} from "./use-breadcrumbs";
 

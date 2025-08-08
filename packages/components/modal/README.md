@@ -1,4 +1,4 @@
-# @v0xoss/modal
+# @vx-oss/modal
 
 Displays a dialog with a custom content that requires attention or provides additional information.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/modal) fo
 ## Installation
 
 ```sh
-yarn add @v0xoss/modal
+yarn add @vx-oss/modal
 # or
-npm i @v0xoss/modal
+npm i @vx-oss/modal
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-# @v0xoss/test-utils
+# @vx-oss/test-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/test-utils
+yarn add @vx-oss/test-utils
 # or
-npm i @v0xoss/test-utils
+npm i @vx-oss/test-utils
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import {Select, SelectItem, Avatar} from "@v0xoss/react";
+import {Select, SelectItem, Avatar} from "@vx-oss/react";
 
 export default function App() {
   return (

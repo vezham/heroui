@@ -2,19 +2,19 @@ import type {ValidationResult} from "@react-types/shared";
 import type {ChangeEvent} from "react";
 import type {Meta} from "@storybook/react";
 import type {Selection} from "@react-types/shared";
-import type {Pokemon, Animal, User} from "@v0xoss/stories-utils";
+import type {Pokemon, Animal, User} from "@vx-oss/stories-utils";
 import type {SelectedItems, SelectProps} from "../src";
 
 import React from "react";
 import {useForm} from "react-hook-form";
-import {select, button} from "@v0xoss/theme";
-import {PetBoldIcon, SelectorIcon} from "@v0xoss/shared-icons";
-import {Avatar} from "@v0xoss/avatar";
-import {Chip} from "@v0xoss/chip";
-import {Button} from "@v0xoss/button";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
-import {usePokemonList, animalsData, usersData} from "@v0xoss/stories-utils";
-import {Form} from "@v0xoss/form";
+import {select, button} from "@vx-oss/theme";
+import {PetBoldIcon, SelectorIcon} from "@vx-oss/shared-icons";
+import {Avatar} from "@vx-oss/avatar";
+import {Chip} from "@vx-oss/chip";
+import {Button} from "@vx-oss/button";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
+import {usePokemonList, animalsData, usersData} from "@vx-oss/stories-utils";
+import {Form} from "@vx-oss/form";
 
 import {Select, SelectItem, SelectSection} from "../src";
 

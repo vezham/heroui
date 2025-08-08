@@ -1,15 +1,15 @@
-import type {SlotsToClasses, UserSlots} from "@v0xoss/theme";
-import type {AvatarProps} from "@v0xoss/avatar";
+import type {SlotsToClasses, UserSlots} from "@vx-oss/theme";
+import type {AvatarProps} from "@vx-oss/avatar";
 import type {ReactNode} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 
 import {useMemo, useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
-import {user} from "@v0xoss/theme";
-import {clsx, dataAttr, mergeProps} from "@v0xoss/shared-utils";
-import {filterDOMProps} from "@v0xoss/react-utils";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {user} from "@vx-oss/theme";
+import {clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
+import {filterDOMProps} from "@vx-oss/react-utils";
+import {useDOMRef} from "@vx-oss/react-utils";
 interface Props {
   /**
    * Ref to the DOM node.

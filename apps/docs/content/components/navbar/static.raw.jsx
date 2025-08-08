@@ -1,4 +1,4 @@
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@v0xoss/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@vx-oss/react";
 
 export const AcmeLogo = () => {
   return (

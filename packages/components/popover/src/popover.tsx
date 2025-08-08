@@ -2,7 +2,7 @@ import type {ReactNode} from "react";
 import type {UsePopoverProps} from "./use-popover";
 
 import {Children} from "react";
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 import {Overlay} from "@react-aria/overlays";
 import {AnimatePresence} from "framer-motion";
 

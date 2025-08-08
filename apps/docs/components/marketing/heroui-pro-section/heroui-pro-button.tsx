@@ -1,4 +1,4 @@
-import {Button} from "@v0xoss/react";
+import {Button} from "@vx-oss/react";
 
 export const HeroUIProButton = () => (
   <Button

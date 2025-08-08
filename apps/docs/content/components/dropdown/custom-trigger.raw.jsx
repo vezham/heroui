@@ -1,4 +1,4 @@
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Avatar, User} from "@v0xoss/react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Avatar, User} from "@vx-oss/react";
 
 export default function App() {
   return (

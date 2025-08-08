@@ -1,4 +1,4 @@
-# @v0xoss/table
+# @vx-oss/table
 
 Tables are used to display tabular data using rows and columns. They allow users to quickly scan, sort, compare, and take action on large amounts of data.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/table) fo
 ## Installation
 
 ```sh
-yarn add @v0xoss/table
+yarn add @vx-oss/table
 # or
-npm i @v0xoss/table
+npm i @vx-oss/table
 ```
 
 ## Contribution

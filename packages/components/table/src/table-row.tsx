@@ -2,9 +2,9 @@ import type {GridNode} from "@react-types/grid";
 import type {TableRowProps as BaseTableRowProps} from "./base/table-row";
 import type {ValuesType} from "./use-table";
 
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
-import {clsx, dataAttr, mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
 import {useTableRow} from "@react-aria/table";
 import {useFocusRing} from "@react-aria/focus";
 import {useHover} from "@react-aria/interactions";

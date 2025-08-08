@@ -1,4 +1,4 @@
-import {RangeCalendar} from "@v0xoss/react";
+import {RangeCalendar} from "@vx-oss/react";
 import {today, getLocalTimeZone, isWeekend} from "@internationalized/date";
 import {useLocale} from "@react-aria/i18n";
 

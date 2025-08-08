@@ -1,7 +1,7 @@
-import type {Selection} from "@v0xoss/react";
+import type {Selection} from "@vx-oss/react";
 
 import React from "react";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@v0xoss/react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@vx-oss/react";
 
 export default function App() {
   const [selectedKeys, setSelectedKeys] = React.useState<Selection>(new Set(["text"]));

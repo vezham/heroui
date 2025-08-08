@@ -1,18 +1,18 @@
-import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@v0xoss/theme";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@vx-oss/theme";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {RefObject} from "react";
 import type {TabListState, TabListStateOptions} from "@react-stately/tabs";
 import type {AriaTabListProps} from "@react-aria/tabs";
-import type {CollectionProps} from "@v0xoss/aria-utils";
+import type {CollectionProps} from "@vx-oss/aria-utils";
 import type {CollectionChildren} from "@react-types/shared";
 import type {HTMLMotionProps} from "framer-motion";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {tabs} from "@v0xoss/theme";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, objectToDeps, mergeProps} from "@v0xoss/shared-utils";
-import {filterDOMProps} from "@v0xoss/react-utils";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {tabs} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
+import {filterDOMProps} from "@vx-oss/react-utils";
 import {useMemo, useCallback} from "react";
 import {useTabListState} from "@react-stately/tabs";
 import {useTabList} from "@react-aria/tabs";

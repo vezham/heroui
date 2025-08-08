@@ -2,8 +2,8 @@ import type {Meta} from "@storybook/react";
 import type {AlertProps} from "../src";
 
 import React from "react";
-import {alert, cn} from "@v0xoss/theme";
-import {Button} from "@v0xoss/button";
+import {alert, cn} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
 
 import {Alert} from "../src";
 

@@ -1,4 +1,4 @@
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@v0xoss/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@vx-oss/react";
 
 export default function App() {
   return (

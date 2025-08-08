@@ -1,6 +1,6 @@
 import type {UsePaginationItemProps} from "./use-pagination-item";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {usePaginationItem} from "./use-pagination-item";
 

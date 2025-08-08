@@ -1,4 +1,4 @@
-# @v0xoss/use-clipboard
+# @vx-oss/use-clipboard
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-clipboard
+yarn add @vx-oss/use-clipboard
 # or
-npm i @v0xoss/use-clipboard
+npm i @vx-oss/use-clipboard
 ```
 
 ## Contribution

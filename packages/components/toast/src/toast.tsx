@@ -1,19 +1,19 @@
 import type {ReactElement} from "react";
-import type {ButtonProps} from "@v0xoss/button";
+import type {ButtonProps} from "@vx-oss/button";
 import type {UseToastProps} from "./use-toast";
 
-import {forwardRef} from "@v0xoss/system";
-import {Button} from "@v0xoss/button";
+import {forwardRef} from "@vx-oss/system";
+import {Button} from "@vx-oss/button";
 import {
   CloseIcon,
   DangerIcon,
   InfoFilledIcon,
   SuccessIcon,
   WarningIcon,
-} from "@v0xoss/shared-icons";
+} from "@vx-oss/shared-icons";
 import {m} from "framer-motion";
 import {cloneElement, isValidElement} from "react";
-import {Spinner} from "@v0xoss/spinner";
+import {Spinner} from "@vx-oss/spinner";
 
 import {useToast} from "./use-toast";
 

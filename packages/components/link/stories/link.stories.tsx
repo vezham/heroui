@@ -1,10 +1,10 @@
-import type {VariantProps} from "@v0xoss/theme";
+import type {VariantProps} from "@vx-oss/theme";
 import type {Meta} from "@storybook/react";
 import type {LinkProps} from "../src";
 
 import React, {useState} from "react";
-import {tv} from "@v0xoss/theme";
-import {link} from "@v0xoss/theme";
+import {tv} from "@vx-oss/theme";
+import {link} from "@vx-oss/theme";
 
 import {Link} from "../src";
 

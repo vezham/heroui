@@ -1,4 +1,4 @@
-import {Slider} from "@v0xoss/react";
+import {Slider} from "@vx-oss/react";
 
 export default function App() {
   const radius = ["full", "lg", "md", "sm", "none"];

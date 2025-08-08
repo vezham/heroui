@@ -1,4 +1,4 @@
-import {Slider, Tooltip} from "@v0xoss/react";
+import {Slider, Tooltip} from "@vx-oss/react";
 
 export const InfoIcon = (props) => {
   return (

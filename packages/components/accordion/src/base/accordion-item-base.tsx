@@ -1,11 +1,11 @@
-import type {AccordionItemVariantProps, AccordionItemSlots, SlotsToClasses} from "@v0xoss/theme";
-import type {As} from "@v0xoss/system";
-import type {ItemProps} from "@v0xoss/aria-utils";
+import type {AccordionItemVariantProps, AccordionItemSlots, SlotsToClasses} from "@vx-oss/theme";
+import type {As} from "@vx-oss/system";
+import type {ItemProps} from "@vx-oss/aria-utils";
 import type {FocusableProps, PressEvents} from "@react-types/shared";
 import type {ReactNode} from "react";
 import type {HTMLMotionProps} from "framer-motion";
 
-import {BaseItem} from "@v0xoss/aria-utils";
+import {BaseItem} from "@vx-oss/aria-utils";
 
 export type AccordionItemIndicatorProps = {
   /**

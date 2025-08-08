@@ -1,4 +1,4 @@
-# @v0xoss/code
+# @vx-oss/code
 
 Code is a component used to display inline code.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/code) for
 ## Installation
 
 ```sh
-yarn add @v0xoss/code
+yarn add @vx-oss/code
 # or
-npm i @v0xoss/code
+npm i @vx-oss/code
 ```
 
 ## Contribution

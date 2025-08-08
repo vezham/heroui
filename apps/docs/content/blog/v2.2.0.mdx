@@ -62,7 +62,7 @@ client side router you provide.
   // app/providers.tsx
   "use client";
 
-  import {HeroUIProvider} from "@v0xoss/react";
+  import {HeroUIProvider} from "@vx-oss/react";
 
   export function Providers({children}: {children: React.ReactNode}) {
     const router = useRouter();
@@ -80,7 +80,7 @@ client side router you provide.
   // pages/_app.tsx
   import type {AppProps} from "next/app";
   import {useRouter} from "next/router";
-  import {HeroUIProvider} from "@v0xoss/react";
+  import {HeroUIProvider} from "@vx-oss/react";
 
   function MyApp({Component, pageProps}: AppProps) {
     const router = useRouter();
@@ -115,7 +115,7 @@ client side router you provide.
     DropdownItem,
     Button,
     Link,
-  } from "@v0xoss/react";
+  } from "@vx-oss/react";
 
   function App() {
     return (

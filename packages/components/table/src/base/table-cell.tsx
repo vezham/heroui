@@ -1,4 +1,4 @@
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {CellProps} from "@react-types/table";
 
 import {Cell} from "@react-stately/table";

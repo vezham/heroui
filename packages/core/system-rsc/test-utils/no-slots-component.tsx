@@ -1,11 +1,11 @@
 import type {HTMLHeroUIProps} from "../src/types";
-import type {VariantProps} from "@v0xoss/theme";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {VariantProps} from "@vx-oss/theme";
+import type {ReactRef} from "@vx-oss/react-utils";
 
 import React, {useMemo} from "react";
-import {tv} from "@v0xoss/theme";
-import {filterDOMProps, useDOMRef} from "@v0xoss/react-utils";
-import {objectToDeps} from "@v0xoss/shared-utils";
+import {tv} from "@vx-oss/theme";
+import {filterDOMProps, useDOMRef} from "@vx-oss/react-utils";
+import {objectToDeps} from "@vx-oss/shared-utils";
 
 import {mapPropsVariants} from "../src/utils";
 import {forwardRef} from "../src/utils";

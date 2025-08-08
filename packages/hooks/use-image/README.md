@@ -1,4 +1,4 @@
-# @v0xoss/use-image
+# @vx-oss/use-image
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-image
+yarn add @vx-oss/use-image
 # or
-npm i @v0xoss/use-image
+npm i @vx-oss/use-image
 ```
 
 ## Contribution

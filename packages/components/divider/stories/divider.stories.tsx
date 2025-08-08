@@ -2,7 +2,7 @@ import type {Meta} from "@storybook/react";
 import type {DividerProps} from "../src";
 
 import React from "react";
-import {divider} from "@v0xoss/theme";
+import {divider} from "@vx-oss/theme";
 
 import {Divider} from "../src";
 

@@ -1,4 +1,4 @@
-# @v0xoss/use-real-shape
+# @vx-oss/use-real-shape
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-real-shape
+yarn add @vx-oss/use-real-shape
 # or
-npm i @v0xoss/use-real-shape
+npm i @vx-oss/use-real-shape
 ```
 
 ## Contribution

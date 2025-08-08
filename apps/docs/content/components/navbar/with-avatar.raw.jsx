@@ -9,7 +9,7 @@ import {
   Dropdown,
   DropdownMenu,
   Avatar,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export const AcmeLogo = () => {
   return (

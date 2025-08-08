@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/dom-animation",
+  "name": "@vx-oss/dom-animation",
   "version": "0.0.9",
   "description": "Dom Animation from Framer Motion for dynamic import",
   "keywords": [
     "dom-animation"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

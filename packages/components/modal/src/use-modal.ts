@@ -1,19 +1,19 @@
-import type {ModalVariantProps, SlotsToClasses, ModalSlots} from "@v0xoss/theme";
+import type {ModalVariantProps, SlotsToClasses, ModalSlots} from "@vx-oss/theme";
 import type {HTMLMotionProps} from "framer-motion";
 import type {AriaModalOverlayProps} from "@react-aria/overlays";
 import type {ReactNode} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {OverlayTriggerProps} from "@react-stately/overlays";
 
-import {useAriaModalOverlay} from "@v0xoss/use-aria-modal-overlay";
+import {useAriaModalOverlay} from "@vx-oss/use-aria-modal-overlay";
 import {useCallback, useId, useRef, useState, useMemo} from "react";
-import {modal} from "@v0xoss/theme";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {useAriaButton} from "@v0xoss/use-aria-button";
+import {modal} from "@vx-oss/theme";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {useAriaButton} from "@vx-oss/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr, objectToDeps, mergeRefs, mergeProps} from "@v0xoss/shared-utils";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {clsx, dataAttr, objectToDeps, mergeRefs, mergeProps} from "@vx-oss/shared-utils";
+import {useDOMRef} from "@vx-oss/react-utils";
 import {useOverlayTriggerState} from "@react-stately/overlays";
 
 interface Props extends HTMLHeroUIProps<"section"> {

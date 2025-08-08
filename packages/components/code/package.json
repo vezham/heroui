@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/code",
+  "name": "@vx-oss/code",
   "version": "0.0.9",
   "description": "Code is a component used to display inline code.",
   "keywords": [
     "code"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -36,16 +36,16 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@v0xoss/theme": ">=0.0.0"
+    "@vx-oss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@v0xoss/system-rsc": "workspace:*",
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/react-utils": "workspace:*"
+    "@vx-oss/system-rsc": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*"
   },
   "devDependencies": {
-    "@v0xoss/theme": "workspace:*",
-    "@v0xoss/test-utils": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/test-utils": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

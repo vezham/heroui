@@ -1,4 +1,4 @@
-import {Switch, cn} from "@v0xoss/react";
+import {Switch, cn} from "@vx-oss/react";
 
 export default function App() {
   return (

@@ -10,7 +10,7 @@ import {colorVariants} from "../utils";
  *
  * @example
  * <code className={classNames)}>
- *   npm install @v0xoss/react
+ *   npm install @vx-oss/react
  * </code>
  */
 const code = tv({

@@ -1,6 +1,6 @@
 import type {UseProgressProps} from "./use-progress";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useProgress} from "./use-progress";
 

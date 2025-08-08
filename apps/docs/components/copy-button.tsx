@@ -1,6 +1,6 @@
-import type {ButtonProps} from "@v0xoss/react";
+import type {ButtonProps} from "@vx-oss/react";
 
-import {useClipboard} from "@v0xoss/use-clipboard";
+import {useClipboard} from "@vx-oss/use-clipboard";
 import {memo} from "react";
 
 import {PreviewButton} from "./preview-button";

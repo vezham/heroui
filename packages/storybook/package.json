@@ -1,12 +1,12 @@
 {
-  "name": "@v0xoss/storybook",
+  "name": "@vx-oss/storybook",
   "version": "0.0.7",
   "description": "The HeroUI react components storybook ",
   "keywords": [
     "storybook"
   ],
   "type": "module",
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -31,8 +31,8 @@
     "start": "pnpm dlx http-server storybook-static"
   },
   "dependencies": {
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "react": "18.3.0",
     "react-dom": "18.3.0"
   },

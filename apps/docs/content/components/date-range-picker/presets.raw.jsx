@@ -1,4 +1,4 @@
-import {DateRangePicker, Radio, RadioGroup, Button, ButtonGroup, cn} from "@v0xoss/react";
+import {DateRangePicker, Radio, RadioGroup, Button, ButtonGroup, cn} from "@vx-oss/react";
 import {
   today,
   startOfWeek,

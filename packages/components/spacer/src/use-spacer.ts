@@ -1,11 +1,11 @@
-import type {SpacerVariantProps} from "@v0xoss/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system-rsc";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {SpacerVariantProps} from "@vx-oss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system-rsc";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {Space} from "./utils";
 
-import {mapPropsVariants} from "@v0xoss/system-rsc";
-import {spacer} from "@v0xoss/theme";
-import {clsx, dataAttr, objectToDeps} from "@v0xoss/shared-utils";
+import {mapPropsVariants} from "@vx-oss/system-rsc";
+import {spacer} from "@vx-oss/theme";
+import {clsx, dataAttr, objectToDeps} from "@vx-oss/shared-utils";
 import {useMemo} from "react";
 
 import {spacing} from "./utils";

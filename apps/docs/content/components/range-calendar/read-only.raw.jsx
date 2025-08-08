@@ -1,4 +1,4 @@
-import {RangeCalendar} from "@v0xoss/react";
+import {RangeCalendar} from "@vx-oss/react";
 import {today, getLocalTimeZone} from "@internationalized/date";
 
 export default function App() {

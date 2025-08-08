@@ -1,4 +1,4 @@
-import {Alert} from "@v0xoss/react";
+import {Alert} from "@vx-oss/react";
 
 const UserIcon = ({fill = "currentColor", size, height, width, ...props}) => {
   return (

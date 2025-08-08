@@ -2,12 +2,12 @@ import type {UserEvent} from "@testing-library/user-event";
 
 import * as React from "react";
 import {act, render, fireEvent} from "@testing-library/react";
-import {Button} from "@v0xoss/button";
+import {Button} from "@vx-oss/button";
 import userEvent from "@testing-library/user-event";
-import {keyCodes, shouldIgnoreReactWarning, spy} from "@v0xoss/test-utils";
-import {User} from "@v0xoss/user";
-import {Image} from "@v0xoss/image";
-import {Avatar} from "@v0xoss/avatar";
+import {keyCodes, shouldIgnoreReactWarning, spy} from "@vx-oss/test-utils";
+import {User} from "@vx-oss/user";
+import {Image} from "@vx-oss/image";
+import {Avatar} from "@vx-oss/avatar";
 
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, DropdownSection} from "../src";
 

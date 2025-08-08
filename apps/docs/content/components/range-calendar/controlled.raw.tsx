@@ -2,7 +2,7 @@ import type {DateValue} from "@react-types/calendar";
 import type {RangeValue} from "@react-types/shared";
 
 import React from "react";
-import {RangeCalendar} from "@v0xoss/react";
+import {RangeCalendar} from "@vx-oss/react";
 import {today, getLocalTimeZone} from "@internationalized/date";
 
 export default function App() {

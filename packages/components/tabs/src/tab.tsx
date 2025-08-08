@@ -2,15 +2,15 @@ import type {TabItemProps as BaseTabItemProps} from "./base/tab-item-base";
 import type {Node} from "@react-types/shared";
 import type {ValuesType} from "./use-tabs";
 
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef, filterDOMProps, mergeRefs} from "@v0xoss/react-utils";
-import {clsx, dataAttr, chain, mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps, mergeRefs} from "@vx-oss/react-utils";
+import {clsx, dataAttr, chain, mergeProps} from "@vx-oss/shared-utils";
 import scrollIntoView from "scroll-into-view-if-needed";
 import {useFocusRing} from "@react-aria/focus";
 import {useTab} from "@react-aria/tabs";
 import {useHover} from "@react-aria/interactions";
 import {m, domMax, LazyMotion} from "framer-motion";
-import {useIsMounted} from "@v0xoss/use-is-mounted";
+import {useIsMounted} from "@vx-oss/use-is-mounted";
 
 export interface TabItemProps<T extends object = object> extends BaseTabItemProps<T> {
   item: Node<T>;

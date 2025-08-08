@@ -1,4 +1,4 @@
-import {TimeInput} from "@v0xoss/react";
+import {TimeInput} from "@vx-oss/react";
 import {Time} from "@internationalized/date";
 
 export default function App() {

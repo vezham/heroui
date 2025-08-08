@@ -1,6 +1,6 @@
 import type {UseCodeProps} from "./use-code";
 
-import {forwardRef} from "@v0xoss/system-rsc";
+import {forwardRef} from "@vx-oss/system-rsc";
 
 import {useCode} from "./use-code";
 

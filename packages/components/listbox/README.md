@@ -1,4 +1,4 @@
-# @v0xoss/listbox
+# @vx-oss/listbox
 
 A listbox displays a list of options and allows a user to select one or more of them.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/listbox) 
 ## Installation
 
 ```sh
-yarn add @v0xoss/listbox
+yarn add @vx-oss/listbox
 # or
-npm i @v0xoss/listbox
+npm i @vx-oss/listbox
 ```
 
 ## Contribution

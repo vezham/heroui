@@ -1,6 +1,6 @@
 import React from "react";
 import {tv} from "tailwind-variants";
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 
 export type WindowActionsProps = {
   title?: string;

@@ -1,4 +1,4 @@
-# @v0xoss/react-rsc-utils
+# @vx-oss/react-rsc-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/react-rsc-utils
+yarn add @vx-oss/react-rsc-utils
 # or
-npm i @v0xoss/react-rsc-utils
+npm i @vx-oss/react-rsc-utils
 ```
 
 ## Contribution

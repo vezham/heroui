@@ -1,6 +1,6 @@
 export {Section as BaseSection} from "@react-stately/collections";
 import type {SectionProps as BaseSectionProps} from "@react-types/shared";
-import type {HTMLHeroUIProps, As} from "@v0xoss/system";
+import type {HTMLHeroUIProps, As} from "@vx-oss/system";
 
 /**
  * A modified version of the SectionProps from @react-types/shared, with the addition of the HeroUI props.

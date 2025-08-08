@@ -1,23 +1,23 @@
-import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@v0xoss/theme";
+import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@vx-oss/theme";
 import type {Key, ReactNode, Ref} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {Timer} from "@v0xoss/shared-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {Timer} from "@vx-oss/shared-utils";
 import type {
   UsePaginationProps as UseBasePaginationProps,
   PaginationItemValue,
-} from "@v0xoss/use-pagination";
+} from "@vx-oss/use-pagination";
 import type {PressEvent} from "@react-types/shared";
 
-import {objectToDeps} from "@v0xoss/shared-utils";
-import {PaginationItemType} from "@v0xoss/use-pagination";
+import {objectToDeps} from "@vx-oss/shared-utils";
+import {PaginationItemType} from "@vx-oss/use-pagination";
 import {useEffect, useRef, useMemo} from "react";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {usePagination as useBasePagination} from "@v0xoss/use-pagination";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {usePagination as useBasePagination} from "@vx-oss/use-pagination";
 import scrollIntoView from "scroll-into-view-if-needed";
-import {pagination} from "@v0xoss/theme";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, dataAttr} from "@v0xoss/shared-utils";
-import {useIntersectionObserver} from "@v0xoss/use-intersection-observer";
+import {pagination} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, dataAttr} from "@vx-oss/shared-utils";
+import {useIntersectionObserver} from "@vx-oss/use-intersection-observer";
 
 export type PaginationItemRenderProps = {
   /**

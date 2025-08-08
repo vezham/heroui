@@ -1,6 +1,6 @@
 import type {Meta} from "@storybook/react";
 
-import {kbd} from "@v0xoss/theme";
+import {kbd} from "@vx-oss/theme";
 
 import {Kbd} from "../src";
 

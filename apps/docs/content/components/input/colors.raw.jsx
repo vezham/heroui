@@ -1,4 +1,4 @@
-import {Input} from "@v0xoss/react";
+import {Input} from "@vx-oss/react";
 
 export default function App() {
   const colors = ["default", "primary", "secondary", "success", "warning", "danger"];
@@ -10,7 +10,7 @@ export default function App() {
           key={color}
           className="max-w-[220px]"
           color={color}
-          defaultValue="junior@v0xoss.com"
+          defaultValue="junior@vx-oss.com"
           label="Email"
           placeholder="Enter your email"
           type="email"

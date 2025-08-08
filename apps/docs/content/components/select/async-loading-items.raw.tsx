@@ -1,6 +1,6 @@
 import React from "react";
-import {Select, SelectItem} from "@v0xoss/react";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
+import {Select, SelectItem} from "@vx-oss/react";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
 
 export type Pokemon = {
   name: string;

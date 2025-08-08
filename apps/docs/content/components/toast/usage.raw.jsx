@@ -1,4 +1,4 @@
-import {addToast, Button} from "@v0xoss/react";
+import {addToast, Button} from "@vx-oss/react";
 
 export default function App() {
   return (

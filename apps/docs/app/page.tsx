@@ -1,4 +1,4 @@
-import {Spacer} from "@v0xoss/spacer";
+import {Spacer} from "@vx-oss/spacer";
 import {Suspense} from "react";
 
 import {Hero} from "@/components/marketing/hero";

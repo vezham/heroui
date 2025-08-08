@@ -3,9 +3,9 @@ import type {Meta} from "@storybook/react";
 import type {CheckboxGroupProps} from "../src";
 
 import React from "react";
-import {checkbox} from "@v0xoss/theme";
-import {button} from "@v0xoss/theme";
-import {Form} from "@v0xoss/form";
+import {checkbox} from "@vx-oss/theme";
+import {button} from "@vx-oss/theme";
+import {Form} from "@vx-oss/form";
 
 import {CheckboxGroup, Checkbox} from "../src";
 

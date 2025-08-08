@@ -1,13 +1,13 @@
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseAutocompleteProps} from "./use-autocomplete";
 
-import {forwardRef} from "@v0xoss/system";
-import {FreeSoloPopover} from "@v0xoss/popover";
-import {ScrollShadow} from "@v0xoss/scroll-shadow";
-import {ChevronDownIcon, CloseIcon} from "@v0xoss/shared-icons";
-import {Listbox} from "@v0xoss/listbox";
-import {Button} from "@v0xoss/button";
-import {Input} from "@v0xoss/input";
+import {forwardRef} from "@vx-oss/system";
+import {FreeSoloPopover} from "@vx-oss/popover";
+import {ScrollShadow} from "@vx-oss/scroll-shadow";
+import {ChevronDownIcon, CloseIcon} from "@vx-oss/shared-icons";
+import {Listbox} from "@vx-oss/listbox";
+import {Button} from "@vx-oss/button";
+import {Input} from "@vx-oss/input";
 import {AnimatePresence} from "framer-motion";
 
 import {useAutocomplete} from "./use-autocomplete";

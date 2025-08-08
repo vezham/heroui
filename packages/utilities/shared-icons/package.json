@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/shared-icons",
+  "name": "@vx-oss/shared-icons",
   "version": "0.0.9",
   "description": "Internal icons set, commonly used in the components stories",
   "keywords": [
     "icons-utils"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

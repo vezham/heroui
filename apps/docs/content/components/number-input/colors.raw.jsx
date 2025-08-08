@@ -1,4 +1,4 @@
-import {NumberInput} from "@v0xoss/react";
+import {NumberInput} from "@vx-oss/react";
 
 export default function App() {
   const colors = ["default", "primary", "secondary", "success", "warning", "danger"];

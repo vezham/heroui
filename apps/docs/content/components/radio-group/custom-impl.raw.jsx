@@ -1,4 +1,4 @@
-import {RadioGroup, useRadio, VisuallyHidden, cn} from "@v0xoss/react";
+import {RadioGroup, useRadio, VisuallyHidden, cn} from "@vx-oss/react";
 
 export const CustomRadio = (props) => {
   const {

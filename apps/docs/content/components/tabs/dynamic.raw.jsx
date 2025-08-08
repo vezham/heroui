@@ -1,4 +1,4 @@
-import {Tabs, Tab, Card, CardBody} from "@v0xoss/react";
+import {Tabs, Tab, Card, CardBody} from "@vx-oss/react";
 
 export default function App() {
   let tabs = [

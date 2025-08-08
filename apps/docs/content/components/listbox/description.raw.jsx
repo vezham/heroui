@@ -1,4 +1,4 @@
-import {Listbox, ListboxItem, cn} from "@v0xoss/react";
+import {Listbox, ListboxItem, cn} from "@vx-oss/react";
 
 export const AddNoteIcon = (props) => {
   return (

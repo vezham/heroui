@@ -4,10 +4,10 @@ import type {Language, PrismTheme} from "prism-react-renderer";
 
 import {useIntersectionObserver} from "usehooks-ts";
 import React, {forwardRef, useEffect} from "react";
-import {clsx, dataAttr, getUniqueID} from "@v0xoss/shared-utils";
+import {clsx, dataAttr, getUniqueID} from "@vx-oss/shared-utils";
 import BaseHighlight, {defaultProps} from "prism-react-renderer";
-import {debounce, omit} from "@v0xoss/shared-utils";
-import {cn} from "@v0xoss/react";
+import {debounce, omit} from "@vx-oss/shared-utils";
+import {cn} from "@vx-oss/react";
 
 import defaultTheme from "@/libs/prism-theme";
 

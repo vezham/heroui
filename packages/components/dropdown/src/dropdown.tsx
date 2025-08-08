@@ -2,7 +2,7 @@ import type {ReactNode} from "react";
 import type {UseDropdownProps} from "./use-dropdown";
 
 import React from "react";
-import {Popover} from "@v0xoss/popover";
+import {Popover} from "@vx-oss/popover";
 
 import {DropdownProvider} from "./dropdown-context";
 import {useDropdown} from "./use-dropdown";

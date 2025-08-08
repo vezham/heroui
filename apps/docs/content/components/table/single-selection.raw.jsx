@@ -7,7 +7,7 @@ import {
   TableCell,
   RadioGroup,
   Radio,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export default function App() {
   const [selectedColor, setSelectedColor] = React.useState("default");

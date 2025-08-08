@@ -1,4 +1,4 @@
-import {Form, Input, Select, SelectItem, Checkbox, Button} from "@v0xoss/react";
+import {Form, Input, Select, SelectItem, Checkbox, Button} from "@vx-oss/react";
 
 export default function App() {
   const [password, setPassword] = React.useState("");

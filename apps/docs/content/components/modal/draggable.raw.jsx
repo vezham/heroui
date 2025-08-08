@@ -7,7 +7,7 @@ import {
   Button,
   useDisclosure,
   useDraggable,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();

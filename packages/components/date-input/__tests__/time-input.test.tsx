@@ -5,7 +5,7 @@ import type {TimeInputProps} from "../src";
 import * as React from "react";
 import {fireEvent, render} from "@testing-library/react";
 import {Time, ZonedDateTime} from "@internationalized/date";
-import {pointerMap, triggerPress} from "@v0xoss/test-utils";
+import {pointerMap, triggerPress} from "@vx-oss/test-utils";
 import userEvent from "@testing-library/user-event";
 
 import {TimeInput as TimeInputBase} from "../src";

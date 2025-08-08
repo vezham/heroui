@@ -1,4 +1,4 @@
-import {Breadcrumbs, BreadcrumbItem} from "@v0xoss/react";
+import {Breadcrumbs, BreadcrumbItem} from "@vx-oss/react";
 
 export default function App() {
   const underlines = ["none", "hover", "always", "active", "focus"];

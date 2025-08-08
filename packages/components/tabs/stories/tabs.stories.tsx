@@ -2,11 +2,11 @@ import type {Meta} from "@storybook/react";
 import type {TabsProps} from "../src";
 
 import React from "react";
-import {button, link, tabs} from "@v0xoss/theme";
+import {button, link, tabs} from "@vx-oss/theme";
 import Lorem from "react-lorem-component";
-import {Input} from "@v0xoss/input";
-import {Button} from "@v0xoss/button";
-import {Card, CardBody} from "@v0xoss/card";
+import {Input} from "@vx-oss/input";
+import {Button} from "@vx-oss/button";
+import {Card, CardBody} from "@vx-oss/card";
 import {
   AlignVerticallyBoldIcon,
   AlignHorizontallyBoldIcon,
@@ -14,7 +14,7 @@ import {
   AlignLeftBoldIcon,
   AlignRightBoldIcon,
   AlignTopBoldIcon,
-} from "@v0xoss/shared-icons";
+} from "@vx-oss/shared-icons";
 
 import {Tabs, Tab} from "../src";
 

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-clipboard",
+  "name": "@vx-oss/use-clipboard",
   "version": "0.0.9",
   "description": "Wrapper around navigator.clipboard with feedback timeout",
   "keywords": [
     "use-clipboard"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

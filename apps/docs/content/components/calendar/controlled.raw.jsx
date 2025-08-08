@@ -1,4 +1,4 @@
-import {Calendar} from "@v0xoss/react";
+import {Calendar} from "@vx-oss/react";
 import {parseDate} from "@internationalized/date";
 
 export default function App() {

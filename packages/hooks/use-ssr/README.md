@@ -1,4 +1,4 @@
-# @v0xoss/use-ssr
+# @vx-oss/use-ssr
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-ssr
+yarn add @vx-oss/use-ssr
 # or
-npm i @v0xoss/use-ssr
+npm i @vx-oss/use-ssr
 ```
 
 ## Contribution

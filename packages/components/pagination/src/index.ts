@@ -9,8 +9,8 @@ export type {PaginationItemProps} from "./pagination-item";
 export type {PaginationCursorProps} from "./pagination-cursor";
 
 // misc
-export type {PaginationItemValue} from "@v0xoss/use-pagination";
-export {PaginationItemType} from "@v0xoss/use-pagination";
+export type {PaginationItemValue} from "@vx-oss/use-pagination";
+export {PaginationItemType} from "@vx-oss/use-pagination";
 
 // export hooks
 export {usePagination} from "./use-pagination";

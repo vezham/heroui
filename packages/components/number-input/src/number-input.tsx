@@ -1,8 +1,8 @@
 import type {UseNumberInputProps} from "./use-number-input";
 
-import {CloseFilledIcon} from "@v0xoss/shared-icons";
+import {CloseFilledIcon} from "@vx-oss/shared-icons";
 import {useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useNumberInput} from "./use-number-input";
 import NumberInputStepper from "./number-input-stepper";

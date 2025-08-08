@@ -1,13 +1,13 @@
-# @v0xoss/date-picker
+# @vx-oss/date-picker
 
 A date picker combines a DateInput and a Calendar popover to allow users to enter or select a date and time value.
 
 ## Installation
 
 ```sh
-yarn add @v0xoss/date-picker
+yarn add @vx-oss/date-picker
 # or
-npm i @v0xoss/date-picker
+npm i @vx-oss/date-picker
 ```
 
 ## Contribution

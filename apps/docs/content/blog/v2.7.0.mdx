@@ -59,10 +59,10 @@ HeroUI version **v2.7.0** introduces the highly anticipated Toast component, alo
 
 <PackageManagers
   commands={{
-    npm: "npm install @v0xoss/react@latest",
-    pnpm: "pnpm add @v0xoss/react@latest",
-    yarn: "yarn add @v0xoss/react@latest",
-    bun: "bun add @v0xoss/react@latest",
+    npm: "npm install @vx-oss/react@latest",
+    pnpm: "pnpm add @vx-oss/react@latest",
+    yarn: "yarn add @vx-oss/react@latest",
+    bun: "bun add @vx-oss/react@latest",
   }}
 />
 
@@ -78,9 +78,9 @@ First, add the `ToastProvider` to your application:
 
 ```tsx
 // app/providers.tsx
-import {HeroUIProvider, ToastProvider} from '@v0xoss/react'
+import {HeroUIProvider, ToastProvider} from '@vx-oss/react'
 // for individual components use the following import
-// import {ToastProvider} from '@v0xoss/toast'
+// import {ToastProvider} from '@vx-oss/toast'
 
 
 export default function Providers({children}) {
@@ -96,7 +96,7 @@ export default function Providers({children}) {
 ### Basic Usage
 
 ```tsx
-import {Button, addToast} from "@v0xoss/react";
+import {Button, addToast} from "@vx-oss/react";
 
 function Example() {
   return (
@@ -173,7 +173,7 @@ For more information about theming and customization, visit our [Theme documenta
 The Table component now supports virtualization, significantly improving performance when working with large datasets.
 
 ```tsx
-import {Table} from "@v0xoss/react";
+import {Table} from "@vx-oss/react";
 
 function Example() {
   return (
@@ -209,7 +209,7 @@ You can now set a global default for label placement across all form-based compo
 - And more...
 
 ```tsx
-import {HeroUIProvider} from "@v0xoss/react";
+import {HeroUIProvider} from "@vx-oss/react";
 
 function App() {
   return (
@@ -230,7 +230,7 @@ You can set a global default spinner variant that will be used by all components
 - And other components that use loading indicators
 
 ```tsx
-import {HeroUIProvider} from "@v0xoss/react";
+import {HeroUIProvider} from "@vx-oss/react";
 
 function App() {
   return (
@@ -244,7 +244,7 @@ function App() {
 You can combine multiple global props to maintain consistent behavior throughout your application:
 
 ```tsx
-import {HeroUIProvider} from "@v0xoss/react";
+import {HeroUIProvider} from "@vx-oss/react";
 
 function App() {
   return (
@@ -269,7 +269,7 @@ Enhanced keyboard support with the addition of `fn`, `win`, and `alt` keys for b
 Better TypeScript support with exported `PressEvent` type for `onPress` event handling:
 
 ```tsx
-import type {PressEvent} from "@v0xoss/react";
+import type {PressEvent} from "@vx-oss/react";
 
 function handlePress(e: PressEvent) {
   // Your press event handler

@@ -1,4 +1,4 @@
-# @v0xoss/avatar
+# @vx-oss/avatar
 
 The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/avatar) f
 ## Installation
 
 ```sh
-yarn add @v0xoss/avatar
+yarn add @vx-oss/avatar
 # or
-npm i @v0xoss/avatar
+npm i @vx-oss/avatar
 ```
 
 ## Contribution

@@ -1,8 +1,8 @@
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseMenuProps} from "./use-menu";
 
-import {forwardRef} from "@v0xoss/system";
-import {mergeClasses} from "@v0xoss/theme";
+import {forwardRef} from "@vx-oss/system";
+import {mergeClasses} from "@vx-oss/theme";
 
 import {useMenu} from "./use-menu";
 import MenuSection from "./menu-section";

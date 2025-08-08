@@ -1,6 +1,6 @@
 import type {Variants} from "framer-motion";
 
-import {TRANSITION_EASINGS} from "@v0xoss/framer-utils";
+import {TRANSITION_EASINGS} from "@vx-oss/framer-utils";
 
 export const hideOnScrollVariants: Variants = {
   visible: {

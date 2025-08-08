@@ -3,7 +3,7 @@
  */
 
 import {useCallback, useRef} from "react";
-import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
+import {useSafeLayoutEffect} from "@vx-oss/use-safe-layout-effect";
 
 /**
  * React hook to persist any value between renders,

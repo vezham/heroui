@@ -1,5 +1,5 @@
-import {Snippet} from "@v0xoss/react";
+import {Snippet} from "@vx-oss/react";
 
 export default function App() {
-  return <Snippet>npm install @v0xoss/react</Snippet>;
+  return <Snippet>npm install @vx-oss/react</Snippet>;
 }

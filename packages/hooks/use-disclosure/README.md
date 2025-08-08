@@ -1,4 +1,4 @@
-# @v0xoss/use-disclosure
+# @vx-oss/use-disclosure
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-disclosure
+yarn add @vx-oss/use-disclosure
 # or
-npm i @v0xoss/use-disclosure
+npm i @vx-oss/use-disclosure
 ```
 
 ## Contribution

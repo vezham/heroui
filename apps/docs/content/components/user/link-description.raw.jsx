@@ -1,4 +1,4 @@
-import {User, Link} from "@v0xoss/react";
+import {User, Link} from "@vx-oss/react";
 
 export default function App() {
   return (

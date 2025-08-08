@@ -1,21 +1,21 @@
-import type {DateInputVariantProps, DateInputSlots, SlotsToClasses} from "@v0xoss/theme";
+import type {DateInputVariantProps, DateInputSlots, SlotsToClasses} from "@vx-oss/theme";
 import type {AriaTimeFieldProps, TimeValue} from "@react-types/datepicker";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {DOMAttributes, GroupDOMAttributes} from "@react-types/shared";
 import type {DateInputGroupProps} from "./date-input-group";
-import type {PropGetter} from "@v0xoss/system";
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {PropGetter} from "@vx-oss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 
 import {useLocale} from "@react-aria/i18n";
-import {useLabelPlacement, useProviderContext} from "@v0xoss/system";
-import {mapPropsVariants} from "@v0xoss/system";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {useLabelPlacement, useProviderContext} from "@vx-oss/system";
+import {mapPropsVariants} from "@vx-oss/system";
+import {useDOMRef} from "@vx-oss/react-utils";
 import {useTimeField as useAriaTimeField} from "@react-aria/datepicker";
 import {useTimeFieldState} from "@react-stately/datepicker";
-import {objectToDeps, clsx, dataAttr, mergeProps} from "@v0xoss/shared-utils";
-import {dateInput} from "@v0xoss/theme";
+import {objectToDeps, clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
+import {dateInput} from "@vx-oss/theme";
 import {useMemo} from "react";
-import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {FormContext, useSlottedContext} from "@vx-oss/form";
 
 type HeroUIBaseProps<T extends TimeValue> = Omit<
   HTMLHeroUIProps<"div">,

@@ -1,4 +1,4 @@
-import {Progress} from "@v0xoss/react";
+import {Progress} from "@vx-oss/react";
 
 export default function App() {
   return (

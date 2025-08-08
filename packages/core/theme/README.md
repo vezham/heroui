@@ -1,4 +1,4 @@
-# @v0xoss/theme
+# @vx-oss/theme
 
 HeroUI theme primitives, here you can find the TailwindCSS `plugin`, `colors`, `layout`, `spacing`, `typography` and some other utilities.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/theme) for more informati
 ## Installation
 
 ```sh
-yarn add @v0xoss/theme
+yarn add @vx-oss/theme
 # or
-npm i @v0xoss/theme
+npm i @vx-oss/theme
 ```
 
 ## Contribution

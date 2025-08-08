@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-data-scroll-overflow",
+  "name": "@vx-oss/use-data-scroll-overflow",
   "version": "0.0.9",
   "description": "A hook to add data attributes when the element has top or bottom scroll.",
   "keywords": [
     "use-data-scroll-overflow"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,7 +34,7 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@v0xoss/shared-utils": "workspace:*"
+    "@vx-oss/shared-utils": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0"

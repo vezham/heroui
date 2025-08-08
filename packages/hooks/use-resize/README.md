@@ -1,4 +1,4 @@
-# @v0xoss/use-resize
+# @vx-oss/use-resize
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-resize
+yarn add @vx-oss/use-resize
 # or
-npm i @v0xoss/use-resize
+npm i @vx-oss/use-resize
 ```
 
 ## Contribution

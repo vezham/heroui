@@ -5,9 +5,9 @@ import "@testing-library/jest-dom";
 import * as React from "react";
 import {render, renderHook, waitFor, act} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import {spy, shouldIgnoreReactWarning} from "@v0xoss/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vx-oss/test-utils";
 import {useForm} from "react-hook-form";
-import {Form} from "@v0xoss/form";
+import {Form} from "@vx-oss/form";
 
 import {Select, SelectItem, SelectSection} from "../src";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter} from "../../modal/src";

@@ -1,6 +1,6 @@
 import type {UseBreadcrumbItemProps} from "./use-breadcrumb-item";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useBreadcrumbItem} from "./use-breadcrumb-item";
 

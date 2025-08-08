@@ -1,6 +1,6 @@
 import type {UseRadioGroupProps} from "./use-radio-group";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {RadioGroupProvider} from "./radio-group-context";
 import {useRadioGroup} from "./use-radio-group";

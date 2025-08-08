@@ -1,6 +1,6 @@
 import type {UseSpinnerProps} from "./use-spinner";
 
-import {forwardRef} from "@v0xoss/system-rsc";
+import {forwardRef} from "@vx-oss/system-rsc";
 
 import {useSpinner} from "./use-spinner";
 

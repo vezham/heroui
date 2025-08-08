@@ -1,4 +1,4 @@
-import {usePagination, PaginationItemType} from "@v0xoss/react";
+import {usePagination, PaginationItemType} from "@vx-oss/react";
 
 export const ChevronIcon = (props) => {
   return (

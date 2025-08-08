@@ -1,7 +1,7 @@
-import type {TimeInputValue} from "@v0xoss/react";
+import type {TimeInputValue} from "@vx-oss/react";
 
 import React from "react";
-import {TimeInput} from "@v0xoss/react";
+import {TimeInput} from "@vx-oss/react";
 import {parseAbsoluteToLocal, Time, ZonedDateTime} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 

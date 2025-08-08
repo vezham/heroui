@@ -6,7 +6,7 @@ import {
   DrawerFooter,
   Button,
   useDisclosure,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export default function App() {
   const {isOpen, onOpen, onClose} = useDisclosure();

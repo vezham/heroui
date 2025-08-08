@@ -1,4 +1,4 @@
-# @v0xoss/button
+# @vx-oss/button
 
 Buttons allow users to perform actions and choose with a single tap.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/button) f
 ## Installation
 
 ```sh
-yarn add @v0xoss/button
+yarn add @vx-oss/button
 # or
-npm i @v0xoss/button
+npm i @vx-oss/button
 ```
 
 ## Contribution

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-viewport-size",
+  "name": "@vx-oss/use-viewport-size",
   "version": "0.0.9",
   "description": "use-viewport-size hook from `@react-aria` utils",
   "keywords": [
     "use-viewport-size"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

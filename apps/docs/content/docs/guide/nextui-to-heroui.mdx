@@ -23,10 +23,10 @@ Execute the codemod in your project directory:
 
 <PackageManagers
   commands={{
-    npm: "npx @v0xoss/codemod@latest migrate",
-    pnpm: "pnpm dlx @v0xoss/codemod@latest migrate",
-    yarn: "yarn dlx @v0xoss/codemod@latest migrate",
-    bun: "bunx --bun @v0xoss/codemod@latest migrate"
+    npm: "npx @vx-oss/codemod@latest migrate",
+    pnpm: "pnpm dlx @vx-oss/codemod@latest migrate",
+    yarn: "yarn dlx @vx-oss/codemod@latest migrate",
+    bun: "bunx --bun @vx-oss/codemod@latest migrate"
   }}
 />
 
@@ -34,7 +34,7 @@ Execute the codemod in your project directory:
 > **Note:** If you're using a monorepo, run the codemod from the root directory
 
 This will automatically:
-- Update all package names from `@nextui-org/*` to `@v0xoss/*`
+- Update all package names from `@nextui-org/*` to `@vx-oss/*`
 - Rename component imports and references
 - Update TailwindCSS configuration
 - Transform provider components
@@ -68,10 +68,10 @@ Replace NextUI packages with their HeroUI equivalents:
 
 <PackageManagers
   commands={{
-    npm: "npm uninstall @nextui-org/react && npm install @v0xoss/react",
-    yarn: "yarn remove @nextui-org/react && yarn add @v0xoss/react",
-    pnpm: "pnpm remove @nextui-org/react && pnpm add @v0xoss/react",
-    bun: "bun remove @nextui-org/react && bun add @v0xoss/react"
+    npm: "npm uninstall @nextui-org/react && npm install @vx-oss/react",
+    yarn: "yarn remove @nextui-org/react && yarn add @vx-oss/react",
+    pnpm: "pnpm remove @nextui-org/react && pnpm add @vx-oss/react",
+    bun: "bun remove @nextui-org/react && bun add @vx-oss/react"
   }}
 />
 
@@ -92,12 +92,12 @@ module.exports = {
 };
 
 // After
-const {heroui} = require("@v0xoss/react");
+const {heroui} = require("@vx-oss/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./node_modules/@v0xoss/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@vx-oss/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   plugins: [heroui()]
 };
@@ -112,7 +112,7 @@ Replace the NextUI provider with HeroUI's provider:
 import {NextUIProvider} from "@nextui-org/react";
 
 // After
-import {HeroUIProvider} from "@v0xoss/react";
+import {HeroUIProvider} from "@vx-oss/react";
 ```
 
 ### Update Imports
@@ -124,7 +124,7 @@ Update all component imports to use the new package name:
 import {Button, Input} from "@nextui-org/react";
 
 // After
-import {Button, Input} from "@v0xoss/react";
+import {Button, Input} from "@vx-oss/react";
 ```
 
 ### Individual Packages
@@ -139,10 +139,10 @@ import {nextui} from "@nextui-org/theme";
 import {NextUIProvider} from "@nextui-org/react";
 
 // After
-import {Button} from "@v0xoss/button";
-import {Input} from "@v0xoss/input";
-import {heroui} from "@v0xoss/theme";
-import {HeroUIProvider} from "@v0xoss/react";
+import {Button} from "@vx-oss/button";
+import {Input} from "@vx-oss/input";
+import {heroui} from "@vx-oss/theme";
+import {HeroUIProvider} from "@vx-oss/react";
 ```
 
 ### Npmrc Pnpm Only
@@ -154,7 +154,7 @@ If you are using pnpm, you need to update your .npmrc file to use the new packag
 public-hoist-pattern[]=*@nextui-org/*
 
 # After
-public-hoist-pattern[]=*@v0xoss/*
+public-hoist-pattern[]=*@vx-oss/*
 ```
 
 </Steps>

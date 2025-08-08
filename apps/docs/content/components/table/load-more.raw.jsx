@@ -8,7 +8,7 @@ import {
   getKeyValue,
   Spinner,
   Button,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 import {useAsyncList} from "@react-stately/data";
 
 export default function App() {

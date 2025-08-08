@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-is-mobile",
+  "name": "@vx-oss/use-is-mobile",
   "version": "0.0.9",
   "description": "A hook that returns whether the device is mobile or not",
   "keywords": [
     "use-is-mobile"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

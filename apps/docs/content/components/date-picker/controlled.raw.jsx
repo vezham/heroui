@@ -1,4 +1,4 @@
-import {DatePicker} from "@v0xoss/react";
+import {DatePicker} from "@vx-oss/react";
 import {parseDate, getLocalTimeZone} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 

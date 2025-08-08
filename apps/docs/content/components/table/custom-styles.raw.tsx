@@ -1,5 +1,5 @@
 import type {SVGProps} from "react";
-import type {Selection, ChipProps, SortDescriptor} from "@v0xoss/react";
+import type {Selection, ChipProps, SortDescriptor} from "@vx-oss/react";
 
 import React from "react";
 import {
@@ -18,7 +18,7 @@ import {
   Chip,
   User,
   Pagination,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;

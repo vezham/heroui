@@ -1,4 +1,4 @@
-import {DatePicker} from "@v0xoss/react";
+import {DatePicker} from "@vx-oss/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 

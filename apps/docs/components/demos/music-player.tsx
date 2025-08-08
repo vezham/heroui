@@ -1,11 +1,11 @@
 "use client";
 
-import type {CardProps} from "@v0xoss/react";
+import type {CardProps} from "@vx-oss/react";
 import type {FC} from "react";
 
-import {Card, CardBody, Button, Image, Slider} from "@v0xoss/react";
+import {Card, CardBody, Button, Image, Slider} from "@vx-oss/react";
 import {useState} from "react";
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 import NextImage from "next/image";
 
 import {

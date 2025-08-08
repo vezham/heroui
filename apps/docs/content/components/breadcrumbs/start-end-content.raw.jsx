@@ -1,4 +1,4 @@
-import {Breadcrumbs, BreadcrumbItem} from "@v0xoss/react";
+import {Breadcrumbs, BreadcrumbItem} from "@vx-oss/react";
 
 export const HomeIcon = (props) => {
   return (

@@ -1,7 +1,7 @@
-import type {SliderValue} from "@v0xoss/react";
+import type {SliderValue} from "@vx-oss/react";
 
 import React from "react";
-import {Slider, Button} from "@v0xoss/react";
+import {Slider, Button} from "@vx-oss/react";
 
 export const VolumeHighIcon = (props) => {
   return (

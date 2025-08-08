@@ -4,7 +4,7 @@ import * as React from "react";
 import {render, renderHook, fireEvent, act} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import {useForm} from "react-hook-form";
-import {Form} from "@v0xoss/form";
+import {Form} from "@vx-oss/form";
 
 import {Input} from "../src";
 
@@ -260,7 +260,7 @@ describe("Input", () => {
       <Input
         ref={ref}
         isClearable
-        defaultValue="junior@v0xoss.com"
+        defaultValue="junior@vx-oss.com"
         label="test input"
         onClear={onClear}
       />,

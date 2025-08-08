@@ -1,4 +1,4 @@
-# @v0xoss/link
+# @vx-oss/link
 
 Links allow users to click their way from page to page. This component is styled to resemble a hyperlink and semantically renders an `<a>` tag.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/link) for
 ## Installation
 
 ```sh
-yarn add @v0xoss/link
+yarn add @vx-oss/link
 # or
-npm i @v0xoss/link
+npm i @vx-oss/link
 ```
 
 ## Contribution

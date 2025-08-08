@@ -1,5 +1,5 @@
 import type {SVGProps} from "react";
-import type {ChipProps} from "@v0xoss/react";
+import type {ChipProps} from "@vx-oss/react";
 
 import React from "react";
 import {
@@ -12,7 +12,7 @@ import {
   User,
   Chip,
   Tooltip,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;

@@ -1,17 +1,17 @@
 import type {Meta} from "@storybook/react";
-import type {ChipProps} from "@v0xoss/chip";
+import type {ChipProps} from "@vx-oss/chip";
 import type {TableProps} from "../src";
 
 import React, {useMemo} from "react";
-import {table} from "@v0xoss/theme";
-import {User} from "@v0xoss/user";
-import {Chip} from "@v0xoss/chip";
-import {Button} from "@v0xoss/button";
-import {Spinner} from "@v0xoss/spinner";
-import {Pagination} from "@v0xoss/pagination";
-import {Tooltip} from "@v0xoss/tooltip";
-import {EditIcon, DeleteIcon, EyeIcon, SortIcon} from "@v0xoss/shared-icons";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
+import {table} from "@vx-oss/theme";
+import {User} from "@vx-oss/user";
+import {Chip} from "@vx-oss/chip";
+import {Button} from "@vx-oss/button";
+import {Spinner} from "@vx-oss/spinner";
+import {Pagination} from "@vx-oss/pagination";
+import {Tooltip} from "@vx-oss/tooltip";
+import {EditIcon, DeleteIcon, EyeIcon, SortIcon} from "@vx-oss/shared-icons";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
 import {useAsyncList} from "@react-stately/data";
 import useSWR from "swr";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import {Code, Button, Tooltip} from "@v0xoss/react";
+import {Code, Button, Tooltip} from "@vx-oss/react";
 import {useState} from "react";
 import NextLink from "next/link";
 import dynamic from "next/dynamic";

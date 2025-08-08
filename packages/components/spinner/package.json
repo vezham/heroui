@@ -1,5 +1,5 @@
 {
-  "name": "@v0xoss/spinner",
+  "name": "@vx-oss/spinner",
   "version": "0.0.9",
   "description": "Loaders express an unspecified wait time or display the length of a process.",
   "keywords": [
@@ -7,7 +7,7 @@
     "spinner",
     "progress"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -38,15 +38,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@v0xoss/theme": ">=0.0.0"
+    "@vx-oss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@v0xoss/system-rsc": "workspace:*",
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/system": "workspace:*"
+    "@vx-oss/system-rsc": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/system": "workspace:*"
   },
   "devDependencies": {
-    "@v0xoss/theme": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

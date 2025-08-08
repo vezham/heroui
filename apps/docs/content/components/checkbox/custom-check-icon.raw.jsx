@@ -1,4 +1,4 @@
-import {Checkbox} from "@v0xoss/react";
+import {Checkbox} from "@vx-oss/react";
 
 export const HeartIcon = ({size, height, width, ...props}) => {
   // avoid passing non-DOM attributes to svg

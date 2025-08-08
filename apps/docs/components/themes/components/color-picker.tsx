@@ -1,12 +1,12 @@
 import type {ColorPickerType, ThemeType} from "../types";
 
 import {useEffect, useState} from "react";
-import {Button, Popover, PopoverContent, PopoverTrigger} from "@v0xoss/react";
+import {Button, Popover, PopoverContent, PopoverTrigger} from "@vx-oss/react";
 import {HexColorInput, HexColorPicker} from "react-colorful";
 import Values from "values.js";
 import {readableColor} from "color2k";
 import {useTheme} from "next-themes";
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {colorValuesToRgb, getColorWeight} from "../utils/colors";
 

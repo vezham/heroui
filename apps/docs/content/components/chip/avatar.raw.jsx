@@ -1,4 +1,4 @@
-import {Chip, Avatar} from "@v0xoss/react";
+import {Chip, Avatar} from "@vx-oss/react";
 
 export default function App() {
   return (

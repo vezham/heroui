@@ -8,7 +8,7 @@ import {
   NavbarItem,
   Link,
   Button,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export const AcmeLogo = () => {
   return (

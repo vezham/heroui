@@ -2,13 +2,13 @@ import type {Meta} from "@storybook/react";
 import type {NavbarProps} from "../src";
 
 import React from "react";
-import {navbar} from "@v0xoss/theme";
-import {Link} from "@v0xoss/link";
-import {Button} from "@v0xoss/button";
-import {Avatar} from "@v0xoss/avatar";
-import {Input} from "@v0xoss/input";
+import {navbar} from "@vx-oss/theme";
+import {Link} from "@vx-oss/link";
+import {Button} from "@vx-oss/button";
+import {Avatar} from "@vx-oss/avatar";
+import {Input} from "@vx-oss/input";
 import Lorem from "react-lorem-component";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@v0xoss/dropdown";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@vx-oss/dropdown";
 import {
   ChevronDown,
   Lock,
@@ -18,7 +18,7 @@ import {
   TagUser,
   Scale,
   SearchIcon,
-} from "@v0xoss/shared-icons";
+} from "@vx-oss/shared-icons";
 
 import {
   Navbar,

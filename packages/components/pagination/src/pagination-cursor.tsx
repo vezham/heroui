@@ -1,7 +1,7 @@
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef} from "@vx-oss/react-utils";
 
 export interface PaginationCursorProps extends HTMLHeroUIProps<"span"> {
   /**

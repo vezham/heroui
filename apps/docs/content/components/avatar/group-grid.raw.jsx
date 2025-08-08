@@ -1,4 +1,4 @@
-import {Avatar, AvatarGroup} from "@v0xoss/react";
+import {Avatar, AvatarGroup} from "@vx-oss/react";
 
 export default function App() {
   return (

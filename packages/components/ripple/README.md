@@ -1,4 +1,4 @@
-# @v0xoss/ripple
+# @vx-oss/ripple
 
 This is a component that creates a ripple effect on the screen.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/button) f
 ## Installation
 
 ```sh
-yarn add @v0xoss/ripple
+yarn add @vx-oss/ripple
 # or
-npm i @v0xoss/ripple
+npm i @vx-oss/ripple
 ```
 
 ## Contribution

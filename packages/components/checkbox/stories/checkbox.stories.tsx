@@ -3,11 +3,11 @@ import type {ValidationErrors} from "@react-types/shared";
 import type {CheckboxIconProps, CheckboxProps} from "../src";
 
 import React from "react";
-import {checkbox} from "@v0xoss/theme";
-import {CloseIcon} from "@v0xoss/shared-icons";
-import {button} from "@v0xoss/theme";
+import {checkbox} from "@vx-oss/theme";
+import {CloseIcon} from "@vx-oss/shared-icons";
+import {button} from "@vx-oss/theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@v0xoss/form";
+import {Form} from "@vx-oss/form";
 
 import {Checkbox} from "../src";
 

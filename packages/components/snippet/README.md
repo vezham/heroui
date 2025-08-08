@@ -1,4 +1,4 @@
-# @v0xoss/snippet
+# @vx-oss/snippet
 
 Snippet is a component that can be used to display inline or multiline code snippets.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/snippet) 
 ## Installation
 
 ```sh
-yarn add @v0xoss/snippet
+yarn add @vx-oss/snippet
 # or
-npm i @v0xoss/snippet
+npm i @vx-oss/snippet
 ```
 
 ## Contribution

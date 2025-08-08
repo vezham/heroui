@@ -1,6 +1,6 @@
 import * as React from "react";
 import {render} from "@testing-library/react";
-import {spy, shouldIgnoreReactWarning} from "@v0xoss/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vx-oss/test-utils";
 
 import {Kbd} from "../src";
 

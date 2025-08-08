@@ -10,7 +10,7 @@ import {
   NavbarMenuToggle,
   Button,
   Link,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 import React from "react";
 
 const AcmeLogo = () => (

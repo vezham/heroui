@@ -1,6 +1,6 @@
 import type {Meta} from "@storybook/react";
 
-import {code} from "@v0xoss/theme";
+import {code} from "@vx-oss/theme";
 
 import {Code} from "../src";
 
@@ -30,7 +30,7 @@ export default {
 } as Meta<typeof Code>;
 
 const defaultProps = {
-  children: "npm install @v0xoss/react",
+  children: "npm install @vx-oss/react",
   ...code.defaultVariants,
 };
 

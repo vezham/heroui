@@ -1,4 +1,4 @@
-import {Switch} from "@v0xoss/react";
+import {Switch} from "@vx-oss/react";
 
 export const MoonIcon = (props) => {
   return (

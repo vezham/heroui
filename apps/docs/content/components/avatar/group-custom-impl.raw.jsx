@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {Avatar, useAvatarGroup, AvatarGroupProvider} from "@v0xoss/react";
+import {Avatar, useAvatarGroup, AvatarGroupProvider} from "@vx-oss/react";
 
 const AvatarGroup = forwardRef((props, ref) => {
   const {

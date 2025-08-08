@@ -14,7 +14,7 @@ import {
   Chip,
   User,
   Pagination,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export const columns = [
   {name: "ID", uid: "id", sortable: true},

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-safe-layout-effect",
+  "name": "@vx-oss/use-safe-layout-effect",
   "version": "0.0.9",
   "description": "",
   "keywords": [
     "use-safe-layout-effect"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

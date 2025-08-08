@@ -1,13 +1,13 @@
 import type {GridNode} from "@react-types/grid";
 import type {TableColumnProps} from "./base";
 import type {Key} from "react";
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {ValuesType} from "./use-table";
 
 import {useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
-import {clsx, dataAttr, mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
 import {useTableCell} from "@react-aria/table";
 import {useFocusRing} from "@react-aria/focus";
 

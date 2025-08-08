@@ -2,11 +2,11 @@ import type {Meta} from "@storybook/react";
 import type {CardProps} from "../src";
 
 import React from "react";
-import {card} from "@v0xoss/theme";
-import {Link} from "@v0xoss/link";
-import {Button} from "@v0xoss/button";
-import {Code} from "@v0xoss/code";
-import {Image} from "@v0xoss/image";
+import {card} from "@vx-oss/theme";
+import {Link} from "@vx-oss/link";
+import {Button} from "@vx-oss/button";
+import {Code} from "@vx-oss/code";
+import {Image} from "@vx-oss/image";
 
 import {Card, CardBody, CardHeader, CardFooter} from "../src";
 

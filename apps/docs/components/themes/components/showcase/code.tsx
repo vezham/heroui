@@ -1,7 +1,7 @@
-import type {CodeProps} from "@v0xoss/react";
+import type {CodeProps} from "@vx-oss/react";
 import type {HeroUIScaling} from "../../types";
 
-import {Code as HeroUICode} from "@v0xoss/react";
+import {Code as HeroUICode} from "@vx-oss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";
@@ -20,7 +20,7 @@ const SectionBase = ({
 }) => {
   return (
     <HeroUICode key={radius} className={className} color={color} radius={radius}>
-      npm install @v0xoss/react
+      npm install @vx-oss/react
     </HeroUICode>
   );
 };

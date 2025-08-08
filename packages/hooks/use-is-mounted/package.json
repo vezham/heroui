@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-is-mounted",
+  "name": "@vx-oss/use-is-mounted",
   "version": "0.0.9",
   "description": "This hook can be used to render client-based components or run client logic",
   "keywords": [
     "use-is-mounted"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

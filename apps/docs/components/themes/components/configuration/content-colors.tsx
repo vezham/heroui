@@ -1,6 +1,6 @@
 import type {Config, ThemeType} from "../../types";
 
-import {Tooltip} from "@v0xoss/react";
+import {Tooltip} from "@vx-oss/react";
 
 import {baseColorsId} from "../../constants";
 import {setCssContentColor} from "../../css-vars";

@@ -1,10 +1,10 @@
-import type {BreadcrumbsProps} from "@v0xoss/react";
+import type {BreadcrumbsProps} from "@vx-oss/react";
 import type {Border, Radius} from "../../types";
 
 import {
   Breadcrumbs as HeroUIBreadcrumbs,
   BreadcrumbItem as HeroUIBreadcrumbsItem,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

@@ -1,26 +1,26 @@
-import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@v0xoss/theme";
+import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@vx-oss/theme";
 import type {HiddenSelectProps} from "./hidden-select";
-import type {DOMAttributes, HTMLHeroUIProps, PropGetter, SharedSelection} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {DOMAttributes, HTMLHeroUIProps, PropGetter, SharedSelection} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {Key, ReactNode} from "react";
-import type {ListboxProps} from "@v0xoss/listbox";
-import type {PopoverProps} from "@v0xoss/popover";
-import type {ScrollShadowProps} from "@v0xoss/scroll-shadow";
-import type {MultiSelectProps, MultiSelectState} from "@v0xoss/use-aria-multiselect";
-import type {SpinnerProps} from "@v0xoss/spinner";
+import type {ListboxProps} from "@vx-oss/listbox";
+import type {PopoverProps} from "@vx-oss/popover";
+import type {ScrollShadowProps} from "@vx-oss/scroll-shadow";
+import type {MultiSelectProps, MultiSelectState} from "@vx-oss/use-aria-multiselect";
+import type {SpinnerProps} from "@vx-oss/spinner";
 import type {CollectionChildren, ValidationError} from "@react-types/shared";
 
-import {mapPropsVariants, useLabelPlacement, useProviderContext} from "@v0xoss/system";
-import {select} from "@v0xoss/theme";
-import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
+import {mapPropsVariants, useLabelPlacement, useProviderContext} from "@vx-oss/system";
+import {select} from "@vx-oss/theme";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
 import {useMemo, useCallback, useRef, useEffect} from "react";
-import {useAriaButton} from "@v0xoss/use-aria-button";
+import {useAriaButton} from "@vx-oss/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr, objectToDeps, mergeProps} from "@v0xoss/shared-utils";
+import {clsx, dataAttr, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
 import {useHover, usePress} from "@react-aria/interactions";
-import {useMultiSelect, useMultiSelectState} from "@v0xoss/use-aria-multiselect";
-import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
-import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {useMultiSelect, useMultiSelectState} from "@vx-oss/use-aria-multiselect";
+import {useSafeLayoutEffect} from "@vx-oss/use-safe-layout-effect";
+import {FormContext, useSlottedContext} from "@vx-oss/form";
 import {usePreventScroll} from "@react-aria/overlays";
 
 export type SelectedItemProps<T = object> = {

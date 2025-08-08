@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/react-utils",
+  "name": "@vx-oss/react-utils",
   "version": "0.0.9",
   "description": "A set of utilities for react on client side",
   "keywords": [
     "react-utils"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -37,8 +37,8 @@
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/react-rsc-utils": "workspace:*"
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-rsc-utils": "workspace:*"
   },
   "devDependencies": {
     "clean-package": "2.2.0",

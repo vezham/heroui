@@ -1,4 +1,4 @@
-# @v0xoss/use-is-mounted
+# @vx-oss/use-is-mounted
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-is-mounted
+yarn add @vx-oss/use-is-mounted
 # or
-npm i @v0xoss/use-is-mounted
+npm i @vx-oss/use-is-mounted
 ```
 
 ## Contribution

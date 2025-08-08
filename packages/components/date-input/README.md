@@ -1,13 +1,13 @@
-# @v0xoss/date-input
+# @vx-oss/date-input
 
 A date input allows users to enter and edit date and time values using a keyboard.
 
 ## Installation
 
 ```sh
-yarn add @v0xoss/date-input
+yarn add @vx-oss/date-input
 # or
-npm i @v0xoss/date-input
+npm i @vx-oss/date-input
 ```
 
 ## Contribution

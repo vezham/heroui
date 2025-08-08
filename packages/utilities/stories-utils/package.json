@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/stories-utils",
+  "name": "@vx-oss/stories-utils",
   "version": "0.0.7",
   "description": "A list of utilities for storybook' stories.",
   "keywords": [
     "stories-utils"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-aria-link",
+  "name": "@vx-oss/use-aria-link",
   "version": "0.0.9",
   "description": "Internal hook to handle link a11y and events, this is based on react-aria link hook but without the onClick warning",
   "keywords": [
     "use-aria-link"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

@@ -1,7 +1,7 @@
 "use client";
 
 import {useRef} from "react";
-import {Button} from "@v0xoss/react";
+import {Button} from "@vx-oss/react";
 import {usePostHog} from "posthog-js/react";
 
 export const CustomButton = () => {

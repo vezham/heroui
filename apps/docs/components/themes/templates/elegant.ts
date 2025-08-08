@@ -1,6 +1,6 @@
 import type {Config} from "../types";
 
-import {colors} from "@v0xoss/theme";
+import {colors} from "@vx-oss/theme";
 
 import {initialLayout} from "../constants";
 

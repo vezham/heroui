@@ -1,4 +1,4 @@
-import {Snippet} from "@v0xoss/react";
+import {Snippet} from "@vx-oss/react";
 
 export const CopyIcon = ({size, height, width, ...props}) => {
   return (
@@ -37,7 +37,7 @@ export const CheckIcon = ({size, height, width, ...props}) => {
 export default function App() {
   return (
     <Snippet checkIcon={<CheckIcon />} copyIcon={<CopyIcon />} variant="bordered">
-      npm install @v0xoss/react
+      npm install @vx-oss/react
     </Snippet>
   );
 }

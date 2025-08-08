@@ -31,7 +31,7 @@ export function useStackblitz(props: UseSandpackProps) {
   });
 
   // in stackblitz, npm will be used to install dependencies
-  // it doesn't need `public-hoist-pattern[]=*@v0xoss/*`
+  // it doesn't need `public-hoist-pattern[]=*@vx-oss/*`
   const filteredFilesData = Object.keys(filesData).reduce((o, k) => {
     o[k] = filesData[k];
 

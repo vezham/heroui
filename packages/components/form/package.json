@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/form",
+  "name": "@vx-oss/form",
   "version": "0.0.9",
   "description": "A form is a group of inputs that allows users submit data to a server and supports field validation errors.",
   "keywords": [
     "form"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,21 +34,21 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@v0xoss/system": ">=0.0.0",
-    "@v0xoss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0",
+    "@vx-oss/theme": ">=0.0.0",
     "react": ">=18",
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@heroui/system": "workspace:*",
-    "@heroui/theme": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
     "@react-types/shared": "3.31.0",
     "@react-stately/form": "3.2.0",
     "@react-types/form": "3.7.14"
   },
   "devDependencies": {
-    "@v0xoss/button": "workspace:*",
+    "@vx-oss/button": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

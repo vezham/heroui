@@ -1,8 +1,8 @@
-import type {SwitchProps} from "@v0xoss/react";
+import type {SwitchProps} from "@vx-oss/react";
 import type {HeroUIScaling} from "../../types";
 
 import {cloneElement} from "react";
-import {Switch} from "@v0xoss/react";
+import {Switch} from "@vx-oss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

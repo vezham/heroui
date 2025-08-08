@@ -14,7 +14,7 @@ describe("Textarea", () => {
       <Textarea
         ref={ref}
         isClearable
-        defaultValue="junior@v0xoss.com"
+        defaultValue="junior@vx-oss.com"
         label="test textarea"
         onClear={onClear}
       />,
@@ -68,7 +68,7 @@ describe("Textarea", () => {
     const {getByRole} = render(
       <Textarea
         ref={ref}
-        defaultValue="junior@v0xoss.com"
+        defaultValue="junior@vx-oss.com"
         label="test textarea"
         onClear={onClear}
       />,

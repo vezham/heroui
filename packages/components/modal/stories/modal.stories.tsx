@@ -3,14 +3,14 @@ import type {Meta} from "@storybook/react";
 import type {ModalProps} from "../src";
 
 import React from "react";
-import {modal} from "@v0xoss/theme";
-import {Button} from "@v0xoss/button";
-import {Input} from "@v0xoss/input";
-import {Checkbox} from "@v0xoss/checkbox";
-import {Link} from "@v0xoss/link";
-import {Switch} from "@v0xoss/switch";
-import {Autocomplete, AutocompleteItem} from "@v0xoss/autocomplete";
-import {MailFilledIcon, LockFilledIcon} from "@v0xoss/shared-icons";
+import {modal} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
+import {Input} from "@vx-oss/input";
+import {Checkbox} from "@vx-oss/checkbox";
+import {Link} from "@vx-oss/link";
+import {Switch} from "@vx-oss/switch";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/autocomplete";
+import {MailFilledIcon, LockFilledIcon} from "@vx-oss/shared-icons";
 import Lorem from "react-lorem-component";
 
 import {

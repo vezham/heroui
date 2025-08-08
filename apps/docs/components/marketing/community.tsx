@@ -1,4 +1,4 @@
-import {Spacer} from "@v0xoss/react";
+import {Spacer} from "@vx-oss/react";
 
 import {sectionWrapper, titleWrapper, title, subtitle} from "../primitives";
 

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-measure",
+  "name": "@vx-oss/use-measure",
   "version": "0.0.9",
   "description": "Hook that measure and track a element dimensions",
   "keywords": [
     "use-measure"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

@@ -1,11 +1,11 @@
-import {Snippet} from "@v0xoss/react";
+import {Snippet} from "@vx-oss/react";
 
 export default function App() {
   return (
     <Snippet>
-      <span>npm install @v0xoss/react</span>
-      <span>yarn add @v0xoss/react</span>
-      <span>pnpm add @v0xoss/react</span>
+      <span>npm install @vx-oss/react</span>
+      <span>yarn add @vx-oss/react</span>
+      <span>pnpm add @vx-oss/react</span>
     </Snippet>
   );
 }

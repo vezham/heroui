@@ -1,13 +1,13 @@
-# @v0xoss/toast
+# @vx-oss/toast
 
 Toast Component helps to provide feedback on user-actions.
 
 ## Installation
 
 ```sh
-yarn add @v0xoss/toast
+yarn add @vx-oss/toast
 # or
-npm i @v0xoss/toast
+npm i @vx-oss/toast
 ```
 
 ## Contribution

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-aria-modal-overlay",
+  "name": "@vx-oss/use-aria-modal-overlay",
   "version": "0.0.9",
   "description": "A custom implementation of react aria modal overlay, this removes the prevent scroll",
   "keywords": [
     "use-aria-modal-overlay"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,7 +34,7 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@heroui/use-aria-overlay": "workspace:*",
+    "@vx-oss/use-aria-overlay": "workspace:*",
     "@react-aria/overlays": "3.28.0",
     "@react-aria/utils": "3.30.0",
     "@react-stately/overlays": "3.6.18"

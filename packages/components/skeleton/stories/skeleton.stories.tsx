@@ -2,9 +2,9 @@ import type {Meta} from "@storybook/react";
 import type {SkeletonProps} from "../src";
 
 import React from "react";
-import {skeleton} from "@v0xoss/theme";
-import {Card} from "@v0xoss/card";
-import {Button} from "@v0xoss/button";
+import {skeleton} from "@vx-oss/theme";
+import {Card} from "@vx-oss/card";
+import {Button} from "@vx-oss/button";
 
 import {Skeleton} from "../src";
 

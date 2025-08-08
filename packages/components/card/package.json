@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/card",
+  "name": "@vx-oss/card",
   "version": "0.0.9",
   "description": "Card is a container for text, photos, and actions in the context of a single subject.",
   "keywords": [
     "card"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -37,26 +37,26 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@v0xoss/theme": ">=0.0.0",
-    "@v0xoss/system": ">=0.0.0"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/use-aria-button": "workspace:*",
-    "@heroui/ripple": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/use-aria-button": "workspace:*",
+    "@vx-oss/ripple": "workspace:*",
     "@react-aria/focus": "3.21.0",
     "@react-aria/interactions": "3.25.4",
     "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
-    "@v0xoss/theme": "workspace:*",
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/code": "workspace:*",
-    "@v0xoss/link": "workspace:*",
-    "@v0xoss/button": "workspace:*",
-    "@v0xoss/avatar": "workspace:*",
-    "@v0xoss/image": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/code": "workspace:*",
+    "@vx-oss/link": "workspace:*",
+    "@vx-oss/button": "workspace:*",
+    "@vx-oss/avatar": "workspace:*",
+    "@vx-oss/image": "workspace:*",
     "framer-motion": "11.18.2",
     "clean-package": "2.2.0",
     "react": "18.3.0",

@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/alert",
+  "name": "@vx-oss/alert",
   "version": "0.0.9",
   "description": "Alerts are temporary notifications that provide concise feedback about an action or event.",
   "keywords": [
     "alert"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -36,19 +36,19 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.19",
-    "@heroui/system": ">=2.4.18"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
     "@react-stately/utils": "3.10.8",
-    "@heroui/button": "workspace:*"
+    "@vx-oss/button": "workspace:*"
   },
   "devDependencies": {
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

@@ -1,7 +1,7 @@
-import type {ItemProps} from "@v0xoss/aria-utils";
+import type {ItemProps} from "@vx-oss/aria-utils";
 import type {ReactNode, RefObject} from "react";
 
-import {BaseItem} from "@v0xoss/aria-utils";
+import {BaseItem} from "@vx-oss/aria-utils";
 interface Props<T extends object = {}> extends Omit<ItemProps<"button", T>, "children" | "title"> {
   /**
    * The content of the component.

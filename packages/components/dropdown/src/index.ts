@@ -1,6 +1,6 @@
-import type {MenuItemProps, MenuSectionProps} from "@v0xoss/menu";
+import type {MenuItemProps, MenuSectionProps} from "@vx-oss/menu";
 
-import {MenuItem, MenuSection} from "@v0xoss/menu";
+import {MenuItem, MenuSection} from "@vx-oss/menu";
 
 import Dropdown from "./dropdown";
 import DropdownTrigger from "./dropdown-trigger";

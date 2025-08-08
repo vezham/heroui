@@ -1,4 +1,4 @@
-import {InputOtp} from "@v0xoss/react";
+import {InputOtp} from "@vx-oss/react";
 
 export default function App() {
   const radiusValues = ["none", "sm", "md", "lg", "full"];

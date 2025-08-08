@@ -3,9 +3,9 @@ import type {UserEvent} from "@testing-library/user-event";
 
 import * as React from "react";
 import {act, render, waitFor} from "@testing-library/react";
-import {focus, shouldIgnoreReactWarning, spy} from "@v0xoss/test-utils";
+import {focus, shouldIgnoreReactWarning, spy} from "@vx-oss/test-utils";
 import userEvent from "@testing-library/user-event";
-import {Input} from "@v0xoss/input";
+import {Input} from "@vx-oss/input";
 
 import {Accordion, AccordionItem} from "../src";
 

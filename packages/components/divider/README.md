@@ -1,4 +1,4 @@
-# @v0xoss/divider
+# @vx-oss/divider
 
 Divider is a component that separates content in a page.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/divider) 
 ## Installation
 
 ```sh
-yarn add @v0xoss/divider
+yarn add @vx-oss/divider
 # or
-npm i @v0xoss/divider
+npm i @vx-oss/divider
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import {Link} from "@v0xoss/react";
+import {Link} from "@vx-oss/react";
 import NextLink from "next/link";
 
 export default function App() {

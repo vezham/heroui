@@ -2,11 +2,11 @@ import type {Meta} from "@storybook/react";
 import type {SwitchProps, SwitchThumbIconProps} from "../src";
 
 import React from "react";
-import {toggle} from "@v0xoss/theme";
+import {toggle} from "@vx-oss/theme";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {SunFilledIcon, MoonFilledIcon} from "@v0xoss/shared-icons";
-import {clsx} from "@v0xoss/shared-utils";
-import {button} from "@v0xoss/theme";
+import {SunFilledIcon, MoonFilledIcon} from "@vx-oss/shared-icons";
+import {clsx} from "@vx-oss/shared-utils";
+import {button} from "@vx-oss/theme";
 import {useForm} from "react-hook-form";
 
 import {Switch, useSwitch} from "../src";

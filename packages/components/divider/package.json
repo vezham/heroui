@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/divider",
+  "name": "@vx-oss/divider",
   "version": "0.0.9",
   "description": ". A separator is a visual divider between two groups of content",
   "keywords": [
     "divider"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -36,15 +36,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@v0xoss/theme": ">=0.0.0"
+    "@vx-oss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/react-rsc-utils": "workspace:*",
-    "@heroui/system-rsc": "workspace:*",
+    "@vx-oss/react-rsc-utils": "workspace:*",
+    "@vx-oss/system-rsc": "workspace:*",
     "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
-    "@v0xoss/theme": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

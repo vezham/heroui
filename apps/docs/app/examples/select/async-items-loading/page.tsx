@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
 "use client";
 
-import {Select, SelectItem} from "@v0xoss/react";
+import {Select, SelectItem} from "@vx-oss/react";
 import {useEffect, useState} from "react";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
 
 type Pokemon = {
   name: string;

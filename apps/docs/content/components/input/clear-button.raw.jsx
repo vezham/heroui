@@ -1,11 +1,11 @@
-import {Input} from "@v0xoss/react";
+import {Input} from "@vx-oss/react";
 
 export default function App() {
   return (
     <Input
       isClearable
       className="max-w-xs"
-      defaultValue="junior@v0xoss.com"
+      defaultValue="junior@vx-oss.com"
       label="Email"
       placeholder="Enter your email"
       type="email"

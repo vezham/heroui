@@ -1,15 +1,15 @@
-import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@v0xoss/theme";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@vx-oss/theme";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {HTMLMotionProps} from "framer-motion";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 
 import {useCallback, useEffect, useMemo, useRef, useState} from "react";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {navbar} from "@v0xoss/theme";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, dataAttr, objectToDeps, mergeProps} from "@v0xoss/shared-utils";
-import {useScrollPosition} from "@v0xoss/use-scroll-position";
-import {useResizeObserver} from "@v0xoss/use-resize";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {navbar} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, dataAttr, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
+import {useScrollPosition} from "@vx-oss/use-scroll-position";
+import {useResizeObserver} from "@vx-oss/use-resize";
 import {useControlledState} from "@react-stately/utils";
 import {usePreventScroll} from "@react-aria/overlays";
 

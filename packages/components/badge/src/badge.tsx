@@ -1,6 +1,6 @@
 import type {UseBadgeProps} from "./use-badge";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useBadge} from "./use-badge";
 

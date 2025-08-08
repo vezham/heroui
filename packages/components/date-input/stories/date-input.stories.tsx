@@ -4,7 +4,7 @@ import type {ValidationResult} from "@react-types/shared";
 import type {DateInputProps} from "../src";
 
 import React from "react";
-import {dateInput, button} from "@v0xoss/theme";
+import {dateInput, button} from "@vx-oss/theme";
 import {
   CalendarDate,
   getLocalTimeZone,
@@ -14,7 +14,7 @@ import {
   parseZonedDateTime,
   today,
 } from "@internationalized/date";
-import {CalendarBoldIcon} from "@v0xoss/shared-icons";
+import {CalendarBoldIcon} from "@vx-oss/shared-icons";
 import {useDateFormatter, I18nProvider} from "@react-aria/i18n";
 
 import {DateInput} from "../src";

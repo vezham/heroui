@@ -1,4 +1,4 @@
-import {Calendar} from "@v0xoss/react";
+import {Calendar} from "@vx-oss/react";
 
 export default function App() {
   return <Calendar aria-label="Date (firstDayOfWeek)" firstDayOfWeek="mon" />;

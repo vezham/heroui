@@ -1,6 +1,6 @@
 import type {Sponsor} from "@/libs/docs/sponsors";
 
-import {uniqBy} from "@v0xoss/shared-utils";
+import {uniqBy} from "@vx-oss/shared-utils";
 import fetch from "node-fetch";
 
 import {__PROD__} from "./env";

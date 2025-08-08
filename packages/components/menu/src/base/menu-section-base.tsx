@@ -1,9 +1,9 @@
-import type {MenuSectionSlots, SlotsToClasses} from "@v0xoss/theme";
-import type {SectionProps} from "@v0xoss/aria-utils";
-import type {DividerProps} from "@v0xoss/divider";
+import type {MenuSectionSlots, SlotsToClasses} from "@vx-oss/theme";
+import type {SectionProps} from "@vx-oss/aria-utils";
+import type {DividerProps} from "@vx-oss/divider";
 import type {MenuItemProps} from "../menu-item";
 
-import {BaseSection} from "@v0xoss/aria-utils";
+import {BaseSection} from "@vx-oss/aria-utils";
 
 export interface MenuSectionBaseProps<T extends object = {}> extends SectionProps<"ul", T> {
   /**

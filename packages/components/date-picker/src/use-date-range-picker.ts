@@ -1,25 +1,25 @@
 import type {DateValue} from "@internationalized/date";
-import type {TimeInputProps} from "@v0xoss/date-input";
-import type {ButtonProps} from "@v0xoss/button";
-import type {RangeCalendarProps} from "@v0xoss/calendar";
-import type {PopoverProps} from "@v0xoss/popover";
+import type {TimeInputProps} from "@vx-oss/date-input";
+import type {ButtonProps} from "@vx-oss/button";
+import type {RangeCalendarProps} from "@vx-oss/calendar";
+import type {PopoverProps} from "@vx-oss/popover";
 import type {DOMAttributes, GroupDOMAttributes} from "@react-types/shared";
 import type {AriaDateRangePickerProps} from "@react-types/datepicker";
 import type {DateRangePickerState} from "@react-stately/datepicker";
 import type {UseDatePickerBaseProps} from "./use-date-picker-base";
-import type {PropGetter} from "@v0xoss/system";
+import type {PropGetter} from "@vx-oss/system";
 import type {DateRangePickerFieldProps} from "./date-range-picker-field";
-import type {DateInputGroupProps} from "@v0xoss/date-input";
-import type {DateRangePickerSlots, SlotsToClasses} from "@v0xoss/theme";
-import type {DateInputProps} from "@v0xoss/date-input";
+import type {DateInputGroupProps} from "@vx-oss/date-input";
+import type {DateRangePickerSlots, SlotsToClasses} from "@vx-oss/theme";
+import type {DateInputProps} from "@vx-oss/date-input";
 
-import {useLabelPlacement, useProviderContext} from "@v0xoss/system";
+import {useLabelPlacement, useProviderContext} from "@vx-oss/system";
 import {useMemo, useRef, useEffect} from "react";
 import {useDateRangePickerState} from "@react-stately/datepicker";
 import {useDateRangePicker as useAriaDateRangePicker} from "@react-aria/datepicker";
-import {clsx, dataAttr, objectToDeps, mergeProps} from "@v0xoss/shared-utils";
-import {dateRangePicker, dateInput, cn} from "@v0xoss/theme";
-import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {clsx, dataAttr, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
+import {dateRangePicker, dateInput, cn} from "@vx-oss/theme";
+import {FormContext, useSlottedContext} from "@vx-oss/form";
 
 import {useDatePickerBase} from "./use-date-picker-base";
 interface Props<T extends DateValue>

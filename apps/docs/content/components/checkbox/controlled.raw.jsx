@@ -1,4 +1,4 @@
-import {Checkbox} from "@v0xoss/react";
+import {Checkbox} from "@vx-oss/react";
 
 export default function App() {
   const [isSelected, setIsSelected] = React.useState(false);

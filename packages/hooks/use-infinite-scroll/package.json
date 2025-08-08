@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-infinite-scroll",
+  "name": "@vx-oss/use-infinite-scroll",
   "version": "0.0.9",
   "description": "A hook for handling infinite scroll based on the IntersectionObserver API",
   "keywords": [
     "use-infinite-scroll"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -37,7 +37,7 @@
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@v0xoss/shared-utils": "workspace:*"
+    "@vx-oss/shared-utils": "workspace:*"
   },
   "devDependencies": {
     "clean-package": "2.2.0",

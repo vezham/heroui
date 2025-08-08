@@ -1,6 +1,6 @@
 import React from "react";
 import {UnstyledOpenInCodeSandboxButton} from "@codesandbox/sandpack-react";
-import {Tooltip, Button} from "@v0xoss/react";
+import {Tooltip, Button} from "@vx-oss/react";
 
 import {CodeSandboxIcon} from "@/components/icons";
 

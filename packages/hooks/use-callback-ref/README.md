@@ -1,4 +1,4 @@
-# @v0xoss/use-callback-ref
+# @vx-oss/use-callback-ref
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-callback-ref
+yarn add @vx-oss/use-callback-ref
 # or
-npm i @v0xoss/use-callback-ref
+npm i @vx-oss/use-callback-ref
 ```
 
 ## Contribution

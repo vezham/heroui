@@ -1,5 +1,5 @@
-import {Tooltip} from "@v0xoss/react";
-import {clsx} from "@v0xoss/shared-utils";
+import {Tooltip} from "@vx-oss/react";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {CircleInfo} from "@/components/icons";
 

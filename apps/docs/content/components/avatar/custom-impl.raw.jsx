@@ -1,5 +1,5 @@
 import {forwardRef, useMemo} from "react";
-import {AvatarIcon, useAvatar} from "@v0xoss/react";
+import {AvatarIcon, useAvatar} from "@vx-oss/react";
 
 const MyAvatar = forwardRef((props, ref) => {
   const {

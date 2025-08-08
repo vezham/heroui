@@ -1,7 +1,7 @@
 import type {Language} from "prism-react-renderer";
 
-import {clsx} from "@v0xoss/shared-utils";
-import * as Components from "@v0xoss/react";
+import {clsx} from "@vx-oss/shared-utils";
+import * as Components from "@vx-oss/react";
 import NextImage from "next/image";
 import {usePostHog} from "posthog-js/react";
 

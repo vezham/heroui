@@ -2,8 +2,8 @@ import type {Meta} from "@storybook/react";
 import type {ToastProps} from "../src";
 
 import {useEffect, useState} from "react";
-import {cn, toast} from "@v0xoss/theme";
-import {Button} from "@v0xoss/button";
+import {cn, toast} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
 import {
   Modal,
   ModalBody,
@@ -11,10 +11,10 @@ import {
   ModalFooter,
   ModalHeader,
   useDisclosure,
-} from "@v0xoss/modal";
-import {Drawer, DrawerContent} from "@v0xoss/drawer";
-import {Spinner} from "@v0xoss/spinner";
-import {AvatarIcon, CloseIcon} from "@v0xoss/shared-icons";
+} from "@vx-oss/modal";
+import {Drawer, DrawerContent} from "@vx-oss/drawer";
+import {Spinner} from "@vx-oss/spinner";
+import {AvatarIcon, CloseIcon} from "@vx-oss/shared-icons";
 
 import {Toast, ToastProvider, addToast, closeToast, closeAll} from "../src";
 

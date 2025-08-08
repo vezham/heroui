@@ -5,17 +5,17 @@ import type {Meta} from "@storybook/react";
 import type {InputProps} from "../src";
 
 import React from "react";
-import {input} from "@v0xoss/theme";
+import {input} from "@vx-oss/theme";
 import {
   MailFilledIcon,
   EyeFilledIcon,
   EyeSlashFilledIcon,
   SearchIcon,
   CloseFilledIcon,
-} from "@v0xoss/shared-icons";
-import {button} from "@v0xoss/theme";
+} from "@vx-oss/shared-icons";
+import {button} from "@vx-oss/theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@v0xoss/form";
+import {Form} from "@vx-oss/form";
 
 import {Input, useInput} from "../src";
 
@@ -567,7 +567,7 @@ export const Disabled = {
 
   args: {
     ...defaultProps,
-    defaultValue: "junior@v0xoss.com",
+    defaultValue: "junior@vx-oss.com",
     variant: "faded",
     isDisabled: true,
   },
@@ -578,7 +578,7 @@ export const ReadOnly = {
 
   args: {
     ...defaultProps,
-    defaultValue: "junior@v0xoss.com",
+    defaultValue: "junior@vx-oss.com",
     variant: "bordered",
     isReadOnly: true,
   },
@@ -630,7 +630,7 @@ export const Clearable = {
     ...defaultProps,
     variant: "bordered",
     placeholder: "Enter your email",
-    defaultValue: "junior@v0xoss.com",
+    defaultValue: "junior@vx-oss.com",
     // eslint-disable-next-line no-console
     onClear: () => console.log("input cleared"),
   },

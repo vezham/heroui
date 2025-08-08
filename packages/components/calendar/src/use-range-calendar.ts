@@ -1,16 +1,16 @@
 import type {DateValue, AriaRangeCalendarProps} from "@react-types/calendar";
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {RangeCalendarState} from "@react-stately/calendar";
-import type {ButtonProps} from "@v0xoss/button";
+import type {ButtonProps} from "@vx-oss/button";
 import type {ContextType, UseCalendarBaseProps} from "./use-calendar-base";
 import type {CalendarBaseProps} from "./calendar-base";
 
 import {useMemo, useRef} from "react";
-import {filterDOMProps} from "@v0xoss/react-utils";
+import {filterDOMProps} from "@vx-oss/react-utils";
 import {useRangeCalendar as useAriaRangeCalendar} from "@react-aria/calendar";
 import {useRangeCalendarState} from "@react-stately/calendar";
 import {createCalendar} from "@internationalized/date";
-import {clsx, chain} from "@v0xoss/shared-utils";
+import {clsx, chain} from "@vx-oss/shared-utils";
 
 import {useCalendarBase} from "./use-calendar-base";
 

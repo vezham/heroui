@@ -1,6 +1,6 @@
-import type {SliderValue} from "@v0xoss/react";
+import type {SliderValue} from "@vx-oss/react";
 
-import {Slider} from "@v0xoss/react";
+import {Slider} from "@vx-oss/react";
 
 export default function App() {
   const formatMillisecondsToHHMMSS = (milliseconds: number) => {

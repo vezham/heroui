@@ -32,7 +32,7 @@ const SearchIcon = `export const SearchIcon = ({
   </svg>
 );`;
 
-const App = `import {extendVariants, Input} from "@v0xoss/react";
+const App = `import {extendVariants, Input} from "@vx-oss/react";
 import {SearchIcon} from "./SearchIcon";
 
 const MyInput = extendVariants(Input, {

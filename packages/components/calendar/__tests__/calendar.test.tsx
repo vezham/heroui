@@ -4,9 +4,9 @@ import type {CalendarProps} from "../src";
 import * as React from "react";
 import {render, act, fireEvent} from "@testing-library/react";
 import {CalendarDate, isWeekend} from "@internationalized/date";
-import {triggerPress, keyCodes} from "@v0xoss/test-utils";
+import {triggerPress, keyCodes} from "@vx-oss/test-utils";
 import {useLocale} from "@react-aria/i18n";
-import {HeroUIProvider} from "@v0xoss/system";
+import {HeroUIProvider} from "@vx-oss/system";
 
 import {Calendar as CalendarBase} from "../src";
 

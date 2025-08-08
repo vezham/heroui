@@ -1,4 +1,4 @@
-import {addToast, Button, cn} from "@v0xoss/react";
+import {addToast, Button, cn} from "@vx-oss/react";
 
 const CustomToastComponent = () => {
   return (

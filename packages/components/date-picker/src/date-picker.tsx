@@ -4,13 +4,13 @@ import type {UseDatePickerProps} from "./use-date-picker";
 
 import {useMemo} from "react";
 import {cloneElement, isValidElement} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {Button} from "@v0xoss/button";
-import {DateInput, TimeInput} from "@v0xoss/date-input";
-import {FreeSoloPopover} from "@v0xoss/popover";
-import {Calendar} from "@v0xoss/calendar";
+import {forwardRef} from "@vx-oss/system";
+import {Button} from "@vx-oss/button";
+import {DateInput, TimeInput} from "@vx-oss/date-input";
+import {FreeSoloPopover} from "@vx-oss/popover";
+import {Calendar} from "@vx-oss/calendar";
 import {AnimatePresence} from "framer-motion";
-import {CalendarBoldIcon} from "@v0xoss/shared-icons";
+import {CalendarBoldIcon} from "@vx-oss/shared-icons";
 
 import {useDatePicker} from "./use-date-picker";
 

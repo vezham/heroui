@@ -1,4 +1,4 @@
-# @v0xoss/aria-utils
+# @vx-oss/aria-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/aria-utils
+yarn add @vx-oss/aria-utils
 # or
-npm i @v0xoss/aria-utils
+npm i @vx-oss/aria-utils
 ```
 
 ## Contribution

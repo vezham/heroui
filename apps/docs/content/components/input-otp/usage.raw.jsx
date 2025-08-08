@@ -1,5 +1,5 @@
 import React from "react";
-import {InputOtp} from "@v0xoss/react";
+import {InputOtp} from "@vx-oss/react";
 
 export default function App() {
   const [value, setValue] = React.useState("");

@@ -1,4 +1,4 @@
-import {CheckboxGroup, Checkbox} from "@v0xoss/react";
+import {CheckboxGroup, Checkbox} from "@vx-oss/react";
 
 export default function App() {
   const [isInvalid, setIsInvalid] = React.useState(true);

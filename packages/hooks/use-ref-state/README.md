@@ -1,4 +1,4 @@
-# @v0xoss/use-ref-state
+# @vx-oss/use-ref-state
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-ref-state
+yarn add @vx-oss/use-ref-state
 # or
-npm i @v0xoss/use-ref-state
+npm i @vx-oss/use-ref-state
 ```
 
 ## Contribution

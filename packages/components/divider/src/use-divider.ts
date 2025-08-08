@@ -1,9 +1,9 @@
-import type {DividerVariantProps} from "@v0xoss/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system-rsc";
+import type {DividerVariantProps} from "@vx-oss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system-rsc";
 import type {Ref} from "react";
 import type {SeparatorProps as AriaSeparatorProps} from "./use-separator";
 
-import {divider} from "@v0xoss/theme";
+import {divider} from "@vx-oss/theme";
 import {useCallback, useMemo} from "react";
 
 import {useSeparator} from "./use-separator";

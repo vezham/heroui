@@ -1,4 +1,4 @@
-# @v0xoss/use-form-reset
+# @vx-oss/use-form-reset
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-form-reset
+yarn add @vx-oss/use-form-reset
 # or
-npm i @v0xoss/use-form-reset
+npm i @vx-oss/use-form-reset
 ```
 
 ## Contribution

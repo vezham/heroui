@@ -1,4 +1,4 @@
-import {DatePicker, RadioGroup, Radio, ButtonGroup, Button, cn} from "@v0xoss/react";
+import {DatePicker, RadioGroup, Radio, ButtonGroup, Button, cn} from "@vx-oss/react";
 import {startOfWeek, startOfMonth, getLocalTimeZone, today} from "@internationalized/date";
 import {useLocale, useDateFormatter} from "@react-aria/i18n";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import {Button, Link} from "@v0xoss/react";
+import {Button, Link} from "@vx-oss/react";
 import {usePostHog} from "posthog-js/react";
 
 export const FigmaButton = () => {

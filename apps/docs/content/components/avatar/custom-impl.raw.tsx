@@ -1,7 +1,7 @@
-import type {AvatarProps as BaseAvatarProps} from "@v0xoss/react";
+import type {AvatarProps as BaseAvatarProps} from "@vx-oss/react";
 
 import {forwardRef, useMemo} from "react";
-import {AvatarIcon, useAvatar} from "@v0xoss/react";
+import {AvatarIcon, useAvatar} from "@vx-oss/react";
 
 export interface AvatarProps extends BaseAvatarProps {}
 

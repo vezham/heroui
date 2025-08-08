@@ -1,8 +1,8 @@
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, dataAttr} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, dataAttr} from "@vx-oss/shared-utils";
 
 import {useNavbarContext} from "./navbar-context";
 

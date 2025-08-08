@@ -1,4 +1,4 @@
-import {Tabs, Tab, Card, CardBody, Switch} from "@v0xoss/react";
+import {Tabs, Tab, Card, CardBody, Switch} from "@vx-oss/react";
 
 export default function App() {
   const [isVertical, setIsVertical] = React.useState(true);

@@ -1,6 +1,6 @@
 "use client";
 
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {useIsMounted} from "@/hooks/use-is-mounted";
 

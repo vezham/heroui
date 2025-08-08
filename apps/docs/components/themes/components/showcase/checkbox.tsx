@@ -1,8 +1,8 @@
-import type {CheckboxProps} from "@v0xoss/react";
+import type {CheckboxProps} from "@vx-oss/react";
 import type {HeroUIScaling} from "../../types";
 
 import {cloneElement} from "react";
-import {Checkbox as HeroUICheckbox} from "@v0xoss/react";
+import {Checkbox as HeroUICheckbox} from "@vx-oss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

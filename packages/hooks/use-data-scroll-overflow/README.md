@@ -1,4 +1,4 @@
-# @v0xoss/use-data-scroll-overflow
+# @vx-oss/use-data-scroll-overflow
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-data-scroll-overflow
+yarn add @vx-oss/use-data-scroll-overflow
 # or
-npm i @v0xoss/use-data-scroll-overflow
+npm i @vx-oss/use-data-scroll-overflow
 ```
 
 ## Contribution

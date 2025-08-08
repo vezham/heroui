@@ -1,4 +1,4 @@
-import {Select, SelectItem} from "@v0xoss/react";
+import {Select, SelectItem} from "@vx-oss/react";
 
 export const animals = [
   {key: "cat", label: "Cat"},

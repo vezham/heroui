@@ -1,7 +1,7 @@
-import type {SliderValue} from "@v0xoss/react";
+import type {SliderValue} from "@vx-oss/react";
 
 import React from "react";
-import {Tooltip, Slider} from "@v0xoss/react";
+import {Tooltip, Slider} from "@vx-oss/react";
 
 export default function App() {
   const [value, setValue] = React.useState<SliderValue>(0.2);

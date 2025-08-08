@@ -1,14 +1,14 @@
-import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@v0xoss/theme";
+import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@vx-oss/theme";
 import type {AriaCheckboxProps} from "@react-types/checkbox";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 import type {ReactNode, Ref} from "react";
 
-import {useProviderContext} from "@v0xoss/system";
+import {useProviderContext} from "@vx-oss/system";
 import {useCallback, useId} from "react";
 import {useMemo, useRef} from "react";
 import {useToggleState} from "@react-stately/toggle";
-import {checkbox} from "@v0xoss/theme";
-import {useCallbackRef} from "@v0xoss/use-callback-ref";
+import {checkbox} from "@vx-oss/theme";
+import {useCallbackRef} from "@vx-oss/use-callback-ref";
 import {useHover} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 import {
@@ -19,14 +19,14 @@ import {
   safeAriaLabel,
   mergeProps,
   chain,
-} from "@v0xoss/shared-utils";
+} from "@vx-oss/shared-utils";
 import {
   useCheckbox as useReactAriaCheckbox,
   useCheckboxGroupItem as useReactAriaCheckboxGroupItem,
 } from "@react-aria/checkbox";
-import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
-import {mergeRefs} from "@v0xoss/react-utils";
-import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {useSafeLayoutEffect} from "@vx-oss/use-safe-layout-effect";
+import {mergeRefs} from "@vx-oss/react-utils";
+import {FormContext, useSlottedContext} from "@vx-oss/form";
 
 import {useCheckboxGroupContext} from "./checkbox-group-context";
 

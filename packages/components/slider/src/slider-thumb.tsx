@@ -1,8 +1,8 @@
 import type {UseSliderThumbProps} from "./use-slider-thumb";
 
-import {forwardRef} from "@v0xoss/system";
-import {Tooltip} from "@v0xoss/tooltip";
-import {renderFn} from "@v0xoss/react-utils";
+import {forwardRef} from "@vx-oss/system";
+import {Tooltip} from "@vx-oss/tooltip";
+import {renderFn} from "@vx-oss/react-utils";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 
 import {useSliderThumb} from "./use-slider-thumb";

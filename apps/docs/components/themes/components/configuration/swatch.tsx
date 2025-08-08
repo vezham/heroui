@@ -1,6 +1,6 @@
 import type {ConfigColors} from "../../types";
 
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 
 interface SwatchProps {
   colors: {background: string} & ConfigColors["baseColor"];

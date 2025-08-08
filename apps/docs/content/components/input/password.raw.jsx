@@ -1,4 +1,4 @@
-import {Input} from "@v0xoss/react";
+import {Input} from "@vx-oss/react";
 
 export const EyeSlashFilledIcon = (props) => {
   return (

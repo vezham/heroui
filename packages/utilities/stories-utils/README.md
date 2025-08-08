@@ -1,4 +1,4 @@
-# @v0xoss/stories-utils
+# @vx-oss/stories-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/stories-utils
+yarn add @vx-oss/stories-utils
 # or
-npm i @v0xoss/stories-utils
+npm i @vx-oss/stories-utils
 ```
 
 ## Contribution

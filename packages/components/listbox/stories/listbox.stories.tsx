@@ -4,19 +4,19 @@ import type {Meta} from "@storybook/react";
 import type {ListboxProps} from "../src";
 
 import React from "react";
-import {menuItem} from "@v0xoss/theme";
+import {menuItem} from "@vx-oss/theme";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
   ChevronRightIcon,
-} from "@v0xoss/shared-icons";
-import {usersData} from "@v0xoss/stories-utils";
-import {Avatar} from "@v0xoss/avatar";
-import {Chip} from "@v0xoss/chip";
-import {clsx} from "@v0xoss/shared-utils";
-import {ScrollShadow} from "@v0xoss/scroll-shadow";
+} from "@vx-oss/shared-icons";
+import {usersData} from "@vx-oss/stories-utils";
+import {Avatar} from "@vx-oss/avatar";
+import {Chip} from "@vx-oss/chip";
+import {clsx} from "@vx-oss/shared-utils";
+import {ScrollShadow} from "@vx-oss/scroll-shadow";
 
 import {Listbox, ListboxItem, ListboxSection} from "../src";
 
@@ -638,7 +638,7 @@ const CustomWithClassNamesTemplate = ({color, variant, disableAnimation, ...args
         <div className="flex flex-col gap-1">
           <span>Releases</span>
           <div className="px-2 py-1 rounded-small bg-default-100 group-data-[hover=true]:bg-default-200">
-            <span className="text-tiny text-default-600">@v0xoss/react@2.0.10</span>
+            <span className="text-tiny text-default-600">@vx-oss/react@2.0.10</span>
             <div className="flex gap-2 text-tiny">
               <span className="text-default-500">49 minutes ago</span>
               <span className="text-success">Latest</span>

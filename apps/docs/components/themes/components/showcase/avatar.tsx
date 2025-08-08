@@ -1,9 +1,9 @@
-import type {AvatarProps} from "@v0xoss/react";
+import type {AvatarProps} from "@vx-oss/react";
 import type {Border, HeroUIScaling} from "../../types";
 
 import {cloneElement} from "react";
-import {Avatar as HeroUIAvatar} from "@v0xoss/react";
-import {clsx} from "@v0xoss/shared-utils";
+import {Avatar as HeroUIAvatar} from "@vx-oss/react";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

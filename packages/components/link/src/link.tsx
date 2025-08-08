@@ -1,8 +1,8 @@
 import type {UseLinkProps} from "./use-link";
 
-import {forwardRef} from "@v0xoss/system";
-import {LinkIcon} from "@v0xoss/shared-icons";
-import {linkAnchorClasses} from "@v0xoss/theme";
+import {forwardRef} from "@vx-oss/system";
+import {LinkIcon} from "@vx-oss/shared-icons";
+import {linkAnchorClasses} from "@vx-oss/theme";
 
 import {useLink} from "./use-link";
 

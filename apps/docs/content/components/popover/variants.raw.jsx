@@ -1,4 +1,4 @@
-import {Popover, PopoverTrigger, PopoverContent, Button} from "@v0xoss/react";
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@vx-oss/react";
 
 export default function App() {
   const content = (

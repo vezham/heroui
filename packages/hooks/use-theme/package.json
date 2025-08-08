@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-theme",
+  "name": "@vx-oss/use-theme",
   "version": "0.0.9",
   "description": "React hook to switch between light and dark themes",
   "keywords": [
     "use-theme"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

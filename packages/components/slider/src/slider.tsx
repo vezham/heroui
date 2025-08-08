@@ -1,7 +1,7 @@
 import type {UseSliderProps} from "./use-slider";
 
-import {renderFn} from "@v0xoss/react-utils";
-import {forwardRef} from "@v0xoss/system";
+import {renderFn} from "@vx-oss/react-utils";
+import {forwardRef} from "@vx-oss/system";
 
 import Thumb from "./slider-thumb";
 import {useSlider} from "./use-slider";

@@ -1,6 +1,6 @@
 "use client";
 
-import {Tab, Tabs} from "@v0xoss/react";
+import {Tab, Tabs} from "@vx-oss/react";
 
 export default function BlocksTabs() {
   return (

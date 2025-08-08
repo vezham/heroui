@@ -1,10 +1,10 @@
-import {Input} from "@v0xoss/react";
+import {Input} from "@vx-oss/react";
 
 export default function App() {
   return (
     <Input
       className="max-w-xs"
-      defaultValue="junior@v0xoss.com"
+      defaultValue="junior@vx-oss.com"
       description="We'll never share your email with anyone else."
       label="Email"
       type="email"

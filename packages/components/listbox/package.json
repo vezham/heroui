@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/listbox",
+  "name": "@vx-oss/listbox",
   "version": "0.0.9",
   "description": "A listbox displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "listbox"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -36,15 +36,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@v0xoss/theme": ">=0.0.0",
-    "@v0xoss/system": ">=0.0.0"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@v0xoss/aria-utils": "workspace:*",
-    "@v0xoss/divider": "workspace:*",
-    "@v0xoss/react-utils": "workspace:*",
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/use-is-mobile": "workspace:*",
+    "@vx-oss/aria-utils": "workspace:*",
+    "@vx-oss/divider": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/use-is-mobile": "workspace:*",
     "@tanstack/react-virtual": "3.11.3",
     "@react-aria/listbox": "3.14.7",
     "@react-stately/list": "3.12.4",
@@ -53,13 +53,13 @@
     "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
-    "@v0xoss/avatar": "workspace:*",
-    "@v0xoss/chip": "workspace:*",
-    "@v0xoss/scroll-shadow": "workspace:*",
-    "@v0xoss/shared-icons": "workspace:*",
-    "@v0xoss/stories-utils": "workspace:*",
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/theme": "workspace:*",
+    "@vx-oss/avatar": "workspace:*",
+    "@vx-oss/chip": "workspace:*",
+    "@vx-oss/scroll-shadow": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
+    "@vx-oss/stories-utils": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

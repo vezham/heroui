@@ -1,4 +1,4 @@
-import {DatePicker} from "@v0xoss/react";
+import {DatePicker} from "@vx-oss/react";
 
 export default function App() {
   const variants = ["flat", "bordered", "underlined", "faded"];

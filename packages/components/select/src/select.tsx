@@ -1,13 +1,13 @@
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseSelectProps} from "./use-select";
 
-import {Listbox} from "@v0xoss/listbox";
-import {FreeSoloPopover} from "@v0xoss/popover";
-import {ChevronDownIcon, CloseFilledIcon} from "@v0xoss/shared-icons";
-import {Spinner} from "@v0xoss/spinner";
+import {Listbox} from "@vx-oss/listbox";
+import {FreeSoloPopover} from "@vx-oss/popover";
+import {ChevronDownIcon, CloseFilledIcon} from "@vx-oss/shared-icons";
+import {Spinner} from "@vx-oss/spinner";
 import {useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {ScrollShadow} from "@v0xoss/scroll-shadow";
+import {forwardRef} from "@vx-oss/system";
+import {ScrollShadow} from "@vx-oss/scroll-shadow";
 import {cloneElement} from "react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 import {AnimatePresence} from "framer-motion";

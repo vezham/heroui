@@ -66,14 +66,14 @@ This plugin allows you to customize colors and layouts tokens that are used by N
 
 ```js {9,14-15}
 // tailwind.config.js
-const {heroui} = require("@v0xoss/react");
+const {heroui} = require("@vx-oss/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     // ...
     // make sure it's pointing to the ROOT node_module
-    "./node_modules/@v0xoss/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@vx-oss/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
@@ -96,7 +96,7 @@ in your React Server Components (RSC).
 
 ```jsx
 // app/page.tsx
-import {Button} from "@v0xoss/button";
+import {Button} from "@vx-oss/button";
 
 export default function Page() {
   return (
@@ -228,9 +228,9 @@ you're actually using.
 
 <PackageManagers
   commands={{
-    npm: "npm i @v0xoss/button",
-    yarn: "yarn add @v0xoss/button",
-    pnpm: "pnpm add @v0xoss/button",
+    npm: "npm i @vx-oss/button",
+    yarn: "yarn add @vx-oss/button",
+    pnpm: "pnpm add @vx-oss/button",
   }}
 />
 
@@ -245,7 +245,7 @@ by just adding the `dark` class to the `body` / `html` or `main` tag.
 // main.tsx or main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {HeroUIProvider} from "@v0xoss/react";
+import {HeroUIProvider} from "@vx-oss/react";
 import App from "./App";
 import "./index.css";
 

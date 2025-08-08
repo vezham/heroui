@@ -1,7 +1,7 @@
-import type {SelectedItems} from "@v0xoss/react";
+import type {SelectedItems} from "@vx-oss/react";
 
 import React from "react";
-import {Select, SelectItem, Avatar, Chip} from "@v0xoss/react";
+import {Select, SelectItem, Avatar, Chip} from "@vx-oss/react";
 
 export const users = [
   {

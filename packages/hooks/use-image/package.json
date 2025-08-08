@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-image",
+  "name": "@vx-oss/use-image",
   "version": "0.0.9",
   "description": "React hook for progressing image loading",
   "keywords": [
     "use-image"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,14 +34,14 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@v0xoss/use-safe-layout-effect": "workspace:*",
-    "@v0xoss/react-utils": "workspace:*"
+    "@vx-oss/use-safe-layout-effect": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "devDependencies": {
-    "@v0xoss/test-utils": "workspace:*",
+    "@vx-oss/test-utils": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.3.0"
   },

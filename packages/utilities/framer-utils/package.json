@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/framer-utils",
+  "name": "@vx-oss/framer-utils",
   "version": "0.0.9",
   "description": "A set of framer motion transitions for react",
   "keywords": [
     "framer-utils"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -39,8 +39,8 @@
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1"
   },
   "dependencies": {
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/use-measure": "workspace:*"
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/use-measure": "workspace:*"
   },
   "devDependencies": {
     "react": "18.3.0",

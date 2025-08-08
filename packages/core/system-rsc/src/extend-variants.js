@@ -1,5 +1,5 @@
 import * as React from "react";
-import {tv} from "@v0xoss/theme";
+import {tv} from "@vx-oss/theme";
 import clsx from "clsx";
 
 import {mapPropsVariants} from "./utils";

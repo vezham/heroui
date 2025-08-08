@@ -1,6 +1,6 @@
 import type {UseScrollShadowProps} from "./use-scroll-shadow";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useScrollShadow} from "./use-scroll-shadow";
 

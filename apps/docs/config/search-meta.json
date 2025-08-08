@@ -10802,14 +10802,14 @@
     }
   },
   {
-    "content": "Install @heroui/use-theme",
+    "content": "Install @vx-oss/use-theme",
     "objectID": "e5e07c0c-6192-4738-8fd6-e54e522e2636",
     "type": "lvl3",
     "url": "/docs/customization/dark-mode#install-herouiuse-theme",
     "hierarchy": {
       "lvl1": "Dark mode",
       "lvl2": "Using use-theme hook",
-      "lvl3": "Install @v0xoss/use-theme"
+      "lvl3": "Install @vx-oss/use-theme"
     }
   },
   {
@@ -10819,7 +10819,7 @@
     "url": "/docs/customization/dark-mode#add-the-theme-switcher-2",
     "hierarchy": {
       "lvl1": "Dark mode",
-      "lvl2": "Install @v0xoss/use-theme",
+      "lvl2": "Install @vx-oss/use-theme",
       "lvl3": "Add the theme switcher"
     }
   },

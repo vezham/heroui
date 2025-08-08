@@ -1,4 +1,4 @@
-import {Snippet} from "@v0xoss/react";
+import {Snippet} from "@vx-oss/react";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
         closeDelay: 0,
       }}
     >
-      npm install @v0xoss/react
+      npm install @vx-oss/react
     </Snippet>
   );
 }

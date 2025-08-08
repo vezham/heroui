@@ -2,9 +2,9 @@ import type {Meta} from "@storybook/react";
 import type {ChipProps} from "../src";
 
 import React from "react";
-import {chip} from "@v0xoss/theme";
-import {Avatar} from "@v0xoss/avatar";
-import {CheckIcon} from "@v0xoss/shared-icons";
+import {chip} from "@vx-oss/theme";
+import {Avatar} from "@vx-oss/avatar";
+import {CheckIcon} from "@vx-oss/shared-icons";
 
 import {Chip} from "../src";
 

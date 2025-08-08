@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem} from "@v0xoss/react";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/react";
 import {useAsyncList} from "@react-stately/data";
 
 type SWCharacter = {

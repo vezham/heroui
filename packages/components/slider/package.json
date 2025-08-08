@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/slider",
+  "name": "@vx-oss/slider",
   "version": "0.0.9",
   "description": "A slider allows a user to select one or more values within a range.",
   "keywords": [
     "slider"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -36,13 +36,13 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.19",
-    "@heroui/system": ">=2.4.18"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/tooltip": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/tooltip": "workspace:*",
     "@react-aria/focus": "3.21.0",
     "@react-aria/i18n": "3.12.11",
     "@react-aria/interactions": "3.25.4",
@@ -51,9 +51,9 @@
     "@react-stately/slider": "3.7.0"
   },
   "devDependencies": {
-    "@v0xoss/theme": "workspace:*",
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/shared-icons": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

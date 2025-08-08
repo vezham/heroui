@@ -1,4 +1,4 @@
-# @v0xoss/framer-utils
+# @vx-oss/framer-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/framer-utils
+yarn add @vx-oss/framer-utils
 # or
-npm i @v0xoss/framer-utils
+npm i @vx-oss/framer-utils
 ```
 
 ## Contribution

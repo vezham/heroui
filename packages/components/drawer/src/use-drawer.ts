@@ -1,12 +1,12 @@
-import type {ModalProps} from "@v0xoss/modal";
-import type {ReactRef} from "@v0xoss/react-utils";
-import type {PropGetter} from "@v0xoss/system";
+import type {ModalProps} from "@vx-oss/modal";
+import type {ReactRef} from "@vx-oss/react-utils";
+import type {PropGetter} from "@vx-oss/system";
 
-import {drawer} from "@v0xoss/theme";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {drawer} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
 import {useCallback, useMemo} from "react";
-import {TRANSITION_EASINGS} from "@v0xoss/framer-utils";
-import {clsx, isEmpty} from "@v0xoss/shared-utils";
+import {TRANSITION_EASINGS} from "@vx-oss/framer-utils";
+import {clsx, isEmpty} from "@vx-oss/shared-utils";
 
 interface Props extends Omit<ModalProps, "placement" | "scrollBehavior" | "children"> {
   /**

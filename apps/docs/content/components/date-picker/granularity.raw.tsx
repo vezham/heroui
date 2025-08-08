@@ -1,7 +1,7 @@
 import type {DateValue} from "@internationalized/date";
 
 import React from "react";
-import {DatePicker} from "@v0xoss/react";
+import {DatePicker} from "@vx-oss/react";
 import {now, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

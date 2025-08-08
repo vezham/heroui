@@ -1,11 +1,11 @@
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {ValuesType} from "./use-table";
 
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, dataAttr, mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
 import {useTableRowGroup} from "@react-aria/table";
-import {filterDOMProps} from "@v0xoss/react-utils";
+import {filterDOMProps} from "@vx-oss/react-utils";
 import {useMemo} from "react";
 
 import TableRow from "./table-row";

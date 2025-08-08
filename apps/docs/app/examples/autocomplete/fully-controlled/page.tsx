@@ -1,9 +1,9 @@
 "use client";
 
-import type {MenuTriggerAction} from "@v0xoss/react";
+import type {MenuTriggerAction} from "@vx-oss/react";
 
 import * as React from "react";
-import {Autocomplete, AutocompleteItem} from "@v0xoss/react";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/react";
 import {useFilter} from "@react-aria/i18n";
 
 const animals = [

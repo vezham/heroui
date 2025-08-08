@@ -1,19 +1,19 @@
 import type {DateValue} from "@internationalized/date";
 import type {AriaDatePickerBaseProps} from "@react-types/datepicker";
-import type {DateInputProps, TimeInputProps} from "@v0xoss/date-input";
-import type {ButtonProps} from "@v0xoss/button";
-import type {CalendarProps} from "@v0xoss/calendar";
-import type {PopoverProps} from "@v0xoss/popover";
+import type {DateInputProps, TimeInputProps} from "@vx-oss/date-input";
+import type {ButtonProps} from "@vx-oss/button";
+import type {CalendarProps} from "@vx-oss/calendar";
+import type {PopoverProps} from "@vx-oss/popover";
 import type {ReactNode} from "react";
 import type {ValueBase} from "@react-types/shared";
-import type {DatePickerVariantProps} from "@v0xoss/theme";
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {DatePickerVariantProps} from "@vx-oss/theme";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 
-import {dataAttr, mergeProps} from "@v0xoss/shared-utils";
-import {dateInput} from "@v0xoss/theme";
+import {dataAttr, mergeProps} from "@vx-oss/shared-utils";
+import {dateInput} from "@vx-oss/theme";
 import {useCallback} from "react";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {useDOMRef} from "@vx-oss/react-utils";
 import {useLocalizedStringFormatter} from "@react-aria/i18n";
 import {useControlledState} from "@react-stately/utils";
 

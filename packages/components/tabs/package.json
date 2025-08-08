@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/tabs",
+  "name": "@vx-oss/tabs",
   "version": "0.0.9",
   "description": "Tabs organize content into multiple sections and allow users to navigate between them.",
   "keywords": [
     "tabs"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -37,14 +37,14 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@v0xoss/theme": ">=0.0.0",
-    "@v0xoss/system": ">=0.0.0"
+    "@vx-oss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/aria-utils": "workspace:*",
-    "@heroui/use-is-mounted": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/aria-utils": "workspace:*",
+    "@vx-oss/use-is-mounted": "workspace:*",
     "@react-aria/focus": "3.21.0",
     "@react-aria/interactions": "3.25.4",
     "@react-aria/tabs": "3.10.6",
@@ -53,15 +53,15 @@
     "scroll-into-view-if-needed": "3.0.10"
   },
   "devDependencies": {
-    "@v0xoss/theme": "workspace:*",
-    "@v0xoss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
     "framer-motion": "11.18.2",
     "react-lorem-component": "0.13.0",
-    "@v0xoss/card": "workspace:*",
-    "@v0xoss/input": "workspace:*",
-    "@v0xoss/test-utils": "workspace:*",
-    "@v0xoss/button": "workspace:*",
-    "@v0xoss/shared-icons": "workspace:*",
+    "@vx-oss/card": "workspace:*",
+    "@vx-oss/input": "workspace:*",
+    "@vx-oss/test-utils": "workspace:*",
+    "@vx-oss/button": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

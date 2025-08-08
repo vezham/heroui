@@ -1,10 +1,10 @@
-import type {MenuProps} from "@v0xoss/menu";
+import type {MenuProps} from "@vx-oss/menu";
 import type {ForwardedRef, ReactElement} from "react";
 
-import {PopoverContent} from "@v0xoss/popover";
+import {PopoverContent} from "@vx-oss/popover";
 import {FocusScope} from "@react-aria/focus";
-import {forwardRef} from "@v0xoss/system";
-import {Menu} from "@v0xoss/menu";
+import {forwardRef} from "@vx-oss/system";
+import {Menu} from "@vx-oss/menu";
 
 import {useDropdownContext} from "./dropdown-context";
 

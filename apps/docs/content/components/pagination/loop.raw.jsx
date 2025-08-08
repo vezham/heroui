@@ -1,4 +1,4 @@
-import {Pagination} from "@v0xoss/react";
+import {Pagination} from "@vx-oss/react";
 
 export default function App() {
   return <Pagination loop showControls color="success" initialPage={1} total={5} />;

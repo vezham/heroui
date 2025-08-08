@@ -2,7 +2,7 @@ import type {DateValue} from "@react-types/calendar";
 import type {RangeValue} from "@react-types/shared";
 
 import React from "react";
-import {RangeCalendar, Radio, RadioGroup, Button, ButtonGroup, cn} from "@v0xoss/react";
+import {RangeCalendar, Radio, RadioGroup, Button, ButtonGroup, cn} from "@vx-oss/react";
 import {
   today,
   getLocalTimeZone,

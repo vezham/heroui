@@ -9,7 +9,7 @@ import {
   Input,
   Checkbox,
   Link,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export const MailIcon = (props) => {
   return (

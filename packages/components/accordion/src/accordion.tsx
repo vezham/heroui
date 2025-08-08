@@ -1,9 +1,9 @@
 import type {Key} from "react";
 import type {UseAccordionProps} from "./use-accordion";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 import {LayoutGroup} from "framer-motion";
-import {Divider} from "@v0xoss/divider";
+import {Divider} from "@vx-oss/divider";
 import {Fragment, useCallback, useMemo} from "react";
 
 import {useAccordion} from "./use-accordion";

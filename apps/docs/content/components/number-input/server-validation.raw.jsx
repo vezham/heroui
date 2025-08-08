@@ -1,4 +1,4 @@
-import {Button, Form, NumberInput} from "@v0xoss/react";
+import {Button, Form, NumberInput} from "@vx-oss/react";
 
 export default function App() {
   const [isLoading, setIsLoading] = React.useState(false);

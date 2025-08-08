@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-pagination",
+  "name": "@vx-oss/use-pagination",
   "version": "0.0.9",
   "description": "State management hook for Pagination component, it lets you manage pagination with controlled and uncontrolled state",
   "keywords": [
     "use-pagination"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,7 +34,7 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
     "@react-aria/i18n": "3.12.11"
   },
   "peerDependencies": {

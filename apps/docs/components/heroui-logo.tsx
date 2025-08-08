@@ -1,7 +1,7 @@
 import type {IconSvgProps} from "@/types";
 
 import React from "react";
-import {cn} from "@v0xoss/theme";
+import {cn} from "@vx-oss/theme";
 
 import {dataAttr} from "@/utils";
 export interface LogoProps extends IconSvgProps {

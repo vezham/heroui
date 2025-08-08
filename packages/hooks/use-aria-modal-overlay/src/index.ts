@@ -5,7 +5,7 @@ import type {RefObject} from "react";
 import {ariaHideOutside, usePreventScroll, useOverlayFocusContain} from "@react-aria/overlays";
 import {mergeProps} from "@react-aria/utils";
 import {useEffect} from "react";
-import {useAriaOverlay} from "@v0xoss/use-aria-overlay";
+import {useAriaOverlay} from "@vx-oss/use-aria-overlay";
 
 export interface UseAriaModalOverlayProps extends AriaModalOverlayProps {}
 

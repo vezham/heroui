@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/no-autofocus */
 import type {Meta} from "@storybook/react";
-import type {ButtonVariantProps} from "@v0xoss/theme";
+import type {ButtonVariantProps} from "@vx-oss/theme";
 import type {PopoverProps} from "../src";
 
 import React from "react";
-import {popover} from "@v0xoss/theme";
-import {Button} from "@v0xoss/button";
-import {Input} from "@v0xoss/input";
-import {Card, CardHeader, CardFooter} from "@v0xoss/card";
+import {popover} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
+import {Input} from "@vx-oss/input";
+import {Card, CardHeader, CardFooter} from "@vx-oss/card";
 
 import {Popover, PopoverTrigger, PopoverContent} from "../src";
 

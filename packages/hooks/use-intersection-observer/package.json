@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-intersection-observer",
+  "name": "@vx-oss/use-intersection-observer",
   "version": "0.0.9",
   "description": "Tracks the intersection of a DOM element and its containing element or the viewport.",
   "keywords": [
     "use-intersection-observer"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

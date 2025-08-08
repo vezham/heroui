@@ -1,4 +1,4 @@
-# @v0xoss/navbar
+# @vx-oss/navbar
 
 A responsive navigation header positioned on top side of your page that includes support for branding, links, navigation, collapse menu and more.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/navbar) f
 ## Installation
 
 ```sh
-yarn add @v0xoss/navbar
+yarn add @vx-oss/navbar
 # or
-npm i @v0xoss/navbar
+npm i @vx-oss/navbar
 ```
 
 ## Contribution

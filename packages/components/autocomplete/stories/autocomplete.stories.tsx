@@ -1,20 +1,20 @@
 import type {ValidationResult} from "@react-types/shared";
 import type {Key} from "react";
 import type {Meta} from "@storybook/react";
-import type {Pokemon, Animal, User} from "@v0xoss/stories-utils";
+import type {Pokemon, Animal, User} from "@vx-oss/stories-utils";
 import type {AutocompleteProps} from "../src";
 
 import React from "react";
 import {useForm} from "react-hook-form";
 import {useFilter} from "@react-aria/i18n";
-import {autocomplete, input, button} from "@v0xoss/theme";
-import {usePokemonList, animalsData, usersData} from "@v0xoss/stories-utils";
+import {autocomplete, input, button} from "@vx-oss/theme";
+import {usePokemonList, animalsData, usersData} from "@vx-oss/stories-utils";
 import {useAsyncList} from "@react-stately/data";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
-import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@v0xoss/shared-icons";
-import {Avatar} from "@v0xoss/avatar";
-import {Button} from "@v0xoss/button";
-import {Form} from "@v0xoss/form";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
+import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@vx-oss/shared-icons";
+import {Avatar} from "@vx-oss/avatar";
+import {Button} from "@vx-oss/button";
+import {Form} from "@vx-oss/form";
 
 import {Autocomplete, AutocompleteItem, AutocompleteSection} from "../src";
 

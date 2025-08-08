@@ -1,4 +1,4 @@
-import {Select, SelectItem} from "@v0xoss/react";
+import {Select, SelectItem} from "@vx-oss/react";
 
 const generateItems = (n) => {
   const items = [

@@ -1,7 +1,7 @@
 import type {UseUserProps} from "./use-user";
 
-import {forwardRef} from "@v0xoss/system";
-import {Avatar} from "@v0xoss/avatar";
+import {forwardRef} from "@vx-oss/system";
+import {Avatar} from "@vx-oss/avatar";
 
 import {useUser} from "./use-user";
 

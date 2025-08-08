@@ -1,8 +1,8 @@
 import type {Meta} from "@storybook/react";
 
 import React from "react";
-import {Activity, Camera} from "@v0xoss/shared-icons";
-import {avatar} from "@v0xoss/theme";
+import {Activity, Camera} from "@vx-oss/shared-icons";
+import {avatar} from "@vx-oss/theme";
 
 import {Avatar} from "../src";
 

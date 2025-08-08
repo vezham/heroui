@@ -1,4 +1,4 @@
-# @v0xoss/use-aria-link
+# @vx-oss/use-aria-link
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-aria-link
+yarn add @vx-oss/use-aria-link
 # or
-npm i @v0xoss/use-aria-link
+npm i @vx-oss/use-aria-link
 ```
 
 ## Contribution

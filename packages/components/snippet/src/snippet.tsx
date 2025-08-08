@@ -2,11 +2,11 @@ import type {ReactNode} from "react";
 import type {UseSnippetProps} from "./use-snippet";
 
 import {useCallback, useMemo, cloneElement} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {Tooltip} from "@v0xoss/tooltip";
-import {CopyLinearIcon, CheckLinearIcon} from "@v0xoss/shared-icons";
-import {Button} from "@v0xoss/button";
-import {objectToDeps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {Tooltip} from "@vx-oss/tooltip";
+import {CopyLinearIcon, CheckLinearIcon} from "@vx-oss/shared-icons";
+import {Button} from "@vx-oss/button";
+import {objectToDeps} from "@vx-oss/shared-utils";
 
 import {useSnippet} from "./use-snippet";
 

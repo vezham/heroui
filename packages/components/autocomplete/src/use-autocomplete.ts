@@ -1,26 +1,26 @@
-import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@v0xoss/theme";
-import type {DOMAttributes, HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@vx-oss/theme";
+import type {DOMAttributes, HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 import type {FilterFn} from "@react-stately/combobox";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {ReactNode} from "react";
 import type {ComboBoxProps} from "@react-types/combobox";
-import type {PopoverProps} from "@v0xoss/popover";
-import type {ListboxProps} from "@v0xoss/listbox";
-import type {InputProps} from "@v0xoss/input";
-import type {ScrollShadowProps} from "@v0xoss/scroll-shadow";
-import type {ButtonProps} from "@v0xoss/button";
+import type {PopoverProps} from "@vx-oss/popover";
+import type {ListboxProps} from "@vx-oss/listbox";
+import type {InputProps} from "@vx-oss/input";
+import type {ScrollShadowProps} from "@vx-oss/scroll-shadow";
+import type {ButtonProps} from "@vx-oss/button";
 import type {AsyncLoadable, PressEvent} from "@react-types/shared";
 
-import {clsx, dataAttr, objectToDeps, chain, mergeProps} from "@v0xoss/shared-utils";
+import {clsx, dataAttr, objectToDeps, chain, mergeProps} from "@vx-oss/shared-utils";
 import {useEffect, useMemo, useRef} from "react";
-import {useDOMRef} from "@v0xoss/react-utils";
+import {useDOMRef} from "@vx-oss/react-utils";
 import {useComboBoxState} from "@react-stately/combobox";
 import {useFilter} from "@react-aria/i18n";
-import {autocomplete} from "@v0xoss/theme";
-import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
+import {autocomplete} from "@vx-oss/theme";
+import {useSafeLayoutEffect} from "@vx-oss/use-safe-layout-effect";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
 import {useComboBox} from "@react-aria/combobox";
-import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {FormContext, useSlottedContext} from "@vx-oss/form";
 
 interface Props<T> extends Omit<HTMLHeroUIProps<"input">, keyof ComboBoxProps<T>> {
   /**

@@ -6,7 +6,7 @@ import {
   DropdownItem,
   Button,
   User,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export const PlusIcon = (props) => {
   return (

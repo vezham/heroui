@@ -2,8 +2,8 @@ import type {HTMLAttributes, ReactElement, ReactNode} from "react";
 import type {GroupDOMAttributes, HelpTextProps, ValidationResult} from "@react-types/shared";
 
 import {useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {dataAttr} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {dataAttr} from "@vx-oss/shared-utils";
 
 export interface DateInputGroupProps extends ValidationResult, HelpTextProps {
   children?: ReactElement | ReactElement[];

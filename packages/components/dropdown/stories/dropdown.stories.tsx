@@ -2,17 +2,17 @@ import type {Meta} from "@storybook/react";
 import type {DropdownProps, DropdownMenuProps} from "../src";
 
 import React from "react";
-import {dropdown, popover} from "@v0xoss/theme";
-import {Button} from "@v0xoss/button";
-import {Avatar} from "@v0xoss/avatar";
-import {User} from "@v0xoss/user";
+import {dropdown, popover} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
+import {Avatar} from "@vx-oss/avatar";
+import {User} from "@vx-oss/user";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@v0xoss/shared-icons";
-import {clsx} from "@v0xoss/shared-utils";
+} from "@vx-oss/shared-icons";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {Dropdown, DropdownSection, DropdownTrigger, DropdownMenu, DropdownItem} from "../src";
 

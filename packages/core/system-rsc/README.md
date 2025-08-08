@@ -1,4 +1,4 @@
-# @v0xoss/system-rsc
+# @vx-oss/system-rsc
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/system-rsc
+yarn add @vx-oss/system-rsc
 # or
-npm i @v0xoss/system-rsc
+npm i @vx-oss/system-rsc
 ```
 
 ## Contribution

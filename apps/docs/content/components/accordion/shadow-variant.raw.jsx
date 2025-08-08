@@ -1,4 +1,4 @@
-import {Accordion, AccordionItem} from "@v0xoss/react";
+import {Accordion, AccordionItem} from "@vx-oss/react";
 
 export default function App() {
   const defaultContent =

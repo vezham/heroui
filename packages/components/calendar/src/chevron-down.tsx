@@ -1,4 +1,4 @@
-import type {IconSvgProps} from "@v0xoss/shared-icons";
+import type {IconSvgProps} from "@vx-oss/shared-icons";
 
 export const ChevronDownIcon = (props: IconSvgProps) => (
   <svg

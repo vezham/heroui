@@ -1,8 +1,8 @@
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseListboxProps, UseListboxReturn} from "./use-listbox";
 
-import {forwardRef} from "@v0xoss/system";
-import {mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {mergeProps} from "@vx-oss/shared-utils";
 
 import {useListbox} from "./use-listbox";
 import ListboxSection from "./listbox-section";

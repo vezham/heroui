@@ -13,13 +13,13 @@ import {
   Drawer,
   DrawerContent,
   cn,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 import {useTheme} from "next-themes";
 import {useLocalStorage} from "usehooks-ts";
 import {Icon} from "@iconify/react/dist/offline";
 import LinkSquareIcon from "@iconify/icons-solar/link-square-linear";
-import {ArrowLeftIcon, ChevronIcon, ChevronUpIcon, CloseIcon} from "@v0xoss/shared-icons";
-import {clsx} from "@v0xoss/shared-utils";
+import {ArrowLeftIcon, ChevronIcon, ChevronUpIcon, CloseIcon} from "@vx-oss/shared-icons";
+import {clsx} from "@vx-oss/shared-utils";
 
 import {useThemeBuilder} from "../../provider";
 import {configKey, syncThemesKey, initialConfig} from "../../constants";

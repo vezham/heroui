@@ -1,4 +1,4 @@
-import {Alert, Button} from "@v0xoss/react";
+import {Alert, Button} from "@vx-oss/react";
 
 export default function App() {
   const [isVisible, setIsVisible] = React.useState(true);

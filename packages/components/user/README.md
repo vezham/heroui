@@ -1,4 +1,4 @@
-# @v0xoss/user
+# @vx-oss/user
 
 Display user information with avatar and name.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/user) for
 ## Installation
 
 ```sh
-yarn add @v0xoss/user
+yarn add @vx-oss/user
 # or
-npm i @v0xoss/user
+npm i @vx-oss/user
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import {DateInput} from "@v0xoss/react";
+import {DateInput} from "@vx-oss/react";
 import {CalendarDate, parseDate} from "@internationalized/date";
 
 export const CalendarIcon = (props) => {

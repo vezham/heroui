@@ -1,4 +1,4 @@
-import {Tabs, Tab, Card, CardBody, RadioGroup, Radio} from "@v0xoss/react";
+import {Tabs, Tab, Card, CardBody, RadioGroup, Radio} from "@vx-oss/react";
 
 export default function App() {
   const [placement, setPlacement] = React.useState("top");

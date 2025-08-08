@@ -16,7 +16,7 @@ export type {
   ExtendVariantWithSlotsProps,
   ExtendVariants,
   SharedSelection,
-} from "@v0xoss/system-rsc";
+} from "@vx-oss/system-rsc";
 
 export {
   forwardRef,
@@ -25,7 +25,7 @@ export {
   mapPropsVariantsWithCommon,
   isHeroUIEl,
   extendVariants,
-} from "@v0xoss/system-rsc";
+} from "@vx-oss/system-rsc";
 
 export type {HeroUIProviderProps} from "./provider";
 export type {ProviderContextProps} from "./provider-context";

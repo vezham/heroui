@@ -1,7 +1,7 @@
 import type {DateValue} from "@react-types/calendar";
 
 import React from "react";
-import {Calendar} from "@v0xoss/react";
+import {Calendar} from "@vx-oss/react";
 import {today, getLocalTimeZone, isWeekend} from "@internationalized/date";
 import {useLocale} from "@react-aria/i18n";
 

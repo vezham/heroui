@@ -5,7 +5,7 @@ import {
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export const ChevronDownIcon = () => {
   return (

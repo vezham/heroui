@@ -1,4 +1,4 @@
-# @v0xoss/input
+# @vx-oss/input
 
 Input is a component that allows users to enter text. It can be used to get user inputs in forms, search fields, and more.
 
@@ -9,9 +9,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/input) fo
 ## Installation
 
 ```sh
-yarn add @v0xoss/input
+yarn add @vx-oss/input
 # or
-npm i @v0xoss/input
+npm i @vx-oss/input
 ```
 
 ## Contribution

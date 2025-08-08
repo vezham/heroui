@@ -1,11 +1,11 @@
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {ReactNode} from "react";
 import type {AriaToggleButtonProps} from "@react-aria/button";
 
 import {useToggleButton as useAriaToggleButton} from "@react-aria/button";
-import {forwardRef} from "@v0xoss/system";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, dataAttr, mergeProps} from "@v0xoss/shared-utils";
+import {forwardRef} from "@vx-oss/system";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, dataAttr, mergeProps} from "@vx-oss/shared-utils";
 import {useToggleState} from "@react-stately/toggle";
 import {useFocusRing} from "@react-aria/focus";
 import {useHover} from "@react-aria/interactions";

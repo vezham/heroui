@@ -1,8 +1,8 @@
 import type {InputHTMLAttributes} from "react";
 import type {GroupDOMAttributes} from "@react-types/shared";
-import type {DateInputReturnType, DateInputSlots, SlotsToClasses} from "@v0xoss/theme";
+import type {DateInputReturnType, DateInputSlots, SlotsToClasses} from "@vx-oss/theme";
 import type {DateFieldState} from "@react-stately/datepicker";
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 
 import {forwardRef} from "react";
 

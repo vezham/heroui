@@ -12,7 +12,7 @@ export type {
 export {useTable} from "./use-table";
 
 // export utils
-export {getKeyValue} from "@v0xoss/shared-utils";
+export {getKeyValue} from "@vx-oss/shared-utils";
 
 // export component
 export {default as Table} from "./table";

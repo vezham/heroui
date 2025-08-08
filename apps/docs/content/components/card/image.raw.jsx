@@ -1,4 +1,4 @@
-import {Card, CardHeader, CardBody, Image} from "@v0xoss/react";
+import {Card, CardHeader, CardBody, Image} from "@vx-oss/react";
 
 export default function App() {
   return (

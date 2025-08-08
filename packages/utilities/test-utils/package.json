@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/test-utils",
+  "name": "@vx-oss/test-utils",
   "version": "0.0.7",
   "description": "A set of utilities for react testing",
   "keywords": [
     "test-utils"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

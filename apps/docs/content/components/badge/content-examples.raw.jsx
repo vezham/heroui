@@ -1,4 +1,4 @@
-import {Badge, Avatar} from "@v0xoss/react";
+import {Badge, Avatar} from "@vx-oss/react";
 
 export const NotificationIcon = ({size, height, width, ...props}) => {
   return (

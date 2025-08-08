@@ -1,8 +1,8 @@
 import type {SubmitHandler} from "react-hook-form";
 
-import {InputOtp} from "@v0xoss/react";
+import {InputOtp} from "@vx-oss/react";
 import {useForm, Controller} from "react-hook-form";
-import {Button} from "@v0xoss/react";
+import {Button} from "@vx-oss/react";
 
 interface FormValues {
   otp: string;

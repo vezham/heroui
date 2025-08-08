@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@v0xoss/react";
+import {DateRangePicker} from "@vx-oss/react";
 import {today, getLocalTimeZone} from "@internationalized/date";
 
 export default function App() {

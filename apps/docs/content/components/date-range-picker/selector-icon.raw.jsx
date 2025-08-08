@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@v0xoss/react";
+import {DateRangePicker} from "@vx-oss/react";
 
 export const SelectorIcon = (props) => {
   return (

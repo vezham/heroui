@@ -1,4 +1,4 @@
-import {Form, Input, Button} from "@v0xoss/react";
+import {Form, Input, Button} from "@vx-oss/react";
 
 export default function App() {
   const [action, setAction] = React.useState(null);

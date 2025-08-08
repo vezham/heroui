@@ -1,6 +1,6 @@
 import type {UseButtonGroupProps} from "./use-button-group";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {ButtonGroupProvider} from "./button-group-context";
 import {useButtonGroup} from "./use-button-group";

@@ -1,4 +1,4 @@
-import {Alert} from "@v0xoss/react";
+import {Alert} from "@vx-oss/react";
 
 export default function App() {
   return (

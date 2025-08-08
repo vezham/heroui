@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-disclosure",
+  "name": "@vx-oss/use-disclosure",
   "version": "0.0.9",
   "description": "The hook in charge of managing modals",
   "keywords": [
     "use-disclosure"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -37,7 +37,7 @@
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@heroui/use-callback-ref": "workspace:*",
+    "@vx-oss/use-callback-ref": "workspace:*",
     "@react-aria/utils": "3.30.0",
     "@react-stately/utils": "3.10.8"
   },

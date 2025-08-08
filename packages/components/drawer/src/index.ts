@@ -3,9 +3,9 @@ import type {
   ModalHeaderProps,
   ModalBodyProps,
   ModalFooterProps,
-} from "@v0xoss/modal";
+} from "@vx-oss/modal";
 
-import {ModalHeader, ModalBody, ModalFooter, ModalContent} from "@v0xoss/modal";
+import {ModalHeader, ModalBody, ModalFooter, ModalContent} from "@vx-oss/modal";
 
 import Drawer from "./drawer";
 

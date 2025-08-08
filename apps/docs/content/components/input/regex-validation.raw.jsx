@@ -1,4 +1,4 @@
-import {Input} from "@v0xoss/react";
+import {Input} from "@vx-oss/react";
 
 export default function App() {
   const [value, setValue] = React.useState("junior2heroui.com");

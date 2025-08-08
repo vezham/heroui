@@ -1,4 +1,4 @@
-import {Slider, Tooltip} from "@v0xoss/react";
+import {Slider, Tooltip} from "@vx-oss/react";
 
 export default function App() {
   const [value, setValue] = React.useState(0.2);

@@ -1,14 +1,14 @@
-import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@v0xoss/theme";
+import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@vx-oss/theme";
 import type {ImgHTMLAttributes} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 
 import {useCallback} from "react";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {image} from "@v0xoss/theme";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@v0xoss/shared-utils";
-import {useImage as useImageBase} from "@v0xoss/use-image";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {image} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@vx-oss/shared-utils";
+import {useImage as useImageBase} from "@vx-oss/use-image";
 import {useMemo} from "react";
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 

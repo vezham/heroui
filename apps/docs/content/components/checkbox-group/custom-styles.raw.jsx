@@ -1,4 +1,4 @@
-import {Checkbox, CheckboxGroup, Link, User, Chip, cn} from "@v0xoss/react";
+import {Checkbox, CheckboxGroup, Link, User, Chip, cn} from "@vx-oss/react";
 
 export const CustomCheckbox = ({user, statusColor, value}) => {
   return (

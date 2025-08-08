@@ -1,6 +1,6 @@
 import type {SlotsToClasses} from "./types";
 
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 
 /**
  * Merges two sets of class names for each slot in a component.

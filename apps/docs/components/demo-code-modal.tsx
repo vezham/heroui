@@ -12,7 +12,7 @@ import {
   ModalBody,
   ModalFooter,
   Skeleton,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 import Link from "next/link";
 
 import {CodeWindow} from "@/components/code-window";

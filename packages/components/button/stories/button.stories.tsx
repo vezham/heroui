@@ -2,8 +2,8 @@ import type {Meta} from "@storybook/react";
 import type {ButtonProps} from "../src";
 
 import React from "react";
-import {button} from "@v0xoss/theme";
-import {Camera, HeadphonesIcon, Notification} from "@v0xoss/shared-icons";
+import {button} from "@vx-oss/theme";
+import {Camera, HeadphonesIcon, Notification} from "@vx-oss/shared-icons";
 
 import {Button} from "../src";
 

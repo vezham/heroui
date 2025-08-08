@@ -1,7 +1,7 @@
-import type {AvatarGroupProps as BaseAvatarGroupProps} from "@v0xoss/react";
+import type {AvatarGroupProps as BaseAvatarGroupProps} from "@vx-oss/react";
 
 import {forwardRef} from "react";
-import {Avatar, useAvatarGroup, AvatarGroupProvider} from "@v0xoss/react";
+import {Avatar, useAvatarGroup, AvatarGroupProvider} from "@vx-oss/react";
 
 export interface AvatarGroupProps extends BaseAvatarGroupProps {}
 

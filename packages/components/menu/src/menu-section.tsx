@@ -4,12 +4,12 @@ import type {Key} from "react";
 import type {MenuItemProps} from "./menu-item";
 import type {MenuSectionBaseProps} from "./base/menu-section-base";
 
-import {menuSection} from "@v0xoss/theme";
+import {menuSection} from "@vx-oss/theme";
 import {useMenuSection} from "@react-aria/menu";
 import {useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
-import {clsx, mergeProps} from "@v0xoss/shared-utils";
-import {Divider} from "@v0xoss/divider";
+import {forwardRef} from "@vx-oss/system";
+import {clsx, mergeProps} from "@vx-oss/shared-utils";
+import {Divider} from "@vx-oss/divider";
 
 import MenuItem from "./menu-item";
 

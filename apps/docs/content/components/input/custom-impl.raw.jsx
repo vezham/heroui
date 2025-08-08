@@ -1,5 +1,5 @@
 import React, {forwardRef} from "react";
-import {useInput} from "@v0xoss/react";
+import {useInput} from "@vx-oss/react";
 
 export const SearchIcon = (props) => {
   return (

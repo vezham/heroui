@@ -19,7 +19,7 @@ export interface AccordionItemAria {
 }
 
 /**
- * @deprecated use useReactAriaAccordionItem instead from @v0xoss/use-aria-accordion
+ * @deprecated use useReactAriaAccordionItem instead from @vx-oss/use-aria-accordion
  */
 export function useAriaAccordionItem<T>(
   props: AccordionItemAriaProps<T>,

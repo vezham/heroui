@@ -1,13 +1,13 @@
-# @v0xoss/use-theme
+# @vx-oss/use-theme
 
 React hook to switch between light and dark themes
 
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-theme
+yarn add @vx-oss/use-theme
 # or
-npm i @v0xoss/use-theme
+npm i @vx-oss/use-theme
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i @v0xoss/use-theme
 Import `useTheme`
 
 ```tsx
-import {useTheme} from "@v0xoss/use-theme";
+import {useTheme} from "@vx-oss/use-theme";
 ```
 
 ### theme

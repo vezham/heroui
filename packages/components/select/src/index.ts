@@ -1,6 +1,6 @@
-import type {ListboxItemProps, ListboxSectionProps} from "@v0xoss/listbox";
+import type {ListboxItemProps, ListboxSectionProps} from "@vx-oss/listbox";
 
-import {ListboxItem, ListboxSection} from "@v0xoss/listbox";
+import {ListboxItem, ListboxSection} from "@vx-oss/listbox";
 
 import Select from "./select";
 import {HiddenSelect} from "./hidden-select";

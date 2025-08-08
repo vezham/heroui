@@ -1,5 +1,5 @@
 import {useLayoutEffect, useRef, useCallback} from "react";
-import {debounce} from "@v0xoss/shared-utils";
+import {debounce} from "@vx-oss/shared-utils";
 
 export interface UseInfiniteScrollProps {
   /**

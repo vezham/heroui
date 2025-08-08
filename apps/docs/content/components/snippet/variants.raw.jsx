@@ -1,17 +1,17 @@
-import {Snippet} from "@v0xoss/react";
+import {Snippet} from "@vx-oss/react";
 
 export default function App() {
   return (
     <div className="flex flex-wrap gap-4">
-      <Snippet variant="bordered">npm install @v0xoss/react</Snippet>
+      <Snippet variant="bordered">npm install @vx-oss/react</Snippet>
       <Snippet color="warning" variant="flat">
-        npm install @v0xoss/react
+        npm install @vx-oss/react
       </Snippet>
       <Snippet color="primary" variant="solid">
-        npm install @v0xoss/react
+        npm install @vx-oss/react
       </Snippet>
       <Snippet color="secondary" variant="shadow">
-        npm install @v0xoss/react
+        npm install @vx-oss/react
       </Snippet>
     </div>
   );

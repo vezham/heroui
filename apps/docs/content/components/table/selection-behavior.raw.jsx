@@ -8,7 +8,7 @@ import {
   getKeyValue,
   Radio,
   RadioGroup,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 const rows = [
   {

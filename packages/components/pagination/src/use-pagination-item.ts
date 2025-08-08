@@ -1,12 +1,12 @@
 import type {Ref} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 import type {LinkDOMProps, PressEvent} from "@react-types/shared";
-import type {PaginationItemValue} from "@v0xoss/use-pagination";
+import type {PaginationItemValue} from "@vx-oss/use-pagination";
 
 import {useMemo} from "react";
 import {shouldClientNavigate, useRouter} from "@react-aria/utils";
-import {clsx, dataAttr, chain, mergeProps} from "@v0xoss/shared-utils";
-import {filterDOMProps, useDOMRef} from "@v0xoss/react-utils";
+import {clsx, dataAttr, chain, mergeProps} from "@vx-oss/shared-utils";
+import {filterDOMProps, useDOMRef} from "@vx-oss/react-utils";
 import {useHover, usePress} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 

@@ -1,8 +1,8 @@
 "use client";
 
 import {useState} from "react";
-import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@v0xoss/react";
-import {clsx} from "@v0xoss/shared-utils";
+import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@vx-oss/react";
+import {clsx} from "@vx-oss/shared-utils";
 
 interface UserTwitterCardProps {
   className?: string;

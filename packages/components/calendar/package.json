@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/calendar",
+  "name": "@vx-oss/calendar",
   "version": "0.0.9",
   "description": "A calendar displays one or more date grids and allows users to select a single date.",
   "keywords": [
     "calendar"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,20 +34,20 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@v0xoss/system": ">=0.0.0",
-    "@v0xoss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0",
+    "@vx-oss/theme": ">=0.0.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@v0xoss/react-utils": "workspace:*",
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/shared-icons": "workspace:*",
-    "@v0xoss/framer-utils": "workspace:*",
-    "@v0xoss/use-aria-button": "workspace:*",
-    "@v0xoss/button": "workspace:*",
-    "@v0xoss/dom-animation": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
+    "@vx-oss/framer-utils": "workspace:*",
+    "@vx-oss/use-aria-button": "workspace:*",
+    "@vx-oss/button": "workspace:*",
+    "@vx-oss/dom-animation": "workspace:*",
     "@internationalized/date": "3.8.2",
     "@react-aria/calendar": "3.9.0",
     "@react-aria/focus": "3.21.0",
@@ -62,10 +62,10 @@
     "scroll-into-view-if-needed": "3.0.10"
   },
   "devDependencies": {
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/theme": "workspace:*",
-    "@v0xoss/radio": "workspace:*",
-    "@v0xoss/test-utils": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/radio": "workspace:*",
+    "@vx-oss/test-utils": "workspace:*",
     "framer-motion": "11.18.2",
     "clean-package": "2.2.0",
     "react": "18.3.0",

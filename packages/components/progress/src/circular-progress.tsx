@@ -1,6 +1,6 @@
 import type {UseCircularProgressProps} from "./use-circular-progress";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useCircularProgress} from "./use-circular-progress";
 

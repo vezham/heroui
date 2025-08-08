@@ -1,14 +1,14 @@
-import type {ScrollShadowVariantProps} from "@v0xoss/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
-import type {UseDataScrollOverflowProps} from "@v0xoss/use-data-scroll-overflow";
+import type {ScrollShadowVariantProps} from "@vx-oss/theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
+import type {UseDataScrollOverflowProps} from "@vx-oss/use-data-scroll-overflow";
 
-import {mapPropsVariants} from "@v0xoss/system";
-import {scrollShadow} from "@v0xoss/theme";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {useDataScrollOverflow} from "@v0xoss/use-data-scroll-overflow";
+import {mapPropsVariants} from "@vx-oss/system";
+import {scrollShadow} from "@vx-oss/theme";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {useDataScrollOverflow} from "@vx-oss/use-data-scroll-overflow";
 import {useMemo} from "react";
-import {objectToDeps} from "@v0xoss/shared-utils";
+import {objectToDeps} from "@vx-oss/shared-utils";
 
 interface Props extends HTMLHeroUIProps<"div">, Omit<UseDataScrollOverflowProps, "domRef"> {
   /**

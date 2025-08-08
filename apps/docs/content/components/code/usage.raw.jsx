@@ -1,5 +1,5 @@
-import {Code} from "@v0xoss/react";
+import {Code} from "@vx-oss/react";
 
 export default function App() {
-  return <Code>npm install @v0xoss/react</Code>;
+  return <Code>npm install @vx-oss/react</Code>;
 }

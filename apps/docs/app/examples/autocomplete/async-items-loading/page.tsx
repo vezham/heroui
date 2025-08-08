@@ -2,8 +2,8 @@
 "use client";
 
 import * as React from "react";
-import {Autocomplete, AutocompleteItem} from "@v0xoss/react";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/react";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
 
 type Pokemon = {
   name: string;

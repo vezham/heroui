@@ -1,4 +1,4 @@
-# @v0xoss/alert
+# @vx-oss/alert
 
 Alerts are temporary notifications that provide concise feedback about an action or event.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/alert) fo
 ## Installation
 
 ```sh
-yarn add @v0xoss/alert
+yarn add @vx-oss/alert
 # or
-npm i @v0xoss/alert
+npm i @vx-oss/alert
 ```
 
 ## Contribution

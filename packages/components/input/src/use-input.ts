@@ -1,14 +1,14 @@
-import type {InputVariantProps, SlotsToClasses, InputSlots} from "@v0xoss/theme";
+import type {InputVariantProps, SlotsToClasses, InputSlots} from "@vx-oss/theme";
 import type {AriaTextFieldOptions} from "@react-aria/textfield";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 import type {AriaTextFieldProps} from "@react-types/textfield";
 import type {Ref} from "react";
 
-import {mapPropsVariants, useProviderContext, useInputLabelPlacement} from "@v0xoss/system";
-import {useSafeLayoutEffect} from "@v0xoss/use-safe-layout-effect";
+import {mapPropsVariants, useProviderContext, useInputLabelPlacement} from "@vx-oss/system";
+import {useSafeLayoutEffect} from "@vx-oss/use-safe-layout-effect";
 import {useFocusRing} from "@react-aria/focus";
-import {input} from "@v0xoss/theme";
-import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
+import {input} from "@vx-oss/theme";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
 import {useFocusWithin, useHover, usePress} from "@react-aria/interactions";
 import {
   clsx,
@@ -18,11 +18,11 @@ import {
   safeAriaLabel,
   chain,
   mergeProps,
-} from "@v0xoss/shared-utils";
+} from "@vx-oss/shared-utils";
 import {useControlledState} from "@react-stately/utils";
 import {useMemo, useCallback, useState} from "react";
 import {useTextField} from "@react-aria/textfield";
-import {FormContext, useSlottedContext} from "@v0xoss/form";
+import {FormContext, useSlottedContext} from "@vx-oss/form";
 
 export interface Props<T extends HTMLInputElement | HTMLTextAreaElement = HTMLInputElement>
   extends Omit<HTMLHeroUIProps<"input">, keyof InputVariantProps> {

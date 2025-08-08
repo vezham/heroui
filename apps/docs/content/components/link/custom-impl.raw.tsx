@@ -1,9 +1,9 @@
-import type {LinkProps} from "@v0xoss/react";
+import type {LinkProps} from "@vx-oss/react";
 
 import React, {forwardRef} from "react";
-import {LinkIcon} from "@v0xoss/shared-icons";
-import {linkAnchorClasses} from "@v0xoss/theme";
-import {useLink} from "@v0xoss/react";
+import {LinkIcon} from "@vx-oss/shared-icons";
+import {linkAnchorClasses} from "@vx-oss/theme";
+import {useLink} from "@vx-oss/react";
 
 export interface MyLinkProps extends LinkProps {}
 

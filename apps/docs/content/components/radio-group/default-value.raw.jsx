@@ -1,4 +1,4 @@
-import {RadioGroup, Radio} from "@v0xoss/react";
+import {RadioGroup, Radio} from "@vx-oss/react";
 
 export default function App() {
   return (

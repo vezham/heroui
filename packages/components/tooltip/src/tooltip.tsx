@@ -1,18 +1,18 @@
 import type {UseTooltipProps} from "./use-tooltip";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 import {OverlayContainer} from "@react-aria/overlays";
 import {AnimatePresence, m, LazyMotion} from "framer-motion";
-import {TRANSITION_VARIANTS} from "@v0xoss/framer-utils";
-import {warn, mergeProps} from "@v0xoss/shared-utils";
+import {TRANSITION_VARIANTS} from "@vx-oss/framer-utils";
+import {warn, mergeProps} from "@vx-oss/shared-utils";
 import {Children, cloneElement, isValidElement} from "react";
-import {getTransformOrigins} from "@v0xoss/aria-utils";
+import {getTransformOrigins} from "@vx-oss/aria-utils";
 
 import {useTooltip} from "./use-tooltip";
 
 export interface TooltipProps extends Omit<UseTooltipProps, "disableTriggerFocus" | "backdrop"> {}
 
-const domAnimation = () => import("@v0xoss/dom-animation").then((res) => res.default);
+const domAnimation = () => import("@vx-oss/dom-animation").then((res) => res.default);
 
 const Tooltip = forwardRef<"div", TooltipProps>((props, ref) => {
   const {

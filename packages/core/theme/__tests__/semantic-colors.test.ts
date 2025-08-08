@@ -1,5 +1,5 @@
 import {getContrast} from "color2k";
-import {get} from "@v0xoss/shared-utils";
+import {get} from "@vx-oss/shared-utils";
 
 import {semanticColors} from "../src/colors/semantic";
 

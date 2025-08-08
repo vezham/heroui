@@ -1,10 +1,10 @@
-import type {ListboxItemVariantProps, ListboxItemSlots, SlotsToClasses} from "@v0xoss/theme";
+import type {ListboxItemVariantProps, ListboxItemSlots, SlotsToClasses} from "@vx-oss/theme";
 import type {AriaOptionProps} from "@react-aria/listbox";
 import type {FocusableProps, PressEvents} from "@react-types/shared";
-import type {ItemProps} from "@v0xoss/aria-utils";
+import type {ItemProps} from "@vx-oss/aria-utils";
 import type {ReactNode} from "react";
 
-import {BaseItem} from "@v0xoss/aria-utils";
+import {BaseItem} from "@vx-oss/aria-utils";
 
 export type ListboxItemSelectedIconProps = {
   /**

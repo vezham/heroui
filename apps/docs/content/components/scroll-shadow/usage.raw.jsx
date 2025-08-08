@@ -1,4 +1,4 @@
-import {ScrollShadow} from "@v0xoss/react";
+import {ScrollShadow} from "@vx-oss/react";
 
 export const Content = () => (
   <div>

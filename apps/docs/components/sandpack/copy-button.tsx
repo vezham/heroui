@@ -1,7 +1,7 @@
 import React from "react";
 import {useSandpack} from "@codesandbox/sandpack-react";
-import {Tooltip, Button} from "@v0xoss/react";
-import {useClipboard} from "@v0xoss/use-clipboard";
+import {Tooltip, Button} from "@vx-oss/react";
+import {useClipboard} from "@vx-oss/use-clipboard";
 
 import {CopyLinearIcon} from "@/components/icons";
 

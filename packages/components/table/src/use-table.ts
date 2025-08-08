@@ -1,21 +1,21 @@
-import type {TableVariantProps, SlotsToClasses, TableReturnType, TableSlots} from "@v0xoss/theme";
+import type {TableVariantProps, SlotsToClasses, TableReturnType, TableSlots} from "@vx-oss/theme";
 import type {Layout} from "@react-stately/virtualizer";
 import type {SelectionBehavior, DisabledBehavior, Node} from "@react-types/shared";
 import type {TableState, TableStateProps} from "@react-stately/table";
 import type {TableCollection} from "@react-types/table";
 import type {ReactNode, Key} from "react";
 import type {AriaTableProps} from "@react-aria/table";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
-import type {CheckboxProps} from "@v0xoss/checkbox";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
+import type {CheckboxProps} from "@vx-oss/checkbox";
 
 import {useCallback} from "react";
 import {useTableState} from "@react-stately/table";
 import {useTable as useReactAriaTable} from "@react-aria/table";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {table} from "@v0xoss/theme";
-import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
-import {clsx, objectToDeps, mergeProps} from "@v0xoss/shared-utils";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {table} from "@vx-oss/theme";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, objectToDeps, mergeProps} from "@vx-oss/shared-utils";
 import {useMemo} from "react";
 
 type TableContentPlacement = "inside" | "outside";

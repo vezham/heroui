@@ -1,8 +1,8 @@
 "use client";
 
 import NextLink from "next/link";
-import {Button, Link, Chip, Snippet} from "@v0xoss/react";
-import {ArrowRightIcon} from "@v0xoss/shared-icons";
+import {Button, Link, Chip, Snippet} from "@vx-oss/react";
+import {ArrowRightIcon} from "@vx-oss/shared-icons";
 import dynamic from "next/dynamic";
 import {usePostHog} from "posthog-js/react";
 

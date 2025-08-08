@@ -1,15 +1,15 @@
-import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@v0xoss/theme";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@vx-oss/theme";
+import type {ReactRef} from "@vx-oss/react-utils";
 import type {ReactElement} from "react";
-import type {TooltipProps} from "@v0xoss/tooltip";
-import type {ButtonProps} from "@v0xoss/button";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
+import type {TooltipProps} from "@vx-oss/tooltip";
+import type {ButtonProps} from "@vx-oss/button";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
 
-import {snippet} from "@v0xoss/theme";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {useDOMRef, filterDOMProps} from "@v0xoss/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@v0xoss/shared-utils";
-import {useClipboard} from "@v0xoss/use-clipboard";
+import {snippet} from "@vx-oss/theme";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {useDOMRef, filterDOMProps} from "@vx-oss/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@vx-oss/shared-utils";
+import {useClipboard} from "@vx-oss/use-clipboard";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback, useRef} from "react";
 

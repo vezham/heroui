@@ -1,4 +1,4 @@
-import {Card, CardBody, Image, Button, Slider} from "@v0xoss/react";
+import {Card, CardBody, Image, Button, Slider} from "@vx-oss/react";
 
 export const HeartIcon = ({
   size = 24,

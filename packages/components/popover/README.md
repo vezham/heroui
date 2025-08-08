@@ -1,4 +1,4 @@
-# @v0xoss/popover
+# @vx-oss/popover
 
 Popover is a non-modal dialog that floats around its disclosure. It's commonly used for displaying additional rich content on top of something.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/popover) 
 ## Installation
 
 ```sh
-yarn add @v0xoss/popover
+yarn add @vx-oss/popover
 # or
-npm i @v0xoss/popover
+npm i @vx-oss/popover
 ```
 
 ## Contribution

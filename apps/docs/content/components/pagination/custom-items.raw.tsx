@@ -1,8 +1,8 @@
 import type {SVGProps} from "react";
-import type {PaginationItemRenderProps} from "@v0xoss/react";
+import type {PaginationItemRenderProps} from "@vx-oss/react";
 
 import React from "react";
-import {cn, Pagination, PaginationItemType} from "@v0xoss/react";
+import {cn, Pagination, PaginationItemType} from "@vx-oss/react";
 
 type IconSvgProps = SVGProps<SVGSVGElement>;
 

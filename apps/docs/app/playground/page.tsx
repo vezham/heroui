@@ -1,4 +1,4 @@
-import {Image} from "@v0xoss/react";
+import {Image} from "@vx-oss/react";
 
 import PlaygroundTabs from "./playground-tabs";
 

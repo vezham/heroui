@@ -1,7 +1,7 @@
 import {forwardRef} from "react";
-import {LinkIcon} from "@v0xoss/shared-icons";
-import {linkAnchorClasses} from "@v0xoss/theme";
-import {useLink} from "@v0xoss/react";
+import {LinkIcon} from "@vx-oss/shared-icons";
+import {linkAnchorClasses} from "@vx-oss/theme";
+import {useLink} from "@vx-oss/react";
 
 const MyLink = forwardRef((props, ref) => {
   const {

@@ -1,22 +1,22 @@
 import type {FocusableProps, PressEvents} from "@react-types/shared";
-import type {SlotsToClasses, CardSlots, CardReturnType, CardVariantProps} from "@v0xoss/theme";
-import type {AriaButtonProps} from "@v0xoss/use-aria-button";
-import type {RippleProps} from "@v0xoss/ripple";
+import type {SlotsToClasses, CardSlots, CardReturnType, CardVariantProps} from "@vx-oss/theme";
+import type {AriaButtonProps} from "@vx-oss/use-aria-button";
+import type {RippleProps} from "@vx-oss/ripple";
 import type {MouseEventHandler, ReactNode} from "react";
 import type {PressEvent} from "@react-aria/interactions";
-import type {HTMLHeroUIProps, PropGetter} from "@v0xoss/system";
-import type {ReactRef} from "@v0xoss/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/system";
+import type {ReactRef} from "@vx-oss/react-utils";
 
-import {card} from "@v0xoss/theme";
+import {card} from "@vx-oss/theme";
 import {useCallback, useMemo} from "react";
 import {useFocusRing} from "@react-aria/focus";
 import {useHover} from "@react-aria/interactions";
-import {useAriaButton} from "@v0xoss/use-aria-button";
-import {mapPropsVariants, useProviderContext} from "@v0xoss/system";
-import {clsx, dataAttr, objectToDeps, chain, mergeProps} from "@v0xoss/shared-utils";
-import {filterDOMProps} from "@v0xoss/react-utils";
-import {useDOMRef} from "@v0xoss/react-utils";
-import {useRipple} from "@v0xoss/ripple";
+import {useAriaButton} from "@vx-oss/use-aria-button";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
+import {clsx, dataAttr, objectToDeps, chain, mergeProps} from "@vx-oss/shared-utils";
+import {filterDOMProps} from "@vx-oss/react-utils";
+import {useDOMRef} from "@vx-oss/react-utils";
+import {useRipple} from "@vx-oss/ripple";
 
 export interface Props extends Omit<HTMLHeroUIProps<"div">, "onClick"> {
   /**

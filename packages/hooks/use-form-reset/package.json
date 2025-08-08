@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-form-reset",
+  "name": "@vx-oss/use-form-reset",
   "version": "0.0.9",
   "description": "use-form-reset hook from `@react-aria` utils",
   "keywords": [
     "use-form-reset"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

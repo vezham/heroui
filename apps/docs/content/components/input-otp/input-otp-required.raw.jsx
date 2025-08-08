@@ -1,4 +1,4 @@
-import {Button, InputOtp, Form} from "@v0xoss/react";
+import {Button, InputOtp, Form} from "@vx-oss/react";
 
 export default function App() {
   const [otp, setOtp] = React.useState("");

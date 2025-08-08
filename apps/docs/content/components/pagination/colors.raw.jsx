@@ -1,4 +1,4 @@
-import {Pagination} from "@v0xoss/react";
+import {Pagination} from "@vx-oss/react";
 
 export default function App() {
   const colors = ["primary", "secondary", "success", "warning", "danger"];

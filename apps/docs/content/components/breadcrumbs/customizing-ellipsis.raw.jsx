@@ -6,7 +6,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export default function App() {
   return (

@@ -1,4 +1,4 @@
-import {DatePicker} from "@v0xoss/react";
+import {DatePicker} from "@vx-oss/react";
 import {now, getLocalTimeZone} from "@internationalized/date";
 
 export default function App() {

@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {useButton, Ripple, Spinner} from "@v0xoss/react";
+import {useButton, Ripple, Spinner} from "@vx-oss/react";
 
 const MyButton = forwardRef((props, ref) => {
   const {

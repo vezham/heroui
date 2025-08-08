@@ -1,6 +1,6 @@
 import type {UseRadioProps} from "./use-radio";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useRadio} from "./use-radio";
 

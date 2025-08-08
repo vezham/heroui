@@ -17,10 +17,10 @@ import {
   Kbd,
   Chip,
   Divider,
-} from "@v0xoss/react";
-import {dataFocusVisibleClasses} from "@v0xoss/theme";
+} from "@vx-oss/react";
+import {dataFocusVisibleClasses} from "@vx-oss/theme";
 import {isAppleDevice} from "@react-aria/utils";
-import {clsx} from "@v0xoss/shared-utils";
+import {clsx} from "@vx-oss/shared-utils";
 import NextLink from "next/link";
 import {usePathname} from "next/navigation";
 import {motion, AnimatePresence} from "framer-motion";

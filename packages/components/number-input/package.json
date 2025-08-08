@@ -1,5 +1,5 @@
 {
-  "name": "@v0xoss/number-input",
+  "name": "@vx-oss/number-input",
   "version": "0.0.9",
   "description": "The numeric input component is designed for users to enter a number, and increase or decrease the value using stepper buttons",
   "keywords": [
@@ -7,7 +7,7 @@
     "number",
     "numeric input"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -38,16 +38,16 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/system": ">=2.4.18",
-    "@heroui/theme": ">=2.4.19"
+    "@vx-oss/system": ">=0.0.0",
+    "@vx-oss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@heroui/form": "workspace:*",
-    "@heroui/button": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/use-safe-layout-effect": "workspace:*",
+    "@vx-oss/form": "workspace:*",
+    "@vx-oss/button": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
+    "@vx-oss/use-safe-layout-effect": "workspace:*",
     "@react-aria/focus": "3.21.0",
     "@react-aria/i18n": "3.12.11",
     "@react-aria/interactions": "3.25.4",
@@ -58,8 +58,8 @@
     "@react-types/button": "3.13.0"
   },
   "devDependencies": {
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/theme": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

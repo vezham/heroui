@@ -1,4 +1,4 @@
-import {Tooltip, Button} from "@v0xoss/react";
+import {Tooltip, Button} from "@vx-oss/react";
 
 export default function App() {
   const colors = ["default", "primary", "secondary", "success", "warning", "danger", "foreground"];

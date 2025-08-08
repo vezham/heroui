@@ -1,4 +1,4 @@
-import {VisuallyHidden, useSwitch} from "@v0xoss/react";
+import {VisuallyHidden, useSwitch} from "@vx-oss/react";
 
 export const MoonIcon = (props) => {
   return (

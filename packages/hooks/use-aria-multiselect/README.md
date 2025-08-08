@@ -1,4 +1,4 @@
-# @v0xoss/use-aria-multiselect
+# @vx-oss/use-aria-multiselect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-aria-multiselect
+yarn add @vx-oss/use-aria-multiselect
 # or
-npm i @v0xoss/use-aria-multiselect
+npm i @vx-oss/use-aria-multiselect
 ```
 
 ## Contribution

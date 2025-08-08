@@ -1,6 +1,6 @@
 import type {Template, TemplateType} from "../types";
 
-import {cn, Select, SelectItem} from "@v0xoss/react";
+import {cn, Select, SelectItem} from "@vx-oss/react";
 
 import {templates} from "../templates";
 

@@ -1,4 +1,4 @@
-# @v0xoss/checkbox
+# @vx-oss/checkbox
 
 Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/checkbox)
 ## Installation
 
 ```sh
-yarn add @v0xoss/checkbox
+yarn add @vx-oss/checkbox
 # or
-npm i @v0xoss/checkbox
+npm i @vx-oss/checkbox
 ```
 
 ## Contribution

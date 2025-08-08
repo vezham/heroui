@@ -1,7 +1,7 @@
 import * as React from "react";
 import {render, fireEvent, act} from "@testing-library/react";
-import {Button} from "@v0xoss/button";
-import {spy, shouldIgnoreReactWarning} from "@v0xoss/test-utils";
+import {Button} from "@vx-oss/button";
+import {spy, shouldIgnoreReactWarning} from "@vx-oss/test-utils";
 
 import {Tooltip} from "../src";
 

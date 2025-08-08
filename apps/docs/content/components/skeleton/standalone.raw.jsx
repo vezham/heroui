@@ -1,4 +1,4 @@
-import {Skeleton} from "@v0xoss/react";
+import {Skeleton} from "@vx-oss/react";
 
 export default function App() {
   return (

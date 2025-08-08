@@ -1,4 +1,4 @@
-# @v0xoss/shared-utils
+# @vx-oss/shared-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/shared-utils
+yarn add @vx-oss/shared-utils
 # or
-npm i @v0xoss/shared-utils
+npm i @vx-oss/shared-utils
 ```
 
 ## Contribution

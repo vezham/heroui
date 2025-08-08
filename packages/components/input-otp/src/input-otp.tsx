@@ -1,6 +1,6 @@
 import type {UseInputOtpProps} from "./use-input-otp";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 import {useMemo} from "react";
 import {OTPInput} from "input-otp";
 

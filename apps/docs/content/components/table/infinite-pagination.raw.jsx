@@ -7,8 +7,8 @@ import {
   TableCell,
   Spinner,
   getKeyValue,
-} from "@v0xoss/react";
-import {useInfiniteScroll} from "@v0xoss/use-infinite-scroll";
+} from "@vx-oss/react";
+import {useInfiniteScroll} from "@vx-oss/use-infinite-scroll";
 import {useAsyncList} from "@react-stately/data";
 
 export default function App() {

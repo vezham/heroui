@@ -1,10 +1,10 @@
 "use client";
 
-import {Button, Link} from "@v0xoss/react";
-import {ArrowRightIcon} from "@v0xoss/shared-icons";
-import {clsx} from "@v0xoss/shared-utils";
+import {Button, Link} from "@vx-oss/react";
+import {ArrowRightIcon} from "@vx-oss/shared-icons";
+import {clsx} from "@vx-oss/shared-utils";
 import NextLink from "next/link";
-import {Code} from "@v0xoss/react";
+import {Code} from "@vx-oss/react";
 import {usePostHog} from "posthog-js/react";
 
 import {FeaturesGrid} from "./features-grid";

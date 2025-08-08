@@ -1,12 +1,12 @@
 "use client";
 
 import type {FC} from "react";
-import type {AvatarProps} from "@v0xoss/react";
+import type {AvatarProps} from "@vx-oss/react";
 import type {Sponsor} from "@/libs/docs/sponsors";
 
 import {useMemo, useRef} from "react";
-import {Avatar, Button, Spacer, Tooltip} from "@v0xoss/react";
-import {clamp} from "@v0xoss/shared-utils";
+import {Avatar, Button, Spacer, Tooltip} from "@vx-oss/react";
+import {clamp} from "@vx-oss/shared-utils";
 import {usePostHog} from "posthog-js/react";
 
 import {sectionWrapper, titleWrapper, title, subtitle} from "../primitives";

@@ -1,4 +1,4 @@
-import {Badge, Avatar} from "@v0xoss/react";
+import {Badge, Avatar} from "@vx-oss/react";
 
 export default function App() {
   return (

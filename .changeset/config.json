@@ -14,7 +14,7 @@
     "onlyUpdatePeerDependentsWhenOutOfRange": true
   },
   "ignore": [
-    "@v0xoss/docs",
-    "@v0xoss/storybook"
+    "@vx-oss/docs",
+    "@vx-oss/storybook"
   ]
 }

@@ -2,8 +2,8 @@ import type {Meta} from "@storybook/react";
 import type {FormProps} from "../src";
 
 import React, {useState} from "react";
-// import {Input} from "@v0xoss/input";
-import {Button} from "@v0xoss/button";
+// import {Input} from "@vx-oss/input";
+import {Button} from "@vx-oss/button";
 
 import {Form} from "../src";
 

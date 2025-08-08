@@ -1,7 +1,7 @@
-import type {PopoverProps} from "@v0xoss/react";
+import type {PopoverProps} from "@vx-oss/react";
 import type {HeroUIScaling} from "../../types";
 
-import {Popover, PopoverTrigger, PopoverContent, Button} from "@v0xoss/react";
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@vx-oss/react";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

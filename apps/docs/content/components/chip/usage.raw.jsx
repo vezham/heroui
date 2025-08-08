@@ -1,4 +1,4 @@
-import {Chip} from "@v0xoss/react";
+import {Chip} from "@vx-oss/react";
 
 export default function App() {
   return <Chip>Chip</Chip>;

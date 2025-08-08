@@ -1,8 +1,8 @@
 import type {UseTableProps} from "./use-table";
 
 import {useCallback, useLayoutEffect, useRef, useState} from "react";
-import {Spacer} from "@v0xoss/spacer";
-import {forwardRef} from "@v0xoss/system";
+import {Spacer} from "@vx-oss/spacer";
+import {forwardRef} from "@vx-oss/system";
 import {useVirtualizer} from "@tanstack/react-virtual";
 
 import {useTable} from "./use-table";

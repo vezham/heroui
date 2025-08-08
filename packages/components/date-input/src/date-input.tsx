@@ -2,7 +2,7 @@ import type {DateValue} from "@internationalized/date";
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseDateInputProps} from "./use-date-input";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useDateInput} from "./use-date-input";
 import {DateInputGroup} from "./date-input-group";

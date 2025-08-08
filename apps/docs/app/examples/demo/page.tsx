@@ -1,6 +1,6 @@
 "use client";
 
-import {Card, CardBody, CircularProgress} from "@v0xoss/react";
+import {Card, CardBody, CircularProgress} from "@vx-oss/react";
 
 export default function ButtonDemo() {
   return (

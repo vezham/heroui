@@ -1,4 +1,4 @@
-import {DateInput} from "@v0xoss/react";
+import {DateInput} from "@vx-oss/react";
 import {parseZonedDateTime} from "@internationalized/date";
 
 export default function App() {

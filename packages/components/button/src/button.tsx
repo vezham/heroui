@@ -1,8 +1,8 @@
 import type {UseButtonProps} from "./use-button";
 
-import {Spinner} from "@v0xoss/spinner";
-import {Ripple} from "@v0xoss/ripple";
-import {forwardRef} from "@v0xoss/system";
+import {Spinner} from "@vx-oss/spinner";
+import {Ripple} from "@vx-oss/ripple";
+import {forwardRef} from "@vx-oss/system";
 
 import {useButton} from "./use-button";
 

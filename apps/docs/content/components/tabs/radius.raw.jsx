@@ -1,4 +1,4 @@
-import {Tabs, Tab} from "@v0xoss/react";
+import {Tabs, Tab} from "@vx-oss/react";
 
 export default function App() {
   const radiusList = ["full", "lg", "md", "sm", "none"];

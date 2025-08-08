@@ -1,4 +1,4 @@
-# @v0xoss/select
+# @vx-oss/select
 
 A select displays a collapsible list of options and allows a user to select one of them.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/select) f
 ## Installation
 
 ```sh
-yarn add @v0xoss/select
+yarn add @vx-oss/select
 # or
-npm i @v0xoss/select
+npm i @vx-oss/select
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 import type {SpectrumColumnProps} from "@react-types/table";
 
 import {Column} from "@react-stately/table";

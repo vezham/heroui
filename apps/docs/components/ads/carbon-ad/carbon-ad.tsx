@@ -2,7 +2,7 @@
 
 import React, {useCallback, useEffect} from "react";
 import Script from "next/script";
-import {Image} from "@v0xoss/react";
+import {Image} from "@vx-oss/react";
 
 import carbonOptimize from "./carbon-optimize";
 

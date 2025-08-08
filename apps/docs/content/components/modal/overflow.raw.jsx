@@ -8,7 +8,7 @@ import {
   useDisclosure,
   RadioGroup,
   Radio,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();

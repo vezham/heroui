@@ -1,4 +1,4 @@
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button, cn} from "@v0xoss/react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button, cn} from "@vx-oss/react";
 
 export const AddNoteIcon = (props) => {
   return (

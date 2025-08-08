@@ -1,7 +1,7 @@
 import type {FontName, FontType} from "../../types";
 
-import {Button} from "@v0xoss/react";
-import {clsx} from "@v0xoss/shared-utils";
+import {Button} from "@vx-oss/react";
+import {clsx} from "@vx-oss/shared-utils";
 
 interface FontButtonProps {
   title: FontName;

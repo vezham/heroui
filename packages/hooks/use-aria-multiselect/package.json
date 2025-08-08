@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-aria-multiselect",
+  "name": "@vx-oss/use-aria-multiselect",
   "version": "0.0.9",
   "description": "Provides the behavior and accessibility implementation for a multi-select component.",
   "keywords": [
     "use-aria-multiselect"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

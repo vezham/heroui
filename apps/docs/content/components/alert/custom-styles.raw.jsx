@@ -1,4 +1,4 @@
-import {Alert, Button} from "@v0xoss/react";
+import {Alert, Button} from "@vx-oss/react";
 
 const CustomAlert = React.forwardRef(
   (

@@ -1,4 +1,4 @@
-import {Tabs, Tab, Chip} from "@v0xoss/react";
+import {Tabs, Tab, Chip} from "@vx-oss/react";
 
 export const GalleryIcon = (props) => {
   return (

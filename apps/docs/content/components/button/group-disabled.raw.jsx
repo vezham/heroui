@@ -1,4 +1,4 @@
-import {Button, ButtonGroup} from "@v0xoss/react";
+import {Button, ButtonGroup} from "@vx-oss/react";
 
 export default function App() {
   return (

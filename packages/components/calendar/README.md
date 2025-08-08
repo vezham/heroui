@@ -1,4 +1,4 @@
-# @v0xoss/calendar
+# @vx-oss/calendar
 
 A calendar displays one or more date grids and allows users to select a single date.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/calendar)
 ## Installation
 
 ```sh
-yarn add @v0xoss/calendar
+yarn add @vx-oss/calendar
 # or
-npm i @v0xoss/calendar
+npm i @vx-oss/calendar
 ```
 
 ## Contribution

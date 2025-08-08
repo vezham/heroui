@@ -1,9 +1,9 @@
 import type {Ref} from "react";
-import type {HTMLHeroUIProps} from "@v0xoss/system";
+import type {HTMLHeroUIProps} from "@vx-oss/system";
 
 import {forwardRef} from "react";
 import {domAnimation, LazyMotion, m} from "framer-motion";
-import {useMeasure} from "@v0xoss/use-measure";
+import {useMeasure} from "@vx-oss/use-measure";
 
 /**
  * Props for the ResizablePanel component.

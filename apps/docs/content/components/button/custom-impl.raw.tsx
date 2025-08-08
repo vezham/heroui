@@ -1,7 +1,7 @@
-import type {ButtonProps as BaseButtonProps} from "@v0xoss/react";
+import type {ButtonProps as BaseButtonProps} from "@vx-oss/react";
 
 import {forwardRef} from "react";
-import {useButton, Ripple, Spinner} from "@v0xoss/react";
+import {useButton, Ripple, Spinner} from "@vx-oss/react";
 
 export interface ButtonProps extends BaseButtonProps {}
 

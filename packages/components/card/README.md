@@ -1,4 +1,4 @@
-# @v0xoss/card
+# @vx-oss/card
 
 Card is a container for text, photos, and actions in the context of a single subject.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/card) for
 ## Installation
 
 ```sh
-yarn add @v0xoss/card
+yarn add @vx-oss/card
 # or
-npm i @v0xoss/card
+npm i @vx-oss/card
 ```
 
 ## Contribution

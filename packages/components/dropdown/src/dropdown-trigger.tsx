@@ -1,4 +1,4 @@
-import {PopoverTrigger} from "@v0xoss/popover";
+import {PopoverTrigger} from "@vx-oss/popover";
 
 import {useDropdownContext} from "./dropdown-context";
 

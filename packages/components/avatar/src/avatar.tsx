@@ -1,7 +1,7 @@
 import type {UseAvatarProps} from "./use-avatar";
 
 import {useMemo} from "react";
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {AvatarIcon} from "./avatar-icon";
 import {useAvatar} from "./use-avatar";

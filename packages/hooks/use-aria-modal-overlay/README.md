@@ -1,4 +1,4 @@
-# @v0xoss/use-aria-modal-overlay
+# @vx-oss/use-aria-modal-overlay
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-aria-modal-overlay
+yarn add @vx-oss/use-aria-modal-overlay
 # or
-npm i @v0xoss/use-aria-modal-overlay
+npm i @vx-oss/use-aria-modal-overlay
 ```
 
 ## Contribution

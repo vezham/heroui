@@ -3,16 +3,16 @@ import type {Meta} from "@storybook/react";
 import type {DrawerProps} from "../src";
 
 import React from "react";
-import {drawer} from "@v0xoss/theme";
-import {Button} from "@v0xoss/button";
-import {Input} from "@v0xoss/input";
-import {Checkbox} from "@v0xoss/checkbox";
-import {Link} from "@v0xoss/link";
-import {Tooltip} from "@v0xoss/tooltip";
-import {Image} from "@v0xoss/image";
-import {Avatar, AvatarGroup} from "@v0xoss/avatar";
-import {MailFilledIcon, LockFilledIcon} from "@v0xoss/shared-icons";
-import {useDisclosure} from "@v0xoss/use-disclosure";
+import {drawer} from "@vx-oss/theme";
+import {Button} from "@vx-oss/button";
+import {Input} from "@vx-oss/input";
+import {Checkbox} from "@vx-oss/checkbox";
+import {Link} from "@vx-oss/link";
+import {Tooltip} from "@vx-oss/tooltip";
+import {Image} from "@vx-oss/image";
+import {Avatar, AvatarGroup} from "@vx-oss/avatar";
+import {MailFilledIcon, LockFilledIcon} from "@vx-oss/shared-icons";
+import {useDisclosure} from "@vx-oss/use-disclosure";
 
 import {Drawer, DrawerContent, DrawerHeader, DrawerBody, DrawerFooter} from "../src";
 
@@ -484,10 +484,10 @@ const CustomStylesTemplate = (args: DrawerProps) => {
                 </div>
               </DrawerBody>
               <DrawerFooter className="flex flex-col gap-1">
-                <Link className="text-default-400" href="mailto:hello@v0xoss.com" size="sm">
+                <Link className="text-default-400" href="mailto:hello@vx-oss.com" size="sm">
                   Contact the host
                 </Link>
-                <Link className="text-default-400" href="mailto:hello@v0xoss.com" size="sm">
+                <Link className="text-default-400" href="mailto:hello@vx-oss.com" size="sm">
                   Report event
                 </Link>
               </DrawerFooter>

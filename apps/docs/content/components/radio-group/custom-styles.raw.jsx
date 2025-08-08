@@ -1,4 +1,4 @@
-import {RadioGroup, Radio, cn} from "@v0xoss/react";
+import {RadioGroup, Radio, cn} from "@vx-oss/react";
 
 export const CustomRadio = (props) => {
   const {children, ...otherProps} = props;

@@ -1,7 +1,7 @@
 import type {UseImageProps} from "./use-image";
 
 import {cloneElement} from "react";
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useImage} from "./use-image";
 

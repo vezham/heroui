@@ -1,16 +1,16 @@
-import type {ButtonProps} from "@v0xoss/button";
+import type {ButtonProps} from "@vx-oss/button";
 import type {UseAlertProps} from "./use-alert";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 import {
   CloseIcon,
   DangerIcon,
   InfoCircleIcon,
   SuccessIcon,
   WarningIcon,
-} from "@v0xoss/shared-icons";
-import {isEmpty} from "@v0xoss/shared-utils";
-import {Button} from "@v0xoss/button";
+} from "@vx-oss/shared-icons";
+import {isEmpty} from "@vx-oss/shared-utils";
+import {Button} from "@vx-oss/button";
 import {cloneElement, isValidElement} from "react";
 
 import {useAlert} from "./use-alert";

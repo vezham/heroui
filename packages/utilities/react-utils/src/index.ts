@@ -31,6 +31,6 @@ export {
   pickChildren,
   renderFn,
   filterDOMProps,
-} from "@v0xoss/react-rsc-utils";
+} from "@vx-oss/react-rsc-utils";
 
 export {useIsHydrated} from "./use-is-hydrated";

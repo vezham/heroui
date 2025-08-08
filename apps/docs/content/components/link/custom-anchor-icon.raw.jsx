@@ -1,4 +1,4 @@
-import {Link} from "@v0xoss/react";
+import {Link} from "@vx-oss/react";
 
 export const AnchorIcon = (props) => {
   return (

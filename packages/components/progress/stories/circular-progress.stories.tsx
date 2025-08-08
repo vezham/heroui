@@ -2,9 +2,9 @@ import type {Meta} from "@storybook/react";
 import type {CircularProgressProps} from "../src";
 
 import React from "react";
-import {circularProgress} from "@v0xoss/theme";
-import {Card, CardBody, CardFooter} from "@v0xoss/card";
-import {Chip} from "@v0xoss/chip";
+import {circularProgress} from "@vx-oss/theme";
+import {Card, CardBody, CardFooter} from "@vx-oss/card";
+import {Chip} from "@vx-oss/chip";
 
 import {CircularProgress} from "../src";
 

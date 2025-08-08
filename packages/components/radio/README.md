@@ -1,4 +1,4 @@
-# @v0xoss/radio
+# @vx-oss/radio
 
 Radio Group allow users to select a single option from a list of mutually exclusive options.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/radio-gro
 ## Installation
 
 ```sh
-yarn add @v0xoss/radio
+yarn add @vx-oss/radio
 # or
-npm i @v0xoss/radio
+npm i @vx-oss/radio
 ```
 
 ## Contribution

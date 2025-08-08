@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/date-input",
+  "name": "@vx-oss/date-input",
   "version": "0.0.9",
   "description": "A date input allows users to enter and edit date and time values using a keyboard.",
   "keywords": [
     "date-field"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
@@ -34,15 +34,15 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@v0xoss/system": ">=0.0.0",
-    "@v0xoss/theme": ">=0.0.0",
+    "@vx-oss/system": ">=0.0.0",
+    "@vx-oss/theme": ">=0.0.0",
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@v0xoss/form": "workspace:*",
-    "@v0xoss/react-utils": "workspace:*",
-    "@v0xoss/shared-utils": "workspace:*",
+    "@vx-oss/form": "workspace:*",
+    "@vx-oss/react-utils": "workspace:*",
+    "@vx-oss/shared-utils": "workspace:*",
     "@internationalized/date": "3.8.2",
     "@react-aria/datepicker": "3.15.0",
     "@react-aria/i18n": "3.12.11",
@@ -51,10 +51,10 @@
     "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
-    "@v0xoss/system": "workspace:*",
-    "@v0xoss/theme": "workspace:*",
-    "@v0xoss/shared-icons": "workspace:*",
-    "@v0xoss/test-utils": "workspace:*",
+    "@vx-oss/system": "workspace:*",
+    "@vx-oss/theme": "workspace:*",
+    "@vx-oss/shared-icons": "workspace:*",
+    "@vx-oss/test-utils": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

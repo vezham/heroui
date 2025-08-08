@@ -1,4 +1,4 @@
-# @v0xoss/use-aria-accordion
+# @vx-oss/use-aria-accordion
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @v0xoss/use-aria-accordion
+yarn add @vx-oss/use-aria-accordion
 # or
-npm i @v0xoss/use-aria-accordion
+npm i @vx-oss/use-aria-accordion
 ```
 
 ## Contribution

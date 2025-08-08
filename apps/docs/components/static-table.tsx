@@ -1,6 +1,6 @@
 import type {ComponentProps, FC} from "react";
 
-import {cn, table} from "@v0xoss/theme";
+import {cn, table} from "@vx-oss/theme";
 
 const tableSlots = table();
 

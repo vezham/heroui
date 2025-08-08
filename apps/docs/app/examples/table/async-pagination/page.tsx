@@ -10,7 +10,7 @@ import {
   getKeyValue,
   Spinner,
   Pagination,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 import {useMemo, useState} from "react";
 import useSWR from "swr";
 

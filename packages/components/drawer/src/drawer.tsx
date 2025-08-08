@@ -1,7 +1,7 @@
 import type {UseDrawerProps} from "./use-drawer";
 
-import {forwardRef} from "@v0xoss/system";
-import {Modal} from "@v0xoss/modal";
+import {forwardRef} from "@vx-oss/system";
+import {Modal} from "@vx-oss/modal";
 
 import {useDrawer} from "./use-drawer";
 

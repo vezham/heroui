@@ -2,7 +2,7 @@ import type {DateValue} from "@internationalized/date";
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseCalendarProps} from "./use-calendar";
 
-import {forwardRef} from "@v0xoss/system";
+import {forwardRef} from "@vx-oss/system";
 
 import {useCalendar} from "./use-calendar";
 import {CalendarProvider} from "./calendar-context";

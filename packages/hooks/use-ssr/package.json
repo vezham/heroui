@@ -1,11 +1,11 @@
 {
-  "name": "@v0xoss/use-ssr",
+  "name": "@vx-oss/use-ssr",
   "version": "0.0.9",
   "description": "",
   "keywords": [
     "use-ssr"
   ],
-  "author": "v0xOSS <oss-developers@vezham.com>",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",

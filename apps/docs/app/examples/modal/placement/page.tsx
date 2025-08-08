@@ -1,6 +1,6 @@
 "use client";
 
-import type {ModalProps} from "@v0xoss/react";
+import type {ModalProps} from "@vx-oss/react";
 
 import {
   Modal,
@@ -12,7 +12,7 @@ import {
   useDisclosure,
   RadioGroup,
   Radio,
-} from "@v0xoss/react";
+} from "@vx-oss/react";
 import {useState} from "react";
 
 export default function Page() {
