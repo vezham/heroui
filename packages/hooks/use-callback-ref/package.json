@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-callback-ref",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "React hook to persist any value between renders, but keeps it up-to-date if it changes.",
   "keywords": [
     "use-callback-ref"

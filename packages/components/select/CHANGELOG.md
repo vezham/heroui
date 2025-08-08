@@ -1,5 +1,26 @@
 # @heroui/select
 
+## 0.0.12
+
+### Patch Changes
+
+- [`a67cd0e`](https://github.com/vezham/heroui/commit/a67cd0e9d2ccde3f4e809b12c189d1547165f9d2) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - fix: re-ver bump
+
+- Updated dependencies [[`a67cd0e`](https://github.com/vezham/heroui/commit/a67cd0e9d2ccde3f4e809b12c189d1547165f9d2)]:
+  - @vx-oss/use-safe-layout-effect@0.0.12
+  - @vx-oss/use-aria-multiselect@0.0.12
+  - @vx-oss/scroll-shadow@0.0.12
+  - @vx-oss/shared-icons@0.0.12
+  - @vx-oss/shared-utils@0.0.12
+  - @vx-oss/use-aria-button@0.0.12
+  - @vx-oss/react-utils@0.0.12
+  - @vx-oss/use-form-reset@0.0.12
+  - @vx-oss/aria-utils@0.0.12
+  - @vx-oss/listbox@0.0.12
+  - @vx-oss/popover@0.0.12
+  - @vx-oss/spinner@0.0.12
+  - @vx-oss/form@0.0.12
+
 ## 0.0.11
 
 ### Patch Changes
