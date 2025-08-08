@@ -1,5 +1,11 @@
 # @heroui/radio
 
+## 0.0.2
+
+### Patch Changes
+
+- [`1f1ef3b`](https://github.com/vezham/heroui/commit/1f1ef3bc069b4663463cdaa4e52337b6992cb99b) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - pkg limit chk
+
 ## 0.0.1
 
 ### Patch Changes
