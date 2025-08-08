@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/skeleton",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Skeleton is used to display the loading state of some component.",
   "keywords": [
     "skeleton"

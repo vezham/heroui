@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/slider",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A slider allows a user to select one or more values within a range.",
   "keywords": [
     "slider"

@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-measure",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Hook that measure and track a element dimensions",
   "keywords": [
     "use-measure"

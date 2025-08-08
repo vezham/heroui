@@ -1,5 +1,15 @@
 # @heroui/system
 
+## 0.0.10
+
+### Patch Changes
+
+- [`025a889`](https://github.com/vezham/heroui/commit/025a889e233360bb9b589b36e60460937a509d0b) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: vx-oss impl
+
+- Updated dependencies [[`025a889`](https://github.com/vezham/heroui/commit/025a889e233360bb9b589b36e60460937a509d0b)]:
+  - @vx-oss/react-utils@0.0.10
+  - @vx-oss/system-rsc@0.0.10
+
 ## 2.4.20
 
 ### Patch Changes
