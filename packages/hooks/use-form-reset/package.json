@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-form-reset",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "use-form-reset hook from `@react-aria` utils",
   "keywords": [
     "use-form-reset"

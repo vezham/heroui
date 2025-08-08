@@ -15,6 +15,7 @@
     "@vx/ws:changeset:update-versions": "bash vx/bin/update-versions/bin/main.sh",
     "@vx/ws:git:cleanup-release": "bash vx/bin/cleanup-release/bin/main.sh",
     "@vx/ws:npm:unpublish": "bash vx/bin/npm-unpublish/bin/main.sh",
+    "@vx/ws:npm:publish": "bash vx/bin/npm-publish/bin/main.sh",
     "dev": "pnpm sb",
     "build": "turbo build --filter='!@vx-oss/docs' --filter='!@vx-oss/storybook'",
     "build:og": "turbo build --filter='!@vx-oss/docs' --filter='!@vx-oss/storybook' --filter='!@vx-oss/stories-utils' --filter='!@vx-oss/test-utils'",

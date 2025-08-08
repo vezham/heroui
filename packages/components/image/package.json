@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/image",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A simple image component",
   "keywords": [
     "image"

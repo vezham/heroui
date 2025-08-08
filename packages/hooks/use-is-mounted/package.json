@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-is-mounted",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "This hook can be used to render client-based components or run client logic",
   "keywords": [
     "use-is-mounted"

@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/date-picker",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A date picker combines a DateInput and a Calendar popover to allow users to enter or select a date and time value.",
   "keywords": [
     "date-picker"
@@ -8,7 +8,7 @@
   "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "homepage": "https://vezham.com",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "sideEffects": false,
   "files": [
     "dist"
@@ -58,15 +58,15 @@
     "@react-types/datepicker": "3.13.0",
     "@react-types/shared": "3.31.0"
   },
-  "devDependencies": {
-    "@vx-oss/radio": "workspace:*",
-    "@vx-oss/system": "workspace:*",
-    "@vx-oss/test-utils": "workspace:*",
-    "@vx-oss/theme": "workspace:*",
-    "framer-motion": "11.18.2",
-    "clean-package": "2.2.0",
-    "react": "18.3.0",
-    "react-dom": "18.3.0"
-  },
-  "clean-package": "../../../clean-package.config.json"
+  "clean-package": "../../../clean-package.config.json",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  }
 }

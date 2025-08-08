@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/theme",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "The default theme for HeroUI components",
   "keywords": [
     "theme",
