@@ -1,5 +1,11 @@
 # @heroui/test-utils
 
+## 0.0.10
+
+### Patch Changes
+
+- [`a67cd0e`](https://github.com/vezham/heroui/commit/a67cd0e9d2ccde3f4e809b12c189d1547165f9d2) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - fix: re-ver bump
+
 ## 0.0.9
 
 ### Patch Changes

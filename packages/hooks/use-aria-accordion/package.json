@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-aria-accordion",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "React-aria useAccordion hooks with custom implementations",
   "keywords": [
     "use-aria-accordion"

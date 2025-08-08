@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-scroll-position",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Provides the logic to control the scroll over an element",
   "keywords": [
     "use-scroll-position"
