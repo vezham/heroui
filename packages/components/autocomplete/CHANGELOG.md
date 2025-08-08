@@ -1,44 +1,19 @@
 # @heroui/autocomplete
 
-## 0.0.9
+## 2.3.26
 
 ### Patch Changes
 
-- [#42](https://github.com/vezham/heroui/pull/42) [`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a) Thanks [@github-actions](https://github.com/apps/github-actions)! - test ver chk
+- [#5517](https://github.com/heroui-inc/heroui/pull/5517) [`36eb421`](https://github.com/heroui-inc/heroui/commit/36eb421c66846d4fe6fb102c662ff6bf6149249b) Thanks [@wingkwong](https://github.com/wingkwong)! - sync with RA release (July 22, 2025)
 
-- [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - final ver sync init
-
-- Updated dependencies [[`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a), [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a)]:
-  - @v0xoss/use-safe-layout-effect@0.0.9
-  - @v0xoss/scroll-shadow@0.0.9
-  - @v0xoss/shared-icons@0.0.9
-  - @v0xoss/shared-utils@0.0.9
-  - @v0xoss/react-utils@0.0.9
-  - @v0xoss/aria-utils@0.0.9
-  - @v0xoss/listbox@0.0.9
-  - @v0xoss/popover@0.0.9
-  - @v0xoss/button@0.0.9
-  - @v0xoss/input@0.0.9
-  - @v0xoss/form@0.0.9
-
-## 0.0.8
-
-### Patch Changes
-
-- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
-
-- Updated dependencies [[`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c)]:
-  - @v0xoss/use-safe-layout-effect@0.0.8
-  - @v0xoss/scroll-shadow@0.0.8
-  - @v0xoss/shared-icons@0.0.8
-  - @v0xoss/shared-utils@0.0.8
-  - @v0xoss/react-utils@0.0.8
-  - @v0xoss/aria-utils@0.0.8
-  - @v0xoss/listbox@0.0.8
-  - @v0xoss/popover@0.0.8
-  - @v0xoss/button@0.0.8
-  - @v0xoss/input@0.0.8
-  - @v0xoss/form@0.0.8
+- Updated dependencies [[`2f414a8`](https://github.com/heroui-inc/heroui/commit/2f414a8926854d0c936584be2269fdb454a3c4ec), [`36eb421`](https://github.com/heroui-inc/heroui/commit/36eb421c66846d4fe6fb102c662ff6bf6149249b), [`5eb6868`](https://github.com/heroui-inc/heroui/commit/5eb686843bd277a33586a6ea9a11d240080e2c9d)]:
+  - @heroui/input@2.4.25
+  - @heroui/aria-utils@2.2.21
+  - @heroui/listbox@2.3.23
+  - @heroui/popover@2.3.24
+  - @heroui/button@2.2.24
+  - @heroui/form@2.1.24
+  - @heroui/scroll-shadow@2.3.16
 
 ## 2.3.25
 

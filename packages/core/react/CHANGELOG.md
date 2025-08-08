@@ -1,120 +1,61 @@
 # @heroui/react
 
-## 0.0.9
+## 2.8.2
 
 ### Patch Changes
 
-- [#42](https://github.com/vezham/heroui/pull/42) [`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a) Thanks [@github-actions](https://github.com/apps/github-actions)! - test ver chk
+- [#5517](https://github.com/heroui-inc/heroui/pull/5517) [`36eb421`](https://github.com/heroui-inc/heroui/commit/36eb421c66846d4fe6fb102c662ff6bf6149249b) Thanks [@wingkwong](https://github.com/wingkwong)! - sync with RA release (July 22, 2025)
 
-- [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - final ver sync init
-
-- Updated dependencies [[`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a), [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a)]:
-  - @v0xoss/scroll-shadow@0.0.9
-  - @v0xoss/autocomplete@0.0.9
-  - @v0xoss/number-input@0.0.9
-  - @v0xoss/breadcrumbs@0.0.9
-  - @v0xoss/date-picker@0.0.9
-  - @v0xoss/framer-utils@0.0.9
-  - @v0xoss/date-input@0.0.9
-  - @v0xoss/pagination@0.0.9
-  - @v0xoss/accordion@0.0.9
-  - @v0xoss/input-otp@0.0.9
-  - @v0xoss/calendar@0.0.9
-  - @v0xoss/checkbox@0.0.9
-  - @v0xoss/dropdown@0.0.9
-  - @v0xoss/progress@0.0.9
-  - @v0xoss/skeleton@0.0.9
-  - @v0xoss/divider@0.0.9
-  - @v0xoss/listbox@0.0.9
-  - @v0xoss/popover@0.0.9
-  - @v0xoss/snippet@0.0.9
-  - @v0xoss/spinner@0.0.9
-  - @v0xoss/tooltip@0.0.9
-  - @v0xoss/avatar@0.0.9
-  - @v0xoss/button@0.0.9
-  - @v0xoss/drawer@0.0.9
-  - @v0xoss/navbar@0.0.9
-  - @v0xoss/ripple@0.0.9
-  - @v0xoss/select@0.0.9
-  - @v0xoss/slider@0.0.9
-  - @v0xoss/spacer@0.0.9
-  - @v0xoss/switch@0.0.9
-  - @v0xoss/alert@0.0.9
-  - @v0xoss/badge@0.0.9
-  - @v0xoss/image@0.0.9
-  - @v0xoss/input@0.0.9
-  - @v0xoss/modal@0.0.9
-  - @v0xoss/radio@0.0.9
-  - @v0xoss/table@0.0.9
-  - @v0xoss/toast@0.0.9
-  - @v0xoss/card@0.0.9
-  - @v0xoss/chip@0.0.9
-  - @v0xoss/code@0.0.9
-  - @v0xoss/form@0.0.9
-  - @v0xoss/link@0.0.9
-  - @v0xoss/menu@0.0.9
-  - @v0xoss/tabs@0.0.9
-  - @v0xoss/user@0.0.9
-  - @v0xoss/kbd@0.0.9
-  - @v0xoss/system@0.0.9
-  - @v0xoss/theme@0.0.9
-
-## 0.0.8
-
-### Patch Changes
-
-- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
-
-- Updated dependencies [[`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c), [`9dceb11`](https://github.com/vezham/heroui/commit/9dceb116ce1a260e099be738af9f175446823d53)]:
-  - @v0xoss/scroll-shadow@0.0.8
-  - @v0xoss/autocomplete@0.0.8
-  - @v0xoss/number-input@0.0.8
-  - @v0xoss/breadcrumbs@0.0.8
-  - @v0xoss/date-picker@0.0.8
-  - @v0xoss/framer-utils@0.0.8
-  - @v0xoss/date-input@0.0.8
-  - @v0xoss/pagination@0.0.8
-  - @v0xoss/accordion@0.0.8
-  - @v0xoss/input-otp@0.0.8
-  - @v0xoss/calendar@0.0.8
-  - @v0xoss/checkbox@0.0.8
-  - @v0xoss/dropdown@0.0.8
-  - @v0xoss/progress@0.0.8
-  - @v0xoss/skeleton@0.0.8
-  - @v0xoss/divider@0.0.8
-  - @v0xoss/listbox@0.0.8
-  - @v0xoss/popover@0.0.8
-  - @v0xoss/snippet@0.0.8
-  - @v0xoss/spinner@0.0.8
-  - @v0xoss/tooltip@0.0.8
-  - @v0xoss/avatar@0.0.8
-  - @v0xoss/button@0.0.8
-  - @v0xoss/drawer@0.0.8
-  - @v0xoss/navbar@0.0.8
-  - @v0xoss/ripple@0.0.8
-  - @v0xoss/select@0.0.8
-  - @v0xoss/slider@0.0.8
-  - @v0xoss/spacer@0.0.8
-  - @v0xoss/switch@0.0.8
-  - @v0xoss/alert@0.0.8
-  - @v0xoss/badge@0.0.8
-  - @v0xoss/image@0.0.8
-  - @v0xoss/input@0.0.8
-  - @v0xoss/modal@0.0.8
-  - @v0xoss/radio@0.0.8
-  - @v0xoss/table@0.0.8
-  - @v0xoss/toast@0.0.8
-  - @v0xoss/card@0.0.8
-  - @v0xoss/chip@0.0.8
-  - @v0xoss/code@0.0.8
-  - @v0xoss/form@0.0.8
-  - @v0xoss/link@0.0.8
-  - @v0xoss/menu@0.0.8
-  - @v0xoss/tabs@0.0.8
-  - @v0xoss/user@0.0.8
-  - @v0xoss/kbd@0.0.8
-  - @v0xoss/system@0.0.8
-  - @v0xoss/theme@0.0.8
+- Updated dependencies [[`2f414a8`](https://github.com/heroui-inc/heroui/commit/2f414a8926854d0c936584be2269fdb454a3c4ec), [`139fc94`](https://github.com/heroui-inc/heroui/commit/139fc94e2ac0a4a112fdb18bb340994dc3656f70), [`9dceb11`](https://github.com/heroui-inc/heroui/commit/9dceb116ce1a260e099be738af9f175446823d53), [`36eb421`](https://github.com/heroui-inc/heroui/commit/36eb421c66846d4fe6fb102c662ff6bf6149249b), [`6011837`](https://github.com/heroui-inc/heroui/commit/60118379f587a97675ca7dcc347f0b00ecc7d058), [`5eb6868`](https://github.com/heroui-inc/heroui/commit/5eb686843bd277a33586a6ea9a11d240080e2c9d), [`2cb6ecf`](https://github.com/heroui-inc/heroui/commit/2cb6ecff9363952db24da01130ec13fe04388cfb), [`a83e3fb`](https://github.com/heroui-inc/heroui/commit/a83e3fb5a01c3ba25c309ee1f67b836c2f299dfb)]:
+  - @heroui/number-input@2.0.15
+  - @heroui/slider@2.4.21
+  - @heroui/input@2.4.25
+  - @heroui/theme@2.4.20
+  - @heroui/autocomplete@2.3.26
+  - @heroui/breadcrumbs@2.2.20
+  - @heroui/date-picker@2.3.25
+  - @heroui/date-input@2.3.24
+  - @heroui/pagination@2.2.22
+  - @heroui/accordion@2.2.21
+  - @heroui/input-otp@2.1.24
+  - @heroui/calendar@2.2.24
+  - @heroui/checkbox@2.3.24
+  - @heroui/dropdown@2.3.24
+  - @heroui/progress@2.2.20
+  - @heroui/divider@2.2.17
+  - @heroui/listbox@2.3.23
+  - @heroui/popover@2.3.24
+  - @heroui/snippet@2.2.25
+  - @heroui/tooltip@2.2.21
+  - @heroui/avatar@2.2.20
+  - @heroui/button@2.2.24
+  - @heroui/navbar@2.2.22
+  - @heroui/select@2.4.25
+  - @heroui/switch@2.2.22
+  - @heroui/alert@2.2.24
+  - @heroui/modal@2.2.21
+  - @heroui/radio@2.3.24
+  - @heroui/table@2.2.24
+  - @heroui/toast@2.0.14
+  - @heroui/card@2.2.23
+  - @heroui/chip@2.2.20
+  - @heroui/form@2.1.24
+  - @heroui/link@2.2.21
+  - @heroui/menu@2.2.23
+  - @heroui/tabs@2.2.21
+  - @heroui/user@2.2.20
+  - @heroui/system@2.4.20
+  - @heroui/drawer@2.2.21
+  - @heroui/code@2.2.18
+  - @heroui/kbd@2.2.19
+  - @heroui/spacer@2.2.18
+  - @heroui/spinner@2.2.21
+  - @heroui/badge@2.2.15
+  - @heroui/image@2.2.15
+  - @heroui/ripple@2.2.18
+  - @heroui/scroll-shadow@2.3.16
+  - @heroui/skeleton@2.2.15
+  - @heroui/framer-utils@2.1.20
 
 ## 2.8.1
 

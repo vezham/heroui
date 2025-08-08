@@ -1,18 +1,12 @@
 # @heroui/use-aria-overlay
 
-## 0.0.9
+## 2.0.2
 
 ### Patch Changes
 
-- [#42](https://github.com/vezham/heroui/pull/42) [`702b9f2`](https://github.com/vezham/heroui/commit/702b9f2638cf0213d56d4f3ca7f7679c1b42f34a) Thanks [@github-actions](https://github.com/apps/github-actions)! - test ver chk
+- [#5529](https://github.com/heroui-inc/heroui/pull/5529) [`8dc4bab`](https://github.com/heroui-inc/heroui/commit/8dc4bab4ec98c77c1a0b9d8cb2f3abc5fdfb4793) Thanks [@wingkwong](https://github.com/wingkwong)! - sync with RA useOverlay hook (#5500)
 
-- [`3e72c2d`](https://github.com/vezham/heroui/commit/3e72c2d873c421daf7297d962ebfa559e186a92a) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - final ver sync init
-
-## 0.0.8
-
-### Patch Changes
-
-- [`7b2f673`](https://github.com/vezham/heroui/commit/7b2f673eaf0ecbe5592eb91b29921f3534f7782c) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - chore: tailwind v4 basic init
+- [#5517](https://github.com/heroui-inc/heroui/pull/5517) [`36eb421`](https://github.com/heroui-inc/heroui/commit/36eb421c66846d4fe6fb102c662ff6bf6149249b) Thanks [@wingkwong](https://github.com/wingkwong)! - sync with RA release (July 22, 2025)
 
 ## 2.0.1
 

@@ -41,18 +41,18 @@
     "@v0xoss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/react-utils": "workspace:*",
-    "@v0xoss/framer-utils": "workspace:*",
-    "@v0xoss/use-resize": "workspace:*",
-    "@v0xoss/use-scroll-position": "workspace:*",
-    "@v0xoss/dom-animation": "workspace:*",
-    "@react-aria/focus": "3.20.5",
-    "@react-aria/interactions": "3.25.3",
-    "@react-aria/button": "3.13.3",
-    "@react-aria/overlays": "3.27.3",
-    "@react-stately/toggle": "3.8.5",
-    "@react-stately/utils": "3.10.7"
+    "@heroui/shared-utils": "workspace:*",
+    "@heroui/react-utils": "workspace:*",
+    "@heroui/framer-utils": "workspace:*",
+    "@heroui/use-resize": "workspace:*",
+    "@heroui/use-scroll-position": "workspace:*",
+    "@heroui/dom-animation": "workspace:*",
+    "@react-aria/focus": "3.21.0",
+    "@react-aria/interactions": "3.25.4",
+    "@react-aria/button": "3.14.0",
+    "@react-aria/overlays": "3.28.0",
+    "@react-stately/toggle": "3.9.0",
+    "@react-stately/utils": "3.10.8"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

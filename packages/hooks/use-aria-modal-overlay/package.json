@@ -34,10 +34,10 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@v0xoss/use-aria-overlay": "workspace:*",
-    "@react-aria/overlays": "3.27.3",
-    "@react-aria/utils": "3.29.1",
-    "@react-stately/overlays": "3.6.17"
+    "@heroui/use-aria-overlay": "workspace:*",
+    "@react-aria/overlays": "3.28.0",
+    "@react-aria/utils": "3.30.0",
+    "@react-stately/overlays": "3.6.18"
   },
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",

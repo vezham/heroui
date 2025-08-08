@@ -39,9 +39,9 @@
     "@v0xoss/theme": ">=0.0.0"
   },
   "dependencies": {
-    "@v0xoss/react-rsc-utils": "workspace:*",
-    "@v0xoss/system-rsc": "workspace:*",
-    "@react-types/shared": "3.30.0"
+    "@heroui/react-rsc-utils": "workspace:*",
+    "@heroui/system-rsc": "workspace:*",
+    "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",

@@ -47,19 +47,19 @@
     "@v0xoss/system": ">=0.0.0"
   },
   "dependencies": {
-    "@v0xoss/aria-utils": "workspace:*",
-    "@v0xoss/shared-icons": "workspace:*",
-    "@v0xoss/shared-utils": "workspace:*",
-    "@v0xoss/react-utils": "workspace:*",
-    "@v0xoss/framer-utils": "workspace:*",
-    "@v0xoss/divider": "workspace:*",
-    "@v0xoss/use-aria-accordion": "workspace:*",
-    "@v0xoss/dom-animation": "workspace:*",
-    "@react-aria/interactions": "3.25.3",
-    "@react-aria/focus": "3.20.5",
-    "@react-stately/tree": "3.9.0",
+    "@heroui/aria-utils": "workspace:*",
+    "@heroui/shared-icons": "workspace:*",
+    "@heroui/shared-utils": "workspace:*",
+    "@heroui/react-utils": "workspace:*",
+    "@heroui/framer-utils": "workspace:*",
+    "@heroui/divider": "workspace:*",
+    "@heroui/use-aria-accordion": "workspace:*",
+    "@heroui/dom-animation": "workspace:*",
+    "@react-aria/interactions": "3.25.4",
+    "@react-aria/focus": "3.21.0",
+    "@react-stately/tree": "3.9.1",
     "@react-types/accordion": "3.0.0-alpha.26",
-    "@react-types/shared": "3.30.0"
+    "@react-types/shared": "3.31.0"
   },
   "devDependencies": {
     "@v0xoss/theme": "workspace:*",
