@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/chip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Chips help people enter information, make selections, filter content, or trigger actions.",
   "keywords": [
     "chip"
