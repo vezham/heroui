@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/system",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "HeroUI system primitives",
   "keywords": [
     "system"

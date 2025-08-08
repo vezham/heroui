@@ -1,5 +1,19 @@
 # @heroui/navbar
 
+## 0.0.11
+
+### Patch Changes
+
+- [`f8822fb`](https://github.com/vezham/heroui/commit/f8822fbfa68f4d634772889afd15a9c4c4faf2c6) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - re-ver bump
+
+- Updated dependencies [[`f8822fb`](https://github.com/vezham/heroui/commit/f8822fbfa68f4d634772889afd15a9c4c4faf2c6)]:
+  - @vx-oss/use-scroll-position@0.0.11
+  - @vx-oss/dom-animation@0.0.11
+  - @vx-oss/framer-utils@0.0.11
+  - @vx-oss/shared-utils@0.0.11
+  - @vx-oss/react-utils@0.0.11
+  - @vx-oss/use-resize@0.0.11
+
 ## 0.0.10
 
 ### Patch Changes

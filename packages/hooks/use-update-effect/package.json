@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-update-effect",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "React effect hook that invokes only on update",
   "keywords": [
     "use-update-effect"

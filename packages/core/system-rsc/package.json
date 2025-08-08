@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/system-rsc",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "HeroUI system primitives compatibles with RSC imports",
   "keywords": [
     "system-rsc"
