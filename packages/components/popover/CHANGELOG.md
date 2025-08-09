@@ -1,5 +1,24 @@
 # @heroui/popover
 
+## 0.0.4
+
+### Patch Changes
+
+- [#56](https://github.com/vezham/heroui/pull/56) [`f696d0a`](https://github.com/vezham/heroui/commit/f696d0a2eb32f1b4c07335a48ac28e631fe8f4fc) Thanks [@github-actions](https://github.com/apps/github-actions)! - testcase
+
+- [`54ab884`](https://github.com/vezham/heroui/commit/54ab8843ed356b8f3f0c6bf5fa7aa11879f51532) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - test run
+
+- Updated dependencies [[`f696d0a`](https://github.com/vezham/heroui/commit/f696d0a2eb32f1b4c07335a48ac28e631fe8f4fc), [`54ab884`](https://github.com/vezham/heroui/commit/54ab8843ed356b8f3f0c6bf5fa7aa11879f51532)]:
+  - @vx-oss/use-safe-layout-effect@0.0.4
+  - @vx-oss/dom-animation@0.0.4
+  - @vx-oss/use-aria-overlay@0.0.4
+  - @vx-oss/framer-utils@0.0.4
+  - @vx-oss/shared-utils@0.0.4
+  - @vx-oss/use-aria-button@0.0.4
+  - @vx-oss/react-utils@0.0.4
+  - @vx-oss/aria-utils@0.0.4
+  - @vx-oss/button@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
