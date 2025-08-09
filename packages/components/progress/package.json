@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/progress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Progress bars show either determinate or indeterminate progress of an operation over time.",
   "keywords": [
     "progress"

@@ -1,5 +1,18 @@
 # @heroui/menu
 
+## 0.0.3
+
+### Patch Changes
+
+- [`ed43bcb`](https://github.com/vezham/heroui/commit/ed43bcb7cef0ec67a08e3e515bc1ee3966cc129d) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - tc
+
+- Updated dependencies [[`ed43bcb`](https://github.com/vezham/heroui/commit/ed43bcb7cef0ec67a08e3e515bc1ee3966cc129d)]:
+  - @vx-oss/shared-utils@0.0.3
+  - @vx-oss/react-utils@0.0.3
+  - @vx-oss/aria-utils@0.0.3
+  - @vx-oss/use-is-mobile@0.0.3
+  - @vx-oss/divider@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
