@@ -1,5 +1,11 @@
 # @heroui/use-clipboard
 
+## 0.0.5
+
+### Patch Changes
+
+- [#57](https://github.com/vezham/heroui/pull/57) [`d7de05c`](https://github.com/vezham/heroui/commit/d7de05ce90280a49ee6a3a51b738862fa147c4c4) Thanks [@github-actions](https://github.com/apps/github-actions)! - test jk
+
 ## 0.0.4
 
 ### Patch Changes
