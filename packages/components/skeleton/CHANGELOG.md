@@ -1,5 +1,14 @@
 # @heroui/skeleton
 
+## 0.0.4
+
+### Patch Changes
+
+- [`6b2f34a`](https://github.com/vezham/heroui/commit/6b2f34a51f788c7a158da2ebf6f6a8e1e5cc5110) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - test
+
+- Updated dependencies [[`6b2f34a`](https://github.com/vezham/heroui/commit/6b2f34a51f788c7a158da2ebf6f6a8e1e5cc5110)]:
+  - @vx-oss/shared-utils@0.0.2
+
 ## 0.0.3
 
 ### Patch Changes
