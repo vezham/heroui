@@ -1,5 +1,15 @@
 # @heroui/react
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [[`3e805ce`](https://github.com/vezham/heroui/commit/3e805cef6051bf0868430e0707e363eb80e685f1)]:
+  - @vx-oss/skeleton@0.0.3
+  - @vx-oss/radio@0.0.3
+  - @vx-oss/calendar@0.0.1
+  - @vx-oss/date-picker@0.0.1
+
 ## 0.0.2
 
 ### Patch Changes

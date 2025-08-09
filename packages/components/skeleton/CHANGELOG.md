@@ -1,5 +1,11 @@
 # @heroui/skeleton
 
+## 0.0.3
+
+### Patch Changes
+
+- [`3e805ce`](https://github.com/vezham/heroui/commit/3e805cef6051bf0868430e0707e363eb80e685f1) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - pkg limit chk
+
 ## 0.0.2
 
 ### Patch Changes
