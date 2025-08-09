@@ -2,15 +2,15 @@
 name: bnd
 
 on:
-  # workflow_dispatch:
-  # pull_request:
-  #   types: [closed]
-  # push:
-  #   branches: [timeline, feat/*]
-  #   paths:
-  #     - ".github/workflows/bnd.yml"
-  #     - ".changeset/**"
-  #     - "packages/**"
+  workflow_dispatch:
+  pull_request:
+    types: [closed]
+  push:
+    branches: [timeline, feat/*]
+    paths:
+      - ".github/workflows/bnd.yml"
+      - ".changeset/**"
+      - "packages/**"
 
 concurrency:
   group: bnd-${{ github.workflow }}-${{ github.ref }}
