@@ -1,5 +1,18 @@
 # @heroui/table
 
+## 0.0.5
+
+### Patch Changes
+
+- [#57](https://github.com/vezham/heroui/pull/57) [`d7de05c`](https://github.com/vezham/heroui/commit/d7de05ce90280a49ee6a3a51b738862fa147c4c4) Thanks [@github-actions](https://github.com/apps/github-actions)! - test jk
+
+- Updated dependencies [[`d7de05c`](https://github.com/vezham/heroui/commit/d7de05ce90280a49ee6a3a51b738862fa147c4c4)]:
+  - @vx-oss/shared-icons@0.0.5
+  - @vx-oss/shared-utils@0.0.5
+  - @vx-oss/react-utils@0.0.5
+  - @vx-oss/checkbox@0.0.5
+  - @vx-oss/spacer@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/toast",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Toast are temporary notifications that provide concise feedback about an action or event",
   "keywords": [
     "toast"
