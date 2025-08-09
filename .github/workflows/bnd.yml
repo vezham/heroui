@@ -7,10 +7,10 @@ on:
     types: [closed]
   push:
     branches: [timeline, feat/*]
-    paths:
-      - ".github/workflows/bnd.yml"
-      - ".changeset/**"
-      - "packages/**"
+    # paths:
+    #   - ".github/workflows/bnd.yml"
+    #   - ".changeset/**"
+    #   - "packages/**"
 
 concurrency:
   group: bnd-${{ github.workflow }}-${{ github.ref }}
