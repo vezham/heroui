@@ -56,8 +56,8 @@
     "changeset:beta": "changeset pre enter beta",
     "version": "changeset version",
     "release": "changeset publish",
-    "version:canary": "changeset version --snapshot feat/vx-oss",
-    "release:canary": "changeset publish --snapshot --no-git-tag --tag feat/vx-oss",
+    "version:canary": "changeset version --snapshot canary",
+    "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vx-oss/theme build"
   },
   "devDependencies": {
