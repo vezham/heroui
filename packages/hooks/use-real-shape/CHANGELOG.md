@@ -1,5 +1,14 @@
 # @heroui/use-real-shape
 
+## 0.0.6
+
+### Patch Changes
+
+- [`476698a`](https://github.com/vezham/heroui/commit/476698af1d9cb27990af06bc4b458541510e7037) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - testing npm limit
+
+- Updated dependencies [[`476698a`](https://github.com/vezham/heroui/commit/476698af1d9cb27990af06bc4b458541510e7037)]:
+  - @vx-oss/react-utils@0.0.6
+
 ## 0.0.5
 
 ### Patch Changes

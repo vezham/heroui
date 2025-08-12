@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-aria-modal-overlay",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A custom implementation of react aria modal overlay, this removes the prevent scroll",
   "keywords": [
     "use-aria-modal-overlay"
