@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/test-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A set of utilities for react testing",
   "keywords": [
     "test-utils"
