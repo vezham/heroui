@@ -1,5 +1,24 @@
 # @heroui/autocomplete
 
+## 0.0.7
+
+### Patch Changes
+
+- [`0be793b`](https://github.com/vezham/heroui/commit/0be793b5142476f909bf77f5210c83e9f193846b) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - ver bump
+
+- Updated dependencies [[`0be793b`](https://github.com/vezham/heroui/commit/0be793b5142476f909bf77f5210c83e9f193846b)]:
+  - @vx-oss/use-safe-layout-effect@0.0.7
+  - @vx-oss/scroll-shadow@0.0.7
+  - @vx-oss/shared-icons@0.0.7
+  - @vx-oss/shared-utils@0.0.7
+  - @vx-oss/react-utils@0.0.7
+  - @vx-oss/aria-utils@0.0.7
+  - @vx-oss/listbox@0.0.7
+  - @vx-oss/popover@0.0.7
+  - @vx-oss/button@0.0.7
+  - @vx-oss/input@0.0.7
+  - @vx-oss/form@0.0.7
+
 ## 0.0.6
 
 ### Patch Changes
