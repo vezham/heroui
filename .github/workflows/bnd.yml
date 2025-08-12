@@ -25,12 +25,12 @@ permissions:
 env:
   REPO: ${{ github.repository || 'vezham/heroui' }} # inputs.GIT_REPO
   BRANCH: ${{ github.ref_name || 'timeline' }} # inputs.GIT_BRANCH
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN_VX_OSS }}
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
   bnd:
     runs-on: ubuntu-latest
-    timeout-minutes: 160
+    timeout-minutes: 180
 
     steps:
       - name: action | checkout | ${{ env.REPO }}@${{ env.BRANCH }}
@@ -42,7 +42,7 @@ jobs:
       - name: action | node & pnpm
         uses: vezham/vx-fe-deployer/.github/actions/common/setup-install-npm@timeline
         with:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN_VX_OSS }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: fork | build
         if: github.event_name == 'pull_request'
@@ -59,7 +59,7 @@ jobs:
         uses: vezham/vx-fe-deployer/.github/actions/changesets/release@timeline
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN_VX_OSS }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: ci-setup | LOG
         if: always()
