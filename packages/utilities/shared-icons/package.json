@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/shared-icons",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Internal icons set, commonly used in the components stories",
   "keywords": [
     "icons-utils"

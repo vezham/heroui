@@ -1,5 +1,23 @@
 # @heroui/modal
 
+## 0.0.8
+
+### Patch Changes
+
+- [`cb57dfb`](https://github.com/vezham/heroui/commit/cb57dfb543c7e5d2552c4ca9e18398595445672e) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - npm limit test
+
+- Updated dependencies [[`cb57dfb`](https://github.com/vezham/heroui/commit/cb57dfb543c7e5d2552c4ca9e18398595445672e)]:
+  - @vx-oss/use-aria-modal-overlay@0.0.8
+  - @vx-oss/use-viewport-size@0.0.8
+  - @vx-oss/dom-animation@0.0.8
+  - @vx-oss/framer-utils@0.0.8
+  - @vx-oss/shared-icons@0.0.8
+  - @vx-oss/shared-utils@0.0.8
+  - @vx-oss/use-aria-button@0.0.8
+  - @vx-oss/react-utils@0.0.8
+  - @vx-oss/use-disclosure@0.0.8
+  - @vx-oss/use-draggable@0.0.8
+
 ## 0.0.7
 
 ### Patch Changes
