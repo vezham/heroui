@@ -1,5 +1,11 @@
 # @heroui/use-clipboard
 
+## 0.0.8
+
+### Patch Changes
+
+- [`cb57dfb`](https://github.com/vezham/heroui/commit/cb57dfb543c7e5d2552c4ca9e18398595445672e) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - npm limit test
+
 ## 0.0.7
 
 ### Patch Changes
