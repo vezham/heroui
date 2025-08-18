@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-viewport-size",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "use-viewport-size hook from `@react-aria` utils",
   "keywords": [
     "use-viewport-size"

@@ -1,5 +1,62 @@
 # @heroui/react
 
+## 0.0.11
+
+### Patch Changes
+
+- [`26af712`](https://github.com/vezham/heroui/commit/26af7129da8420f94b0a7ab174980c8921774f55) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - limit chk
+
+- Updated dependencies [[`26af712`](https://github.com/vezham/heroui/commit/26af7129da8420f94b0a7ab174980c8921774f55)]:
+  - @vx-oss/scroll-shadow@0.0.9
+  - @vx-oss/autocomplete@0.0.9
+  - @vx-oss/number-input@0.0.9
+  - @vx-oss/breadcrumbs@0.0.9
+  - @vx-oss/date-picker@0.0.9
+  - @vx-oss/framer-utils@0.0.9
+  - @vx-oss/date-input@0.0.9
+  - @vx-oss/pagination@0.0.9
+  - @vx-oss/accordion@0.0.9
+  - @vx-oss/input-otp@0.0.9
+  - @vx-oss/calendar@0.0.9
+  - @vx-oss/checkbox@0.0.9
+  - @vx-oss/dropdown@0.0.9
+  - @vx-oss/progress@0.0.9
+  - @vx-oss/skeleton@0.0.11
+  - @vx-oss/divider@0.0.9
+  - @vx-oss/listbox@0.0.9
+  - @vx-oss/popover@0.0.9
+  - @vx-oss/snippet@0.0.9
+  - @vx-oss/spinner@0.0.9
+  - @vx-oss/tooltip@0.0.9
+  - @vx-oss/avatar@0.0.9
+  - @vx-oss/button@0.0.9
+  - @vx-oss/drawer@0.0.9
+  - @vx-oss/navbar@0.0.9
+  - @vx-oss/ripple@0.0.9
+  - @vx-oss/select@0.0.9
+  - @vx-oss/slider@0.0.9
+  - @vx-oss/spacer@0.0.9
+  - @vx-oss/switch@0.0.9
+  - @vx-oss/alert@0.0.9
+  - @vx-oss/badge@0.0.9
+  - @vx-oss/image@0.0.9
+  - @vx-oss/input@0.0.9
+  - @vx-oss/modal@0.0.9
+  - @vx-oss/radio@0.0.11
+  - @vx-oss/table@0.0.9
+  - @vx-oss/toast@0.0.9
+  - @vx-oss/card@0.0.9
+  - @vx-oss/chip@0.0.9
+  - @vx-oss/code@0.0.9
+  - @vx-oss/form@0.0.9
+  - @vx-oss/link@0.0.9
+  - @vx-oss/menu@0.0.9
+  - @vx-oss/tabs@0.0.9
+  - @vx-oss/user@0.0.9
+  - @vx-oss/kbd@0.0.9
+  - @vx-oss/system@0.0.9
+  - @vx-oss/theme@0.0.9
+
 ## 0.0.10
 
 ### Patch Changes
