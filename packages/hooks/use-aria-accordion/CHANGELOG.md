@@ -1,5 +1,11 @@
 # @heroui/use-aria-accordion
 
+## 0.0.9
+
+### Patch Changes
+
+- [`26af712`](https://github.com/vezham/heroui/commit/26af7129da8420f94b0a7ab174980c8921774f55) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - limit chk
+
 ## 0.0.8
 
 ### Patch Changes

@@ -1,5 +1,20 @@
 # @heroui/tooltip
 
+## 0.0.9
+
+### Patch Changes
+
+- [`26af712`](https://github.com/vezham/heroui/commit/26af7129da8420f94b0a7ab174980c8921774f55) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - limit chk
+
+- Updated dependencies [[`26af712`](https://github.com/vezham/heroui/commit/26af7129da8420f94b0a7ab174980c8921774f55)]:
+  - @vx-oss/use-safe-layout-effect@0.0.9
+  - @vx-oss/dom-animation@0.0.9
+  - @vx-oss/use-aria-overlay@0.0.9
+  - @vx-oss/framer-utils@0.0.9
+  - @vx-oss/shared-utils@0.0.9
+  - @vx-oss/react-utils@0.0.9
+  - @vx-oss/aria-utils@0.0.9
+
 ## 0.0.8
 
 ### Patch Changes
