@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/alert",
-  "version": "0.0.10",
+  "version": "0.1.5",
   "description": "Alerts are temporary notifications that provide concise feedback about an action or event.",
   "keywords": [
     "alert"

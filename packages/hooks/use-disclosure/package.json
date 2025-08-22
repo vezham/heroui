@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-disclosure",
-  "version": "0.0.10",
+  "version": "0.1.5",
   "description": "The hook in charge of managing modals",
   "keywords": [
     "use-disclosure"

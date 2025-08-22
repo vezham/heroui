@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-aria-accordion-item",
-  "version": "0.0.10",
+  "version": "0.1.5",
   "description": "Internal impl for react aria accordion item",
   "keywords": [
     "use-aria-accordion-item"
