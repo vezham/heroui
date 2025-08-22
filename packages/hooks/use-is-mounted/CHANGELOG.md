@@ -1,5 +1,11 @@
 # @heroui/use-is-mounted
 
+## 0.1.6
+
+### Patch Changes
+
+- [`3249133`](https://github.com/vezham/heroui/commit/3249133e4acd9730c06f7e61fe118d545d70f0ae) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - skip test vers & bump
+
 ## 0.0.10
 
 ### Patch Changes
