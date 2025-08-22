@@ -1,5 +1,19 @@
 # @heroui/number-input
 
+## 0.1.6
+
+### Patch Changes
+
+- [`3249133`](https://github.com/vezham/heroui/commit/3249133e4acd9730c06f7e61fe118d545d70f0ae) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - skip test vers & bump
+
+- Updated dependencies [[`3249133`](https://github.com/vezham/heroui/commit/3249133e4acd9730c06f7e61fe118d545d70f0ae)]:
+  - @vx-oss/use-safe-layout-effect@0.1.6
+  - @vx-oss/shared-icons@0.1.6
+  - @vx-oss/shared-utils@0.1.6
+  - @vx-oss/react-utils@0.1.6
+  - @vx-oss/button@0.1.6
+  - @vx-oss/form@0.1.6
+
 ## 0.0.10
 
 ### Patch Changes

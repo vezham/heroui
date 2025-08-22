@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/badge",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Badges are used as a small numerical value or status descriptor for UI elements.",
   "keywords": [
     "badge"

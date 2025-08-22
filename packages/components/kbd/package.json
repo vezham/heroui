@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/kbd",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The keyboard key components indicates which key or set of keys used to execute a specificv  action",
   "keywords": [
     "kbd"

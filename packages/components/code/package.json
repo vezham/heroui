@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/code",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Code is a component used to display inline code.",
   "keywords": [
     "code"
