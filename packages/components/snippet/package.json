@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/snippet",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Display a snippet of copyable code for the command line.",
   "keywords": [
     "snippet"

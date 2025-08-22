@@ -1,5 +1,16 @@
 # @heroui/breadcrumbs
 
+## 0.0.10
+
+### Patch Changes
+
+- [`9f57f69`](https://github.com/vezham/heroui/commit/9f57f697c3e8e14464b5f707ea45c362bb82fd9e) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - ver bump
+
+- Updated dependencies [[`9f57f69`](https://github.com/vezham/heroui/commit/9f57f697c3e8e14464b5f707ea45c362bb82fd9e)]:
+  - @vx-oss/shared-icons@0.0.10
+  - @vx-oss/shared-utils@0.0.10
+  - @vx-oss/react-utils@0.0.10
+
 ## 0.0.9
 
 ### Patch Changes
