@@ -34,3 +34,6 @@ export {HeroUIProvider} from "./provider";
 export {ProviderContext, useProviderContext} from "./provider-context";
 
 export {useLabelPlacement, useInputLabelPlacement} from "./hooks";
+
+// wjdlz/NOTE: for @vx-oss/ds
+export {HeroUIProvider as VezhamProvider} from "./provider";
