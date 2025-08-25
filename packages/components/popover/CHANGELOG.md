@@ -1,5 +1,22 @@
 # @heroui/popover
 
+## 0.1.7
+
+### Patch Changes
+
+- [`feebb8e`](https://github.com/vezham/heroui/commit/feebb8e200b4ad59ab58665e63ebf162b71feb30) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - exported vezham plugin
+
+- Updated dependencies [[`feebb8e`](https://github.com/vezham/heroui/commit/feebb8e200b4ad59ab58665e63ebf162b71feb30)]:
+  - @vx-oss/use-safe-layout-effect@0.1.7
+  - @vx-oss/dom-animation@0.1.7
+  - @vx-oss/use-aria-overlay@0.1.7
+  - @vx-oss/framer-utils@0.1.7
+  - @vx-oss/shared-utils@0.1.7
+  - @vx-oss/use-aria-button@0.1.7
+  - @vx-oss/react-utils@0.1.7
+  - @vx-oss/aria-utils@0.1.7
+  - @vx-oss/button@0.1.7
+
 ## 0.1.6
 
 ### Patch Changes

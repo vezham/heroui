@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-clipboard",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Wrapper around navigator.clipboard with feedback timeout",
   "keywords": [
     "use-clipboard"

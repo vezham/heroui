@@ -1,5 +1,62 @@
 # @heroui/react
 
+## 0.1.7
+
+### Patch Changes
+
+- [`feebb8e`](https://github.com/vezham/heroui/commit/feebb8e200b4ad59ab58665e63ebf162b71feb30) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - exported vezham plugin
+
+- Updated dependencies [[`feebb8e`](https://github.com/vezham/heroui/commit/feebb8e200b4ad59ab58665e63ebf162b71feb30)]:
+  - @vx-oss/scroll-shadow@0.1.7
+  - @vx-oss/autocomplete@0.1.7
+  - @vx-oss/number-input@0.1.7
+  - @vx-oss/breadcrumbs@0.1.7
+  - @vx-oss/date-picker@0.1.7
+  - @vx-oss/framer-utils@0.1.7
+  - @vx-oss/date-input@0.1.7
+  - @vx-oss/pagination@0.1.7
+  - @vx-oss/accordion@0.1.7
+  - @vx-oss/input-otp@0.1.7
+  - @vx-oss/calendar@0.1.7
+  - @vx-oss/checkbox@0.1.7
+  - @vx-oss/dropdown@0.1.7
+  - @vx-oss/progress@0.1.7
+  - @vx-oss/skeleton@0.1.7
+  - @vx-oss/divider@0.1.7
+  - @vx-oss/listbox@0.1.7
+  - @vx-oss/popover@0.1.7
+  - @vx-oss/snippet@0.1.7
+  - @vx-oss/spinner@0.1.7
+  - @vx-oss/tooltip@0.1.7
+  - @vx-oss/avatar@0.1.7
+  - @vx-oss/button@0.1.7
+  - @vx-oss/drawer@0.1.7
+  - @vx-oss/navbar@0.1.7
+  - @vx-oss/ripple@0.1.7
+  - @vx-oss/select@0.1.7
+  - @vx-oss/slider@0.1.7
+  - @vx-oss/spacer@0.1.7
+  - @vx-oss/switch@0.1.7
+  - @vx-oss/alert@0.1.7
+  - @vx-oss/badge@0.1.7
+  - @vx-oss/image@0.1.7
+  - @vx-oss/input@0.1.7
+  - @vx-oss/modal@0.1.7
+  - @vx-oss/radio@0.1.7
+  - @vx-oss/table@0.1.7
+  - @vx-oss/toast@0.1.7
+  - @vx-oss/card@0.1.7
+  - @vx-oss/chip@0.1.7
+  - @vx-oss/code@0.1.7
+  - @vx-oss/form@0.1.7
+  - @vx-oss/link@0.1.7
+  - @vx-oss/menu@0.1.7
+  - @vx-oss/tabs@0.1.7
+  - @vx-oss/user@0.1.7
+  - @vx-oss/kbd@0.1.7
+  - @vx-oss/system@0.1.7
+  - @vx-oss/theme@0.1.7
+
 ## 0.1.6
 
 ### Patch Changes
