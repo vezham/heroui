@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/react-utils",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A set of utilities for react on client side",
   "keywords": [
     "react-utils"

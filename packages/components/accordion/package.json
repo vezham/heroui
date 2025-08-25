@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/accordion",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Collapse display a list of high-level options that can expand/collapse to reveal more information.",
   "keywords": [
     "react",
