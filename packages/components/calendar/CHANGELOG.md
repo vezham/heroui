@@ -1,5 +1,20 @@
 # @heroui/calendar
 
+## 0.1.8
+
+### Patch Changes
+
+- [`b1f21fb`](https://github.com/vezham/heroui/commit/b1f21fbc8c92cee54dc393e47d4202ae35e91906) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - sync fork
+
+- Updated dependencies [[`b1f21fb`](https://github.com/vezham/heroui/commit/b1f21fbc8c92cee54dc393e47d4202ae35e91906)]:
+  - @vx-oss/dom-animation@0.1.8
+  - @vx-oss/framer-utils@0.1.8
+  - @vx-oss/shared-icons@0.1.8
+  - @vx-oss/shared-utils@0.1.8
+  - @vx-oss/use-aria-button@0.1.8
+  - @vx-oss/react-utils@0.1.8
+  - @vx-oss/button@0.1.8
+
 ## 0.1.7
 
 ### Patch Changes
@@ -181,6 +196,7 @@
   - @vx-oss/use-aria-button@0.0.1
   - @vx-oss/react-utils@0.0.1
   - @vx-oss/button@0.0.1
+
 ## 2.2.25
 
 ### Patch Changes

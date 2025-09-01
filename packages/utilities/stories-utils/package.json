@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/stories-utils",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A list of utilities for storybook' stories.",
   "keywords": [
     "stories-utils"

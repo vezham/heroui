@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/use-draggable",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "This hook can provide drag and drop interaction",
   "keywords": [
     "use-draggable"
