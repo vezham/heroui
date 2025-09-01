@@ -109,6 +109,12 @@
 
 - Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
   - @vx-oss/react-utils@0.0.1
+## 2.1.13
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @heroui/react-utils@2.1.13
 
 ## 2.1.12
 

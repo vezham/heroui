@@ -43,8 +43,8 @@
     "@vx-oss/shared-utils": "workspace:*",
     "@vx-oss/react-utils": "workspace:*",
     "@vx-oss/use-is-mounted": "workspace:*",
-    "@react-aria/progress": "3.4.25",
-    "@react-types/progress": "3.5.14"
+    "@react-aria/progress": "3.4.26",
+    "@react-types/progress": "3.5.15"
   },
   "devDependencies": {
     "@vx-oss/theme": "workspace:*",

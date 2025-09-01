@@ -133,6 +133,14 @@
   - @vx-oss/use-data-scroll-overflow@0.0.1
   - @vx-oss/shared-utils@0.0.1
   - @vx-oss/react-utils@0.0.1
+## 2.3.17
+
+### Patch Changes
+
+- Updated dependencies [[`e2aed2e`](https://github.com/heroui-inc/heroui/commit/e2aed2e9467c09fd8e32d8f4706289e4dc61bf2c)]:
+  - @heroui/shared-utils@2.1.11
+  - @heroui/use-data-scroll-overflow@2.2.12
+  - @heroui/react-utils@2.1.13
 
 ## 2.3.16
 

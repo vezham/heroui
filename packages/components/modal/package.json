@@ -51,10 +51,10 @@
     "@vx-oss/shared-icons": "workspace:*",
     "@vx-oss/use-aria-modal-overlay": "workspace:*",
     "@vx-oss/dom-animation": "workspace:*",
-    "@react-aria/dialog": "3.5.28",
-    "@react-aria/focus": "3.21.0",
-    "@react-aria/overlays": "3.28.0",
-    "@react-stately/overlays": "3.6.18"
+    "@react-aria/dialog": "3.5.29",
+    "@react-aria/focus": "3.21.1",
+    "@react-aria/overlays": "3.29.0",
+    "@react-stately/overlays": "3.6.19"
   },
   "devDependencies": {
     "@vx-oss/autocomplete": "workspace:*",

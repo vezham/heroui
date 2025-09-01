@@ -121,6 +121,12 @@
 - Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
   - @vx-oss/react-rsc-utils@0.0.1
   - @vx-oss/shared-utils@0.0.1
+## 2.1.13
+
+### Patch Changes
+
+- Updated dependencies [[`e2aed2e`](https://github.com/heroui-inc/heroui/commit/e2aed2e9467c09fd8e32d8f4706289e4dc61bf2c)]:
+  - @heroui/shared-utils@2.1.11
 
 ## 2.1.12
 

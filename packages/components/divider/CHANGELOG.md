@@ -121,6 +121,14 @@
 - Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
   - @vx-oss/react-rsc-utils@0.0.1
   - @vx-oss/system-rsc@0.0.1
+## 2.2.18
+
+### Patch Changes
+
+- [#5640](https://github.com/heroui-inc/heroui/pull/5640) [`d90ac57`](https://github.com/heroui-inc/heroui/commit/d90ac57bc537e8999b21d4ad3f7e4894e6106fd1) Thanks [@wingkwong](https://github.com/wingkwong)! - bump RA versions (aug 2025)
+
+- Updated dependencies [[`d90ac57`](https://github.com/heroui-inc/heroui/commit/d90ac57bc537e8999b21d4ad3f7e4894e6106fd1), [`6b86a41`](https://github.com/heroui-inc/heroui/commit/6b86a41fe42ecf1830f90b2685a64ff0784a9e14)]:
+  - @heroui/system-rsc@2.3.18
 
 ## 2.2.17
 

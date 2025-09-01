@@ -73,6 +73,11 @@
 ### Patch Changes
 
 - [`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - vx-oss inital ver chk
+## 2.1.10
+
+### Patch Changes
+
+- [#5539](https://github.com/heroui-inc/heroui/pull/5539) [`e2aed2e`](https://github.com/heroui-inc/heroui/commit/e2aed2e9467c09fd8e32d8f4706289e4dc61bf2c) Thanks [@luislh-dev](https://github.com/luislh-dev)! - Code quality improvements: removed unnecessary type assertions across multiple components and utilities, consolidated imports in Popover module, and enhanced type safety.
 
 ## 2.1.9
 

@@ -121,6 +121,12 @@
 - Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
   - @vx-oss/use-measure@0.0.1
   - @vx-oss/system@0.0.1
+## 2.1.21
+
+### Patch Changes
+
+- Updated dependencies [[`d90ac57`](https://github.com/heroui-inc/heroui/commit/d90ac57bc537e8999b21d4ad3f7e4894e6106fd1)]:
+  - @heroui/system@2.4.21
 
 ## 2.1.20
 

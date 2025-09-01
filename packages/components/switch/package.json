@@ -43,11 +43,11 @@
     "@vx-oss/shared-utils": "workspace:*",
     "@vx-oss/react-utils": "workspace:*",
     "@vx-oss/use-safe-layout-effect": "workspace:*",
-    "@react-aria/focus": "3.21.0",
-    "@react-aria/interactions": "3.25.4",
-    "@react-aria/switch": "3.7.6",
-    "@react-aria/visually-hidden": "3.8.26",
-    "@react-stately/toggle": "3.9.0"
+    "@react-aria/focus": "3.21.1",
+    "@react-aria/interactions": "3.25.5",
+    "@react-aria/switch": "3.7.7",
+    "@react-aria/visually-hidden": "3.8.27",
+    "@react-stately/toggle": "3.9.1"
   },
   "devDependencies": {
     "@vx-oss/theme": "workspace:*",

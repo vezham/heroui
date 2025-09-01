@@ -13,9 +13,8 @@ import {useDOMRef} from "@vx-oss/react-utils";
 import {useOverlayTriggerState} from "@react-stately/overlays";
 import {useFocusRing} from "@react-aria/focus";
 import {useOverlayTrigger, usePreventScroll} from "@react-aria/overlays";
-import {getShouldUseAxisPlacement} from "@vx-oss/aria-utils";
+import {getShouldUseAxisPlacement, getArrowPlacement} from "@vx-oss/aria-utils";
 import {mapPropsVariants, useProviderContext} from "@vx-oss/system";
-import {getArrowPlacement} from "@vx-oss/aria-utils";
 import {popover} from "@vx-oss/theme";
 import {clsx, dataAttr, objectToDeps, mergeProps, mergeRefs} from "@vx-oss/shared-utils";
 import {useMemo, useCallback, useRef} from "react";
@@ -120,6 +119,7 @@ export function usePopover(originalProps: UsePopoverProps) {
     isKeyboardDismissDisabled,
     shouldCloseOnInteractOutside,
     shouldCloseOnScroll,
+    triggerAnchorPoint,
     motionProps,
     className,
     classNames,
@@ -173,6 +173,7 @@ export function usePopover(originalProps: UsePopoverProps) {
       isKeyboardDismissDisabled,
       shouldCloseOnScroll,
       shouldCloseOnInteractOutside,
+      triggerAnchorPoint,
     },
     state,
   );
@@ -201,6 +202,12 @@ export function usePopover(originalProps: UsePopoverProps) {
 
   const baseStyles = clsx(classNames?.base, className);
 
+  const anchorStyles = {
+    "--trigger-anchor-point": triggerAnchorPoint
+      ? `${triggerAnchorPoint.x}px ${triggerAnchorPoint.y}px`
+      : undefined,
+  };
+
   usePreventScroll({
     isDisabled: !(shouldBlockScroll && state.isOpen),
   });
@@ -225,6 +232,7 @@ export function usePopover(originalProps: UsePopoverProps) {
     style: {
       // this prevent the dialog to have a default outline
       outline: "none",
+      ...anchorStyles,
     },
   });
 

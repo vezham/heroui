@@ -56,8 +56,8 @@
   "dependencies": {
     "@vx-oss/react-utils": "workspace:*",
     "@vx-oss/system-rsc": "workspace:*",
-    "@react-aria/i18n": "3.12.11",
-    "@react-aria/overlays": "3.28.0",
-    "@react-aria/utils": "3.30.0"
+    "@react-aria/i18n": "3.12.12",
+    "@react-aria/overlays": "3.29.0",
+    "@react-aria/utils": "3.30.1"
   }
 }

@@ -109,6 +109,14 @@
 
 - Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
   - @vx-oss/use-aria-overlay@0.0.1
+## 2.2.18
+
+### Patch Changes
+
+- [#5640](https://github.com/heroui-inc/heroui/pull/5640) [`d90ac57`](https://github.com/heroui-inc/heroui/commit/d90ac57bc537e8999b21d4ad3f7e4894e6106fd1) Thanks [@wingkwong](https://github.com/wingkwong)! - bump RA versions (aug 2025)
+
+- Updated dependencies [[`d90ac57`](https://github.com/heroui-inc/heroui/commit/d90ac57bc537e8999b21d4ad3f7e4894e6106fd1), [`b6fda4f`](https://github.com/heroui-inc/heroui/commit/b6fda4fe6fdbdeaff0876eeb602014e666c81ec6)]:
+  - @heroui/use-aria-overlay@2.0.3
 
 ## 2.2.17
 

@@ -43,9 +43,9 @@
     "@vx-oss/system": "workspace:*",
     "@vx-oss/theme": "workspace:*",
     "@vx-oss/shared-utils": "workspace:*",
-    "@react-types/shared": "3.31.0",
-    "@react-stately/form": "3.2.0",
-    "@react-types/form": "3.7.14"
+    "@react-types/shared": "3.32.0",
+    "@react-stately/form": "3.2.1",
+    "@react-types/form": "3.7.15"
   },
   "devDependencies": {
     "@vx-oss/button": "workspace:*",

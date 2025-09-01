@@ -91,7 +91,7 @@
     "@vx-oss/alert": "workspace:*",
     "@vx-oss/number-input": "workspace:*",
     "@vx-oss/toast": "workspace:*",
-    "@react-aria/visually-hidden": "3.8.26"
+    "@react-aria/visually-hidden": "3.8.27"
   },
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
