@@ -1,5 +1,11 @@
 # @heroui/use-real-shape
 
+## 0.1.8
+
+### Patch Changes
+
+- [`b1f21fb`](https://github.com/vezham/heroui/commit/b1f21fbc8c92cee54dc393e47d4202ae35e91906) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - sync fork
+
 ## 0.1.7
 
 ### Patch Changes

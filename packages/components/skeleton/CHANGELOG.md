@@ -1,5 +1,14 @@
 # @heroui/skeleton
 
+## 0.1.8
+
+### Patch Changes
+
+- [`b1f21fb`](https://github.com/vezham/heroui/commit/b1f21fbc8c92cee54dc393e47d4202ae35e91906) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - sync fork
+
+- Updated dependencies [[`b1f21fb`](https://github.com/vezham/heroui/commit/b1f21fbc8c92cee54dc393e47d4202ae35e91906)]:
+  - @vx-oss/shared-utils@0.1.8
+
 ## 0.1.7
 
 ### Patch Changes
@@ -121,6 +130,7 @@
 
 - Updated dependencies [[`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5)]:
   - @vx-oss/shared-utils@0.0.1
+
 ## 2.2.16
 
 ### Patch Changes

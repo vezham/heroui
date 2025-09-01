@@ -1,5 +1,11 @@
 # @heroui/use-aria-multiselect
 
+## 0.1.8
+
+### Patch Changes
+
+- [`b1f21fb`](https://github.com/vezham/heroui/commit/b1f21fbc8c92cee54dc393e47d4202ae35e91906) Thanks [@v0xvigneshwaran](https://github.com/v0xvigneshwaran)! - sync fork
+
 ## 0.1.7
 
 ### Patch Changes
@@ -73,6 +79,7 @@
 ### Patch Changes
 
 - [`9c2fda5`](https://github.com/vezham/heroui/commit/9c2fda5f310e0412d115398269803934dbac72a5) Thanks [@github-actions[bot]](https://github.com/github-actions%5Bbot%5D)! - vx-oss inital ver chk
+
 ## 2.4.18
 
 ### Patch Changes
